@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{33C6F99E-0E12-4E61-998B-609B5AF24487}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Animals" ID="{33C6F99E-0E12-4E61-998B-609B5AF24487}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="8"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="Camel" ID="{CBC07E9D-1CB0-413C-B190-438F2874FBD5}" PersistMode="Reference"/>
+				<WorkUnit Name="DFox" ID="{E8E5BCA4-2EC7-4813-BB88-3942257F8E78}" PersistMode="Reference"/>
+				<WorkUnit Name="Frog" ID="{54480B38-97BA-4E35-A356-74B0B32E6630}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

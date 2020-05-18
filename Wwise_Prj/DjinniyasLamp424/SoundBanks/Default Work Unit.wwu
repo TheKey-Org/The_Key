@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BF1A29F7-35F4-4517-B713-DE050040D25E}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{BF1A29F7-35F4-4517-B713-DE050040D25E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Character_SB" ID="{21274320-8CB6-4B42-B3D6-6B51D52B5871}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Grass" ID="{638FAE94-3155-4003-9858-B147BF312864}" WorkUnitID="{71F46426-1E70-42CA-A481-4A50A1B8F045}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CHA_PRIS_Footstep_Land" ID="{ADADD40E-0159-4040-A307-B9AA291BD3ED}" WorkUnitID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Character" ID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}" WorkUnitID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Wood" ID="{A78BBB8C-8A2F-426E-83D2-59E811042083}" WorkUnitID="{71F46426-1E70-42CA-A481-4A50A1B8F045}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Gravel" ID="{F13DEB20-389E-42F0-82E9-5D34C3143825}" WorkUnitID="{71F46426-1E70-42CA-A481-4A50A1B8F045}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Character" ID="{2B2C27BE-884F-44C4-ACE4-33BC551170FD}" WorkUnitID="{2B2C27BE-884F-44C4-ACE4-33BC551170FD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Prisioner" ID="{602FAF8F-9EEE-48A3-8BA9-4EBAB8E374B8}" WorkUnitID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CHA_PRIS_Footstep_Type" ID="{EBDE1885-FDFB-48A6-B84D-11BFF5195AE8}" WorkUnitID="{71F46426-1E70-42CA-A481-4A50A1B8F045}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="MaleGrunt_05" ID="{2BF1E1BC-8225-49A2-A419-F935891EC886}" WorkUnitID="{71F46426-1E70-42CA-A481-4A50A1B8F045}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dirt" ID="{A9595589-C7B9-49D4-B4CB-24DDD245F2F5}" WorkUnitID="{71F46426-1E70-42CA-A481-4A50A1B8F045}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CHA_PRIS_Footstep_Land_Type" ID="{19866FA7-670B-4A41-A5BC-1E4EE89F2536}" WorkUnitID="{71F46426-1E70-42CA-A481-4A50A1B8F045}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Concrete" ID="{E7ECB1BD-0E02-4AEA-B537-490071B7233B}" WorkUnitID="{71F46426-1E70-42CA-A481-4A50A1B8F045}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CHA_PRIS_Footstep_Type" ID="{13152DC6-0F32-4CEB-A55C-BD50E66EFAA0}" WorkUnitID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Water" ID="{3A323DCE-BE34-4DBB-A9F3-5384C21C09A9}" WorkUnitID="{71F46426-1E70-42CA-A481-4A50A1B8F045}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Master_SB" ID="{5D725E50-346D-4F0A-B968-8F15F09F92CF}">
+					<ObjectInclusionList/>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Items_SB" ID="{97E715E6-607E-45CA-AA0B-BBB5E3A6F95C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Items" ID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}" WorkUnitID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="Animals_SB" ID="{F0021B54-C204-47F3-8CCD-B98934CC2BDB}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Animals" ID="{16B58919-71EF-412E-8157-887200C1F5FB}" WorkUnitID="{16B58919-71EF-412E-8157-887200C1F5FB}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

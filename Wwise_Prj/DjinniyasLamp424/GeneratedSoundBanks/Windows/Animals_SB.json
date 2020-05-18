@@ -1,0 +1,108 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\DemoDay424\\Wwise_Prj\\DjinniyasLamp424\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\DemoDay424\\Wwise_Prj\\DjinniyasLamp424\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\DemoDay424\\Wwise_Prj\\DjinniyasLamp424\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\DemoDay424\\Wwise_Prj\\DjinniyasLamp424\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2109088624",
+    "GUID": "{F0021B54-C204-47F3-8CCD-B98934CC2BDB}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Animals_SB",
+    "ShortName": "Animals_SB",
+    "Path": "Animals_SB.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "479557960",
+      "Name": "EV_Animal_Drink",
+      "ObjectPath": "\\Events\\Animals\\EV_Animal_Drink",
+      "GUID": "{CF6173DA-625D-4FC5-B67D-5A0355157AED}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.220123",
+      "DurationMax": "6.223310",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "157607473",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Animal_Comiendo_05.wav",
+        "Path": "SFX\\Animals\\Camel\\Animal_Comiendo_05_10C4C929.wem"
+       },
+       {
+        "Id": "627651370",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Animal_Comiendo_04.wav",
+        "Path": "SFX\\Animals\\Camel\\Animal_Comiendo_04_10C4C929.wem"
+       },
+       {
+        "Id": "972377837",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Animal_Comiendo_01.wav",
+        "Path": "SFX\\Animals\\Camel\\Animal_Comiendo_01_ED2F9936.wem"
+       },
+       {
+        "Id": "1019482852",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Animal_Comiendo_02.wav",
+        "Path": "SFX\\Animals\\Camel\\Animal_Comiendo_02_10C4C929.wem"
+       },
+       {
+        "Id": "1048535314",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Animal_Comiendo_03.wav",
+        "Path": "SFX\\Animals\\Camel\\Animal_Comiendo_03_C3CE35A5.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3627703185",
+      "Name": "EV_DFox_Bark",
+      "ObjectPath": "\\Events\\Animals\\EV_DFox_Bark",
+      "GUID": "{B667C7B4-36C7-4E44-8393-29763429C6D0}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.998299",
+      "DurationMax": "1.146191",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "182114653",
+        "Language": "SFX",
+        "ShortName": "Animals\\Fox\\Fox_Red_Call_Long_02.wav",
+        "Path": "SFX\\Animals\\Fox\\Fox_Red_Call_Long_02_10C4C929.wem"
+       },
+       {
+        "Id": "547538402",
+        "Language": "SFX",
+        "ShortName": "Animals\\Fox\\Fox_Red_Call_Long_01.wav",
+        "Path": "SFX\\Animals\\Fox\\Fox_Red_Call_Long_01_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3257707830",
+      "Name": "EV_Frog_Croar_Single",
+      "ObjectPath": "\\Events\\Animals\\EV_Frog_Croar_Single",
+      "GUID": "{AE3EFD8E-21DA-4D53-BFCF-7FDE0B6AA3A5}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.558685",
+      "DurationMax": "0.558685",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "283900663",
+        "Language": "SFX",
+        "ShortName": "Animals\\Frog\\Frog_Croar_01.wav",
+        "Path": "SFX\\Animals\\Frog\\Frog_Croar_01_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

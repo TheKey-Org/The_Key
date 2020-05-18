@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{54480B38-97BA-4E35-A356-74B0B32E6630}" SchemaVersion="97" RootDocumentID="{33C6F99E-0E12-4E61-998B-609B5AF24487}">
+	<AudioObjects>
+		<WorkUnit Name="Frog" ID="{54480B38-97BA-4E35-A356-74B0B32E6630}" OwnerID="{33C6F99E-0E12-4E61-998B-609B5AF24487}" PersistMode="Nested">
+			<ChildrenList>
+				<Sound Name="Frog_Croar_01" ID="{3C304A7E-90DB-4D5D-A30B-8815D7449D30}" ShortID="1032269216">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Frog_Croar_01" ID="{FA337C79-9BF2-4FB7-A2BA-61656B6BF6E8}">
+							<Language>SFX</Language>
+							<AudioFile>Animals\Frog\Frog_Croar_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="283900663"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Frog_Croar_01" ID="{FA337C79-9BF2-4FB7-A2BA-61656B6BF6E8}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

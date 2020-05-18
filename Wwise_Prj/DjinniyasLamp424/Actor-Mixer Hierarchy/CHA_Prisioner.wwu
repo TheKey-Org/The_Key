@@ -1,0 +1,1712 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{71F46426-1E70-42CA-A481-4A50A1B8F045}" SchemaVersion="97" RootDocumentID="{2B2C27BE-884F-44C4-ACE4-33BC551170FD}">
+	<AudioObjects>
+		<WorkUnit Name="CHA_Prisioner" ID="{71F46426-1E70-42CA-A481-4A50A1B8F045}" OwnerID="{2B2C27BE-884F-44C4-ACE4-33BC551170FD}" PersistMode="Nested">
+			<ChildrenList>
+				<ActorMixer Name="Prisioner_Surprise" ID="{E9A7E37F-EFA6-45A2-A832-F8CCC29062FD}" ShortID="567539226">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="ATT_CHA_Generic" ID="{8B94C7BA-80D7-419E-AE2F-199897BAB647}" WorkUnitID="{6D48CC01-6253-4DE8-A355-72C130272A21}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Character" ID="{85B077C5-D6F8-4AE9-93E4-7792314A3930}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Prisioner_Surprise_Rdm" ID="{9D5A8F8F-3C0D-4360-91C4-58BFBF188747}" ShortID="930550463">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MaleGrunt_01" ID="{B6B58FEA-3A04-497B-B0A7-932CC5C27F25}" ShortID="1027982385">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Character" ID="{85B077C5-D6F8-4AE9-93E4-7792314A3930}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MaleGrunt_01" ID="{8447FFD0-FAC2-448D-8207-AACD100FA046}">
+											<Language>SFX</Language>
+											<AudioFile>Character\Prisioner\Voice\Grunt\MaleGrunt_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="697140696"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MaleGrunt_01" ID="{8447FFD0-FAC2-448D-8207-AACD100FA046}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Prisioner_Surprise_Angry_Short_Rdm" ID="{F5DF1FA7-68B0-4671-8F51-3CCA10345903}" ShortID="643130061">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MaleGrunt_02" ID="{5536187A-9394-44F2-806A-7FF8EB82F302}" ShortID="549343051">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Character" ID="{85B077C5-D6F8-4AE9-93E4-7792314A3930}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MaleGrunt_02" ID="{E5820B09-993F-41AD-96FF-836D4DB0DF6A}">
+											<Language>SFX</Language>
+											<AudioFile>Character\Prisioner\Voice\Grunt\MaleGrunt_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="197696028"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MaleGrunt_02" ID="{E5820B09-993F-41AD-96FF-836D4DB0DF6A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MaleGrunt_03" ID="{A677B2DC-5B86-48E9-B0CA-4BE576208A26}" ShortID="995594180">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Character" ID="{85B077C5-D6F8-4AE9-93E4-7792314A3930}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MaleGrunt_03" ID="{0A6756FF-0E51-47AD-9B8A-EEDBFAB39950}">
+											<Language>SFX</Language>
+											<AudioFile>Character\Prisioner\Voice\Grunt\MaleGrunt_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="890062790"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MaleGrunt_03" ID="{0A6756FF-0E51-47AD-9B8A-EEDBFAB39950}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MaleGrunt_04" ID="{78FF07C6-C6D4-435B-ACD2-6E8A33A5C168}" ShortID="187184334">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Character" ID="{85B077C5-D6F8-4AE9-93E4-7792314A3930}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MaleGrunt_04" ID="{F11DC689-49A0-43D1-9C8D-87D313EE200A}">
+											<Language>SFX</Language>
+											<AudioFile>Character\Prisioner\Voice\Grunt\MaleGrunt_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="691790023"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MaleGrunt_04" ID="{F11DC689-49A0-43D1-9C8D-87D313EE200A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MaleGrunt_10" ID="{30F0D433-082D-4AB6-9FA9-F815DCC777C8}" ShortID="366648921">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Character" ID="{85B077C5-D6F8-4AE9-93E4-7792314A3930}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MaleGrunt_10" ID="{B8D6A331-A605-4037-82F5-96EEF6B7E1BC}">
+											<Language>SFX</Language>
+											<AudioFile>Character\Prisioner\Voice\Grunt\MaleGrunt_10.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="331327722"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MaleGrunt_10" ID="{B8D6A331-A605-4037-82F5-96EEF6B7E1BC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MaleGrunt_13" ID="{F97E63B2-1B66-464B-90C1-AAFBAAF245DE}" ShortID="820142203">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Character" ID="{85B077C5-D6F8-4AE9-93E4-7792314A3930}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MaleGrunt_13" ID="{53862FB0-58FD-444E-A84A-F715322C0FC6}">
+											<Language>SFX</Language>
+											<AudioFile>Character\Prisioner\Voice\Grunt\MaleGrunt_13.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="342261477"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MaleGrunt_13" ID="{53862FB0-58FD-444E-A84A-F715322C0FC6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MaleGrunt_12" ID="{8B0F77BB-38EA-4C9C-8ED7-1CDC1C86F9F9}" ShortID="763479657">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Character" ID="{85B077C5-D6F8-4AE9-93E4-7792314A3930}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MaleGrunt_12" ID="{A19415E1-3F74-42E8-8520-079AF1B603D5}">
+											<Language>SFX</Language>
+											<AudioFile>Character\Prisioner\Voice\Grunt\MaleGrunt_12.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="612642580"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MaleGrunt_12" ID="{A19415E1-3F74-42E8-8520-079AF1B603D5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Prisioner_Jump_Rdm" ID="{69B7287E-8A30-4D51-8EEE-E9054A0ED12C}" ShortID="121743011">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MaleGrunt_05" ID="{2BF1E1BC-8225-49A2-A419-F935891EC886}" ShortID="99911291">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Character" ID="{85B077C5-D6F8-4AE9-93E4-7792314A3930}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MaleGrunt_05" ID="{E3195389-BB34-42B8-A97F-7D575F64D418}">
+											<Language>SFX</Language>
+											<AudioFile>Character\Prisioner\Voice\Grunt\MaleGrunt_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="269202632"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MaleGrunt_05" ID="{E3195389-BB34-42B8-A97F-7D575F64D418}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MaleGrunt_06" ID="{F88038F5-61BC-40F8-B947-63E22A31E8A3}" ShortID="661257807">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Character" ID="{85B077C5-D6F8-4AE9-93E4-7792314A3930}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MaleGrunt_06" ID="{D7579C84-4CBE-421E-A862-0CB3E46E6DB4}">
+											<Language>SFX</Language>
+											<AudioFile>Character\Prisioner\Voice\Grunt\MaleGrunt_06.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="382040779"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MaleGrunt_06" ID="{D7579C84-4CBE-421E-A862-0CB3E46E6DB4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MaleGrunt_07" ID="{82CBCD3E-BD17-4C74-8E55-6BEB18EC57DB}" ShortID="919791790">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Character" ID="{85B077C5-D6F8-4AE9-93E4-7792314A3930}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MaleGrunt_07" ID="{0F042D7E-0947-4BD1-AE8A-7FAEDC138A20}">
+											<Language>SFX</Language>
+											<AudioFile>Character\Prisioner\Voice\Grunt\MaleGrunt_07.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="151987646"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MaleGrunt_07" ID="{0F042D7E-0947-4BD1-AE8A-7FAEDC138A20}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MaleGrunt_11" ID="{A5BF6C0F-1283-462F-A200-701314202AA5}" ShortID="1021782847">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Character" ID="{85B077C5-D6F8-4AE9-93E4-7792314A3930}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MaleGrunt_11" ID="{B9BE7737-B932-4867-9B6E-C1BE99504ACC}">
+											<Language>SFX</Language>
+											<AudioFile>Character\Prisioner\Voice\Grunt\MaleGrunt_11.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1012597449"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MaleGrunt_11" ID="{B9BE7737-B932-4867-9B6E-C1BE99504ACC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Prisioner_Surprise_Angry_Long_Rdm" ID="{D7DECEEB-5DB7-4D8F-A2E8-A2B89FE8F0C9}" ShortID="883568757">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Character" ID="{85B077C5-D6F8-4AE9-93E4-7792314A3930}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="MaleGrunt_08" ID="{D94A1DCF-13BE-4FA8-86F7-795525E5DDCA}" ShortID="40195390">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Character" ID="{85B077C5-D6F8-4AE9-93E4-7792314A3930}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MaleGrunt_08" ID="{66C9E30E-809D-4DF8-A896-11B96B248583}">
+											<Language>SFX</Language>
+											<AudioFile>Character\Prisioner\Voice\Grunt\MaleGrunt_08.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="664547947"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MaleGrunt_08" ID="{66C9E30E-809D-4DF8-A896-11B96B248583}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="MaleGrunt_09" ID="{24285149-814A-415A-82BF-71BDCCA66E48}" ShortID="388117276">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Character" ID="{85B077C5-D6F8-4AE9-93E4-7792314A3930}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="MaleGrunt_09" ID="{340B61D3-EFD2-4DAB-A7DF-B054E4FDA7EB}">
+											<Language>SFX</Language>
+											<AudioFile>Character\Prisioner\Voice\Grunt\MaleGrunt_09.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="382037857"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="MaleGrunt_09" ID="{340B61D3-EFD2-4DAB-A7DF-B054E4FDA7EB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Pris_Footstep" ID="{B18C4A3E-7444-482B-BD68-5133886DF87B}" ShortID="669076988">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="ATT_CHA_Generic" ID="{8B94C7BA-80D7-419E-AE2F-199897BAB647}" WorkUnitID="{6D48CC01-6253-4DE8-A355-72C130272A21}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Character" ID="{85B077C5-D6F8-4AE9-93E4-7792314A3930}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SwitchContainer Name="CHA_PRIS_Footstep_Type" ID="{EBDE1885-FDFB-48A6-B84D-11BFF5195AE8}" ShortID="382647576">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{D7B9EA75-D8B9-4CE5-8AC9-96A453A7A955}" ShortID="684446845">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="GP_Character_Speed" ID="{A6A36AB7-5A95-4AE0-AB0D-5B569B1B4800}" WorkUnitID="{D42A545A-C39D-4B75-992C-AC8862BFE65C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{C045B3ED-725D-4567-8C76-A298FB2685EE}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-8</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>75</XPos>
+														<YPos>-8</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>600</XPos>
+														<YPos>0</YPos>
+														<Flags>0</Flags>
+													</Point>
+													<Point>
+														<XPos>1000</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="PM_Dirt" ID="{95C0C10B-58E4-4A69-992C-9FF297A7EA29}" WorkUnitID="{D460318B-A7A8-49C9-9584-716C6A3C967D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="SWT_Surface_Type" ID="{119B9A05-E63D-41FE-9A1F-C86129F52185}" WorkUnitID="{D460318B-A7A8-49C9-9584-716C6A3C967D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Grass" ID="{638FAE94-3155-4003-9858-B147BF312864}" ShortID="1019994638">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="foot_grass_walk_01" ID="{AFCC3BCB-448E-4437-AAD5-32172A17B5C5}" ShortID="870899519">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footsteps_shoe_grass_walk_01" ID="{885E3EB5-B466-445A-A00B-EF3E0F15EB36}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Grass\footsteps_shoe_grass_walk_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1065374544"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footsteps_shoe_grass_walk_01" ID="{885E3EB5-B466-445A-A00B-EF3E0F15EB36}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="foot_grass_walk_02" ID="{C8347ADA-1C55-4D16-ACE1-7FEFEDFA6E0C}" ShortID="393318789">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footsteps_shoe_grass_walk_02" ID="{4F8BC8EB-AAD1-4508-89A2-D33AC511A90E}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Grass\footsteps_shoe_grass_walk_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="771472934"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footsteps_shoe_grass_walk_02" ID="{4F8BC8EB-AAD1-4508-89A2-D33AC511A90E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="foot_grass_walk_03" ID="{846ABE58-7F5C-4761-BA2E-1680D80C07F6}" ShortID="893998803">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footsteps_shoe_grass_walk_03" ID="{EAC82179-ACF1-4A8F-ADBA-E33D55CF94DE}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Grass\footsteps_shoe_grass_walk_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="615217748"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footsteps_shoe_grass_walk_03" ID="{EAC82179-ACF1-4A8F-ADBA-E33D55CF94DE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Gravel" ID="{F13DEB20-389E-42F0-82E9-5D34C3143825}" ShortID="348194995">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="foot_gravel_walk_13" ID="{A864E088-CBAE-4719-9B8B-FDB8BF666E65}" ShortID="733782244">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_gravel_walk_13" ID="{B4249B58-D72D-408F-A7A3-4E3A35E45E26}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Gravel\footstep_gravel_walk_13.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="145454860"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_gravel_walk_13" ID="{B4249B58-D72D-408F-A7A3-4E3A35E45E26}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="foot_gravel_walk_14" ID="{807E0325-4507-4273-A06C-2B61721C72A1}" ShortID="461289000">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_gravel_walk_14" ID="{14E0F9C6-1B27-4560-BAC2-121FC148BFCA}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Gravel\footstep_gravel_walk_14.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="199603278"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_gravel_walk_14" ID="{14E0F9C6-1B27-4560-BAC2-121FC148BFCA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="foot_gravel_walk_15" ID="{352C73EA-A90E-45EE-88C8-1AE30CEE3FE6}" ShortID="762101089">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_gravel_walk_15" ID="{17C5F8D6-7AA4-4105-B485-998CEBA4E826}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Gravel\footstep_gravel_walk_15.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="599539726"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_gravel_walk_15" ID="{17C5F8D6-7AA4-4105-B485-998CEBA4E826}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="foot_gravel_walk_16" ID="{C0045081-19FF-490D-95A4-23933AB5CCBE}" ShortID="454530359">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_gravel_walk_16" ID="{63403B6D-42EB-4ABB-8FE5-A12E6BD6000D}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Gravel\footstep_gravel_walk_16.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="71691555"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_gravel_walk_16" ID="{63403B6D-42EB-4ABB-8FE5-A12E6BD6000D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Water" ID="{3A323DCE-BE34-4DBB-A9F3-5384C21C09A9}" ShortID="4759333">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="foot_water_walk_04" ID="{9EC99C9B-967E-4841-8D3A-4A28D2497854}" ShortID="650861806">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_water_walk_04" ID="{C280777B-11FD-4C96-840D-9FEDFF55B657}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Water\footstep_water_walk_04.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="756619167"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_water_walk_04" ID="{C280777B-11FD-4C96-840D-9FEDFF55B657}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="foot_water_walk_05" ID="{887F9909-B8ED-4FDB-A7B9-E09CAD801539}" ShortID="5545626">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_water_walk_05" ID="{BDC3B75E-E18E-4670-97CA-52216FC24F00}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Water\footstep_water_walk_05.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="526387921"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_water_walk_05" ID="{BDC3B75E-E18E-4670-97CA-52216FC24F00}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="foot_water_walk_06" ID="{9F58E844-B44C-4D31-B2B8-842BCA376DB1}" ShortID="823922127">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_water_walk_06" ID="{95309207-5516-487C-B992-4522975765F7}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Water\footstep_water_walk_06.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="519701726"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_water_walk_06" ID="{95309207-5516-487C-B992-4522975765F7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="foot_water_walk_08" ID="{E998AF05-B13B-43BC-AF9E-F6A67B200DBE}" ShortID="1044985473">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_water_walk_08" ID="{534ED553-4D11-4370-85F6-F58A66F5D881}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Water\footstep_water_walk_08.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="127468267"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_water_walk_08" ID="{534ED553-4D11-4370-85F6-F58A66F5D881}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Wood" ID="{A78BBB8C-8A2F-426E-83D2-59E811042083}" ShortID="96026323">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="foot_wood_walk_03" ID="{E406C6F2-901D-4415-AEF1-AEFC594F6E13}" ShortID="164772694">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_wood_walk_03" ID="{FB864AEC-4AFD-4C9A-A94F-DBCD839BD6DB}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Wood\footstep_wood_walk_03.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="879959545"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_wood_walk_03" ID="{FB864AEC-4AFD-4C9A-A94F-DBCD839BD6DB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="foot_wood_walk_04" ID="{8F1C7695-BD6C-4B44-8EB2-BE0AC6DC517C}" ShortID="28169425">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_wood_walk_04" ID="{5D7B5D6F-B53E-4609-8268-DEB820E463A8}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Wood\footstep_wood_walk_04.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="956678191"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_wood_walk_04" ID="{5D7B5D6F-B53E-4609-8268-DEB820E463A8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="foot_wood_walk_09" ID="{39CD1CB1-16CD-416A-A5D3-CFCC3841A511}" ShortID="392739017">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_wood_walk_09" ID="{DA9E8514-95B9-4FDB-A687-15DFF1DE996A}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Wood\footstep_wood_walk_09.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="314953184"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_wood_walk_09" ID="{DA9E8514-95B9-4FDB-A687-15DFF1DE996A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Concrete" ID="{E7ECB1BD-0E02-4AEA-B537-490071B7233B}" ShortID="983299793">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="foot_concrete_walk_01" ID="{A657661C-D02C-4D3A-B7FA-F6C6333029AD}" ShortID="740610394">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_concrete_walk_01" ID="{BCADF218-F95D-4BD3-841C-823984AC3D28}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Concrete\footstep_concrete_walk_01.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="355518020"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_concrete_walk_01" ID="{BCADF218-F95D-4BD3-841C-823984AC3D28}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="foot_concrete_walk_08" ID="{5A845E73-E1DF-40CC-8619-44FEA6E375E9}" ShortID="228823661">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_concrete_walk_08" ID="{F1B1F258-40FA-431A-AEEF-F99B6E6D527A}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Concrete\footstep_concrete_walk_08.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="648358236"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_concrete_walk_08" ID="{F1B1F258-40FA-431A-AEEF-F99B6E6D527A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="foot_concrete_walk_12" ID="{BF73B2CF-CDC7-45C9-AED3-020513B5233F}" ShortID="393132376">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_concrete_walk_12" ID="{7C2CDCF6-190E-480F-9CC9-EAED3259445B}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Concrete\footstep_concrete_walk_12.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="267559652"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_concrete_walk_12" ID="{7C2CDCF6-190E-480F-9CC9-EAED3259445B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="foot_concrete_walk_13" ID="{D52393D3-53BC-46D2-8BDF-DAA6230BDC84}" ShortID="740694641">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_concrete_walk_13" ID="{E509B4BC-2ED3-4528-AC80-2CEDD842BB45}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Concrete\footstep_concrete_walk_13.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1060445892"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_concrete_walk_13" ID="{E509B4BC-2ED3-4528-AC80-2CEDD842BB45}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Dirt" ID="{A9595589-C7B9-49D4-B4CB-24DDD245F2F5}" ShortID="352517769">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="foot_dirt_walk_run_06" ID="{01EA088B-4CC4-438C-ABCF-EF0A321ADE7F}" ShortID="478694152">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_dirt_walk_run_06" ID="{83AABBFF-9B8B-4943-A85B-C2731E35A65C}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Dirt\footstep_dirt_walk_run_06.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="641073784"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_dirt_walk_run_06" ID="{83AABBFF-9B8B-4943-A85B-C2731E35A65C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="foot_dirt_walk_run_07" ID="{1069B686-0B46-41A7-85AD-9502A1EDCE8D}" ShortID="279582241">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_dirt_walk_run_07" ID="{13A99279-B59D-4980-89B9-8282559F6FB4}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Dirt\footstep_dirt_walk_run_07.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="473083076"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_dirt_walk_run_07" ID="{13A99279-B59D-4980-89B9-8282559F6FB4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="foot_dirt_walk_run_08" ID="{8797408B-9F70-4068-A97D-B3F10313B90F}" ShortID="786466410">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_dirt_walk_run_08" ID="{C6BB2924-3186-4BAA-A19F-E05F2EB31507}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Dirt\footstep_dirt_walk_run_08.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="151674440"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_dirt_walk_run_08" ID="{C6BB2924-3186-4BAA-A19F-E05F2EB31507}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Gravel" ID="{F13DEB20-389E-42F0-82E9-5D34C3143825}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Dirt" ID="{A9595589-C7B9-49D4-B4CB-24DDD245F2F5}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Wood" ID="{A78BBB8C-8A2F-426E-83D2-59E811042083}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Grass" ID="{638FAE94-3155-4003-9858-B147BF312864}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Concrete" ID="{E7ECB1BD-0E02-4AEA-B537-490071B7233B}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Water" ID="{3A323DCE-BE34-4DBB-A9F3-5384C21C09A9}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="PM_Water" ID="{59348400-61EE-4D26-9606-50BFF5F919A0}"/>
+										<ItemList>
+											<ItemRef Name="Water" ID="{3A323DCE-BE34-4DBB-A9F3-5384C21C09A9}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="PM_Dirt" ID="{95C0C10B-58E4-4A69-992C-9FF297A7EA29}"/>
+										<ItemList>
+											<ItemRef Name="Dirt" ID="{A9595589-C7B9-49D4-B4CB-24DDD245F2F5}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="PM_Grass" ID="{DE5C9741-2EA0-45AA-A9F1-59C567C3D7AC}"/>
+										<ItemList>
+											<ItemRef Name="Grass" ID="{638FAE94-3155-4003-9858-B147BF312864}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="PM_Wood" ID="{604A446C-B7E0-483E-9602-8CF438326396}"/>
+										<ItemList>
+											<ItemRef Name="Wood" ID="{A78BBB8C-8A2F-426E-83D2-59E811042083}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="PM_Gravel" ID="{AD4D776E-A669-45EC-BB98-26AC275422C4}"/>
+										<ItemList>
+											<ItemRef Name="Gravel" ID="{F13DEB20-389E-42F0-82E9-5D34C3143825}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="PM_Concrete" ID="{FF2B32AE-D42E-49BD-BA21-73CAE860422D}"/>
+										<ItemList>
+											<ItemRef Name="Concrete" ID="{E7ECB1BD-0E02-4AEA-B537-490071B7233B}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+						<SwitchContainer Name="CHA_PRIS_Footstep_Land_Type" ID="{19866FA7-670B-4A41-A5BC-1E4EE89F2536}" ShortID="45797656">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_CHA_Generic" ID="{8B94C7BA-80D7-419E-AE2F-199897BAB647}" WorkUnitID="{6D48CC01-6253-4DE8-A355-72C130272A21}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+								</Reference>
+								<Reference Name="DefaultSwitchOrState">
+									<ObjectRef Name="PM_Dirt" ID="{95C0C10B-58E4-4A69-992C-9FF297A7EA29}" WorkUnitID="{D460318B-A7A8-49C9-9584-716C6A3C967D}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+								<Reference Name="SwitchGroupOrStateGroup">
+									<ObjectRef Name="SWT_Surface_Type" ID="{119B9A05-E63D-41FE-9A1F-C86129F52185}" WorkUnitID="{D460318B-A7A8-49C9-9584-716C6A3C967D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Land_Water" ID="{58A8951C-B30B-44A9-A22A-0B02983EDA4C}" ShortID="691327162">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_CHA_Generic" ID="{8B94C7BA-80D7-419E-AE2F-199897BAB647}" WorkUnitID="{6D48CC01-6253-4DE8-A355-72C130272A21}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Water_Land_02" ID="{2697C1FB-35C0-4693-BFCC-D52654F05935}" ShortID="994336590">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_water_land_02" ID="{C66E04E6-8AAD-43AD-A068-B9477AA2C207}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Water\footstep_water_land_02.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="915487982"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_water_land_02" ID="{C66E04E6-8AAD-43AD-A068-B9477AA2C207}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water_Land_03" ID="{FDDBB755-7B27-4651-8E6C-2C005C5B1B86}" ShortID="589277072">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_water_land_03" ID="{774A204F-5993-4B54-9DEA-B31A7D0545D3}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Water\footstep_water_land_03.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="58810154"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_water_land_03" ID="{774A204F-5993-4B54-9DEA-B31A7D0545D3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water_Land_04" ID="{6E9D3A6C-4B40-416B-A626-D2284084000D}" ShortID="304915658">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_water_land_04" ID="{171ABC24-7629-48A5-82B9-74A71363F0F4}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Water\footstep_water_land_04.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="531198139"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_water_land_04" ID="{171ABC24-7629-48A5-82B9-74A71363F0F4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Water_Land_05" ID="{48F1047D-5E5D-4B3E-A2E9-71062A4CFC0B}" ShortID="333394763">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_water_land_05" ID="{B03E009C-3D5C-472D-9F37-4F8847F3F316}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Water\footstep_water_land_05.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="907737719"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_water_land_05" ID="{B03E009C-3D5C-472D-9F37-4F8847F3F316}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Land_Concrete" ID="{7F6E814C-DDA1-4017-84C1-084844D60127}" ShortID="502238947">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_CHA_Generic" ID="{8B94C7BA-80D7-419E-AE2F-199897BAB647}" WorkUnitID="{6D48CC01-6253-4DE8-A355-72C130272A21}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Concrete_Land_v2_01" ID="{69453562-DE32-4112-95D7-472DECE24A54}" ShortID="684282368">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_concrete_land_v2_01" ID="{DA9068E7-5BE4-4AFB-A741-D938BBE9FFA3}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Concrete\footstep_concrete_land_v2_01.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="609209974"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_concrete_land_v2_01" ID="{DA9068E7-5BE4-4AFB-A741-D938BBE9FFA3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Concrete_Land_v2_02" ID="{12B92BC4-A4F6-4FD1-99FE-863EB46C45D2}" ShortID="73304879">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_concrete_land_v2_02" ID="{86FB2C79-5B28-4C02-BE11-E8C89E73647F}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Concrete\footstep_concrete_land_v2_02.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="134008256"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_concrete_land_v2_02" ID="{86FB2C79-5B28-4C02-BE11-E8C89E73647F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Concrete_Land_v2_03" ID="{535A24F9-F872-44B9-8272-F344E909DCD5}" ShortID="1029991892">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_concrete_land_v2_03" ID="{DEDD66FF-77B9-437C-A9D5-B38E905DBDD0}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Concrete\footstep_concrete_land_v2_03.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="922730844"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_concrete_land_v2_03" ID="{DEDD66FF-77B9-437C-A9D5-B38E905DBDD0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Concrete_Land_v2_04" ID="{E71C91F5-6CBE-4D85-B08C-AC7DA9390448}" ShortID="749026914">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_concrete_land_v2_04" ID="{2093C039-3A95-4E1F-9B30-EA3E7187A364}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Concrete\footstep_concrete_land_v2_04.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="967667485"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_concrete_land_v2_04" ID="{2093C039-3A95-4E1F-9B30-EA3E7187A364}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Land_Grass" ID="{8A8AE12A-016E-460D-8A60-2BF8964E9758}" ShortID="796772445">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_CHA_Generic" ID="{8B94C7BA-80D7-419E-AE2F-199897BAB647}" WorkUnitID="{6D48CC01-6253-4DE8-A355-72C130272A21}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Grass_Land_01" ID="{8E1CFEFF-E95F-4931-8360-E2D40A10E7D4}" ShortID="43599261">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footsteps_shoe_grass_land_01" ID="{21F68DAD-7114-4831-B926-5852F42B0C9A}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Grass\footsteps_shoe_grass_land_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="903645597"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footsteps_shoe_grass_land_01" ID="{21F68DAD-7114-4831-B926-5852F42B0C9A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Grass_Land_02" ID="{A71BDE80-7D8F-4E68-A935-62C34783C8AF}" ShortID="766509555">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footsteps_shoe_grass_land_02" ID="{984B0E87-A84A-4844-BA33-501F99BD45B1}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Grass\footsteps_shoe_grass_land_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="458423054"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footsteps_shoe_grass_land_02" ID="{984B0E87-A84A-4844-BA33-501F99BD45B1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Land_Gravel" ID="{A56F62EC-2D05-4B85-A939-22415931ACBC}" ShortID="548590912">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_CHA_Generic" ID="{8B94C7BA-80D7-419E-AE2F-199897BAB647}" WorkUnitID="{6D48CC01-6253-4DE8-A355-72C130272A21}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Gravel_Land_01" ID="{F42B5819-AE52-4AAD-9A1C-0B788B279023}" ShortID="857812919">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_gravel_land_01" ID="{5A915006-B9D7-41F2-819B-4F0A06376F92}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Gravel\footstep_gravel_land_01.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="607971304"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_gravel_land_01" ID="{5A915006-B9D7-41F2-819B-4F0A06376F92}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gravel_Land_02" ID="{961030D9-428F-4A9A-B4AE-CF953226135F}" ShortID="77735050">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_gravel_land_02" ID="{F85867CE-1E5D-4E32-AFE3-A96C017A2D32}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Gravel\footstep_gravel_land_02.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1029933272"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_gravel_land_02" ID="{F85867CE-1E5D-4E32-AFE3-A96C017A2D32}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gravel_Land_07" ID="{6A929A51-058C-48E2-898C-A609F63C2F38}" ShortID="639894895">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_gravel_land_07" ID="{3C03A3CB-5563-4371-927A-944E87D6609E}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Gravel\footstep_gravel_land_07.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="9889554"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_gravel_land_07" ID="{3C03A3CB-5563-4371-927A-944E87D6609E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gravel_Land_08" ID="{9F2D97D1-ADB0-46CF-A83C-B8FAC8246514}" ShortID="248868771">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_gravel_land_08" ID="{115D05BE-8EBA-40AB-9703-9067AA116E03}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Gravel\footstep_gravel_land_08.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="231458197"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_gravel_land_08" ID="{115D05BE-8EBA-40AB-9703-9067AA116E03}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Land_Wood" ID="{4D2ADF9B-B09B-4F3C-B7C3-9DABE8511C90}" ShortID="263757447">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_CHA_Generic" ID="{8B94C7BA-80D7-419E-AE2F-199897BAB647}" WorkUnitID="{6D48CC01-6253-4DE8-A355-72C130272A21}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Wood_Land_02" ID="{8F925852-E894-4A40-9F1A-49709CA5537B}" ShortID="1026748874">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_wood_land_02" ID="{D821628B-4F08-4A05-8282-5D8C251D7E62}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Wood\footstep_wood_land_02.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="606984335"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_wood_land_02" ID="{D821628B-4F08-4A05-8282-5D8C251D7E62}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Wood_Land_04" ID="{9D1B7B74-BC56-4D17-A565-116062408DA2}" ShortID="229477022">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_wood_land_04" ID="{0C29D4D1-BA81-4630-AE9D-FB00C6FD3644}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Wood\footstep_wood_land_04.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="764134551"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_wood_land_04" ID="{0C29D4D1-BA81-4630-AE9D-FB00C6FD3644}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Wood_Land_05" ID="{7DA74BA3-54D6-430F-8C73-080451B6D406}" ShortID="1057436056">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_wood_land_05" ID="{4D16AC14-2D8F-4250-ADC4-4199C6256750}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\Wood\footstep_wood_land_05.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="782304794"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_wood_land_05" ID="{4D16AC14-2D8F-4250-ADC4-4199C6256750}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Land_Dirt" ID="{3B47830A-9534-4C6E-9576-723776AB4330}" ShortID="388680552">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_CHA_Generic" ID="{8B94C7BA-80D7-419E-AE2F-199897BAB647}" WorkUnitID="{6D48CC01-6253-4DE8-A355-72C130272A21}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Dirt_Land_03" ID="{126BCAF1-19B4-47A7-86DE-ED5612589C3C}" ShortID="379346180">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_dirt_land_03" ID="{2C5EAF20-DDCD-4C3B-8176-6D6A175C2A6A}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\footstep_dirt_land_03.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="338235634"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_dirt_land_03" ID="{2C5EAF20-DDCD-4C3B-8176-6D6A175C2A6A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dirt_Land_05" ID="{D60560FE-2935-4DBB-B57A-54100C9B8005}" ShortID="374888892">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_dirt_land_05" ID="{873F26A2-3BDF-4B83-AA2B-2791E17726FF}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\footstep_dirt_land_05.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="525834864"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_dirt_land_05" ID="{873F26A2-3BDF-4B83-AA2B-2791E17726FF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dirt_Land_07" ID="{F4B6F8B2-DFEF-4CED-8D6B-598CEB635308}" ShortID="71893472">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_dirt_land_07" ID="{CF55AAD3-4104-4925-B790-A5807BC77AF3}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\footstep_dirt_land_07.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="552656354"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_dirt_land_07" ID="{CF55AAD3-4104-4925-B790-A5807BC77AF3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Dirt_Land_10" ID="{8E89F31C-BCB6-4CE7-9BDB-75A2475279D5}" ShortID="614801022">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_dirt_land_10" ID="{D9E7DB82-A57C-4B88-BE7D-42872B270FDB}">
+													<Language>SFX</Language>
+													<AudioFile>Character\Prisioner\Footstep\footstep_dirt_land_10.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="289567315"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_dirt_land_10" ID="{D9E7DB82-A57C-4B88-BE7D-42872B270FDB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<GroupingInfo>
+								<GroupingBehaviorList>
+									<GroupingBehavior>
+										<ItemRef Name="Land_Dirt" ID="{3B47830A-9534-4C6E-9576-723776AB4330}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Land_Water" ID="{58A8951C-B30B-44A9-A22A-0B02983EDA4C}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Land_Grass" ID="{8A8AE12A-016E-460D-8A60-2BF8964E9758}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Land_Concrete" ID="{7F6E814C-DDA1-4017-84C1-084844D60127}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Land_Wood" ID="{4D2ADF9B-B09B-4F3C-B7C3-9DABE8511C90}"/>
+									</GroupingBehavior>
+									<GroupingBehavior>
+										<ItemRef Name="Land_Gravel" ID="{A56F62EC-2D05-4B85-A939-22415931ACBC}"/>
+									</GroupingBehavior>
+								</GroupingBehaviorList>
+								<GroupingList>
+									<Grouping>
+										<SwitchRef Name="PM_Water" ID="{59348400-61EE-4D26-9606-50BFF5F919A0}"/>
+										<ItemList>
+											<ItemRef Name="Land_Water" ID="{58A8951C-B30B-44A9-A22A-0B02983EDA4C}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="PM_Dirt" ID="{95C0C10B-58E4-4A69-992C-9FF297A7EA29}"/>
+										<ItemList>
+											<ItemRef Name="Land_Dirt" ID="{3B47830A-9534-4C6E-9576-723776AB4330}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="PM_Grass" ID="{DE5C9741-2EA0-45AA-A9F1-59C567C3D7AC}"/>
+										<ItemList>
+											<ItemRef Name="Land_Grass" ID="{8A8AE12A-016E-460D-8A60-2BF8964E9758}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="PM_Wood" ID="{604A446C-B7E0-483E-9602-8CF438326396}"/>
+										<ItemList>
+											<ItemRef Name="Land_Wood" ID="{4D2ADF9B-B09B-4F3C-B7C3-9DABE8511C90}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="PM_Gravel" ID="{AD4D776E-A669-45EC-BB98-26AC275422C4}"/>
+										<ItemList>
+											<ItemRef Name="Land_Gravel" ID="{A56F62EC-2D05-4B85-A939-22415931ACBC}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="PM_Concrete" ID="{FF2B32AE-D42E-49BD-BA21-73CAE860422D}"/>
+										<ItemList>
+											<ItemRef Name="Land_Concrete" ID="{7F6E814C-DDA1-4017-84C1-084844D60127}"/>
+										</ItemList>
+									</Grouping>
+								</GroupingList>
+							</GroupingInfo>
+						</SwitchContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

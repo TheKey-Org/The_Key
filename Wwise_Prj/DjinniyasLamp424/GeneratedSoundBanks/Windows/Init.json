@@ -1,0 +1,33 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\DemoDay424\\Wwise_Prj\\DjinniyasLamp424\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\DemoDay424\\Wwise_Prj\\DjinniyasLamp424\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\DemoDay424\\Wwise_Prj\\DjinniyasLamp424\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\DemoDay424\\Wwise_Prj\\DjinniyasLamp424\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk",
+    "IncludedAuxBusses": [
+     {
+      "Id": "1646940361",
+      "Name": "Fx_Rev_Outside",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fx_Rev_Outside",
+      "GUID": "{0E98FAEE-0E84-4592-A214-D2E72186D755}"
+     }
+    ]
+   }
+  ]
+ }
+}

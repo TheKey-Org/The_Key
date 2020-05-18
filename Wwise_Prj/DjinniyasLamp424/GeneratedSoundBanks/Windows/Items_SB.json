@@ -1,0 +1,319 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\DemoDay424\\Wwise_Prj\\DjinniyasLamp424\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\DemoDay424\\Wwise_Prj\\DjinniyasLamp424\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\DemoDay424\\Wwise_Prj\\DjinniyasLamp424\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\DemoDay424\\Wwise_Prj\\DjinniyasLamp424\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2515684217",
+    "GUID": "{97E715E6-607E-45CA-AA0B-BBB5E3A6F95C}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Items_SB",
+    "ShortName": "Items_SB",
+    "Path": "Items_SB.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4105498399",
+      "Name": "EV_Stone_Water_Deep",
+      "ObjectPath": "\\Events\\Items\\Stone\\EV_Stone_Water_Deep",
+      "GUID": "{87DDF05C-5D83-43F2-959C-63A8177391F3}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.399592",
+      "DurationMax": "1.901985",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "381790358",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash.wav",
+        "Path": "SFX\\Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4147822987",
+      "Name": "EV_Stone_Water_Over",
+      "ObjectPath": "\\Events\\Items\\Stone\\EV_Stone_Water_Over",
+      "GUID": "{257A0293-AF0B-4DDD-AF2C-6E4E9BC6B394}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.208206",
+      "DurationMax": "0.270791",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "542426678",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash.wav",
+        "Path": "SFX\\Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash_C1CC09E3.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4102285274",
+      "Name": "EV_Stone_Weight_Impact",
+      "ObjectPath": "\\Events\\Items\\Stone\\EV_Stone_Weight_Impact",
+      "GUID": "{8B11925C-41F8-48CD-AC1E-3F71765FC150}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.415737",
+      "DurationMax": "1.901985",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "124739891",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Rock_Gravel_01.wav",
+        "Path": "SFX\\Hits\\Stones\\Rock_Gravel_01_10C4C929.wem"
+       },
+       {
+        "Id": "142684545",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Rock_small_hit_solid_ground_004_11181.wav",
+        "Path": "SFX\\Hits\\Stones\\Rock_small_hit_solid_ground_004_11181_10C4C929.wem"
+       },
+       {
+        "Id": "170756168",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Rock_small_hit_solid_ground_003_11180.wav",
+        "Path": "SFX\\Hits\\Stones\\Rock_small_hit_solid_ground_003_11180_10C4C929.wem"
+       },
+       {
+        "Id": "193653177",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Stone-drop_into_puddle.wav",
+        "Path": "SFX\\Hits\\Stones\\Stone-drop_into_puddle_10C4C929.wem"
+       },
+       {
+        "Id": "254908135",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Rock_Big_05.wav",
+        "Path": "SFX\\Hits\\Stones\\Rock_Big_05_10C4C929.wem"
+       },
+       {
+        "Id": "266754551",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Rock_Gravel_03.wav",
+        "Path": "SFX\\Hits\\Stones\\Rock_Gravel_03_10C4C929.wem"
+       },
+       {
+        "Id": "286944441",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_run_14.WAV",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_run_14_10C4C929.wem"
+       },
+       {
+        "Id": "332664854",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\rock_small_03.wav",
+        "Path": "SFX\\Hits\\Stones\\rock_small_03_10C4C929.wem"
+       },
+       {
+        "Id": "335209370",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_run_13.WAV",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_run_13_10C4C929.wem"
+       },
+       {
+        "Id": "381790358",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash.wav",
+        "Path": "SFX\\Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash_10C4C929.wem"
+       },
+       {
+        "Id": "553390352",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_run_06.WAV",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_run_06_10C4C929.wem"
+       },
+       {
+        "Id": "574829474",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Rock_Big_06.wav",
+        "Path": "SFX\\Hits\\Stones\\Rock_Big_06_10C4C929.wem"
+       },
+       {
+        "Id": "586896782",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\rock_small_02.wav",
+        "Path": "SFX\\Hits\\Stones\\rock_small_02_10C4C929.wem"
+       },
+       {
+        "Id": "685715923",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Rock_Gravel_02.wav",
+        "Path": "SFX\\Hits\\Stones\\Rock_Gravel_02_10C4C929.wem"
+       },
+       {
+        "Id": "714983882",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_run_08.WAV",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_run_08_10C4C929.wem"
+       },
+       {
+        "Id": "811937125",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Petank_boules_metal_ball_land_in_sand_001.wav",
+        "Path": "SFX\\Hits\\Stones\\Petank_boules_metal_ball_land_in_sand_001_10C4C929.wem"
+       },
+       {
+        "Id": "882907017",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\rock_small_01.wav",
+        "Path": "SFX\\Hits\\Stones\\rock_small_01_10C4C929.wem"
+       },
+       {
+        "Id": "913330223",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Petank_boules_metal_ball_land_in_sand_002.wav",
+        "Path": "SFX\\Hits\\Stones\\Petank_boules_metal_ball_land_in_sand_002_10C4C929.wem"
+       },
+       {
+        "Id": "1019319293",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Rock_Big_07.wav",
+        "Path": "SFX\\Hits\\Stones\\Rock_Big_07_10C4C929.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{59348400-61EE-4D26-9606-50BFF5F919A0}",
+        "Media": [
+         {
+          "Id": "381790358"
+         },
+         {
+          "Id": "193653177"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{95C0C10B-58E4-4A69-992C-9FF297A7EA29}",
+        "Media": [
+         {
+          "Id": "811937125"
+         },
+         {
+          "Id": "913330223"
+         },
+         {
+          "Id": "142684545"
+         },
+         {
+          "Id": "170756168"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{FF2B32AE-D42E-49BD-BA21-73CAE860422D}",
+        "Media": [
+         {
+          "Id": "882907017"
+         },
+         {
+          "Id": "586896782"
+         },
+         {
+          "Id": "332664854"
+         },
+         {
+          "Id": "254908135"
+         },
+         {
+          "Id": "574829474"
+         },
+         {
+          "Id": "1019319293"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{AD4D776E-A669-45EC-BB98-26AC275422C4}",
+        "Media": [
+         {
+          "Id": "553390352"
+         },
+         {
+          "Id": "714983882"
+         },
+         {
+          "Id": "335209370"
+         },
+         {
+          "Id": "286944441"
+         },
+         {
+          "Id": "124739891"
+         },
+         {
+          "Id": "685715923"
+         },
+         {
+          "Id": "266754551"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1389549966",
+      "Name": "GP_Object_Speed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\GP_Object_Speed",
+      "GUID": "{DE7223A8-7826-48CB-9645-55A77AF1FC5D}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3275108276",
+      "Name": "SWT_Surface_Type",
+      "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type",
+      "GUID": "{119B9A05-E63D-41FE-9A1F-C86129F52185}",
+      "Switches": [
+       {
+        "Id": "1554534098",
+        "Name": "PM_Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\PM_Concrete",
+        "GUID": "{FF2B32AE-D42E-49BD-BA21-73CAE860422D}"
+       },
+       {
+        "Id": "1773321336",
+        "Name": "PM_Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\PM_Dirt",
+        "GUID": "{95C0C10B-58E4-4A69-992C-9FF297A7EA29}"
+       },
+       {
+        "Id": "761628071",
+        "Name": "PM_Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\PM_Grass",
+        "GUID": "{DE5C9741-2EA0-45AA-A9F1-59C567C3D7AC}"
+       },
+       {
+        "Id": "2220787912",
+        "Name": "PM_Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\PM_Water",
+        "GUID": "{59348400-61EE-4D26-9606-50BFF5F919A0}"
+       },
+       {
+        "Id": "4257446624",
+        "Name": "PM_Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\PM_Wood",
+        "GUID": "{604A446C-B7E0-483E-9602-8CF438326396}"
+       },
+       {
+        "Id": "1003149622",
+        "Name": "PM_Gravel",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\PM_Gravel",
+        "GUID": "{AD4D776E-A669-45EC-BB98-26AC275422C4}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

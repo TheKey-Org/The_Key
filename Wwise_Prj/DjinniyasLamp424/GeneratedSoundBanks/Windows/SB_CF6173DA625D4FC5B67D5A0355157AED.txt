@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	479557960	EV_Animal_Drink			\Animals\EV_Animal_Drink	
+

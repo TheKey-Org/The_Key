@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E8E5BCA4-2EC7-4813-BB88-3942257F8E78}" SchemaVersion="97" RootDocumentID="{33C6F99E-0E12-4E61-998B-609B5AF24487}">
+	<AudioObjects>
+		<WorkUnit Name="DFox" ID="{E8E5BCA4-2EC7-4813-BB88-3942257F8E78}" OwnerID="{33C6F99E-0E12-4E61-998B-609B5AF24487}" PersistMode="Nested">
+			<ChildrenList>
+				<RandomSequenceContainer Name="DFox_Bark" ID="{E7FA3E27-6C2D-4EB1-B0C3-B6775557ABD8}" ShortID="968045787">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Animals" ID="{2BD7E8D7-6928-44ED-9229-2AD3EF55DEA8}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Fox_Red_Call_Long_01" ID="{680D6AE1-4641-4BA7-BC35-25A9FDC9F9FC}" ShortID="407755166">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fox_Red_Call_Long_01" ID="{1FE5AECC-F37F-455D-9D7B-34F3C3A1E484}">
+									<Language>SFX</Language>
+									<AudioFile>Animals\Fox\Fox_Red_Call_Long_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="547538402"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fox_Red_Call_Long_01" ID="{1FE5AECC-F37F-455D-9D7B-34F3C3A1E484}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Fox_Red_Call_Long_02" ID="{9ED50BD5-66E7-4BC0-BC5C-4ED6B3F74C7A}" ShortID="76265196">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Fox_Red_Call_Long_02" ID="{43AE6D84-43FF-47D6-9412-D20A122362BB}">
+									<Language>SFX</Language>
+									<AudioFile>Animals\Fox\Fox_Red_Call_Long_02.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="182114653"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Fox_Red_Call_Long_02" ID="{43AE6D84-43FF-47D6-9412-D20A122362BB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

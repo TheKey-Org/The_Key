@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{66DC434E-063E-460C-84A8-165912A50074}" SchemaVersion="97">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{66DC434E-063E-460C-84A8-165912A50074}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Fx_Rev_Outside" ID="{92DB9B96-1685-426F-9058-4850C6358795}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+					<PropertyList>
+						<Property Name="RoomSize" Type="Real32" Value="20"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

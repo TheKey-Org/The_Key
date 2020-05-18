@@ -1,0 +1,55 @@
+Code Freeze:
+
+- Sistema de Grab( 1h y 2h)
+- Puertas
+- Climb system
+- Roomscale
+- Sistema anticlipping
+- Interacciones de cajones y puertas de armarios
+- Cajones con físicas
+- Rifle
+- Espadas (con corte de mesh procedural)
+- Holsters
+- Coche
+- Físicas de plataformas móviles para el player
+- Botones y palancas
+- Manivelas
+- Menus 3d (funcionan con el láser)
+
+Tareas he información importante:
+
+Cosas que hacen falta hacer para demo:
+
+- Arreglar el crash on startup en las quest (IMPORTANTE) (sabemos que es algo de los cambios creados para implementar level streaming, pero no es el propio level streaming la causa)
+- Cambiar de OpenLevel a LevelStreaming ✔
+- El video del splash
+- Programar el nivel del splash ✔
+- El nivel de la intro
+- La programación básica de los NPCs
+- Programar la transformación progresiva en genio(para el nivel de la celda, con assets placeholder
+ o más definitivos pero deben parecerse en funcionalidad a los definitivos)
+- Programar los puzzles escape-room de la lámpara de la celda:
+	- Haces de luz ✔
+	- Tabillas en orden ✔
+	- limpiar suciedad con la mano
+	- ver a traves de un objeto presente y pasado y poder cambiar de timeline (jodido de hacer?)
+- Programar el menú principal tras la intro
+- Programar el menú pre intro 
+- Programar la posibilidad de skipear la intro si la has visto antes con alguna interacción VR (por lo tanto requiere de algun tipo de funcionalidad 
+savegame que será expandida en el futuro) 
+- Perfomance Data ingame ✔
+- Reubicación de items ✔
+
+
+
+
+(para más adelante)-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Cosas que necesito para la intro:
+
+- NPCs (niños abuelo camello etc)
+- Assets (el nivel de la intro, los modelos ya sean placeholder o no de todos los npcs (incluso si son repetidos el mismo para testing) el de la niña Djinniya 
+(tanto el jugable como el de las cutscenes), placeholder o no de la lámpara de la que sale el menú principal)
+- Música de la intro
+- Referencias de las constelaciones para poder hacer las animaciones y tal que se ejecutaran en la intro
+- El menú principal

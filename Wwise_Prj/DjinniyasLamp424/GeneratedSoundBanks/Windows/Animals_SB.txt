@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	479557960	EV_Animal_Drink			\Animals\EV_Animal_Drink	
+	3257707830	EV_Frog_Croar_Single			\Animals\EV_Frog_Croar_Single	
+	3627703185	EV_DFox_Bark			\Animals\EV_DFox_Bark	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	157607473	Animal_Comiendo_Light_Long_03	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Animals\Camel\Animal_Comiendo_05_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Drink\Animal_Comiendo_Light_Long_03		485040
+	182114653	Fox_Red_Call_Long_02	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Animals\Fox\Fox_Red_Call_Long_02_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox_Bark\Fox_Red_Call_Long_02		88114
+	283900663	Frog_Croar_01	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Animals\Frog\Frog_Croar_01_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Frog\Frog_Croar_01		49340
+	547538402	Fox_Red_Call_Long_01	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Animals\Fox\Fox_Red_Call_Long_01_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox_Bark\Fox_Red_Call_Long_01		101158
+	627651370	Animal_Comiendo_Light_Long_02	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Animals\Camel\Animal_Comiendo_04_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Drink\Animal_Comiendo_Light_Long_02		548960
+	972377837	Animal_Comiendo_Light_Short	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Animals\Camel\Animal_Comiendo_01_ED2F9936.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Drink\Animal_Comiendo_Light_Short		112508
+	1019482852	Animal_Comiendo_Strong_Short	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Animals\Camel\Animal_Comiendo_02_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Drink\Animal_Comiendo_Strong_Short		176196
+	1048535314	Animal_Comiendo_Light_Long_01	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Animals\Camel\Animal_Comiendo_03_C3CE35A5.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Drink\Animal_Comiendo_Light_Long_01		352082
+

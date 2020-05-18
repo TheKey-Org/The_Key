@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2B2C27BE-884F-44C4-ACE4-33BC551170FD}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Character" ID="{2B2C27BE-884F-44C4-ACE4-33BC551170FD}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="2"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<WorkUnit Name="CHA_Prisioner" ID="{71F46426-1E70-42CA-A481-4A50A1B8F045}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

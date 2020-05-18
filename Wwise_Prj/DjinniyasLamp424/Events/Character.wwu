@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Character" ID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="2"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Prisioner" ID="{602FAF8F-9EEE-48A3-8BA9-4EBAB8E374B8}" ShortID="420167042">
+					<ChildrenList>
+						<Folder Name="Voices" ID="{5377B27B-A94A-4417-AD19-EF13285AB17B}" ShortID="10143986">
+							<ChildrenList>
+								<Event Name="Prisioner_Surprise" ID="{8F9F9470-5D3D-41B3-911E-E2804D0B7FFD}">
+									<ChildrenList>
+										<Action Name="" ID="{3F2AF2E8-F485-4E4C-A9DA-3B53C2501108}" ShortID="831433129">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Prisioner_Surprise_Rdm" ID="{9D5A8F8F-3C0D-4360-91C4-58BFBF188747}" WorkUnitID="{71F46426-1E70-42CA-A481-4A50A1B8F045}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Prisioner_Jump" ID="{00BCE9B4-FBD3-4985-94D2-7DEC882ECCB2}">
+									<ChildrenList>
+										<Action Name="" ID="{3620066B-6A3F-415F-88B9-89DCDF91B12B}" ShortID="973146114">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Prisioner_Jump_Rdm" ID="{69B7287E-8A30-4D51-8EEE-E9054A0ED12C}" WorkUnitID="{71F46426-1E70-42CA-A481-4A50A1B8F045}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Prisioner_Surprise_Angry_Long" ID="{386437FA-1C96-4925-87EE-701ADC86311A}">
+									<ChildrenList>
+										<Action Name="" ID="{651C47F3-955A-43C8-81A7-98AAFD3727DF}" ShortID="480117266">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Prisioner_Surprise_Angry_Long_Rdm" ID="{D7DECEEB-5DB7-4D8F-A2E8-A2B89FE8F0C9}" WorkUnitID="{71F46426-1E70-42CA-A481-4A50A1B8F045}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Prisioner_Surprise_Angry_Short" ID="{4C7301C7-9486-4E44-894E-6C867130AB88}">
+									<ChildrenList>
+										<Action Name="" ID="{5E9403DE-87C5-4508-B832-BA1E9A09ABAF}" ShortID="687243189">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Prisioner_Surprise_Angry_Short_Rdm" ID="{F5DF1FA7-68B0-4671-8F51-3CCA10345903}" WorkUnitID="{71F46426-1E70-42CA-A481-4A50A1B8F045}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Footstep" ID="{5885ABEF-52C0-4A17-BF02-75424BDDFB1C}" ShortID="358854522">
+							<ChildrenList>
+								<Event Name="CHA_PRIS_Footstep_Land" ID="{ADADD40E-0159-4040-A307-B9AA291BD3ED}">
+									<ChildrenList>
+										<Action Name="" ID="{CC2C8D94-EE22-406E-8809-46D9EC951F68}" ShortID="376397117">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="CHA_PRIS_Footstep_Land_Type" ID="{19866FA7-670B-4A41-A5BC-1E4EE89F2536}" WorkUnitID="{71F46426-1E70-42CA-A481-4A50A1B8F045}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="CHA_PRIS_Footstep_Type" ID="{13152DC6-0F32-4CEB-A55C-BD50E66EFAA0}">
+									<ChildrenList>
+										<Action Name="" ID="{16BDF4CB-8B8E-40C0-A3D0-38D5D759DD73}" ShortID="731974817">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="CHA_PRIS_Footstep_Type" ID="{EBDE1885-FDFB-48A6-B84D-11BFF5195AE8}" WorkUnitID="{71F46426-1E70-42CA-A481-4A50A1B8F045}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
