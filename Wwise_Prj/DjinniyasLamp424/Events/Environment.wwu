@@ -12,7 +12,7 @@
 						<Action Name="" ID="{E98750FD-E28F-4256-BCF9-291D5C22FEB5}" ShortID="216964211">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Wind_Soft_Loop_01" ID="{C5030608-6E0D-4479-BD3E-AA3EE92AECD6}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+									<ObjectRef Name="Wind_Fast" ID="{C5030608-6E0D-4479-BD3E-AA3EE92AECD6}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -22,7 +22,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Wind_Soft_Loop_01" ID="{C5030608-6E0D-4479-BD3E-AA3EE92AECD6}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+									<ObjectRef Name="Wind_Fast" ID="{C5030608-6E0D-4479-BD3E-AA3EE92AECD6}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -32,14 +32,14 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Wind_Soft_Loop_01" ID="{C5030608-6E0D-4479-BD3E-AA3EE92AECD6}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+									<ObjectRef Name="Wind_Fast" ID="{C5030608-6E0D-4479-BD3E-AA3EE92AECD6}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 						<Action Name="" ID="{B290016A-B6DE-4138-9499-D8FB7B462945}" ShortID="676279225">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Wind_Soft_Loop_01" ID="{C5030608-6E0D-4479-BD3E-AA3EE92AECD6}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+									<ObjectRef Name="Wind_Fast" ID="{C5030608-6E0D-4479-BD3E-AA3EE92AECD6}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -51,6 +51,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Swarm Bees_Loop" ID="{2BB2C15D-8214-4E7A-81CF-88F4F57EECC6}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_Oasis_Amb" ID="{CFEBC2F4-D506-4026-93B3-C4BE7211A340}">
+					<ChildrenList>
+						<Action Name="" ID="{C08691A2-0D2D-4BFC-8D64-AB2BCBC0EF14}" ShortID="396497369">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Oasis_Amb" ID="{BE84B20C-629F-4971-AC23-3A6A6DCF110F}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

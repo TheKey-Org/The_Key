@@ -5,6 +5,11 @@
   "BasePlatform": "Windows",
   "Plugins": [
    {
+    "Name": "Wwise Silence",
+    "ID": "6619138",
+    "DLL": "AkSilenceGenerator"
+   },
+   {
     "Name": "System",
     "ID": "11403271",
     "DLL": "DefaultSink"

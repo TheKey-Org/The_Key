@@ -85,6 +85,39 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Djinniya" ID="{A731CBB9-97B1-451B-9CA0-2D53EB85A09C}" ShortID="1002934283">
+					<ChildrenList>
+						<Folder Name="Actions" ID="{81F2EE36-4EEB-4DB8-A2AF-B374C48B3E12}" ShortID="16280950">
+							<ChildrenList>
+								<Event Name="Cleaning_Lamp_Play" ID="{6F8BE938-41AC-4355-953C-2E3F423F3328}">
+									<ChildrenList>
+										<Action Name="" ID="{988618FA-9D68-426A-A300-3D5F08AFD538}" ShortID="431952409">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Cleaning" ID="{AD889477-8902-4CD6-9896-8DB381BB8931}" WorkUnitID="{A93E259D-E41F-4314-93C4-23633DB5187A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Cleaning_Lamp_Stop" ID="{8EA40AF8-2CA9-4DC5-BC37-11EF9EB13E3E}">
+									<ChildrenList>
+										<Action Name="" ID="{BE16B7D0-BFEE-46A4-8B10-3C32EB7C3D90}" ShortID="412167048">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Cleaning" ID="{AD889477-8902-4CD6-9896-8DB381BB8931}" WorkUnitID="{A93E259D-E41F-4314-93C4-23633DB5187A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

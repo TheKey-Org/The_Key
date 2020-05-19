@@ -8,6 +8,7 @@
 			</PropertyList>
 			<ChildrenList>
 				<WorkUnit Name="CHA_Prisioner" ID="{71F46426-1E70-42CA-A481-4A50A1B8F045}" PersistMode="Reference"/>
+				<WorkUnit Name="Djinniya" ID="{A93E259D-E41F-4314-93C4-23633DB5187A}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
