@@ -42,6 +42,13 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Environment_SB" ID="{22DF4A19-5CC3-4C93-A98F-FD0CFCE0AA96}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Environment" ID="{16310A29-DF1C-404A-93F3-D23310EC535B}" WorkUnitID="{16310A29-DF1C-404A-93F3-D23310EC535B}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>
