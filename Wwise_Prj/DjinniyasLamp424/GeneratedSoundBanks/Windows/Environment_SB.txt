@@ -12,11 +12,11 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	853826191	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Enviroment\Oasis_Amb\Insect_Fly\Silence\Wwise Silence	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	86745989	Bee_Loop	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Animals\Environment\Bee_Loop_B5253934.wem		\Actor-Mixer Hierarchy\Enviroment\Oasis_Amb\Bees_Loop\Bee_Loop		782000
+	86745989	Bee_Loop	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Animals\Environment\Bee_Loop_0F5D66AE.wem		\Actor-Mixer Hierarchy\Enviroment\Oasis_Amb\Bees_Loop\Bee_Loop		782000
 	303036354	Wind_Soft	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Environment\Desert_Silence_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviroment\Oasis_Amb\Wind_Types\Wind_Soft		595414
 	385326610	Crickets_OneShot_01	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Animals\Environment\Crickets_OneShot_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviroment\Oasis_Amb\Crickets\Crickets_OneShot_01		29936
 	395557208	Swarm Bees_Loop	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Animals\Environment\Swarm Bees_Pre1_Post1_Loop_10C4C929.wem		\Actor-Mixer Hierarchy\Enviroment\Swarm Bees_Loop		971116
-	400556086	Frog_Amb_Loop_01	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Animals\Frog\Frog_Amb_Loop_01_41332A21.wem		\Actor-Mixer Hierarchy\Enviroment\Oasis_Amb\Frog\Frog_Amb_Loop_01		1124468
+	400556086	Frog_Amb_Loop_01	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Animals\Frog\Frog_Amb_Loop_01_6F8282C4.wem		\Actor-Mixer Hierarchy\Enviroment\Oasis_Amb\Frog\Frog_Amb_Loop_01		1124468
 	572924580	Wind_Fast	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Wind_Soft_Loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviroment\Oasis_Amb\Wind_Types\Wind_Fast		887046
-	1022065363	Fly_Loop	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Animals\Environment\Fly_Loop_CE266635.wem		\Actor-Mixer Hierarchy\Enviroment\Oasis_Amb\Insect_Fly\Fly_Loop		1146900
+	1022065363	Fly_Loop	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Animals\Environment\Fly_Loop_619F4D67.wem		\Actor-Mixer Hierarchy\Enviroment\Oasis_Amb\Insect_Fly\Fly_Loop		1146900
 
