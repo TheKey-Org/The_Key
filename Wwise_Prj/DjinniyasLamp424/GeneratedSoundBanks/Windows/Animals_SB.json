@@ -25,6 +25,7 @@
       "Name": "EV_Animal_Drink",
       "ObjectPath": "\\Events\\Animals\\EV_Animal_Drink",
       "GUID": "{CF6173DA-625D-4FC5-B67D-5A0355157AED}",
+      "MaxAttenuation": "2000.000000",
       "DurationType": "OneShot",
       "DurationMin": "1.220123",
       "DurationMax": "6.223310",
@@ -62,13 +63,203 @@
       ]
      },
      {
+      "Id": "1052216993",
+      "Name": "EV_Camel_Angry",
+      "ObjectPath": "\\Events\\Animals\\Camel\\EV_Camel_Angry",
+      "GUID": "{1FCA6A55-2E6C-4E84-9F60-EDA9215EC632}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.710748",
+      "DurationMax": "1.781202",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "883860458",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Camel SFX_03.wav",
+        "Path": "SFX\\Animals\\Camel\\Camel SFX_03_10C4C929.wem"
+       },
+       {
+        "Id": "999793830",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Camello_Fast_01.wav",
+        "Path": "SFX\\Animals\\Camel\\Camello_Fast_01_10C4C929.wem"
+       },
+       {
+        "Id": "1010816992",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Camello_Slow_01.wav",
+        "Path": "SFX\\Animals\\Camel\\Camello_Slow_01_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2245548160",
+      "Name": "EV_Camel_Drink",
+      "ObjectPath": "\\Events\\Animals\\Camel\\EV_Camel_Drink",
+      "GUID": "{2B1E3999-E901-4523-8DF1-389A6D7D8FCA}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.220123",
+      "DurationMax": "6.223310",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "157607473",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Animal_Comiendo_05.wav",
+        "Path": "SFX\\Animals\\Camel\\Animal_Comiendo_05_10C4C929.wem"
+       },
+       {
+        "Id": "627651370",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Animal_Comiendo_04.wav",
+        "Path": "SFX\\Animals\\Camel\\Animal_Comiendo_04_10C4C929.wem"
+       },
+       {
+        "Id": "972377837",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Animal_Comiendo_01.wav",
+        "Path": "SFX\\Animals\\Camel\\Animal_Comiendo_01_ED2F9936.wem"
+       },
+       {
+        "Id": "1019482852",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Animal_Comiendo_02.wav",
+        "Path": "SFX\\Animals\\Camel\\Animal_Comiendo_02_10C4C929.wem"
+       },
+       {
+        "Id": "1048535314",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Animal_Comiendo_03.wav",
+        "Path": "SFX\\Animals\\Camel\\Animal_Comiendo_03_C3CE35A5.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2670397528",
+      "Name": "EV_Camel_Happy",
+      "ObjectPath": "\\Events\\Animals\\Camel\\EV_Camel_Happy",
+      "GUID": "{D77DBB88-C511-49CB-966E-FC299BD730D3}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "3.052993",
+      "DurationMax": "3.343764",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "280298703",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Camel SFX_01_Soft.wav",
+        "Path": "SFX\\Animals\\Camel\\Camel SFX_01_Soft_10C4C929.wem"
+       },
+       {
+        "Id": "486796379",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Camel SFX_01.wav",
+        "Path": "SFX\\Animals\\Camel\\Camel SFX_01_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1668132102",
+      "Name": "EV_Camel_Quiet",
+      "ObjectPath": "\\Events\\Animals\\Camel\\EV_Camel_Quiet",
+      "GUID": "{80D40089-7BCF-4723-8FA4-46BC8621E242}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "503033313",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Ronroneos_Soft_04.wav",
+        "Path": "SFX\\Animals\\Camel\\Ronroneos_Soft_04_10C4C929.wem"
+       },
+       {
+        "Id": "698258540",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Ronroneos_Soft_02.wav",
+        "Path": "SFX\\Animals\\Camel\\Ronroneos_Soft_02_10C4C929.wem"
+       },
+       {
+        "Id": "764052193",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Ronroneos_Soft_03.wav",
+        "Path": "SFX\\Animals\\Camel\\Ronroneos_Soft_03_10C4C929.wem"
+       },
+       {
+        "Id": "830127368",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Ronroneos_Soft_01.wav",
+        "Path": "SFX\\Animals\\Camel\\Ronroneos_Soft_01_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2764188031",
+      "Name": "EV_Camel_Steps",
+      "ObjectPath": "\\Events\\Animals\\Camel\\EV_Camel_Steps",
+      "GUID": "{B860C09C-50A3-4460-95FD-BA69DC799D83}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.226757",
+      "DurationMax": "0.359184",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "122551984",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Step_07.WAV",
+        "Path": "SFX\\Animals\\Camel\\Step_07_10C4C929.wem"
+       },
+       {
+        "Id": "467453631",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Step_01.WAV",
+        "Path": "SFX\\Animals\\Camel\\Step_01_10C4C929.wem"
+       },
+       {
+        "Id": "491956589",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Step_05.WAV",
+        "Path": "SFX\\Animals\\Camel\\Step_05_10C4C929.wem"
+       },
+       {
+        "Id": "701091700",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Step_02.WAV",
+        "Path": "SFX\\Animals\\Camel\\Step_02_10C4C929.wem"
+       },
+       {
+        "Id": "748401940",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Step_08.WAV",
+        "Path": "SFX\\Animals\\Camel\\Step_08_10C4C929.wem"
+       },
+       {
+        "Id": "950879501",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Step_04.WAV",
+        "Path": "SFX\\Animals\\Camel\\Step_04_10C4C929.wem"
+       },
+       {
+        "Id": "973336670",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Step_03.WAV",
+        "Path": "SFX\\Animals\\Camel\\Step_03_10C4C929.wem"
+       },
+       {
+        "Id": "1038017333",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Step_06.WAV",
+        "Path": "SFX\\Animals\\Camel\\Step_06_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "3627703185",
       "Name": "EV_DFox_Bark",
-      "ObjectPath": "\\Events\\Animals\\EV_DFox_Bark",
+      "ObjectPath": "\\Events\\Animals\\DFox_EV\\EV_DFox_Bark",
       "GUID": "{B667C7B4-36C7-4E44-8393-29763429C6D0}",
       "DurationType": "OneShot",
-      "DurationMin": "0.998299",
-      "DurationMax": "1.146191",
+      "DurationMin": "0.969320",
+      "DurationMax": "1.215048",
       "IncludedMemoryFiles": [
        {
         "Id": "182114653",
@@ -81,6 +272,57 @@
         "Language": "SFX",
         "ShortName": "Animals\\Fox\\Fox_Red_Call_Long_01.wav",
         "Path": "SFX\\Animals\\Fox\\Fox_Red_Call_Long_01_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2069013163",
+      "Name": "EV_DFox_Happy",
+      "ObjectPath": "\\Events\\Animals\\DFox_EV\\EV_DFox_Happy",
+      "GUID": "{90F3FD27-87F6-4798-B9F0-AA4D90B2BA56}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.730904",
+      "DurationMax": "0.833308",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "881888131",
+        "Language": "SFX",
+        "ShortName": "Animals\\Fox\\Fennec_06.wav",
+        "Path": "SFX\\Animals\\Fox\\Fennec_06_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1823141559",
+      "Name": "EV_DFox_Playing",
+      "ObjectPath": "\\Events\\Animals\\DFox_EV\\EV_DFox_Playing",
+      "GUID": "{C1848301-A247-470B-B0BE-C6E87D214A10}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.494997",
+      "DurationMax": "1.494997",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "603593962",
+        "Language": "SFX",
+        "ShortName": "Animals\\Fox\\Fennec_01.wav",
+        "Path": "SFX\\Animals\\Fox\\Fennec_01_69B284F1.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1793661039",
+      "Name": "EV_DFox_Scared",
+      "ObjectPath": "\\Events\\Animals\\DFox_EV\\EV_DFox_Scared",
+      "GUID": "{AA6DEBA6-401D-4CE8-A481-E11058B2E746}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.145685",
+      "DurationMax": "1.287474",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "111231447",
+        "Language": "SFX",
+        "ShortName": "Animals\\Fox\\Fennec_11.wav",
+        "Path": "SFX\\Animals\\Fox\\Fennec_11_5DAB4233.wem"
        }
       ]
      },
