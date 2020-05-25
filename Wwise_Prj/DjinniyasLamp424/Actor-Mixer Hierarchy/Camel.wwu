@@ -26,6 +26,18 @@
 										<Value>38</Value>
 									</ValueList>
 								</Property>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -274,6 +286,18 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Camel_Steps" ID="{AFAF52B5-C06C-48D5-96A6-7A339D8C2B1F}" ShortID="849940946">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>22</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
@@ -294,6 +318,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Step_01" ID="{98031E88-0395-4FBE-96E2-EA2A9F0540F5}">
+											<PropertyList>
+												<Property Name="FadeOutShape" Type="int16" Value="2"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Animals\Camel\Step_01.WAV</AudioFile>
 											<MediaIDList>
@@ -720,6 +748,251 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Camel SFX_01_Soft" ID="{566E7495-5799-4DF6-B09E-5FD9D76D678C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Camel_Attack" ID="{D711D7C4-8103-415B-8FE6-56A27EB60064}" ShortID="14098138">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>42</Value>
+									</ValueList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{BB0DE0ED-17F6-4CF3-89E3-7324EDFE3EA1}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="101"/>
+													<Property Name="Min" Type="Real64" Value="-152"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_CHA_Generic" ID="{8B94C7BA-80D7-419E-AE2F-199897BAB647}" WorkUnitID="{6D48CC01-6253-4DE8-A355-72C130272A21}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Animals" ID="{2BD7E8D7-6928-44ED-9229-2AD3EF55DEA8}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Camel SFX_03" ID="{FFEBBEB3-511B-4664-9FA4-07F52CB05331}" ShortID="85194938">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-100</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Animals" ID="{2BD7E8D7-6928-44ED-9229-2AD3EF55DEA8}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Camel SFX_03" ID="{92D86282-BFAC-4820-AF29-DAB77C9CD763}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.13442413487134"/>
+												<Property Name="FadeInShape" Type="int16" Value="7"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.17459686483289"/>
+												<Property Name="FadeOutShape" Type="int16" Value="2"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.125926057379474"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.587912451937297"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Animals\Camel\Camel SFX_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="156011117"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Camel SFX_03" ID="{92D86282-BFAC-4820-AF29-DAB77C9CD763}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Camello_Fast_01" ID="{273C30EA-6562-410A-B44E-FA1D866B81B8}" ShortID="61969290">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-150</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Animals" ID="{2BD7E8D7-6928-44ED-9229-2AD3EF55DEA8}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Camello_Fast_01" ID="{BA3720F9-026A-440E-93E8-1C8E8C73D8C1}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.148388198757764"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.240901828847481"/>
+												<Property Name="FadeOutShape" Type="int16" Value="2"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.148388198757764"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.691562284334023"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Animals\Camel\Camello_Fast_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="739141379"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Camello_Fast_01" ID="{BA3720F9-026A-440E-93E8-1C8E8C73D8C1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Camello_Fast_02" ID="{B64949EA-1422-4204-A8CE-77AA322B5455}" ShortID="1049314705">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-150</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_CHA_Generic" ID="{8B94C7BA-80D7-419E-AE2F-199897BAB647}" WorkUnitID="{6D48CC01-6253-4DE8-A355-72C130272A21}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Animals" ID="{2BD7E8D7-6928-44ED-9229-2AD3EF55DEA8}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Camello_Fast_01" ID="{EC8DBD8D-1809-43EA-B554-CA85C0252698}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.148388198757764"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.240901828847481"/>
+												<Property Name="FadeOutShape" Type="int16" Value="2"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0109917184265011"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.464400103519668"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Animals\Camel\Camello_Fast_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="195558274"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Camello_Fast_01" ID="{EC8DBD8D-1809-43EA-B554-CA85C0252698}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Camel_Chewing" ID="{6C20CEEF-EACE-4813-AFC8-1B14B43A6432}" ShortID="1055388038">
+							<PropertyList>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-1490</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Animal_Chewing" ID="{F8249859-F4BF-4782-9587-E6809BB04C1A}" ShortID="555913111">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>53</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{4D4DA242-CA5C-470D-A208-DD718A4BB8E9}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-935"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-16</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_CHA_Generic" ID="{8B94C7BA-80D7-419E-AE2F-199897BAB647}" WorkUnitID="{6D48CC01-6253-4DE8-A355-72C130272A21}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Animals" ID="{2BD7E8D7-6928-44ED-9229-2AD3EF55DEA8}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Animal_Comiendo_04" ID="{ADCA2245-E18E-45DB-AE4D-6C974111DB51}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.0516383066402355"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.235982091658035"/>
+												<Property Name="FadeOutShape" Type="int16" Value="2"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="5.69915413736499"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.99659415534745"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Animals\Camel\Animal_Comiendo_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="898613911"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Animal_Comiendo_04" ID="{ADCA2245-E18E-45DB-AE4D-6C974111DB51}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
