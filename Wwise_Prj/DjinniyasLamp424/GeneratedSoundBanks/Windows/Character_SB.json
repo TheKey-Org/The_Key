@@ -25,7 +25,7 @@
       "Name": "CHA_PRIS_Footstep_Land",
       "ObjectPath": "\\Events\\Character\\Prisioner\\Footstep\\CHA_PRIS_Footstep_Land",
       "GUID": "{ADADD40E-0159-4040-A307-B9AA291BD3ED}",
-      "MaxAttenuation": "750.000000",
+      "MaxAttenuation": "2000.000000",
       "DurationType": "OneShot",
       "DurationMin": "0.230000",
       "DurationMax": "1.135396",
@@ -258,7 +258,7 @@
       "Name": "CHA_PRIS_Footstep_Type",
       "ObjectPath": "\\Events\\Character\\Prisioner\\Footstep\\CHA_PRIS_Footstep_Type",
       "GUID": "{13152DC6-0F32-4CEB-A55C-BD50E66EFAA0}",
-      "MaxAttenuation": "750.000000",
+      "MaxAttenuation": "2000.000000",
       "DurationType": "OneShot",
       "DurationMin": "0.205083",
       "DurationMax": "0.776625",
@@ -487,11 +487,54 @@
       ]
      },
      {
+      "Id": "2624474190",
+      "Name": "Cleaning_Lamp_Play",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\Actions\\Cleaning_Lamp_Play",
+      "GUID": "{6F8BE938-41AC-4355-953C-2E3F423F3328}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "523807816",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Clean\\Cleaning_Cloth 29.wav",
+        "Path": "SFX\\Character\\Djinniya\\Clean\\Cleaning_Cloth 29_6DD8B30F.wem"
+       },
+       {
+        "Id": "664631883",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Clean\\Cleaning_Cloth 29.wav",
+        "Path": "SFX\\Character\\Djinniya\\Clean\\Cleaning_Cloth 29_FE6DAB14.wem"
+       },
+       {
+        "Id": "883642316",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Clean\\Cleaning_Cloth 29.wav",
+        "Path": "SFX\\Character\\Djinniya\\Clean\\Cleaning_Cloth 29_F70B37EC.wem"
+       },
+       {
+        "Id": "948913228",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Clean\\Cleaning_Cloth 29.wav",
+        "Path": "SFX\\Character\\Djinniya\\Clean\\Cleaning_Cloth 29_073323C9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3667589936",
+      "Name": "Cleaning_Lamp_Stop",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\Actions\\Cleaning_Lamp_Stop",
+      "GUID": "{8EA40AF8-2CA9-4DC5-BC37-11EF9EB13E3E}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
       "Id": "4181041693",
       "Name": "Prisioner_Jump",
       "ObjectPath": "\\Events\\Character\\Prisioner\\Voices\\Prisioner_Jump",
       "GUID": "{00BCE9B4-FBD3-4985-94D2-7DEC882ECCB2}",
-      "MaxAttenuation": "750.000000",
+      "MaxAttenuation": "2000.000000",
       "DurationType": "OneShot",
       "DurationMin": "0.449977",
       "DurationMax": "0.500000",
@@ -527,7 +570,7 @@
       "Name": "Prisioner_Surprise",
       "ObjectPath": "\\Events\\Character\\Prisioner\\Voices\\Prisioner_Surprise",
       "GUID": "{8F9F9470-5D3D-41B3-911E-E2804D0B7FFD}",
-      "MaxAttenuation": "750.000000",
+      "MaxAttenuation": "2000.000000",
       "DurationType": "OneShot",
       "DurationMin": "0.500000",
       "DurationMax": "0.500000",
@@ -545,7 +588,7 @@
       "Name": "Prisioner_Surprise_Angry_Long",
       "ObjectPath": "\\Events\\Character\\Prisioner\\Voices\\Prisioner_Surprise_Angry_Long",
       "GUID": "{386437FA-1C96-4925-87EE-701ADC86311A}",
-      "MaxAttenuation": "750.000000",
+      "MaxAttenuation": "2000.000000",
       "DurationType": "OneShot",
       "DurationMin": "0.500000",
       "DurationMax": "0.500000",
@@ -569,7 +612,7 @@
       "Name": "Prisioner_Surprise_Angry_Short",
       "ObjectPath": "\\Events\\Character\\Prisioner\\Voices\\Prisioner_Surprise_Angry_Short",
       "GUID": "{4C7301C7-9486-4E44-894E-6C867130AB88}",
-      "MaxAttenuation": "750.000000",
+      "MaxAttenuation": "2000.000000",
       "DurationType": "OneShot",
       "DurationMin": "0.440000",
       "DurationMax": "0.500000",
@@ -759,6 +802,12 @@
       "Path": "SFX\\Character\\Prisioner\\Footstep\\Water\\footstep_water_walk_06_10C4C929.wem"
      },
      {
+      "Id": "523807816",
+      "Language": "SFX",
+      "ShortName": "Character\\Djinniya\\Clean\\Cleaning_Cloth 29.wav",
+      "Path": "SFX\\Character\\Djinniya\\Clean\\Cleaning_Cloth 29_6DD8B30F.wem"
+     },
+     {
       "Id": "525834864",
       "Language": "SFX",
       "ShortName": "Character\\Prisioner\\Footstep\\footstep_dirt_land_05.WAV",
@@ -837,6 +886,12 @@
       "Path": "SFX\\Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_08_10C4C929.wem"
      },
      {
+      "Id": "664631883",
+      "Language": "SFX",
+      "ShortName": "Character\\Djinniya\\Clean\\Cleaning_Cloth 29.wav",
+      "Path": "SFX\\Character\\Djinniya\\Clean\\Cleaning_Cloth 29_FE6DAB14.wem"
+     },
+     {
       "Id": "691790023",
       "Language": "SFX",
       "ShortName": "Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_04.wav",
@@ -879,6 +934,12 @@
       "Path": "SFX\\Character\\Prisioner\\Footstep\\Wood\\footstep_wood_walk_03_10C4C929.wem"
      },
      {
+      "Id": "883642316",
+      "Language": "SFX",
+      "ShortName": "Character\\Djinniya\\Clean\\Cleaning_Cloth 29.wav",
+      "Path": "SFX\\Character\\Djinniya\\Clean\\Cleaning_Cloth 29_F70B37EC.wem"
+     },
+     {
       "Id": "890062790",
       "Language": "SFX",
       "ShortName": "Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_03.wav",
@@ -907,6 +968,12 @@
       "Language": "SFX",
       "ShortName": "Character\\Prisioner\\Footstep\\Concrete\\footstep_concrete_land_v2_03.WAV",
       "Path": "SFX\\Character\\Prisioner\\Footstep\\Concrete\\footstep_concrete_land_v2_03_10C4C929.wem"
+     },
+     {
+      "Id": "948913228",
+      "Language": "SFX",
+      "ShortName": "Character\\Djinniya\\Clean\\Cleaning_Cloth 29.wav",
+      "Path": "SFX\\Character\\Djinniya\\Clean\\Cleaning_Cloth 29_073323C9.wem"
      },
      {
       "Id": "956678191",
