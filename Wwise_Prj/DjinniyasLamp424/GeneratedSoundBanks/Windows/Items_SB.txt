@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	4102285274	EV_Stone_Weight_Impact			\Items\Stone\EV_Stone_Weight_Impact	
 	4105498399	EV_Stone_Water_Deep			\Items\Stone\EV_Stone_Water_Deep	
 	4147822987	EV_Stone_Water_Over			\Items\Stone\EV_Stone_Water_Over	
+	4261248300	EV_Pot_Crash			\Items\Pots\EV_Pot_Crash	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	3275108276	SWT_Surface_Type			\Default Work Unit\SWT_Surface_Type	
@@ -16,26 +17,40 @@ Switch	ID	Name	Switch Group			Notes
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1389549966	GP_Object_Speed			\Default Work Unit\GP_Object_Speed	
+	3111392885	GP_Light_Heavy			\Default Work Unit\GP_Light_Heavy	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	73599134	Pot_Crash_01	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Pot\Pot_Crash_01_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash_Seq\Pot_Crash_Bl\Pot_Crash_Light\Pot_Crash_01		183000
 	124739891	Rock_Gravel_01	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Stones\Rock_Gravel_01_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Gravel\Stone_Gravel_Heavy\Rock_Gravel_01		232976
 	142684545	Rock_small_hit_solid_ground_004_11181	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Stones\Rock_small_hit_solid_ground_004_11181_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Dirt\Stone_Dirt_Light\Rock_small_hit_solid_ground_004_11181		96832
 	170756168	Rock_small_hit_solid_ground_003_11180	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Stones\Rock_small_hit_solid_ground_003_11180_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Dirt\Stone_Dirt_Light\Rock_small_hit_solid_ground_003_11180		161344
+	188806897	Pot_Crash_06	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Pot\Pot_Crash_06_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash_Seq\Pot_Crash_Bl\Pot_Crash_Light\Pot_Crash_06		89868
 	193653177	Stone-drop_into_puddle	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Stones\Stone-drop_into_puddle_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Water\Stone_Water_Light\Stone-drop_into_puddle		160940
+	240239109	Pot_Crash_12	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Pot\Pot_Crash_12_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash_Seq\Pot_Crash_Bl\Pot_Crash_Heavy\Pot_Crash_12		158884
 	254908135	Rock_Big_05	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Stones\Rock_Big_05_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Concrete\Stone_Concrete_Heavy\Rock_Big_05		90412
 	266754551	Rock_Gravel_03	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Stones\Rock_Gravel_03_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Gravel\Stone_Gravel_Heavy\Rock_Gravel_03		122956
 	286944441	Stone_gravel_Light_14	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_run_14_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Gravel\Stone_Gravel_Light\Stone_gravel_Light_14		22636
+	297690760	Pot_Crash_07	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Pot\Pot_Crash_07_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash_Seq\Pot_Crash_Bl\Pot_Crash_Light\Pot_Crash_07		163876
 	332664854	rock_small_03	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Stones\rock_small_03_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Concrete\Stone_Concrete_Light\rock_small_03		46556
 	335209370	Stone_gravel_Light_13	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_run_13_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Gravel\Stone_Gravel_Light\Stone_gravel_Light_13		25208
-	381790358	Stone_Water_Sunk	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Stones\Foley_Wood_Stick_Large_Through_Water_Splash_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\Stone_Water_Sunk\Stone_Water_Sunk		123508
+	379277942	Pot_Crash_04	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Pot\Pot_Crash_04_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash_Seq\Pot_Crash_Bl\Pot_Crash_Light\Pot_Crash_04		122300
+	381790358	Stone_Water_Splash_Heavy	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Stones\Foley_Wood_Stick_Large_Through_Water_Splash_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Water\Stone_Water_Heavy\Stone_Water_Splash_Heavy		123508
+	444766052	Pot_Crash_14	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Pot\Pot_Crash_14_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash_Seq\Pot_Crash_Bl\Pot_Crash_Heavy\Pot_Crash_14		193808
+	463468331	Pot_Crash_02	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Pot\Pot_Crash_02_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash_Seq\Pot_Crash_Bl\Pot_Crash_Light\Pot_Crash_02		126456
 	542426678	Stone_Water_Splash	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Stones\Foley_Wood_Stick_Large_Through_Water_Splash_C1CC09E3.wem		\Actor-Mixer Hierarchy\Items\Stones\Stone_Water_Splash\Stone_Water_Splash		23948
 	553390352	Stone_gravel_Light_06	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_run_06_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Gravel\Stone_Gravel_Light\Stone_gravel_Light_06		32018
 	574829474	Rock_Big_06	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Stones\Rock_Big_06_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Concrete\Stone_Concrete_Heavy\Rock_Big_06		97512
 	586896782	rock_small_02	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Stones\rock_small_02_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Concrete\Stone_Concrete_Light\rock_small_02		36732
+	600341753	Pot_Crash_03	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Pot\Pot_Crash_03_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash_Seq\Pot_Crash_Bl\Pot_Crash_Light\Pot_Crash_03		120636
 	685715923	Rock_Gravel_02	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Stones\Rock_Gravel_02_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Gravel\Stone_Gravel_Heavy\Rock_Gravel_02		117104
+	695938306	Pot_Crash_13	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Pot\Pot_Crash_13_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash_Seq\Pot_Crash_Bl\Pot_Crash_Heavy\Pot_Crash_13		237048
+	714739903	Pot_Crash_05	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Pot\Pot_Crash_05_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash_Seq\Pot_Crash_Bl\Pot_Crash_Light\Pot_Crash_05		132276
 	714983882	Stone_gravel_Light_08	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_run_08_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Gravel\Stone_Gravel_Light\Stone_gravel_Light_08		31258
 	811937125	Petank_boules_metal_ball_land_in_sand_001	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Stones\Petank_boules_metal_ball_land_in_sand_001_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Dirt\Stone_Dirt_Heavy\Petank_boules_metal_ball_land_in_sand_001		97436
 	882907017	rock_small_01	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Stones\rock_small_01_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Concrete\Stone_Concrete_Light\rock_small_01		54254
 	913330223	Petank_boules_metal_ball_land_in_sand_002	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Stones\Petank_boules_metal_ball_land_in_sand_002_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Dirt\Stone_Dirt_Heavy\Petank_boules_metal_ball_land_in_sand_002		97436
+	953859256	Pot_Crash_08	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Pot\Pot_Crash_08_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash_Seq\Pot_Crash_Bl\Pot_Crash_Light\Pot_Crash_08		145580
+	998687007	Pot_Crash_09	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Pot\Pot_Crash_09_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash_Seq\Pot_Crash_Bl\Pot_Crash_Light\Pot_Crash_09		237048
 	1019319293	Rock_Big_07	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Stones\Rock_Big_07_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Concrete\Stone_Concrete_Heavy\Rock_Big_07		66228
+	1054048143	Pot_Crash_10	G:\Unreal\Djinniya\Unreal\DemoDay424\Wwise_Prj\DjinniyasLamp424\.cache\Windows\SFX\Hits\Pot\Pot_Crash_10_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash_Seq\Pot_Crash_Bl\Pot_Crash_Heavy\Pot_Crash_10		200924
 

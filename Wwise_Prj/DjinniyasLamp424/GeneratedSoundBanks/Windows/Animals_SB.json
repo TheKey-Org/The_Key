@@ -106,19 +106,19 @@
         "Id": "156011117",
         "Language": "SFX",
         "ShortName": "Animals\\Camel\\Camel SFX_03.wav",
-        "Path": "SFX\\Animals\\Camel\\Camel SFX_03_818B5153.wem"
+        "Path": "SFX\\Animals\\Camel\\Camel SFX_03_19493AF2.wem"
        },
        {
         "Id": "195558274",
         "Language": "SFX",
         "ShortName": "Animals\\Camel\\Camello_Fast_01.wav",
-        "Path": "SFX\\Animals\\Camel\\Camello_Fast_01_849F348E.wem"
+        "Path": "SFX\\Animals\\Camel\\Camello_Fast_01_955668F1.wem"
        },
        {
         "Id": "739141379",
         "Language": "SFX",
         "ShortName": "Animals\\Camel\\Camello_Fast_01.wav",
-        "Path": "SFX\\Animals\\Camel\\Camello_Fast_01_BCA69228.wem"
+        "Path": "SFX\\Animals\\Camel\\Camello_Fast_01_7C160AF3.wem"
        }
       ]
      },
@@ -136,7 +136,7 @@
         "Id": "898613911",
         "Language": "SFX",
         "ShortName": "Animals\\Camel\\Animal_Comiendo_04.wav",
-        "Path": "SFX\\Animals\\Camel\\Animal_Comiendo_04_49C6F50A.wem"
+        "Path": "SFX\\Animals\\Camel\\Animal_Comiendo_04_F58D7DCD.wem"
        }
       ]
      },
@@ -336,121 +336,121 @@
         "Id": "87061890",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_01.wav",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_01_E1502A22.wem"
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_01_434BA07A.wem"
        },
        {
         "Id": "102218097",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_walk_16.WAV",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_walk_16_7634D681.wem"
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_walk_16_B028BFC8.wem"
        },
        {
         "Id": "180866948",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Wood\\footstep_wood_walk_03.WAV",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Wood\\footstep_wood_walk_03_9C861F67.wem"
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Wood\\footstep_wood_walk_03_AB30D29C.wem"
        },
        {
         "Id": "271628114",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Water\\footstep_water_walk_08.WAV",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Water\\footstep_water_walk_08_364E97EA.wem"
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Water\\footstep_water_walk_08_F6C8E9C5.wem"
        },
        {
         "Id": "278871662",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Concrete\\footstep_concrete_walk_13.WAV",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Concrete\\footstep_concrete_walk_13_77F97FC4.wem"
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Concrete\\footstep_concrete_walk_13_6A800606.wem"
        },
        {
         "Id": "307847640",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Wood\\footstep_wood_walk_04.WAV",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Wood\\footstep_wood_walk_04_926A6B8B.wem"
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Wood\\footstep_wood_walk_04_616EE548.wem"
        },
        {
         "Id": "495856737",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Dirt\\footstep_dirt_walk_run_07.WAV",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Dirt\\footstep_dirt_walk_run_07_8AB17496.wem"
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Dirt\\footstep_dirt_walk_run_07_45125DEC.wem"
        },
        {
         "Id": "521656326",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Dirt\\footstep_dirt_walk_run_06.WAV",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Dirt\\footstep_dirt_walk_run_06_E298762D.wem"
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Dirt\\footstep_dirt_walk_run_06_0B0D8444.wem"
        },
        {
         "Id": "535770469",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Wood\\footstep_wood_walk_09.WAV",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Wood\\footstep_wood_walk_09_0CB2FEDE.wem"
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Wood\\footstep_wood_walk_09_62876CBB.wem"
        },
        {
         "Id": "542200597",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Concrete\\footstep_concrete_walk_01.WAV",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Concrete\\footstep_concrete_walk_01_11D64B76.wem"
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Concrete\\footstep_concrete_walk_01_C6F6FAF5.wem"
        },
        {
         "Id": "563091453",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_walk_13.WAV",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_walk_13_A6ECCDF4.wem"
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_walk_13_A190D3F3.wem"
        },
        {
         "Id": "572273498",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Concrete\\footstep_concrete_walk_12.WAV",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Concrete\\footstep_concrete_walk_12_B9915488.wem"
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Concrete\\footstep_concrete_walk_12_E2445B71.wem"
        },
        {
         "Id": "610502538",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_02.wav",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_02_DDCC4049.wem"
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_02_4294C4D0.wem"
        },
        {
         "Id": "651901015",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Water\\footstep_water_walk_04.WAV",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Water\\footstep_water_walk_04_115B5431.wem"
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Water\\footstep_water_walk_04_5903975A.wem"
        },
        {
         "Id": "704894860",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_walk_14.WAV",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_walk_14_2EDC4FED.wem"
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_walk_14_D451FB16.wem"
        },
        {
         "Id": "790401776",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_walk_15.WAV",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_walk_15_72A5FB18.wem"
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_walk_15_6E063022.wem"
        },
        {
         "Id": "810714219",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_03.wav",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_03_DBF358A7.wem"
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_03_44407854.wem"
        },
        {
         "Id": "825751727",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Concrete\\footstep_concrete_walk_08.WAV",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Concrete\\footstep_concrete_walk_08_54BBA095.wem"
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Concrete\\footstep_concrete_walk_08_8CFC6517.wem"
        },
        {
         "Id": "893157134",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Water\\footstep_water_walk_05.WAV",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Water\\footstep_water_walk_05_48C8BB89.wem"
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Water\\footstep_water_walk_05_7B8740F5.wem"
        },
        {
         "Id": "1055005579",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Water\\footstep_water_walk_06.WAV",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Water\\footstep_water_walk_06_564CD09B.wem"
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Water\\footstep_water_walk_06_6B314B5F.wem"
        }
       ],
       "SwitchContainers": [
