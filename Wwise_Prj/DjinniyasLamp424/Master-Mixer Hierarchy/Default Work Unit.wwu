@@ -37,9 +37,20 @@
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 								</Bus>
-								<Bus Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}"/>
+								<Bus Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="20"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
 								<Bus Name="Animals" ID="{2BD7E8D7-6928-44ED-9229-2AD3EF55DEA8}"/>
 							</ChildrenList>
+						</Bus>
+						<Bus Name="Music" ID="{38235DD8-45A3-458A-B5DF-8E9C15B17D9E}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 						</Bus>
 					</ChildrenList>
 				</Bus>
