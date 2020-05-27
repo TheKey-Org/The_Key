@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{B1FC0A8F-5EAB-4741-9D9A-EBD323C76449}" SchemaVersion="97">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{B1FC0A8F-5EAB-4741-9D9A-EBD323C76449}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{B1FC0A8F-5EAB-4741-9D9A-EBD323C76449}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Music_State" ID="{809472B9-5C4C-456E-B088-CC1BF06DF904}">
+					<ChildrenList>
+						<State Name="None" ID="{1D2BD15D-E1C0-432E-A24D-E985571BC198}"/>
+						<State Name="Game_Intro" ID="{4AFEABD5-A75A-4627-B718-736E81F848FC}"/>
+						<State Name="Oasis_Explore" ID="{694CEB44-AFE1-4980-9FB9-102EAB8D582E}"/>
+						<State Name="Oasis_Lamp_Falling" ID="{AAD0BCB3-4C9E-4361-B632-9060020E7E49}"/>
+						<State Name="Oasis_Lamp_Explore" ID="{54454F67-B20C-4984-8CDA-6FB3EB38C858}"/>
+						<State Name="Oasis_Hechizo" ID="{8F41688E-BA92-4576-9003-06AD19E35580}"/>
+						<State Name="Oasis_Loop_Carga" ID="{EF441C93-C7D1-4FF3-A402-3E7E68F28C35}"/>
+						<State Name="Oasis_End" ID="{A14AE3B2-B246-4BE8-9F05-5F465A65F35D}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>
