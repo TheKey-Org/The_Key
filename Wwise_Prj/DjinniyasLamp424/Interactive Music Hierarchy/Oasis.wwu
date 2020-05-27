@@ -1,0 +1,1893 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{531724EE-4C44-449A-9ACF-2683394119A2}" SchemaVersion="97">
+	<InteractiveMusic>
+		<WorkUnit Name="Oasis" ID="{531724EE-4C44-449A-9ACF-2683394119A2}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicPlaylistContainer Name="PL_Lamp_To_End" ID="{2430E165-3E2A-483D-ADEF-FB3D33F61D36}" ShortID="786035985">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="170"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="Nakarada_Sandstorm_BPM170_Intro" ID="{79FC8821-3B59-4CA6-B2F0-4704223BAFCD}" ShortID="685147451">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="172886.033495429"/>
+								<Property Name="Tempo" Type="Real64" Value="170"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music" ID="{38235DD8-45A3-458A-B5DF-8E9C15B17D9E}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Nakarada_Sandstorm_BPM170" ID="{E0F83DDC-4D65-426D-ACA2-98455F8D3859}" ShortID="949835629">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Nakarada_Sandstorm_BPM170" ID="{BAA1A6D6-D6B7-4612-9D32-048C2F5A7DA2}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Oasis\Nakarada_Sandstorm_BPM170.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1056143459"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{DC7D16CE-F8AE-481A-B690-574C37F6280F}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{3392EEAA-02C1-4D50-A8FE-3349429AF0E9}">
+											<ClipList>
+												<MusicClip Name="Nakarada_Sandstorm_BPM170" ID="{08B74E2C-BD45-44F9-A24B-832D6C2ADE39}">
+													<PropertyList>
+														<Property Name="BeginTrimOffset" Type="Real64" Value="-4.54747350886464E-13"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="169411.768707483"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+														<Property Name="PlayAt" Type="Real64" Value="24.5917772760428"/>
+													</PropertyList>
+													<AudioSourceRef Name="Nakarada_Sandstorm_BPM170" ID="{BAA1A6D6-D6B7-4612-9D32-048C2F5A7DA2}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Highpass">
+															<Curve Name="" ID="{D60C28A0-BCAC-422E-A017-2EC9EA5D950D}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>169.411768707483</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Lowpass">
+															<Curve Name="" ID="{D710A67A-FA58-4CFC-A421-0734229842DC}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>169.411768707483</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{CDD6FCF3-2A86-4032-B895-790269349AB2}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>169.411768707483</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{63157D44-515A-4081-A829-9F0F93F9C27C}"/>
+								<MusicCue Name="Exit Cue" ID="{C3B5C9A1-ECFC-43F2-89A7-97844FE796EA}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="21176.4705882353"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Nakarada_Sandstorm_BPM170_Falling_Loop" ID="{C6A8A217-F218-4BEA-A281-0991EA71C812}" ShortID="70218999">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="172886.033495429"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Nakarada_Sandstorm_BPM170" ID="{835EAD7C-50AA-410D-A284-D64A63808FF8}" ShortID="1055436804">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Nakarada_Sandstorm_BPM170" ID="{879871D2-EB9A-4689-AD09-2B6D6C37EC46}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Oasis\Nakarada_Sandstorm_BPM170.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1056143459"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{A1614F9B-00F8-4064-A6A9-9D79930150BB}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{F99C5E17-C03B-4566-8AAD-53722827CD9D}">
+											<ClipList>
+												<MusicClip Name="Nakarada_Sandstorm_BPM170" ID="{D0983E1E-627C-4765-9294-C50BF6C169C5}">
+													<PropertyList>
+														<Property Name="BeginTrimOffset" Type="Real64" Value="-4.54747350886464E-13"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="169411.768707483"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+														<Property Name="PlayAt" Type="Real64" Value="24.5917772760426"/>
+													</PropertyList>
+													<AudioSourceRef Name="Nakarada_Sandstorm_BPM170" ID="{879871D2-EB9A-4689-AD09-2B6D6C37EC46}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Highpass">
+															<Curve Name="" ID="{9C11FCA1-E48F-4FD8-A595-62EE8FD48BF9}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>169.411768707483</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Lowpass">
+															<Curve Name="" ID="{20C3C801-2366-4B20-85FE-6EBFA3712CD8}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>169.411768707483</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{C067C455-C961-481C-9439-EF4284AD42E3}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>169.411768707483</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{07A0E654-A08F-485A-ADA5-5C24579F1B2E}">
+									<PropertyList>
+										<Property Name="TimeMs" Type="Real64" Value="21176.4705882353"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="Exit Cue" ID="{BCDB0A2F-7B8C-456D-A528-9E2958616400}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="29647.0588235294"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Nakarada_Sandstorm_BPM170_Loop_01" ID="{DDF7417B-1896-46BD-B437-699F3F72D2F9}" ShortID="941744715">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="170823.529411765"/>
+								<Property Name="Tempo" Type="Real64" Value="170"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Nakarada_Sandstorm_BPM170" ID="{03070E99-6A49-4F2A-A205-FA6440D6A311}" ShortID="1003975072">
+									<PropertyList>
+										<Property Name="MusicTrackType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Nakarada_Sandstorm_BPM170" ID="{23673F94-1C8B-4359-8610-371658705834}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Oasis\Nakarada_Sandstorm_BPM170.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1056143459"/>
+											</MediaIDList>
+										</AudioFileSource>
+										<AudioFileSource Name="Nakarada_Sandstorm_BPM170_01" ID="{42C058E7-597A-4B99-B7B4-F5843E04C94D}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Oasis\Nakarada_Sandstorm_BPM170.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1056143459"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{46015047-FC9D-4699-9BE7-9BFDD25430B0}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{7A79F9AB-1544-42A3-8277-DC243FEB1565}">
+											<ClipList>
+												<MusicClip Name="Nakarada_Sandstorm_BPM170" ID="{0DCD58D1-DA56-4324-9215-78B0BDE9F053}">
+													<PropertyList>
+														<Property Name="BeginTrimOffset" Type="Real64" Value="-4.54747350886464E-13"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="169411.768707483"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+														<Property Name="PlayAt" Type="Real64" Value="24.5917772760426"/>
+													</PropertyList>
+													<AudioSourceRef Name="Nakarada_Sandstorm_BPM170" ID="{23673F94-1C8B-4359-8610-371658705834}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Highpass">
+															<Curve Name="" ID="{2ADC4D62-69DA-4AA0-9A3B-BBA122CF2CC3}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>169.411768707483</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Lowpass">
+															<Curve Name="" ID="{591A22A4-DFD4-4109-B4DA-6E7AFA987636}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>169.411768707483</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{E73D6C44-DD14-405F-A6B1-5F3ECEE8C1CE}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>169.411768707483</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+										<MusicTrackSequence Name="" ID="{E1A45745-3126-435A-8034-5EB98D4635C3}">
+											<ClipList>
+												<MusicClip Name="Nakarada_Sandstorm_BPM170_01" ID="{78DAF728-22D9-4BE8-A484-30F27B25CC89}">
+													<PropertyList>
+														<Property Name="BeginTrimOffset" Type="Real64" Value="29647.0588235293"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="170823.529411764"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+														<Property Name="PlayAt" Type="Real64" Value="-16941.1764705881"/>
+													</PropertyList>
+													<AudioSourceRef Name="Nakarada_Sandstorm_BPM170_01" ID="{42C058E7-597A-4B99-B7B4-F5843E04C94D}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Highpass">
+															<Curve Name="" ID="{C7BB92A6-AF2E-4FB9-8C09-E2C3FCA91F3E}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>29.64706</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>170.82353</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Lowpass">
+															<Curve Name="" ID="{C923E878-D840-4276-B8E7-04D417AF9EB5}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>29.64706</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>170.82353</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{2B4D446F-4D44-46C3-9ED6-4F4AD0FE2FDE}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>29.64706</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>170.82353</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{20E7AFA0-6864-4A93-9834-BC3250275D85}">
+									<PropertyList>
+										<Property Name="TimeMs" Type="Real64" Value="29647.0588235294"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="Exit Cue" ID="{B6E72F19-CA84-4F6E-8656-5F4464DECF35}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="46588.2352941177"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+						<MusicSegment Name="Nakarada_Sandstorm_BPM170_Loop_02" ID="{2567443F-7838-40EA-9B33-D8C87EB397CA}" ShortID="1007524401">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="172886.033495429"/>
+								<Property Name="Tempo" Type="Real64" Value="170"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Nakarada_Sandstorm_BPM170" ID="{4AD846F0-30E9-44AA-92B1-BD0F22474FBF}" ShortID="377000961">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Nakarada_Sandstorm_BPM170" ID="{DA589ADE-2A6D-4A45-BF16-E2AA1D2825CF}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Oasis\Nakarada_Sandstorm_BPM170.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1056143459"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{43537E03-B197-4992-970E-5D8C8C9EE6DD}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{9DF028AC-A6D8-4ADE-A153-139FD084DF34}">
+											<ClipList>
+												<MusicClip Name="Nakarada_Sandstorm_BPM170" ID="{A8C7B98E-CA7D-4C5C-BAD3-8F3AB8414733}">
+													<PropertyList>
+														<Property Name="BeginTrimOffset" Type="Real64" Value="-4.54747350886464E-13"/>
+														<Property Name="EndTrimOffset" Type="Real64" Value="169411.768707483"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+														<Property Name="PlayAt" Type="Real64" Value="24.5917772760426"/>
+													</PropertyList>
+													<AudioSourceRef Name="Nakarada_Sandstorm_BPM170" ID="{DA589ADE-2A6D-4A45-BF16-E2AA1D2825CF}"/>
+													<PropertyCurveList>
+														<PropertyCurve PropertyName="Highpass">
+															<Curve Name="" ID="{49A0D97C-AA88-4ABD-ADEA-330ED0FAE715}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>169.411768707483</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Lowpass">
+															<Curve Name="" ID="{687BA371-B4C3-4A1F-9E31-C19CBF1C13AE}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="1"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>169.411768707483</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+														<PropertyCurve PropertyName="Volume">
+															<Curve Name="" ID="{1708FE0C-4EE5-42C9-95EF-E5E2B7CECFF9}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>-0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>169.411768707483</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</PropertyCurve>
+													</PropertyCurveList>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{3C08F7AA-6FFF-4220-AE6D-0E4ED4FCE8A2}">
+									<PropertyList>
+										<Property Name="TimeMs" Type="Real64" Value="46235.2941176471"/>
+									</PropertyList>
+								</MusicCue>
+								<MusicCue Name="Exit Cue" ID="{F205D353-4708-46FD-9873-9DD474EFE8F5}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="63176.4705882353"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{75B25EF2-D4D2-4024-B6AD-AEA66EB75FF6}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{86474DEE-AD0E-4A98-B5A9-74B9CD803C05}">
+									<PropertyList>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{E2733E50-A2F9-4172-B106-31A050476358}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="6"/>
+													<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{4837670E-6CBE-44BF-A92D-06FA44131F35}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="6"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{FC6597BD-588C-44E8-B282-DEC61DA4F3F3}" ShortID="514154208">
+							<PropertyList>
+								<Property Name="PlayMode" Type="int16" Value="1"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicPlaylistItem Name="" ID="{2E1BA757-505A-444A-AB0A-98E2558EBE0D}" ShortID="840545490"/>
+								<MusicPlaylistItem Name="" ID="{89F203A2-6AA5-41F0-BB9F-97F9C936AB07}" ShortID="156014549">
+									<PropertyList>
+										<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="2"/>
+									</PropertyList>
+								</MusicPlaylistItem>
+							</ChildrenList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="Lamp" ID="{7B75A027-B05A-4A54-BC25-442AF797B8C1}" ShortID="645225639">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+						</Reference>
+					</ReferenceList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{FD272E66-9B9C-4AB8-915D-1EA0EBDFC551}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{89DE9A7D-6DAF-48A3-95D8-36287AFEB209}">
+									<PropertyList>
+										<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="3"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="Nakarada_Sandstorm_BPM170_Loop_01" ID="{DDF7417B-1896-46BD-B437-699F3F72D2F9}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
+									</TransitionInfo>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<Playlist>
+						<MusicPlaylistItem Name="" ID="{ED92AB08-8A63-432C-BE32-B95EE03706FD}" ShortID="418105864">
+							<PropertyList>
+								<Property Name="LoopCount" Type="int16" Value="0"/>
+							</PropertyList>
+						</MusicPlaylistItem>
+					</Playlist>
+				</MusicPlaylistContainer>
+				<MusicSwitchContainer Name="Music_Global" ID="{674D92D1-2A14-4D4C-B11B-B4ADFDBBD114}" ShortID="556854975">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="24"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{38235DD8-45A3-458A-B5DF-8E9C15B17D9E}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="Mus_Oasis_Explore" ID="{B9372790-891C-4283-B0CF-4BE7D81D4F92}" ShortID="615325172">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="ethnic_desert_BPM78" ID="{1E13928F-A97F-4317-A56E-8A8D795DAB1E}" ShortID="699432440">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="61538.4807256236"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="78"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="ethnic-desert" ID="{AB16BFEF-408A-485F-AD7C-84605256915B}" ShortID="377947132">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ethnic-desert" ID="{5D93E52E-6106-4045-AAB9-355A527EA8E7}">
+													<Language>SFX</Language>
+													<AudioFile>Music\Oasis\ethnic-desert.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="463486663"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{61698AE0-3622-484F-A672-F78B9732AD5C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{C59A1AC4-B765-466E-BA5B-99202E500C3E}">
+													<ClipList>
+														<MusicClip Name="ethnic-desert" ID="{5C156086-BAD7-4F48-8536-1528C0FEEC7C}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="61538.4807256236"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="ethnic-desert" ID="{5D93E52E-6106-4045-AAB9-355A527EA8E7}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{FC8E89A1-F14A-4F17-A648-F63BFAA3B720}"/>
+										<MusicCue Name="Exit Cue" ID="{9A31E1DA-73CE-4519-B516-FE5DDEF95E81}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="61538.4807256236"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{A016B327-A378-4379-B877-FA1351EDF32A}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{506AEBEC-3410-41E6-8C3E-AAEC9986AFFA}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{F2285940-DE69-470D-BFFD-ADBECA3C613A}" ShortID="407784682">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{4DD1AC79-B269-4DC3-A8DA-85313B503106}" ShortID="543556984">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="ethnic_desert_BPM78" ID="{1E13928F-A97F-4317-A56E-8A8D795DAB1E}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Mus_Inicio_Start" ID="{26C071D1-C289-4B07-9BB3-7031AD74DBD5}" ShortID="430937014">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music" ID="{38235DD8-45A3-458A-B5DF-8E9C15B17D9E}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="eastern_sky_BPM59" ID="{C46270C8-350D-4ADD-AACA-D0E518A0B941}" ShortID="1061152855">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="109830.544217687"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="59"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="eastern-sky" ID="{C999E493-F1F9-433C-91FB-4C37AD0FD57B}" ShortID="510908860">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="eastern-sky" ID="{33931860-A70D-42BA-B692-38BA25B1A074}">
+													<Language>SFX</Language>
+													<AudioFile>Music\Oasis\eastern-sky.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="995779758"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D5B75246-530B-4E65-88E5-0FB4EC6D9ED9}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{C63B85F5-26B6-4E9A-83B6-B096A9AD68C2}">
+													<ClipList>
+														<MusicClip Name="eastern-sky" ID="{19EC4F5D-D467-4D34-A89C-7405C5DCF86C}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="109830.544217687"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="eastern-sky" ID="{33931860-A70D-42BA-B692-38BA25B1A074}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{4C2E88C6-71AA-41F0-BE0C-3C4C79552866}"/>
+										<MusicCue Name="Exit Cue" ID="{B7BD7986-796C-41A8-86A2-D2ABAC50BE5F}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="36610.1694915254"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{2DB59A79-AEB1-4F85-BE00-51937489E985}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{B023EEE6-ADED-46CE-8C79-B925F316EE07}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{A107744B-7A8D-4DBD-8040-10FAD80DD6DF}" ShortID="38118670">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{4D8B0BE7-DC61-4E77-AAD4-0822F9AC3924}" ShortID="132012507">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="eastern_sky_BPM59" ID="{C46270C8-350D-4ADD-AACA-D0E518A0B941}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Mus_Hechizo_GNoche" ID="{30472C74-F945-4B65-ACFC-45E593226991}" ShortID="35726593">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music" ID="{38235DD8-45A3-458A-B5DF-8E9C15B17D9E}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Nakarada_Sandstorm_BPM170_Loop_01" ID="{1E0CAEBD-A7BF-4BB6-BDA6-E1A36531657B}" ShortID="936430174">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="170823.529411765"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="170"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Nakarada_Sandstorm_BPM170" ID="{6BEE2A13-9B53-43B8-AEC9-6C563591FE94}" ShortID="370055431">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Nakarada_Sandstorm_BPM170" ID="{FDDAC0A2-0A02-48EC-9416-20F11A8B815B}">
+													<Language>SFX</Language>
+													<AudioFile>Music\Oasis\Nakarada_Sandstorm_BPM170.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1056143459"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{1FFDFF9E-EC04-4BCE-94FD-63078137DA60}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{7FD5746D-03E2-4D24-8137-B10D43C5684D}">
+													<ClipList>
+														<MusicClip Name="Nakarada_Sandstorm_BPM170" ID="{C0E58889-C94B-4639-A4B8-14CA01787559}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="-4.54747350886464E-13"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="169411.768707483"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="24.5917772760426"/>
+															</PropertyList>
+															<AudioSourceRef Name="Nakarada_Sandstorm_BPM170" ID="{FDDAC0A2-0A02-48EC-9416-20F11A8B815B}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{4CE3ED05-EFA5-4869-8303-96C5CBC385D3}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>169.411768707483</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{D0C4AB73-1508-4CD3-BEC7-AA8881CC0031}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>169.411768707483</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{53C18825-9335-4DE8-98D4-978E777283C9}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>169.411768707483</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{A6696CB3-7DC5-4C61-BFEC-C3331866AF46}"/>
+										<MusicCue Name="Exit Cue" ID="{4E7DE368-9AB5-4655-931A-E4D458F83932}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="29647.0588235294"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{6F2B0467-0ACF-43CA-9B3D-E5B25DE76D96}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{719CECFD-19D5-4A41-A423-7C1C3920A00D}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{25A17E23-B51B-4227-B2D5-44A256E7CEA4}" ShortID="133536791">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{FC8DB0A2-668B-46CF-82F0-572A63159198}" ShortID="492824912">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Nakarada_Sandstorm_BPM170_Loop_01" ID="{1E0CAEBD-A7BF-4BB6-BDA6-E1A36531657B}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Mus_Lamp_Explore" ID="{0DE02517-2294-4089-BA4E-CC74F6550BAD}" ShortID="726265765">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music" ID="{38235DD8-45A3-458A-B5DF-8E9C15B17D9E}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="desert_illusion_nonloop_2m14s_BPM70" ID="{429EBBA8-AE7C-4FB4-9905-67A008480BB4}" ShortID="565188243">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="134464.761904762"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="70"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="desert-illusion-nonloop-2m14s" ID="{01D31491-3A68-4550-B27B-5B54E1A3926D}" ShortID="914912713">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="desert-illusion-nonloop-2m14s" ID="{51DB9EED-7CA5-4999-94CF-D0C58F1A8521}">
+													<Language>SFX</Language>
+													<AudioFile>Music\Oasis\desert-illusion-nonloop-2m14s.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="284430928"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C91B7C5F-65C1-4AAE-800D-E796B2B6E670}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{5ADAA212-81B9-4CA1-BE48-05286185F88A}">
+													<ClipList>
+														<MusicClip Name="desert-illusion-nonloop-2m14s" ID="{81A79A41-21A8-4568-924C-4E56A1FF3C69}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="134464.761904762"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="desert-illusion-nonloop-2m14s" ID="{51DB9EED-7CA5-4999-94CF-D0C58F1A8521}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{ECC0AD53-2A7B-4155-85C0-1BB1849914F5}"/>
+										<MusicCue Name="Exit Cue" ID="{A02C2C6F-8EF3-495A-9594-829EC3E616CB}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="72000"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="desert_illusion_BPM70" ID="{57B4ED65-9E25-446F-9DFD-FC506B32F6F0}" ShortID="66450020">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="120000.022675737"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="70"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="desert-illusion" ID="{944F6285-BE54-4AFD-A8F4-34FA47925BA9}" ShortID="231459834">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="desert-illusion" ID="{7F0EDE9E-86C6-4133-AAA3-77B9C396485E}">
+													<Language>SFX</Language>
+													<AudioFile>Music\Oasis\desert-illusion.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="83519803"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{DD5F353E-F1C9-4439-A33F-9339B1FD5D4C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{FE8D99E5-3FE3-4D28-99C5-D54B51154CBF}">
+													<ClipList>
+														<MusicClip Name="desert-illusion" ID="{5406B58B-4018-4C5A-B8D7-8859DEA334E3}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="120000.022675737"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="desert-illusion" ID="{7F0EDE9E-86C6-4133-AAA3-77B9C396485E}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{D8C293EA-1466-4CDC-B51D-E60D059E2D54}"/>
+										<MusicCue Name="Exit Cue" ID="{A01675AC-66B2-4EDB-B148-5823930AE89F}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="68571.4285714286"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{8F036748-2F72-4588-B72E-5913C6070CCC}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{5480C275-C0E0-4D59-884E-8E1721468153}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{74039ED0-2B03-4AF8-9646-18F592EA949A}" ShortID="471375321">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{C12C42DE-C3DF-45B3-9894-07A0D068A737}" ShortID="332977145">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="desert_illusion_BPM70" ID="{57B4ED65-9E25-446F-9DFD-FC506B32F6F0}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{CA42C0E0-DF77-4819-B70C-81BBDCF410BD}" ShortID="1024463182">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="desert_illusion_nonloop_2m14s_BPM70" ID="{429EBBA8-AE7C-4FB4-9905-67A008480BB4}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Mus_Lamp_Falling" ID="{B1EECC71-F987-40A8-AD43-E58418F3FB2F}" ShortID="631954561">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music" ID="{38235DD8-45A3-458A-B5DF-8E9C15B17D9E}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="eastern_sky_BPM59" ID="{16B27218-62A4-4F83-B644-C2FF1BDDC2C6}" ShortID="68456803">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="109830.544217687"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="59"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music" ID="{38235DD8-45A3-458A-B5DF-8E9C15B17D9E}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="eastern-sky" ID="{14B8E330-8871-44D9-AD75-15BD77C36388}" ShortID="216576945">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="eastern-sky" ID="{DD673D42-143A-4593-8BA6-D401F1416F67}">
+													<Language>SFX</Language>
+													<AudioFile>Music\Oasis\eastern-sky.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="995779758"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{C7926618-8618-44BA-9443-A3A9642ADACC}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{36A8D77F-CF6A-4572-AF11-3DE4D4BD1D50}">
+													<ClipList>
+														<MusicClip Name="eastern-sky" ID="{24EBE10B-2A3C-4BBE-9099-CF79F80FCA7F}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="109830.544217687"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="eastern-sky" ID="{DD673D42-143A-4593-8BA6-D401F1416F67}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{987B7A5D-C79E-4A93-8425-1CF7494BE946}">
+											<PropertyList>
+												<Property Name="TimeMs" Type="Real64" Value="40677.9661016949"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="Exit Cue" ID="{64FF9CFE-09E6-4756-9317-5E4BCE9DC2A7}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="97627.1186440678"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{8A6A9122-D172-4095-B41C-1B0C92ACD853}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{702A584A-926D-48AF-92BB-3B9E9385AFCC}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{B19B816F-938F-4738-8E97-1CAE99AE1C6C}" ShortID="942704200">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{6EA0756A-0F50-45BC-8162-25EB5C6321D4}" ShortID="140782544">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="eastern_sky_BPM59" ID="{16B27218-62A4-4F83-B644-C2FF1BDDC2C6}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Mus_Trans" ID="{62DF6089-3A0D-414C-810F-6BC77DCC6E3A}" ShortID="822162274">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music" ID="{38235DD8-45A3-458A-B5DF-8E9C15B17D9E}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{8352B38A-7BED-40F5-B62E-D6030FA7114D}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{91F411A2-653B-47E7-80EA-AB01B04809A2}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{FE60CDDE-6D1D-4A28-94EC-D5CB86FDEBD0}" ShortID="519448813"/>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Mus_Oasis_End" ID="{14F97C39-BA88-4E0A-9C01-5168CB1868CB}" ShortID="399479337">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music" ID="{38235DD8-45A3-458A-B5DF-8E9C15B17D9E}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Nakarada_Sandstorm_BPM170_Loop_01" ID="{DA0C8CB0-51D9-41D4-81B0-E8BF5B8B9EB4}" ShortID="445816784">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="170823.529411765"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="170"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Nakarada_Sandstorm_BPM170" ID="{E2390B8C-99ED-40FB-AAD0-47B80C991464}" ShortID="530607385">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Nakarada_Sandstorm_BPM170" ID="{3D181A83-D54D-410D-A0BB-EEDE0B608BF3}">
+													<Language>SFX</Language>
+													<AudioFile>Music\Oasis\Nakarada_Sandstorm_BPM170.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1056143459"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{73707D00-AE03-4593-8767-A2FADAABA4D3}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{D9E6E23E-4258-4CE2-B9FD-938AD5D8A12A}">
+													<ClipList>
+														<MusicClip Name="Nakarada_Sandstorm_BPM170" ID="{3B7C62BA-C4F2-4A0C-90A3-777856EC6BC3}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="-4.54747350886464E-13"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="169411.768707483"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="24.5917772760426"/>
+															</PropertyList>
+															<AudioSourceRef Name="Nakarada_Sandstorm_BPM170" ID="{3D181A83-D54D-410D-A0BB-EEDE0B608BF3}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{6B72A3E3-40D3-45F6-B07B-11A9467D66A4}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>169.411768707483</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{AAA3F336-71CF-43DC-9D09-D0DAF337E307}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>169.411768707483</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{A6C89004-7551-4CE2-8EC3-2BAAB52B2550}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>169.411768707483</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{2D3EDE8C-B440-45F2-AFA3-3A072796CE0E}"/>
+										<MusicCue Name="Exit Cue" ID="{734D9A80-E130-4DC6-B679-C39EB3BD54B0}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="29647.0588235294"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{3C24B306-11C5-4067-B776-44D249A19863}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{01BEA033-0CB9-4889-975C-832D1D13BA54}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{A73322CC-1A98-4527-B09C-C21173624F12}" ShortID="1047194664">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{62855009-D724-4D8B-835F-4E19CFAC9421}" ShortID="628651269">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Nakarada_Sandstorm_BPM170_Loop_01" ID="{DA0C8CB0-51D9-41D4-81B0-E8BF5B8B9EB4}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Mus_Oasis_Carga" ID="{2C87B2BF-3599-449A-B9C5-ACECD266B283}" ShortID="252729926">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music" ID="{38235DD8-45A3-458A-B5DF-8E9C15B17D9E}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Nakarada_Sandstorm_BPM170_Loop_01" ID="{B4C56296-8EFA-4B93-ABA5-711999BCBA63}" ShortID="12269916">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="170823.529411765"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="170"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Nakarada_Sandstorm_BPM170" ID="{A520144B-BC81-4192-8C7A-CE5DFE1D785C}" ShortID="831549958">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Nakarada_Sandstorm_BPM170" ID="{A5D40EBE-5F72-408E-9CE7-24B939C96DD7}">
+													<Language>SFX</Language>
+													<AudioFile>Music\Oasis\Nakarada_Sandstorm_BPM170.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1056143459"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D6A9401D-FBDB-43A3-B76D-238CFEA1D3EB}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{87EB084B-6094-4E55-9943-9245775836C9}">
+													<ClipList>
+														<MusicClip Name="Nakarada_Sandstorm_BPM170" ID="{8BCB3A64-1886-45AF-BD1A-1C5C84DA42E3}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="-4.54747350886464E-13"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="169411.768707483"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																<Property Name="PlayAt" Type="Real64" Value="24.5917772760426"/>
+															</PropertyList>
+															<AudioSourceRef Name="Nakarada_Sandstorm_BPM170" ID="{A5D40EBE-5F72-408E-9CE7-24B939C96DD7}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{FC43B3BF-ED38-4F07-A897-66B0A4932555}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>169.411768707483</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{02DE5719-02D0-4AB2-AA00-09ED71A1170A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>169.411768707483</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{80D2780A-6E7A-4134-BA16-29BB6AA678D1}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>-0</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>169.411768707483</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{5D05C65F-3311-4F41-8FCE-F72A91431CBA}"/>
+										<MusicCue Name="Exit Cue" ID="{1DB6C5EC-9594-4D3C-91EA-34B4D6751B08}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="29647.0588235294"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{8AB5785D-50D4-464E-80F3-16A4677104F7}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{17DE43AA-3CFF-419C-85B9-3F7B2F6801F5}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{2A1704C7-0175-42DD-BFB3-E2196A869338}" ShortID="629769481">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{229A208F-E76F-4AFA-AA4F-386B6AED1775}" ShortID="21154717">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Nakarada_Sandstorm_BPM170_Loop_01" ID="{B4C56296-8EFA-4B93-ABA5-711999BCBA63}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{AC831ECB-E9E8-4772-88B6-AFE429552857}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{B318E170-6883-4BBC-B4B0-601C83E95165}">
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{5F41622F-24E4-42B3-86AC-7EFA5737EE49}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Mus_Oasis_Explore" ID="{B9372790-891C-4283-B0CF-4BE7D81D4F92}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Mus_Inicio_Start" ID="{26C071D1-C289-4B07-9BB3-7031AD74DBD5}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{051E7D8A-F486-4B76-898A-75C031623A38}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="6"/>
+													<Property Name="FadeOffset" Type="Real64" Value="1"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{92AD6436-BFBD-4454-9987-08E8EB6C5BA7}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="6"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{0F10EE4B-A871-4543-B850-2FA8A499916F}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="0"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Mus_Lamp_Falling" ID="{B1EECC71-F987-40A8-AD43-E58418F3FB2F}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Mus_Oasis_Explore" ID="{B9372790-891C-4283-B0CF-4BE7D81D4F92}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{F0ECC8C3-26A7-43D5-A084-58145EF10D62}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="6"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{B20EEB46-86E0-429A-942A-B332FB3B45F8}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Mus_Lamp_Explore" ID="{0DE02517-2294-4089-BA4E-CC74F6550BAD}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Mus_Lamp_Falling" ID="{B1EECC71-F987-40A8-AD43-E58418F3FB2F}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{FA938283-1BE7-4600-8C41-07198A0AB713}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Mus_Hechizo_GNoche" ID="{30472C74-F945-4B65-ACFC-45E593226991}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Mus_Lamp_Explore" ID="{0DE02517-2294-4089-BA4E-CC74F6550BAD}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ArgumentList>
+						<ArgumentRef Name="Music_State" ID="{809472B9-5C4C-456E-B088-CC1BF06DF904}"/>
+					</ArgumentList>
+					<EntryList>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Oasis_Loop_Carga" ID="{EF441C93-C7D1-4FF3-A402-3E7E68F28C35}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Mus_Oasis_Carga" ID="{2C87B2BF-3599-449A-B9C5-ACECD266B283}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Oasis_Hechizo" ID="{8F41688E-BA92-4576-9003-06AD19E35580}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Mus_Hechizo_GNoche" ID="{30472C74-F945-4B65-ACFC-45E593226991}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Oasis_End" ID="{A14AE3B2-B246-4BE8-9F05-5F465A65F35D}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Mus_Oasis_End" ID="{14F97C39-BA88-4E0A-9C01-5168CB1868CB}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Oasis_Lamp_Explore" ID="{54454F67-B20C-4984-8CDA-6FB3EB38C858}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Mus_Lamp_Explore" ID="{0DE02517-2294-4089-BA4E-CC74F6550BAD}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="None" ID="{1D2BD15D-E1C0-432E-A24D-E985571BC198}"/>
+							</Path>
+							<AudioNodeInfo>
+								<NoObject Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Oasis_Lamp_Falling" ID="{AAD0BCB3-4C9E-4361-B632-9060020E7E49}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Mus_Lamp_Falling" ID="{B1EECC71-F987-40A8-AD43-E58418F3FB2F}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Music_State" ID="{809472B9-5C4C-456E-B088-CC1BF06DF904}"/>
+							</Path>
+							<AudioNodeInfo>
+								<NoObject Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Game_Intro" ID="{4AFEABD5-A75A-4627-B718-736E81F848FC}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Mus_Inicio_Start" ID="{26C071D1-C289-4B07-9BB3-7031AD74DBD5}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Oasis_Explore" ID="{694CEB44-AFE1-4980-9FB9-102EAB8D582E}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Mus_Oasis_Explore" ID="{B9372790-891C-4283-B0CF-4BE7D81D4F92}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+					</EntryList>
+				</MusicSwitchContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>
