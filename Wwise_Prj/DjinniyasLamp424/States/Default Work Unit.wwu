@@ -9,10 +9,11 @@
 						<State Name="Game_Intro" ID="{4AFEABD5-A75A-4627-B718-736E81F848FC}"/>
 						<State Name="Oasis_Explore" ID="{694CEB44-AFE1-4980-9FB9-102EAB8D582E}"/>
 						<State Name="Oasis_Lamp_Falling" ID="{AAD0BCB3-4C9E-4361-B632-9060020E7E49}"/>
-						<State Name="Oasis_Lamp_Explore" ID="{54454F67-B20C-4984-8CDA-6FB3EB38C858}"/>
-						<State Name="Oasis_Hechizo" ID="{8F41688E-BA92-4576-9003-06AD19E35580}"/>
+						<State Name="Oasis_Lamp_Explore_Before" ID="{54454F67-B20C-4984-8CDA-6FB3EB38C858}"/>
+						<State Name="Oasis_Hechizo_Genio_Intro" ID="{8F41688E-BA92-4576-9003-06AD19E35580}"/>
 						<State Name="Oasis_Loop_Carga" ID="{EF441C93-C7D1-4FF3-A402-3E7E68F28C35}"/>
 						<State Name="Oasis_End" ID="{A14AE3B2-B246-4BE8-9F05-5F465A65F35D}"/>
+						<State Name="Oasis_Lamp_Explore_After" ID="{05CE3FFF-8210-4122-B5D5-4417E7AAB0E8}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
