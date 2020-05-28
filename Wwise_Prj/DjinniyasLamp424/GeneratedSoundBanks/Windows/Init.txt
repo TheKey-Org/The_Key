@@ -1,3 +1,17 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3826569560	Music_State			\Default Work Unit\Music_State	
+
+State	ID	Name	State Group			Notes
+	367652321	Oasis_Lamp_Falling	Music_State			
+	387455016	Game_Intro	Music_State			
+	748895195	None	Music_State			
+	2537447348	Oasis_Explore	Music_State			
+	2629534193	Oasis_Hechizo_Genio_Intro	Music_State			
+	3516027742	Oasis_Loop_Carga	Music_State			
+	3752164021	Oasis_Lamp_Explore_Before	Music_State			
+	3856180046	Oasis_End	Music_State			
+	4233992298	Oasis_Lamp_Explore_After	Music_State			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
