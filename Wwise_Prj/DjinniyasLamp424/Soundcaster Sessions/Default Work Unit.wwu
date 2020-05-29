@@ -33,7 +33,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Game_Intro" ID="{4AFEABD5-A75A-4627-B718-736E81F848FC}"/>
+						<CurrentStateRef Name="Oasis_Lamp_Explore_Before" ID="{54454F67-B20C-4984-8CDA-6FB3EB38C858}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="PM_Concrete" ID="{FF2B32AE-D42E-49BD-BA21-73CAE860422D}"/>
