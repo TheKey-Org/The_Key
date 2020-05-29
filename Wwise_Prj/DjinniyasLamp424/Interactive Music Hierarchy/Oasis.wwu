@@ -3172,6 +3172,111 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Mus_Inicio_Level" ID="{439D58AA-82AB-4629-8070-53C940E3BFE4}" ShortID="29011812">
+							<PropertyList>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="78"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Oasis_Inicio_Level_BPM78_4-4_L20-P0" ID="{F7B123EF-F2FB-40AB-A07D-F64474EB0181}" ShortID="312477080">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="61538.4807256236"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="78"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Music" ID="{38235DD8-45A3-458A-B5DF-8E9C15B17D9E}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Oasis_Inicio_Level_BPM78_4-4_L20-P0" ID="{9D0EE1BA-57D9-4A8E-80B9-79BDD6526B55}" ShortID="452128051">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Oasis_Inicio_Level_BPM78_4-4_L20-P0" ID="{9622B0F2-88B4-40A3-93FA-E6E37C81DFDD}">
+													<Language>SFX</Language>
+													<AudioFile>Music\Oasis\Oasis_Inicio_Level_BPM78_4-4_L20-P0.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="288138847"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{636FBB6F-69EE-4B18-BE66-61FD081877C2}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{3612E23B-037A-4BCD-BCF3-F9E818EBEAC1}">
+													<ClipList>
+														<MusicClip Name="Oasis_Inicio_Level_BPM78_4-4_L20-P0" ID="{46A28A31-8B9F-45BB-A842-C10E4C286852}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="61538.4807256236"/>
+																<Property Name="FadeInMode" Type="int16" Value="0"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Oasis_Inicio_Level_BPM78_4-4_L20-P0" ID="{9622B0F2-88B4-40A3-93FA-E6E37C81DFDD}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{DD07989A-65ED-4439-9B8C-AE9F57E6CFD5}"/>
+										<MusicCue Name="Exit Cue" ID="{0866A4AA-5E0E-45B4-8B61-899A4AB6704C}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="61538.4807256236"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{C83E5D71-6960-4A91-8401-8AAFE8F6BDC5}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{DF42DA67-829C-48E8-8FE1-ED381EA185C6}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{9E95E83F-8EE0-4B7A-A7FF-77F039A6F1A1}" ShortID="356086781">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{40D1BFF0-FD7E-4CD6-BF2B-4921C9F2CC61}" ShortID="283872461">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Oasis_Inicio_Level_BPM78_4-4_L20-P0" ID="{F7B123EF-F2FB-40AB-A07D-F64474EB0181}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
 					</ChildrenList>
 					<StateInfo>
 						<StateGroupList>
@@ -3211,6 +3316,10 @@
 							<CustomState>
 								<StateRef Name="Oasis_End" ID="{A14AE3B2-B246-4BE8-9F05-5F465A65F35D}"/>
 								<CustomState Name="" ID="{3B2B6516-E845-4EA9-8E0C-F1FA454AAE85}" ShortID="106243608"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Oasis_Start" ID="{83E024E3-721C-4C30-9E59-E6FE31647623}"/>
+								<CustomState Name="" ID="{A708A74B-C75A-40D4-AEC4-A99EA1589D6D}" ShortID="109679252"/>
 							</CustomState>
 							<CustomState>
 								<StateRef Name="Oasis_Loop_Carga" ID="{EF441C93-C7D1-4FF3-A402-3E7E68F28C35}"/>
@@ -3990,11 +4099,36 @@
 										<TransitionObjectRef Name="Stinger_01_BPM59_4-4_L1-P0" ID="{43E14EC5-FE83-4339-87A5-B277B77067A8}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
 									</TransitionInfo>
 								</MusicTransition>
-								<MusicTransition Name="Transition" ID="{5F41622F-24E4-42B3-86AC-7EFA5737EE49}">
+								<MusicTransition Name="Transition" ID="{540330B5-1E9A-4E7A-850B-A69271DE7B22}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableTransitionFadeIn" Type="bool" Value="True"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Mus_Inicio_Level" ID="{439D58AA-82AB-4629-8070-53C940E3BFE4}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Mus_Inicio_Start_1" ID="{26C071D1-C289-4B07-9BB3-7031AD74DBD5}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="Stinger_01_BPM59_4-4_L1-P0" ID="{43E14EC5-FE83-4339-87A5-B277B77067A8}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
+										<TransitionFadeIn>
+											<MusicFade Name="Transition Fade-in" ID="{E2468381-97A5-4120-9E20-72EDE3013F32}">
+												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</TransitionFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{818FFCB9-F9F2-4AFF-946E-0E92D90AD35C}">
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
 										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
-										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
 										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
 									</PropertyList>
@@ -4003,26 +4137,15 @@
 											<ObjectRef Name="Mus_Lamp_Falling_2" ID="{B1EECC71-F987-40A8-AD43-E58418F3FB2F}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
 										</Reference>
 										<Reference Name="SourceContextObject">
-											<ObjectRef Name="Mus_Inicio_Start_1" ID="{26C071D1-C289-4B07-9BB3-7031AD74DBD5}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
+											<ObjectRef Name="Mus_Inicio_Level" ID="{439D58AA-82AB-4629-8070-53C940E3BFE4}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
 										</Reference>
 									</ReferenceList>
 									<TransitionInfo>
 										<TransitionObjectRef Name="Stinger_01_BPM59_4-4_L1-P0" ID="{43E14EC5-FE83-4339-87A5-B277B77067A8}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
-										<SourceFadeOut>
-											<MusicFade Name="Source Fade-out" ID="{051E7D8A-F486-4B76-898A-75C031623A38}">
-												<PropertyList>
-													<Property Name="FadeCurve" Type="int16" Value="6"/>
-													<Property Name="FadeOffset" Type="Real64" Value="1"/>
-													<Property Name="FadeTime" Type="Real64" Value="1"/>
-													<Property Name="FadeType" Type="int16" Value="1"/>
-												</PropertyList>
-											</MusicFade>
-										</SourceFadeOut>
 										<DestinationFadeIn>
-											<MusicFade Name="Destination Fade-in" ID="{92AD6436-BFBD-4454-9987-08E8EB6C5BA7}">
+											<MusicFade Name="Destination Fade-in" ID="{2BC14840-5D3D-40F5-8991-943BF7C6DFEC}">
 												<PropertyList>
-													<Property Name="FadeCurve" Type="int16" Value="6"/>
-													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
 													<Property Name="FadeTime" Type="Real64" Value="1"/>
 												</PropertyList>
 											</MusicFade>
@@ -4306,6 +4429,14 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Mus_Oasis_Carga_06" ID="{2C87B2BF-3599-449A-B9C5-ACECD266B283}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Oasis_Start" ID="{83E024E3-721C-4C30-9E59-E6FE31647623}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Mus_Inicio_Level" ID="{439D58AA-82AB-4629-8070-53C940E3BFE4}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
