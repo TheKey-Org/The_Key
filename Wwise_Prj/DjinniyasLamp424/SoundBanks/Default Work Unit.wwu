@@ -49,7 +49,7 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
-				<SoundBank Name="Music_SB" ID="{F1D69725-F323-4CF0-BDB9-25253A62AF25}">
+				<SoundBank Name="Music_SB" ID="{AAE8037B-803A-4752-928E-36F7F6ABC0E5}">
 					<ObjectInclusionList>
 						<ObjectRef Name="Music" ID="{69BDB25A-18ED-4E73-ACBD-ECA37AFCC683}" WorkUnitID="{69BDB25A-18ED-4E73-ACBD-ECA37AFCC683}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

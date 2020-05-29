@@ -14,11 +14,335 @@
   "SoundBanks": [
    {
     "Id": "2996874622",
-    "GUID": "{F1D69725-F323-4CF0-BDB9-25253A62AF25}",
+    "GUID": "{AAE8037B-803A-4752-928E-36F7F6ABC0E5}",
     "Language": "SFX",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Music_SB",
     "ShortName": "Music_SB",
-    "Path": "Music_SB.bnk"
+    "Path": "Music_SB.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2470650927",
+      "Name": "Mus_Lvl_Oasis",
+      "ObjectPath": "\\Events\\Music\\Mus_Lvl_Oasis",
+      "GUID": "{5C0FED54-9613-4AAD-83C6-4F17213CB4BF}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "22279220",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Hechizo_Intro_BPM170_3-4_L20-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Hechizo_Intro_BPM170_3-4_L20-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "128720109",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Hechizo_Explore_A_Loop2_BPM170_3-4_L16-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Hechizo_Explore_A_Loop2_BPM170_3-4_L16-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "162566354",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Hechizo_Explore_B_Loop2_BPM170_3-4_L16-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Hechizo_Explore_B_Loop2_BPM170_3-4_L16-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "337585568",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Oasis_Lamp_Explore_B_Loop_02_BPM70_4-4_L4-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Oasis_Lamp_Explore_B_Loop_02_BPM70_4-4_L4-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "377702378",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Oasis_Lamp_Explore_AB_Transition_BPM70_4-4_L1-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Oasis_Lamp_Explore_AB_Transition_BPM70_4-4_L1-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "402921264",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Stinger_02_BPM70_4-4_L2-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Stinger_02_BPM70_4-4_L2-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "446675719",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Hechizo_Explore_Transition_Loop1_BPM170_3-4_L6-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Hechizo_Explore_Transition_Loop1_BPM170_3-4_L6-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "449943343",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Oasis_Lamp_Explore_B_Loop_03_BPM70_4-4_L4-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Oasis_Lamp_Explore_B_Loop_03_BPM70_4-4_L4-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "513401544",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Oasis_Lamp_Explore_A_Loop_04_BPM70_4-4_L4-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Oasis_Lamp_Explore_A_Loop_04_BPM70_4-4_L4-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "527567121",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Oasis_Lamp_Explore_A_Intro_BPM70_4-4_L3-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Oasis_Lamp_Explore_A_Intro_BPM70_4-4_L3-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "536420423",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Hechizo_Carga_Loop_BPM170_3-4_L11-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Hechizo_Carga_Loop_BPM170_3-4_L11-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "555896792",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Oasis_Lamp_Explore_B_Loop_01_BPM70_4-4_L6-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Oasis_Lamp_Explore_B_Loop_01_BPM70_4-4_L6-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "629590945",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Hechizo_Explore_A_Loop1_BPM170_3-4_L16-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Hechizo_Explore_A_Loop1_BPM170_3-4_L16-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "634097961",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Hechizo_Explore_B_Loop1_BPM170_3-4_L30-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Hechizo_Explore_B_Loop1_BPM170_3-4_L30-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "750548415",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Stinger_01_BPM59_4-4_L1-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Stinger_01_BPM59_4-4_L1-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "762499331",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Hechizo_Explore_B_Loop4_BPM170_3-4_L16-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Hechizo_Explore_B_Loop4_BPM170_3-4_L16-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "786815990",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Oasis_Lamp_Explore_A_Loop_01_BPM70_4-4_L4-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Oasis_Lamp_Explore_A_Loop_01_BPM70_4-4_L4-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "822094343",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Oasis_Lamp_Explore_B_End_BPM70_4-4_L1-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Oasis_Lamp_Explore_B_End_BPM70_4-4_L1-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "855357112",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Hechizo_Explore_B_Loop3_BPM170_3-4_L16-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Hechizo_Explore_B_Loop3_BPM170_3-4_L16-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "930368367",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Oasis_Lamp_Explore_A_Loop_03_BPM70_4-4_L4-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Oasis_Lamp_Explore_A_Loop_03_BPM70_4-4_L4-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "938386837",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Oasis_Lamp_Explore_A_Loop_02_BPM70_4-4_L4-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Oasis_Lamp_Explore_A_Loop_02_BPM70_4-4_L4-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "959729433",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Hechizo_End_BPM170_3-4_L16-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Hechizo_End_BPM170_3-4_L16-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "995779758",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\eastern-sky.wav",
+        "Path": "SFX\\Music\\Oasis\\eastern-sky_D79FB2B7.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{05CE3FFF-8210-4122-B5D5-4417E7AAB0E8}",
+        "Media": [
+         {
+          "Id": "555896792"
+         },
+         {
+          "Id": "449943343"
+         },
+         {
+          "Id": "337585568"
+         },
+         {
+          "Id": "377702378"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{A14AE3B2-B246-4BE8-9F05-5F465A65F35D}",
+        "Media": [
+         {
+          "Id": "959729433"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{8F41688E-BA92-4576-9003-06AD19E35580}",
+        "Media": [
+         {
+          "Id": "22279220"
+         },
+         {
+          "Id": "822094343"
+         },
+         {
+          "Id": "536420423"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{54454F67-B20C-4984-8CDA-6FB3EB38C858}",
+        "Media": [
+         {
+          "Id": "527567121"
+         },
+         {
+          "Id": "786815990"
+         },
+         {
+          "Id": "938386837"
+         },
+         {
+          "Id": "930368367"
+         },
+         {
+          "Id": "513401544"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{AAD0BCB3-4C9E-4361-B632-9060020E7E49}",
+        "Media": [
+         {
+          "Id": "995779758"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{694CEB44-AFE1-4980-9FB9-102EAB8D582E}",
+        "Media": [
+         {
+          "Id": "446675719"
+         },
+         {
+          "Id": "762499331"
+         },
+         {
+          "Id": "855357112"
+         },
+         {
+          "Id": "162566354"
+         },
+         {
+          "Id": "128720109"
+         },
+         {
+          "Id": "634097961"
+         },
+         {
+          "Id": "629590945"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{4AFEABD5-A75A-4627-B718-736E81F848FC}",
+        "Media": [
+         {
+          "Id": "995779758"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{EF441C93-C7D1-4FF3-A402-3E7E68F28C35}",
+        "Media": [
+         {
+          "Id": "536420423"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3826569560",
+      "Name": "Music_State",
+      "ObjectPath": "\\States\\Default Work Unit\\Music_State",
+      "GUID": "{809472B9-5C4C-456E-B088-CC1BF06DF904}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\None",
+        "GUID": "{1D2BD15D-E1C0-432E-A24D-E985571BC198}"
+       },
+       {
+        "Id": "387455016",
+        "Name": "Game_Intro",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\Game_Intro",
+        "GUID": "{4AFEABD5-A75A-4627-B718-736E81F848FC}"
+       },
+       {
+        "Id": "2537447348",
+        "Name": "Oasis_Explore",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\Oasis_Explore",
+        "GUID": "{694CEB44-AFE1-4980-9FB9-102EAB8D582E}"
+       },
+       {
+        "Id": "367652321",
+        "Name": "Oasis_Lamp_Falling",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\Oasis_Lamp_Falling",
+        "GUID": "{AAD0BCB3-4C9E-4361-B632-9060020E7E49}"
+       },
+       {
+        "Id": "3752164021",
+        "Name": "Oasis_Lamp_Explore_Before",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\Oasis_Lamp_Explore_Before",
+        "GUID": "{54454F67-B20C-4984-8CDA-6FB3EB38C858}"
+       },
+       {
+        "Id": "2629534193",
+        "Name": "Oasis_Hechizo_Genio_Intro",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\Oasis_Hechizo_Genio_Intro",
+        "GUID": "{8F41688E-BA92-4576-9003-06AD19E35580}"
+       },
+       {
+        "Id": "3516027742",
+        "Name": "Oasis_Loop_Carga",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\Oasis_Loop_Carga",
+        "GUID": "{EF441C93-C7D1-4FF3-A402-3E7E68F28C35}"
+       },
+       {
+        "Id": "3856180046",
+        "Name": "Oasis_End",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\Oasis_End",
+        "GUID": "{A14AE3B2-B246-4BE8-9F05-5F465A65F35D}"
+       },
+       {
+        "Id": "4233992298",
+        "Name": "Oasis_Lamp_Explore_After",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\Oasis_Lamp_Explore_After",
+        "GUID": "{05CE3FFF-8210-4122-B5D5-4417E7AAB0E8}"
+       }
+      ]
+     }
+    ]
    }
   ]
  }

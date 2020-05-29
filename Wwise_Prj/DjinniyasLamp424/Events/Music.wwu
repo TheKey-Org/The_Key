@@ -6,6 +6,30 @@
 				<Property Name="Color" Type="int16" Value="24"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Oasis" ID="{0809E48D-1232-417E-95BC-85255E1AF4E9}" ShortID="408860810"/>
+				<Event Name="Mus_Lvl_Oasis" ID="{5C0FED54-9613-4AAD-83C6-4F17213CB4BF}">
+					<ChildrenList>
+						<Action Name="" ID="{9751FF86-48FF-4A2D-ADE8-D6B0FB352CD7}" ShortID="696153131">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music_Oasis" ID="{674D92D1-2A14-4D4C-B11B-B4ADFDBBD114}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{344B2300-0DBF-490A-B2DE-88BFC913EE91}" ShortID="379791003">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Game_Intro" ID="{4AFEABD5-A75A-4627-B718-736E81F848FC}" WorkUnitID="{B1FC0A8F-5EAB-4741-9D9A-EBD323C76449}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>
