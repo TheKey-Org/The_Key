@@ -20,7 +20,7 @@
 /**
  * 
  */
-class DEMODAY_API EmptyClassForProject
+class THE_KEY_API EmptyClassForProject
 {
 public:
 	EmptyClassForProject();
