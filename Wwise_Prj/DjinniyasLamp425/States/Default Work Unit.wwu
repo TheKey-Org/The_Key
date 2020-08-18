@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B1FC0A8F-5EAB-4741-9D9A-EBD323C76449}" SchemaVersion="97">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{B1FC0A8F-5EAB-4741-9D9A-EBD323C76449}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Music_State" ID="{809472B9-5C4C-456E-B088-CC1BF06DF904}">
+					<ChildrenList>
+						<State Name="None" ID="{1D2BD15D-E1C0-432E-A24D-E985571BC198}"/>
+						<State Name="SplashIntro_01" ID="{CEE5CA46-8BEA-41C6-BBFF-664348303453}"/>
+						<State Name="LampFall_02" ID="{EB762B58-A88D-475B-A8BD-856F7CE36F23}"/>
+						<State Name="Explore_03" ID="{37ED6456-5FA2-4D7D-9FF9-14B4900A8719}"/>
+						<State Name="GeniusStart_04" ID="{C6724A57-958B-415E-9423-321A4E9797DD}"/>
+						<State Name="Hechizo_05" ID="{FE328865-7CB8-41A9-A089-17AEAEB12B6B}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

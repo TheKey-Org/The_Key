@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BAD64BD0-322E-4ED0-8492-4440ED097804}" SchemaVersion="97">
+	<Triggers>
+		<WorkUnit Name="Default Work Unit" ID="{BAD64BD0-322E-4ED0-8492-4440ED097804}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Stingers" ID="{2284A285-30F5-466A-8AAD-D8B7F0C2B3A3}" ShortID="172754240">
+					<ChildrenList>
+						<Trigger Name="Sting_EndLoop" ID="{0904ED5F-4537-48DB-AC0A-B14B3E67215B}"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Triggers>
+</WwiseDocument>

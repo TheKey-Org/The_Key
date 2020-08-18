@@ -1,0 +1,232 @@
+Event	ID	Name			Wwise Object Path	Notes
+	32491493	CHA_PRIS_Footstep_Land			\Character\Prisioner\Footstep\CHA_PRIS_Footstep_Land	
+	167098337	EV_Camel_Chewing			\Animals\Camel\EV_Camel_Chewing	
+	280480313	EV_Mus_Oasis_Lvl			\Music\Oasis\EV_Mus_Oasis_Lvl	
+	444742883	EV_Oasis_Amb			\Environment\Ambient\EV_Oasis_Amb	
+	479557960	EV_Animal_Drink			\Animals\Common\EV_Animal_Drink	
+	1052216993	EV_Camel_Angry			\Animals\Camel\EV_Camel_Angry	
+	1537061107	Wind			\Environment\Ambient\Wind	
+	1595423298	EV_LevelOasis			\Levels\EV_LevelOasis	
+	1668132102	EV_Camel_Quiet			\Animals\Camel\EV_Camel_Quiet	
+	1793661039	EV_DFox_Scared			\Animals\DFox\EV_DFox_Scared	
+	1823141559	EV_DFox_Playing			\Animals\DFox\EV_DFox_Playing	
+	1935340081	Prisioner_Surprise_Angry_Short			\Character\Prisioner\Voices\Prisioner_Surprise_Angry_Short	
+	1946784328	Prisioner_Surprise			\Character\Prisioner\Voices\Prisioner_Surprise	
+	2069013163	EV_DFox_Happy			\Animals\DFox\EV_DFox_Happy	
+	2233345706	CHA_PRIS_Footstep_Type			\Character\Prisioner\Footstep\CHA_PRIS_Footstep_Type	
+	2245548160	EV_Camel_Drink			\Animals\Camel\EV_Camel_Drink	
+	2469430068	EV_DFox_Footstep_Type			\Animals\DFox\EV_DFox_Footstep_Type	
+	2624474190	Cleaning_Lamp_Play			\Character\Djinniya\Actions\Cleaning_Lamp_Play	
+	2670397528	EV_Camel_Happy			\Animals\Camel\EV_Camel_Happy	
+	2764188031	EV_Camel_Steps			\Animals\Camel\EV_Camel_Steps	
+	3257707830	EV_Frog_Croar_Single			\Animals\Frog\EV_Frog_Croar_Single	
+	3449931884	EV_Swarm_Bees_Loop			\Environment\Insects\EV_Swarm_Bees_Loop	
+	3627703185	EV_DFox_Bark			\Animals\DFox\EV_DFox_Bark	
+	3667589936	Cleaning_Lamp_Stop			\Character\Djinniya\Actions\Cleaning_Lamp_Stop	
+	3751923070	EV_Camel_Attack			\Animals\Camel\EV_Camel_Attack	
+	4102285274	EV_Stone_Weight_Impact			\Items\Stone\EV_Stone_Weight_Impact	
+	4105498399	EV_Stone_Water_Deep			\Items\Stone\EV_Stone_Water_Deep	
+	4147822987	EV_Stone_Water_Over			\Items\Stone\EV_Stone_Water_Over	
+	4181041693	Prisioner_Jump			\Character\Prisioner\Voices\Prisioner_Jump	
+	4218765727	Prisioner_Surprise_Angry_Long			\Character\Prisioner\Voices\Prisioner_Surprise_Angry_Long	
+	4261248300	EV_Pot_Crash			\Items\Pots\EV_Pot_Crash	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1729843896	AssetSize			\Default Work Unit\AssetSize	
+	3275108276	SWT_Surface_Type			\Default Work Unit\SWT_Surface_Type	
+
+Switch	ID	Name	Switch Group			Notes
+	647611021	Big	AssetSize			
+	1846755610	Small	AssetSize			
+	2849147824	Medium	AssetSize			
+	761628071	PM_Grass	SWT_Surface_Type			
+	1003149622	PM_Gravel	SWT_Surface_Type			
+	1554534098	PM_Concrete	SWT_Surface_Type			
+	1773321336	PM_Dirt	SWT_Surface_Type			
+	2220787912	PM_Water	SWT_Surface_Type			
+	4257446624	PM_Wood	SWT_Surface_Type			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3826569560	Music_State			\Default Work Unit\Music_State	
+
+State	ID	Name	State Group			Notes
+	475131587	Hechizo_05	Music_State			
+	748895195	None	Music_State			
+	1842894781	GeniusStart_04	Music_State			
+	2209150908	SplashIntro_01	Music_State			
+	2857410150	Explore_03	Music_State			
+	3466561645	LampFall_02	Music_State			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	313362146	GP_Insects			\Default Work Unit\GP_Insects	
+	371406312	GP_Character_Speed			\Default Work Unit\GP_Character_Speed	
+	794307894	GP_Velocity			\Default Work Unit\GP_Velocity	
+	808401773	GP_Wind			\Default Work Unit\GP_Wind	
+	2157298947	GP_Oasis_Amb			\Default Work Unit\GP_Oasis_Amb	
+	3506875268	GP_Size			\Default Work Unit\GP_Size	
+	3949169662	GP_Intensity			\Default Work Unit\GP_Intensity	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	1055666257	Modulator Envelope (Custom)				
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	11033809	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Enviroment\Ambient\Oasis_Amb\Frog\Silence\Wwise Silence	
+	174103858	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Quiet\Silence_01\Wwise Silence	
+	387404006	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Enviroment\Ambient\Oasis_Amb\Bees_Loop\Silence\Wwise Silence	
+	581023617	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Quiet\Silence\Wwise Silence	
+	853826191	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Enviroment\Ambient\Oasis_Amb\Insect_Fly\Silence\Wwise Silence	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	9889554	Gravel_Land_07	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_land_07_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Gravel\Gravel_Land_07		36544
+	58810154	Water_Land_03	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Water\footstep_water_land_03_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Water\Water_Land_03		84012
+	71691555	foot_gravel_walk_16	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_walk_16_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Type\Gravel\foot_gravel_walk_16		36060
+	73599134	Pot_Crash_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Pot\Pot_Crash_01_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash\Pot_Crash_Light\Pot_Crash_01		183000
+	86745989	Bee_Loop	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Environment\Bee_Loop_0F5D66AE.wem		\Actor-Mixer Hierarchy\Enviroment\Ambient\Oasis_Amb\Bees_Loop\Bee_Loop		782000
+	87061890	foot_grass_walk_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Grass\footsteps_shoe_grass_walk_01_434BA07A.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Grass\foot_grass_walk_01		22244
+	102218097	foot_gravel_walk_16	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_walk_16_B028BFC8.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Gravel\foot_gravel_walk_16		10628
+	111231447	Fennec_11	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Fox\Fennec_11_BFB5650D.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Scared\Fennec_11		207608
+	122551984	Step_07	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Step_07_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Steps\Step_07		31744
+	124739891	Rock_Gravel_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Stones\Rock_Gravel_01_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Gravel\Stone_Gravel_Heavy\Rock_Gravel_01		232976
+	127468267	foot_water_walk_08	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Water\footstep_water_walk_08_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Type\Water\foot_water_walk_08		70764
+	134008256	Concrete_Land_v2_02	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Concrete\footstep_concrete_land_v2_02_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Concrete\Concrete_Land_v2_02		45806
+	134273198	End	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Music\Oasis\ethnic-desert_161BPM3-4_EndReverse_D79FB2B7.wem		\Interactive Music Hierarchy\Oasis\Mus_Oasis_Lvl\01_Splash\02_IntroLevel\End		702376
+	142684545	Rock_small_hit_solid_ground_004_11181	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Stones\Rock_small_hit_solid_ground_004_11181_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Dirt\Stone_Dirt_Light\Rock_small_hit_solid_ground_004_11181		96832
+	145454860	foot_gravel_walk_13	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_walk_13_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Type\Gravel\foot_gravel_walk_13		54464
+	151674440	foot_dirt_walk_run_08	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Dirt\footstep_dirt_walk_run_08_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Type\Dirt\foot_dirt_walk_run_08		23872
+	151987646	MaleGrunt_07	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Voice\Grunt\MaleGrunt_07_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Prisioner_Surprise\Prisioner_Jump_Rdm\MaleGrunt_07		20790
+	156011117	Camel SFX_03	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Camel SFX_03_19493AF2.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Attack\Camel SFX_03		40808
+	157607473	Animal_Comiendo_Light_Long_03	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Animal_Comiendo_05_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Drink\Animal_Comiendo_Light_Long_03		485040
+	170756168	Rock_small_hit_solid_ground_003_11180	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Stones\Rock_small_hit_solid_ground_003_11180_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Dirt\Stone_Dirt_Light\Rock_small_hit_solid_ground_003_11180		161344
+	180866948	foot_wood_walk_03	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Wood\footstep_wood_walk_03_AB30D29C.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Wood\foot_wood_walk_03		11192
+	182114653	Fox_Red_Call_Long_02	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Fox\Fox_Red_Call_Long_02_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Bark\Fox_Red_Call_Long_02		88114
+	193653177	Stone-drop_into_puddle	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Stones\Stone-drop_into_puddle_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Water\Stone_Water_Light\Stone-drop_into_puddle		160940
+	195558274	Camello_Fast_02	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Camello_Fast_01_955668F1.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Attack\Camello_Fast_02		40054
+	197696028	MaleGrunt_02	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Voice\Grunt\MaleGrunt_02_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Prisioner_Surprise\Prisioner_Surprise_Angry_Short_Rdm\MaleGrunt_02		22114
+	199603278	foot_gravel_walk_14	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_walk_14_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Type\Gravel\foot_gravel_walk_14		42692
+	231458197	Gravel_Land_08	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_land_08_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Gravel\Gravel_Land_08		26530
+	240239109	Pot_Crash_12	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Pot\Pot_Crash_12_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash\Pot_Crash_Heavy\Pot_Crash_12		158884
+	266754551	Rock_Gravel_03	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Stones\Rock_Gravel_03_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Gravel\Stone_Gravel_Heavy\Rock_Gravel_03		122956
+	267559652	foot_concrete_walk_12	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Concrete\footstep_concrete_walk_12_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Type\Concrete\foot_concrete_walk_12		23572
+	269202632	MaleGrunt_05	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Voice\Grunt\MaleGrunt_05_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Prisioner_Surprise\Prisioner_Jump_Rdm\MaleGrunt_05		22114
+	271628114	foot_water_walk_08	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Water\footstep_water_walk_08_F6C8E9C5.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Water\foot_water_walk_08		21044
+	278871662	foot_concrete_walk_13	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Concrete\footstep_concrete_walk_13_6A800606.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Concrete\foot_concrete_walk_13		12774
+	280298703	Camel SFX_01_Soft	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Camel SFX_01_Soft_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Happy\Camel SFX_01_Soft		269338
+	283900663	Frog_Croar_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Frog\Frog_Croar_01_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Frog\Frog_Croar_01		49340
+	286944441	Stone_gravel_Light_14	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_run_14_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Gravel\Stone_Gravel_Light\Stone_gravel_Light_14		22636
+	289567315	Dirt_Land_10	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\footstep_dirt_land_10_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Dirt\Dirt_Land_10		25692
+	297690760	Pot_Crash_07	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Pot\Pot_Crash_07_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash\Pot_Crash_Light\Pot_Crash_07		163876
+	303036354	Wind_Soft	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Environment\Desert_Silence_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviroment\Ambient\Oasis_Amb\Wind_Types\Wind_Soft		595414
+	307847640	foot_wood_walk_04	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Wood\footstep_wood_walk_04_616EE548.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Wood\foot_wood_walk_04		8714
+	314953184	foot_wood_walk_09	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Wood\footstep_wood_walk_09_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Wood\Wood\foot_wood_walk_09		24700
+	331327722	MaleGrunt_10	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Voice\Grunt\MaleGrunt_10_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Prisioner_Surprise\Prisioner_Surprise_Angry_Short_Rdm\MaleGrunt_10		22114
+	332664854	rock_small_03	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Stones\rock_small_03_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Concrete\Stone_Concrete_Light\rock_small_03		46556
+	335209370	Stone_gravel_Light_13	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_run_13_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Gravel\Stone_Gravel_Light\Stone_gravel_Light_13		25208
+	338235634	Dirt_Land_03	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\footstep_dirt_land_03_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Dirt\Dirt_Land_03		25248
+	342261477	MaleGrunt_13	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Voice\Grunt\MaleGrunt_13_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Prisioner_Surprise\Prisioner_Surprise_Angry_Short_Rdm\MaleGrunt_13		19910
+	355518020	foot_concrete_walk_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Concrete\footstep_concrete_walk_01_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Type\Concrete\foot_concrete_walk_01		30078
+	379277942	Pot_Crash_04	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Pot\Pot_Crash_04_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash\Pot_Crash_Medium\Pot_Crash_04		122300
+	381790358	Stone_Water_Splash_Heavy	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Stones\Foley_Wood_Stick_Large_Through_Water_Splash_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Water\Stone_Water_Heavy\Stone_Water_Splash_Heavy		123508
+	382037857	MaleGrunt_09	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Voice\Grunt\MaleGrunt_09_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Prisioner_Surprise\Prisioner_Surprise_Angry_Long_Rdm\MaleGrunt_09		22114
+	382040779	MaleGrunt_06	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Voice\Grunt\MaleGrunt_06_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Prisioner_Surprise\Prisioner_Jump_Rdm\MaleGrunt_06		19908
+	385326610	Crickets_OneShot_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Environment\Crickets_OneShot_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviroment\Ambient\Oasis_Amb\Crickets\Crickets_OneShot_01		29936
+	395557208	Swarm Bees_Loop	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Environment\Swarm Bees_Pre1_Post1_Loop_10C4C929.wem		\Actor-Mixer Hierarchy\Enviroment\Insects\Swarm Bees_Loop		971116
+	400556086	Frog_Amb_Loop_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Frog\Frog_Amb_Loop_01_6F8282C4.wem		\Actor-Mixer Hierarchy\Enviroment\Ambient\Oasis_Amb\Frog\Frog_Amb_Loop_01		1124468
+	444766052	Pot_Crash_14	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Pot\Pot_Crash_14_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash\Pot_Crash_Heavy\Pot_Crash_14		193808
+	458423054	Grass_Land_02	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Grass\footsteps_shoe_grass_land_02_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Grass\Grass_Land_02		66112
+	463468331	Pot_Crash_02	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Pot\Pot_Crash_02_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash\Pot_Crash_Light\Pot_Crash_02		126456
+	467453631	Step_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Step_01_D31BF55B.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Steps\Step_01		20064
+	473083076	foot_dirt_walk_run_07	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Dirt\footstep_dirt_walk_run_07_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Type\Dirt\foot_dirt_walk_run_07		27664
+	486796379	Camel SFX_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Camel SFX_01_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Happy\Camel SFX_01		294984
+	491956589	Step_05	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Step_05_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Steps\Step_05		20816
+	495856737	foot_dirt_walk_run_07	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Dirt\footstep_dirt_walk_run_07_45125DEC.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Dirt\foot_dirt_walk_run_07		8854
+	503033313	Ronroneos_Soft_04	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Ronroneos_Soft_04_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Quiet\Ronroneos_Soft_04		178782
+	519701726	foot_water_walk_06	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Water\footstep_water_walk_06_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Type\Water\foot_water_walk_06		62464
+	521656326	foot_dirt_walk_run_06	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Dirt\footstep_dirt_walk_run_06_0B0D8444.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Dirt\foot_dirt_walk_run_06		11534
+	523807816	Cleaning_04	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Djinniya\Clean\Cleaning_Cloth 29_6DD8B30F.wem		\Actor-Mixer Hierarchy\Character\Djinniya\Cleaning\Cleaning_04		30696
+	525834864	Dirt_Land_05	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\footstep_dirt_land_05_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Dirt\Dirt_Land_05		24064
+	526387921	foot_water_walk_05	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Water\footstep_water_walk_05_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Type\Water\foot_water_walk_05		74620
+	530037478	eastern-sky_59BPM4-4_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Music\Oasis\eastern-sky_59BPM4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Oasis\Mus_Oasis_Lvl\01_Splash\01_IntroSplash\eastern-sky_59BPM4-4_01		19374172
+	531198139	Water_Land_04	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Water\footstep_water_land_04_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Water\Water_Land_04		97652
+	535770469	foot_wood_walk_09	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Wood\footstep_wood_walk_09_62876CBB.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Wood\foot_wood_walk_09		10374
+	542200597	foot_concrete_walk_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Concrete\footstep_concrete_walk_01_C6F6FAF5.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Concrete\foot_concrete_walk_01		8546
+	542426678	Stone_Water_Splash	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Stones\Foley_Wood_Stick_Large_Through_Water_Splash_C1CC09E3.wem		\Actor-Mixer Hierarchy\Items\Stones\Stone_Water_Splash\Stone_Water_Splash		23948
+	547538402	Fox_Red_Call_Long_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Fox\Fox_Red_Call_Long_01_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Bark\Fox_Red_Call_Long_01		101158
+	552656354	Dirt_Land_07	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\footstep_dirt_land_07_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Dirt\Dirt_Land_07		22144
+	553390352	Stone_gravel_Light_06	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_run_06_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Gravel\Stone_Gravel_Light\Stone_gravel_Light_06		32018
+	563091453	foot_gravel_walk_13	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_walk_13_A190D3F3.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Gravel\foot_gravel_walk_13		16206
+	572273498	foot_concrete_walk_12	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Concrete\footstep_concrete_walk_12_E2445B71.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Concrete\foot_concrete_walk_12		7986
+	572924580	Wind_Fast	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Wind_Soft_Loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviroment\Ambient\Oasis_Amb\Wind_Types\Wind_Fast		887046
+	574829474	Rock_Big_06	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Stones\Rock_Big_06_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Concrete\Stone_Concrete_Heavy\Rock_Big_06		97512
+	586896782	rock_small_02	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Stones\rock_small_02_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Concrete\Stone_Concrete_Light\rock_small_02		36732
+	595116604	desert-illusion_70BPM4-4	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\desert-illusion_70BPM4-4_D79FB2B7.wem		\Interactive Music Hierarchy\Oasis\Mus_Oasis_Lvl\03_Explore\Iillusion_70BPM4-4_Intro\desert-illusion_70BPM4-4		21168068
+	599539726	foot_gravel_walk_15	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_walk_15_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Type\Gravel\foot_gravel_walk_15		43736
+	600341753	Pot_Crash_03	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Pot\Pot_Crash_03_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash\Pot_Crash_Light\Pot_Crash_03		120636
+	603593962	Fennec_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Fox\Fennec_01_AA9BA228.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Playing\Fennec_01		263784
+	606984335	Wood_Land_02	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Wood\footstep_wood_land_02_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Wood\Wood_Land_02		39744
+	607971304	Gravel_Land_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_land_01_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Gravel\Gravel_Land_01		35266
+	609209974	Concrete_Land_v2_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Concrete\footstep_concrete_land_v2_01_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Concrete\Concrete_Land_v2_01		38378
+	610502538	foot_grass_walk_02	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Grass\footsteps_shoe_grass_walk_02_4294C4D0.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Grass\foot_grass_walk_02		15320
+	612642580	MaleGrunt_12	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Voice\Grunt\MaleGrunt_12_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Prisioner_Surprise\Prisioner_Surprise_Angry_Short_Rdm\MaleGrunt_12		22114
+	615217748	foot_grass_walk_03	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Grass\footsteps_shoe_grass_walk_03_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Grass\Grass\foot_grass_walk_03		54582
+	627651370	Animal_Comiendo_Light_Long_02	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Animal_Comiendo_04_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Drink\Animal_Comiendo_Light_Long_02		548960
+	641073784	foot_dirt_walk_run_06	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Dirt\footstep_dirt_walk_run_06_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Type\Dirt\foot_dirt_walk_run_06		28894
+	648358236	foot_concrete_walk_08	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Concrete\footstep_concrete_walk_08_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Type\Concrete\foot_concrete_walk_08		22666
+	651901015	foot_water_walk_04	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Water\footstep_water_walk_04_5903975A.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Water\foot_water_walk_04		23970
+	664547947	MaleGrunt_08	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Voice\Grunt\MaleGrunt_08_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Prisioner_Surprise\Prisioner_Surprise_Angry_Long_Rdm\MaleGrunt_08		22114
+	664631883	Cleaning_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Djinniya\Clean\Cleaning_Cloth 29_FE6DAB14.wem		\Actor-Mixer Hierarchy\Character\Djinniya\Cleaning\Cleaning_01		38356
+	685715923	Rock_Gravel_02	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Stones\Rock_Gravel_02_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Gravel\Stone_Gravel_Heavy\Rock_Gravel_02		117104
+	691790023	MaleGrunt_04	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Voice\Grunt\MaleGrunt_04_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Prisioner_Surprise\Prisioner_Surprise_Angry_Short_Rdm\MaleGrunt_04		19468
+	695938306	Pot_Crash_13	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Pot\Pot_Crash_13_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash\Pot_Crash_Heavy\Pot_Crash_13		237048
+	697140696	MaleGrunt_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Voice\Grunt\MaleGrunt_01_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Prisioner_Surprise\Prisioner_Surprise_Rdm\MaleGrunt_01		22114
+	698258540	Ronroneos_Soft_02	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Ronroneos_Soft_02_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Quiet\Ronroneos_Soft_02		99208
+	701091700	Step_02	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Step_02_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Steps\Step_02		30784
+	704894860	foot_gravel_walk_14	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_walk_14_D451FB16.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Gravel\foot_gravel_walk_14		14566
+	714739903	Pot_Crash_05	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Pot\Pot_Crash_05_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash\Pot_Crash_Light\Pot_Crash_05		132276
+	714983882	Stone_gravel_Light_08	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_run_08_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Gravel\Stone_Gravel_Light\Stone_gravel_Light_08		31258
+	725070978	ethnic-desert_161BPM3-4	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Music\Oasis\ethnic-desert_161BPM3-4_D79FB2B7.wem		\Interactive Music Hierarchy\Oasis\Mus_Oasis_Lvl\01_Splash\02_IntroLevel\ethnic-desert_161BPM3-4		10855452
+	739141379	Camello_Fast_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Camello_Fast_01_7C160AF3.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Attack\Camello_Fast_01		47972
+	748401940	Step_08	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Step_08_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Steps\Step_08		28390
+	756619167	foot_water_walk_04	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Water\footstep_water_walk_04_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Type\Water\foot_water_walk_04		55744
+	764052193	Ronroneos_Soft_03	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Ronroneos_Soft_03_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Quiet\Ronroneos_Soft_03		58114
+	764134551	Wood_Land_04	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Wood\footstep_wood_land_04_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Wood\Wood_Land_04		40384
+	771472934	foot_grass_walk_02	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Grass\footsteps_shoe_grass_walk_02_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Grass\Grass\foot_grass_walk_02		46696
+	782304794	Wood_Land_05	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Wood\footstep_wood_land_05_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Wood\Wood_Land_05		43292
+	790401776	foot_gravel_walk_15	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_walk_15_6E063022.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Gravel\foot_gravel_walk_15		15206
+	810714219	foot_grass_walk_03	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Grass\footsteps_shoe_grass_walk_03_44407854.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Grass\foot_grass_walk_03		17426
+	811937125	Petank_boules_metal_ball_land_in_sand_001	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Stones\Petank_boules_metal_ball_land_in_sand_001_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Dirt\Stone_Dirt_Heavy\Petank_boules_metal_ball_land_in_sand_001		97436
+	825751727	foot_concrete_walk_08	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Concrete\footstep_concrete_walk_08_8CFC6517.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Concrete\foot_concrete_walk_08		7556
+	830127368	Ronroneos_Soft_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Ronroneos_Soft_01_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Quiet\Ronroneos_Soft_01		88770
+	879959545	foot_wood_walk_03	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Wood\footstep_wood_walk_03_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Wood\Stone_Concrete_Heavy\New Sequence Container\foot_wood_walk_03		19752
+	881888131	Fennec_06	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Fox\Fennec_06_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Happy\Fennec_06		144952
+	882907017	rock_small_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Stones\rock_small_01_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Concrete\Stone_Concrete_Light\rock_small_01		54254
+	883642316	Cleaning_02	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Djinniya\Clean\Cleaning_Cloth 29_F70B37EC.wem		\Actor-Mixer Hierarchy\Character\Djinniya\Cleaning\Cleaning_02		38704
+	883860458	Camel SFX_03	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Camel SFX_03_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Angry\Camel SFX_03		62752
+	890062790	MaleGrunt_03	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Voice\Grunt\MaleGrunt_03_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Prisioner_Surprise\Prisioner_Surprise_Angry_Short_Rdm\MaleGrunt_03		22114
+	893157134	foot_water_walk_05	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Water\footstep_water_walk_05_7B8740F5.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Water\foot_water_walk_05		25430
+	898613911	Animal_Chewing	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Animal_Comiendo_04_F58D7DCD.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Chewing\Animal_Chewing		26298
+	903645597	Grass_Land_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Grass\footsteps_shoe_grass_land_01_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Grass\Grass_Land_01		94016
+	907737719	Water_Land_05	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Water\footstep_water_land_05_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Water\Water_Land_05		79394
+	913330223	Petank_boules_metal_ball_land_in_sand_002	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Stones\Petank_boules_metal_ball_land_in_sand_002_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Dirt\Stone_Dirt_Heavy\Petank_boules_metal_ball_land_in_sand_002		97436
+	915487982	Water_Land_02	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Water\footstep_water_land_02_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Water\Water_Land_02		109062
+	922730844	Concrete_Land_v2_03	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Concrete\footstep_concrete_land_v2_03_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Concrete\Concrete_Land_v2_03		79046
+	948913228	Cleaning_03	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Djinniya\Clean\Cleaning_Cloth 29_073323C9.wem		\Actor-Mixer Hierarchy\Character\Djinniya\Cleaning\Cleaning_03		33134
+	950879501	Step_04	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Step_04_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Steps\Step_04		25532
+	953859256	Pot_Crash_08	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Pot\Pot_Crash_08_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash\Pot_Crash_Light\Pot_Crash_08		145580
+	956678191	foot_wood_walk_04	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Wood\footstep_wood_walk_04_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Wood\Wood\foot_wood_walk_04		23398
+	967667485	Concrete_Land_v2_04	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Concrete\footstep_concrete_land_v2_04_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Concrete\Concrete_Land_v2_04		51924
+	972377837	Animal_Comiendo_Light_Short	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Animal_Comiendo_01_ED2F9936.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Drink\Animal_Comiendo_Light_Short		112508
+	973336670	Step_03	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Step_03_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Steps\Step_03		22702
+	998687007	Pot_Crash_09	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Pot\Pot_Crash_09_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash\Pot_Crash_Light\Pot_Crash_09		237048
+	999793830	Camello_Fast_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Camello_Fast_01_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Angry\Camello_Fast_01		74390
+	1010816992	Camello_Slow_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Camello_Slow_01_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Angry\Camello_Slow_01		157166
+	1012597449	MaleGrunt_11	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Voice\Grunt\MaleGrunt_11_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Prisioner_Surprise\Prisioner_Jump_Rdm\MaleGrunt_11		22114
+	1019482852	Animal_Comiendo_Strong_Short	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Animal_Comiendo_02_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Drink\Animal_Comiendo_Strong_Short		176196
+	1022065363	Fly_Loop	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Environment\Fly_Loop_619F4D67.wem		\Actor-Mixer Hierarchy\Enviroment\Ambient\Oasis_Amb\Insect_Fly\Fly_Loop		1146900
+	1029933272	Gravel_Land_02	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_land_02_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Gravel\Gravel_Land_02		35200
+	1038017333	Step_06	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Step_06_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Steps\Step_06		22260
+	1048535314	Animal_Comiendo_Light_Long_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Animal_Comiendo_03_C3CE35A5.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Drink\Animal_Comiendo_Light_Long_01		352082
+	1054048143	Pot_Crash_10	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Pot\Pot_Crash_10_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash\Pot_Crash_Heavy\Pot_Crash_10		200924
+	1055005579	foot_water_walk_06	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Water\footstep_water_walk_06_6B314B5F.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Water\foot_water_walk_06		26584
+	1060445892	foot_concrete_walk_13	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Concrete\footstep_concrete_walk_13_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Type\Concrete\foot_concrete_walk_13		26284
+	1065374544	foot_grass_walk_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Grass\footsteps_shoe_grass_walk_01_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Grass\Grass\foot_grass_walk_01		53202
+

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D460318B-A7A8-49C9-9584-716C6A3C967D}" SchemaVersion="97">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{D460318B-A7A8-49C9-9584-716C6A3C967D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="SWT_Surface_Type" ID="{119B9A05-E63D-41FE-9A1F-C86129F52185}">
+					<ChildrenList>
+						<Switch Name="PM_Concrete" ID="{FF2B32AE-D42E-49BD-BA21-73CAE860422D}"/>
+						<Switch Name="PM_Dirt" ID="{95C0C10B-58E4-4A69-992C-9FF297A7EA29}"/>
+						<Switch Name="PM_Grass" ID="{DE5C9741-2EA0-45AA-A9F1-59C567C3D7AC}"/>
+						<Switch Name="PM_Water" ID="{59348400-61EE-4D26-9606-50BFF5F919A0}"/>
+						<Switch Name="PM_Wood" ID="{604A446C-B7E0-483E-9602-8CF438326396}"/>
+						<Switch Name="PM_Gravel" ID="{AD4D776E-A669-45EC-BB98-26AC275422C4}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="AssetSize" ID="{7F335053-C423-4683-B729-CAF5099CD056}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Small" ID="{2E56ECFC-B022-49FA-9C94-FC2735F0C0D5}"/>
+						<Switch Name="Medium" ID="{6199B8A2-B675-4EC6-9E0F-F1C122113EAA}"/>
+						<Switch Name="Big" ID="{1ECAADDF-7F4B-41EA-9CC1-5564FB04912E}"/>
+					</ChildrenList>
+					<SwitchOnRTPC>
+						<GameParameterRef Name="GP_Size" ID="{D420419F-6D1B-41BD-9390-745CCB6DFE8A}"/>
+						<Curve Name="" ID="{5D61614F-7BE7-47BF-B1BD-0FF9AE238C37}">
+							<PropertyList>
+								<Property Name="Flags" Type="int32" Value="65537"/>
+							</PropertyList>
+							<PointList>
+								<Point>
+									<XPos>0</XPos>
+									<YPos>1</YPos>
+									<Flags>5</Flags>
+								</Point>
+								<Point>
+									<XPos>1</XPos>
+									<YPos>2</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>2</XPos>
+									<YPos>3</YPos>
+									<Flags>0</Flags>
+								</Point>
+								<Point>
+									<XPos>3</XPos>
+									<YPos>3</YPos>
+									<Flags>37</Flags>
+								</Point>
+							</PointList>
+						</Curve>
+					</SwitchOnRTPC>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
