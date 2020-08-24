@@ -2,14 +2,18 @@ Event	ID	Name			Wwise Object Path	Notes
 	32491493	CHA_PRIS_Footstep_Land			\Character\Prisioner\Footstep\CHA_PRIS_Footstep_Land	
 	167098337	EV_Camel_Chewing			\Animals\Camel\EV_Camel_Chewing	
 	280480313	EV_Mus_Oasis_Lvl			\Music\Oasis\EV_Mus_Oasis_Lvl	
-	444742883	EV_Oasis_Amb			\Environment\Ambient\EV_Oasis_Amb	
+	293820446	EV_Env_Wind_Fast			\Environment\Ambient\EV_Env_Wind_Fast	
 	479557960	EV_Animal_Drink			\Animals\Common\EV_Animal_Drink	
+	873588185	EV_Env_Wind_Fast_Leaves			\Environment\Ambient\EV_Env_Wind_Fast_Leaves	
+	940564084	EV_Oasis_Back			\Levels\EV_Oasis_Back	
 	1052216993	EV_Camel_Angry			\Animals\Camel\EV_Camel_Angry	
-	1537061107	Wind			\Environment\Ambient\Wind	
+	1070291111	EV_Env_Oasis_Amb			\Environment\Ambient\EV_Env_Oasis_Amb	
+	1574813572	EV_Env_Wind_Soft			\Environment\Ambient\EV_Env_Wind_Soft	
 	1595423298	EV_LevelOasis			\Levels\EV_LevelOasis	
 	1668132102	EV_Camel_Quiet			\Animals\Camel\EV_Camel_Quiet	
 	1793661039	EV_DFox_Scared			\Animals\DFox\EV_DFox_Scared	
 	1823141559	EV_DFox_Playing			\Animals\DFox\EV_DFox_Playing	
+	1906188514	Ev_Env_Leaves_Stop			\Environment\Ambient\Ev_Env_Leaves_Stop	
 	1935340081	Prisioner_Surprise_Angry_Short			\Character\Prisioner\Voices\Prisioner_Surprise_Angry_Short	
 	1946784328	Prisioner_Surprise			\Character\Prisioner\Voices\Prisioner_Surprise	
 	2069013163	EV_DFox_Happy			\Animals\DFox\EV_DFox_Happy	
@@ -28,6 +32,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	4105498399	EV_Stone_Water_Deep			\Items\Stone\EV_Stone_Water_Deep	
 	4147822987	EV_Stone_Water_Over			\Items\Stone\EV_Stone_Water_Over	
 	4181041693	Prisioner_Jump			\Character\Prisioner\Voices\Prisioner_Jump	
+	4202675357	Ev_Env_Leaves_On			\Environment\Ambient\Ev_Env_Leaves_On	
 	4218765727	Prisioner_Surprise_Angry_Long			\Character\Prisioner\Voices\Prisioner_Surprise_Angry_Long	
 	4261248300	EV_Pot_Crash			\Items\Pots\EV_Pot_Crash	
 
@@ -66,6 +71,9 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	3506875268	GP_Size			\Default Work Unit\GP_Size	
 	3949169662	GP_Intensity			\Default Work Unit\GP_Intensity	
 
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	41812639	Wind Modulator LFO			\Default Work Unit\Wind Modulator LFO	
+
 Modulator Envelope	ID	Name			Wwise Object Path	Notes
 	1055666257	Modulator Envelope (Custom)				
 
@@ -77,7 +85,10 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	853826191	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Enviroment\Ambient\Oasis_Amb\Insect_Fly\Silence\Wwise Silence	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	4865246	Leaves_Rustling_Loop_03_C	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Environment\Leaves_Rustling_Loop_03_C7F1F50E.wem		\Actor-Mixer Hierarchy\Enviroment\Ambient\Leaves\Leaves_Rustling_Loop_03_C		157392
 	9889554	Gravel_Land_07	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_land_07_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Gravel\Gravel_Land_07		36544
+	22491053	Leaves_Rustling_Loop_01_C	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Environment\Leaves_Rustling_Loop_03_586A26D4.wem		\Actor-Mixer Hierarchy\Enviroment\Ambient\Leaves\Leaves_Rustling_Loop_01_C		95248
+	58225192	Leaves_Rustling_Loop_04_C	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Environment\Leaves_Rustling_Loop_03_AC2124A1.wem		\Actor-Mixer Hierarchy\Enviroment\Ambient\Leaves\Leaves_Rustling_Loop_04_C		78336
 	58810154	Water_Land_03	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Water\footstep_water_land_03_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Water\Water_Land_03		84012
 	71691555	foot_gravel_walk_16	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_walk_16_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Type\Gravel\foot_gravel_walk_16		36060
 	73599134	Pot_Crash_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Pot\Pot_Crash_01_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash\Pot_Crash_Light\Pot_Crash_01		183000
@@ -115,9 +126,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	286944441	Stone_gravel_Light_14	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_run_14_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Gravel\Stone_Gravel_Light\Stone_gravel_Light_14		22636
 	289567315	Dirt_Land_10	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\footstep_dirt_land_10_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Dirt\Dirt_Land_10		25692
 	297690760	Pot_Crash_07	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Pot\Pot_Crash_07_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash\Pot_Crash_Light\Pot_Crash_07		163876
-	303036354	Wind_Soft	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Environment\Desert_Silence_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviroment\Ambient\Oasis_Amb\Wind_Types\Wind_Soft		595414
+	303011576	Leaves_Rustling_Loop_02_C	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Environment\Leaves_Rustling_Loop_03_CCAFA16A.wem		\Actor-Mixer Hierarchy\Enviroment\Ambient\Leaves\Leaves_Rustling_Loop_02_C		134974
+	303036354	Wind_Soft	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Environment\Desert_Silence_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviroment\Env_Wind\Wind_Soft		595414
 	307847640	foot_wood_walk_04	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Wood\footstep_wood_walk_04_616EE548.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Wood\foot_wood_walk_04		8714
 	314953184	foot_wood_walk_09	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Wood\footstep_wood_walk_09_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Wood\Wood\foot_wood_walk_09		24700
+	321893777	Leaves_Rustling_Loop_01_B	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Environment\Leaves_Rustling_Loop_02_51ACD091.wem		\Actor-Mixer Hierarchy\Enviroment\Ambient\Leaves\Leaves_Rustling_Loop_01_B		305716
 	331327722	MaleGrunt_10	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Voice\Grunt\MaleGrunt_10_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Prisioner_Surprise\Prisioner_Surprise_Angry_Short_Rdm\MaleGrunt_10		22114
 	332664854	rock_small_03	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Stones\rock_small_03_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Concrete\Stone_Concrete_Light\rock_small_03		46556
 	335209370	Stone_gravel_Light_13	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_run_13_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Gravel\Stone_Gravel_Light\Stone_gravel_Light_13		25208
@@ -153,6 +166,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	547538402	Fox_Red_Call_Long_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Fox\Fox_Red_Call_Long_01_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Bark\Fox_Red_Call_Long_01		101158
 	552656354	Dirt_Land_07	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\footstep_dirt_land_07_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Dirt\Dirt_Land_07		22144
 	553390352	Stone_gravel_Light_06	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_run_06_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Gravel\Stone_Gravel_Light\Stone_gravel_Light_06		32018
+	558931773	Leaves_Rustling_Loop_04_A	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Environment\Leaves_Rustling_Loop_01_D4C76813.wem		\Actor-Mixer Hierarchy\Enviroment\Ambient\Leaves\Leaves_Rustling_Loop_04_A		190464
 	563091453	foot_gravel_walk_13	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_walk_13_A190D3F3.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Gravel\foot_gravel_walk_13		16206
 	572273498	foot_concrete_walk_12	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Concrete\footstep_concrete_walk_12_E2445B71.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Concrete\foot_concrete_walk_12		7986
 	572924580	Wind_Fast	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Wind_Soft_Loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Enviroment\Ambient\Oasis_Amb\Wind_Types\Wind_Fast		887046
@@ -170,6 +184,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	615217748	foot_grass_walk_03	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Grass\footsteps_shoe_grass_walk_03_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Grass\Grass\foot_grass_walk_03		54582
 	627651370	Animal_Comiendo_Light_Long_02	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Animal_Comiendo_04_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Drink\Animal_Comiendo_Light_Long_02		548960
 	641073784	foot_dirt_walk_run_06	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Dirt\footstep_dirt_walk_run_06_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Type\Dirt\foot_dirt_walk_run_06		28894
+	646265531	Leaves_Rustling_Loop_05_A	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Environment\Leaves_Rustling_Loop_01_C4D209A4.wem		\Actor-Mixer Hierarchy\Enviroment\Ambient\Leaves\Leaves_Rustling_Loop_05_A		111678
 	648358236	foot_concrete_walk_08	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Concrete\footstep_concrete_walk_08_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Type\Concrete\foot_concrete_walk_08		22666
 	651901015	foot_water_walk_04	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Water\footstep_water_walk_04_5903975A.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Water\foot_water_walk_04		23970
 	664547947	MaleGrunt_08	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Voice\Grunt\MaleGrunt_08_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Prisioner_Surprise\Prisioner_Surprise_Angry_Long_Rdm\MaleGrunt_08		22114
@@ -192,6 +207,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	771472934	foot_grass_walk_02	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Grass\footsteps_shoe_grass_walk_02_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Grass\Grass\foot_grass_walk_02		46696
 	782304794	Wood_Land_05	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Wood\footstep_wood_land_05_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Wood\Wood_Land_05		43292
 	790401776	foot_gravel_walk_15	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_walk_15_6E063022.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Gravel\foot_gravel_walk_15		15206
+	792969943	Leaves_Rustling_Loop_01_A	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Environment\Leaves_Rustling_Loop_01_C8859B63.wem		\Actor-Mixer Hierarchy\Enviroment\Ambient\Leaves\Leaves_Rustling_Loop_01_A		74716
 	810714219	foot_grass_walk_03	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Grass\footsteps_shoe_grass_walk_03_44407854.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Grass\foot_grass_walk_03		17426
 	811937125	Petank_boules_metal_ball_land_in_sand_001	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Stones\Petank_boules_metal_ball_land_in_sand_001_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Stones\ST_Stone_Impact\Stone_Dirt\Stone_Dirt_Heavy\Petank_boules_metal_ball_land_in_sand_001		97436
 	825751727	foot_concrete_walk_08	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Concrete\footstep_concrete_walk_08_8CFC6517.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Concrete\foot_concrete_walk_08		7556
@@ -216,6 +232,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	967667485	Concrete_Land_v2_04	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Concrete\footstep_concrete_land_v2_04_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Concrete\Concrete_Land_v2_04		51924
 	972377837	Animal_Comiendo_Light_Short	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Animal_Comiendo_01_ED2F9936.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Drink\Animal_Comiendo_Light_Short		112508
 	973336670	Step_03	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Step_03_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Steps\Step_03		22702
+	998141908	Leaves_Rustling_Loop_02_B	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Environment\Leaves_Rustling_Loop_02_9D023248.wem		\Actor-Mixer Hierarchy\Enviroment\Ambient\Leaves\Leaves_Rustling_Loop_02_B		216902
 	998687007	Pot_Crash_09	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Pot\Pot_Crash_09_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash\Pot_Crash_Light\Pot_Crash_09		237048
 	999793830	Camello_Fast_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Camello_Fast_01_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Angry\Camello_Fast_01		74390
 	1010816992	Camello_Slow_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Camello_Slow_01_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Angry\Camello_Slow_01		157166
@@ -224,6 +241,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1022065363	Fly_Loop	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Environment\Fly_Loop_619F4D67.wem		\Actor-Mixer Hierarchy\Enviroment\Ambient\Oasis_Amb\Insect_Fly\Fly_Loop		1146900
 	1029933272	Gravel_Land_02	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Gravel\footstep_gravel_land_02_10C4C929.wem		\Actor-Mixer Hierarchy\Character\CHA_Prisioner\Pris_Footstep\CHA_PRIS_Footstep_Land_Type\Land_Gravel\Gravel_Land_02		35200
 	1038017333	Step_06	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Step_06_10C4C929.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Steps\Step_06		22260
+	1040058827	Leaves_Rustling_Loop_04_B	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Environment\Leaves_Rustling_Loop_02_72598FC1.wem		\Actor-Mixer Hierarchy\Enviroment\Ambient\Leaves\Leaves_Rustling_Loop_04_B		232020
 	1048535314	Animal_Comiendo_Light_Long_01	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Animals\Camel\Animal_Comiendo_03_C3CE35A5.wem		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Drink\Animal_Comiendo_Light_Long_01		352082
 	1054048143	Pot_Crash_10	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Hits\Pot\Pot_Crash_10_10C4C929.wem		\Actor-Mixer Hierarchy\Items\Pot\Pot_Crash\Pot_Crash_Heavy\Pot_Crash_10		200924
 	1055005579	foot_water_walk_06	G:\Unreal\Djinniya\Unreal\425\Demo\The_Key\Wwise_Prj\DjinniyasLamp425\.cache\Windows\SFX\Character\Prisioner\Footstep\Water\footstep_water_walk_06_6B314B5F.wem		\Actor-Mixer Hierarchy\Animals\DFox\DFox\DFox_Footstep_Type\Water\foot_water_walk_06		26584

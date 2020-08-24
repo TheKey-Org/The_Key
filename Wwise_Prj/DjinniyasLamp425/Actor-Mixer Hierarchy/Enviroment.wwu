@@ -10,17 +10,182 @@
 				<ActorMixer Name="Env_Wind" ID="{72B76D2E-EA1E-4B32-B99F-DA28640C39A6}" ShortID="358768633">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Wind_Soft" ID="{4C3CBBCF-4B8F-471B-9258-E6B3F0931110}" ShortID="290782112">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{EAFD8E58-18A9-429D-A0D2-AE8136D5B58E}" ShortID="182066110">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Wind Modulator LFO" ID="{7EE5F573-22CB-4759-8957-FEB657817CDD}" WorkUnitID="{2AE489AB-7C21-4937-9C32-25DB8A94F4D6}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{B76446BB-2792-408F-A102-E09B4A0C4E90}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>25</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{EE766903-F3C3-4DF2-8F58-BEDCC330E27F}" ShortID="1059213371">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Wind Modulator LFO" ID="{7EE5F573-22CB-4759-8957-FEB657817CDD}" WorkUnitID="{2AE489AB-7C21-4937-9C32-25DB8A94F4D6}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{491F10FD-C0F4-4028-9AA4-21DF1EA03366}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>227</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>1538</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Desert_Silence" ID="{DDF8DD1E-2F77-45AD-89F0-B05E582AE778}">
+									<Language>SFX</Language>
+									<AudioFile>Environment\Desert_Silence.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="303036354"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Desert_Silence" ID="{DDF8DD1E-2F77-45AD-89F0-B05E582AE778}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Wind_Fast" ID="{32E3810B-A0CF-4E37-B89D-5714E326C51F}" ShortID="983125515">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{48C1F524-9A28-436C-BF0D-D45985EDFFE1}" ShortID="901083660">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Wind Modulator LFO" ID="{7EE5F573-22CB-4759-8957-FEB657817CDD}" WorkUnitID="{2AE489AB-7C21-4937-9C32-25DB8A94F4D6}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{B51133A8-CFC5-4427-86C0-6998592AAB2E}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>13</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>28</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{E42CD6FD-8E83-4530-B603-91888D277E3B}" ShortID="401892537">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Wind Modulator LFO" ID="{7EE5F573-22CB-4759-8957-FEB657817CDD}" WorkUnitID="{2AE489AB-7C21-4937-9C32-25DB8A94F4D6}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{E85167CA-8721-400A-A02C-305E63C7E8A4}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>453</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wind_Soft_Loop_01" ID="{8CCF7B2E-9E40-4DD0-8126-4DE5FAC7E85E}">
+									<Language>SFX</Language>
+									<AudioFile>Wind_Soft_Loop_01.WAV</AudioFile>
+									<MediaIDList>
+										<MediaID ID="572924580"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wind_Soft_Loop_01" ID="{8CCF7B2E-9E40-4DD0-8126-4DE5FAC7E85E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Ambient" ID="{DDCF41D6-1B5F-471A-BD7B-2FA66982D22A}" ShortID="132598641">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -30,7 +195,7 @@
 						<BlendContainer Name="Oasis_Amb" ID="{BE84B20C-629F-4971-AC23-3A6A6DCF110F}" ShortID="780550578">
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -40,7 +205,7 @@
 								<BlendContainer Name="Wind_Types" ID="{A4E5C112-5A73-4C38-B5BA-A6C03AE266F0}" ShortID="923215710">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -53,7 +218,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -79,7 +244,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -174,15 +339,21 @@
 								</BlendContainer>
 								<RandomSequenceContainer Name="Crickets" ID="{120FD1BB-1239-4451-B874-B9E9FABCE78C}" ShortID="849473454">
 									<PropertyList>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+											<ObjectRef Name="Insects" ID="{EE82122E-2F99-4227-A8C5-0BEFBE589319}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -192,7 +363,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -220,6 +391,7 @@
 												<Value>45</Value>
 											</ValueList>
 										</Property>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
@@ -232,10 +404,10 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+											<ObjectRef Name="Insects" ID="{EE82122E-2F99-4227-A8C5-0BEFBE589319}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -261,7 +433,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -427,7 +599,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -506,6 +678,7 @@
 									<PropertyList>
 										<Property Name="3DPosition" Type="int16" Value="2"/>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
@@ -513,10 +686,10 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+											<ObjectRef Name="Insects" ID="{EE82122E-2F99-4227-A8C5-0BEFBE589319}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -539,7 +712,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -581,7 +754,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -715,7 +888,7 @@
 								<RandomSequenceContainer Name="Frog" ID="{80432C4C-4D56-4BB8-989F-BCC4B4406236}" ShortID="391578422">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -751,7 +924,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -796,7 +969,7 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 												</Reference>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -1284,12 +1457,689 @@
 								</BlendTrack>
 							</BlendTrackList>
 						</BlendContainer>
+						<RandomSequenceContainer Name="Leaves_Wind" ID="{F16E6DBF-2D0C-432F-9B01-D90242159E8F}" ShortID="1010940141">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{6F1A0DC6-7C9E-4C96-9810-939868868E22}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F09DF348-A38E-412D-A364-F14AC86636EC}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Leaves_Rustling_Loop_01_A" ID="{142EE4A7-4C18-4E34-ACDC-347EFF8EB43B}" ShortID="959499053">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Leaves_Rustling_Loop_01" ID="{4FC72FDD-994F-407A-A09F-C393201FD6C7}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.102009291521487"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.201261575164014"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.846401418840444"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Environment\Leaves_Rustling_Loop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="792969943"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Leaves_Rustling_Loop_01" ID="{4FC72FDD-994F-407A-A09F-C393201FD6C7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Leaves_Rustling_Loop_02_B" ID="{0C5E1F2D-0553-406B-A69F-843778067217}" ShortID="1056744517">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Leaves_Rustling_Loop_02" ID="{5AADD6A7-DA62-4242-A7A2-552194DD3A8C}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.508835914062395"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.53026058412818"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.45848089004883"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Environment\Leaves_Rustling_Loop_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="998141908"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Leaves_Rustling_Loop_02" ID="{5AADD6A7-DA62-4242-A7A2-552194DD3A8C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Leaves_Rustling_Loop_03_C" ID="{6F47CC5A-550C-4C9E-8816-27F3B189F795}" ShortID="329308709">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Leaves_Rustling_Loop_03" ID="{DF2C7A0F-FF90-4AF9-8DC7-37F8BB402EE5}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.445943703783425"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.486078637123933"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.7837748151337"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Environment\Leaves_Rustling_Loop_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="4865246"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Leaves_Rustling_Loop_03" ID="{DF2C7A0F-FF90-4AF9-8DC7-37F8BB402EE5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Leaves_Rustling_Loop_04_A" ID="{CF386932-975E-409F-BEAB-04A7973A6E63}" ShortID="915462280">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Leaves_Rustling_Loop_01" ID="{6319EEB9-4990-42DD-8221-66CEEAA8DCC4}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.102009291521487"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.201261575164014"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.821588347929811"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.98032551715479"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Environment\Leaves_Rustling_Loop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="558931773"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Leaves_Rustling_Loop_01" ID="{6319EEB9-4990-42DD-8221-66CEEAA8DCC4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Leaves_Rustling_Loop_05_A" ID="{FC7201BA-A483-41BC-A995-BA0010BED1A1}" ShortID="254494838">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Leaves_Rustling_Loop_01" ID="{B1293721-966F-47BB-8F98-6C084D293ABC}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.102009291521487"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.201261575164014"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.91691433593873"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Environment\Leaves_Rustling_Loop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="646265531"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Leaves_Rustling_Loop_01" ID="{B1293721-966F-47BB-8F98-6C084D293ABC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Leaves_Rustling_Loop_01_B" ID="{6502501C-B8A9-4BA6-9E4C-F253CD941A15}" ShortID="617138062">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Leaves_Rustling_Loop_02" ID="{DCBB4BC3-819A-488D-BC56-ED7801FDE61C}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.508835914062395"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.53026058412818"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.25494652442388"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.72038690756461"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Environment\Leaves_Rustling_Loop_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="321893777"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Leaves_Rustling_Loop_02" ID="{DCBB4BC3-819A-488D-BC56-ED7801FDE61C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Leaves_Rustling_Loop_04_B" ID="{82CD8553-2C06-4A9B-9B65-033218E99B87}" ShortID="51077334">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Leaves_Rustling_Loop_02" ID="{E9E26F7B-20FE-4C8D-B85F-010928A9FCFB}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.508835914062395"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.53026058412818"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="5.49542787187387"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Environment\Leaves_Rustling_Loop_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1040058827"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Leaves_Rustling_Loop_02" ID="{E9E26F7B-20FE-4C8D-B85F-010928A9FCFB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Leaves_Rustling_Loop_01_C" ID="{BF8C40FB-089B-4E3D-909A-3CEAC2B77D2C}" ShortID="1016642888">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Leaves_Rustling_Loop_03" ID="{720DC044-AED3-4504-8724-EA47194121C4}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.445943703783425"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.486078637123933"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.15836752631177"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.23755128946767"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Environment\Leaves_Rustling_Loop_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="22491053"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Leaves_Rustling_Loop_03" ID="{720DC044-AED3-4504-8724-EA47194121C4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Leaves_Rustling_Loop_02_C" ID="{2A7FDAEC-7004-4F5D-987C-2BC5F2A648AA}" ShortID="964150791">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Leaves_Rustling_Loop_03" ID="{AA7C14BF-37D0-4AF2-8549-BE64C0F71CCE}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.445943703783425"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.486078637123933"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.9064668451428"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.43605374911995"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Environment\Leaves_Rustling_Loop_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="303011576"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Leaves_Rustling_Loop_03" ID="{AA7C14BF-37D0-4AF2-8549-BE64C0F71CCE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Leaves_Rustling_Loop_04_C" ID="{1DE7906C-8AAE-4284-990C-D5DB4707CAE3}" ShortID="645654367">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Leaves_Rustling_Loop_03" ID="{BB8305E7-FB64-4EA3-B788-5294DE6E2E3B}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.445943703783425"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.486078637123933"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="5.87753801586554"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Environment\Leaves_Rustling_Loop_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="58225192"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Leaves_Rustling_Loop_03" ID="{BB8305E7-FB64-4EA3-B788-5294DE6E2E3B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Leaves" ID="{23677E35-E986-4232-BA04-B177E98F149F}" ShortID="117897088">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{95DC3C9A-DA01-4CD5-83AF-EF81FE1B4C8B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F873CD55-C302-45A2-ABE5-76160CB008F1}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Att_Env_Small" ID="{ECB4353A-2C8D-414D-8F54-EF597B15CF13}" WorkUnitID="{1F1D049E-E2DC-4F15-BF43-BC6B857A06AD}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Leaves_Rustling_Loop_01_A" ID="{CAF7B602-1E76-4F7B-8CAE-827EFF185750}" ShortID="653711098">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Leaves_Rustling_Loop_01" ID="{AC286C16-7676-4E45-AB83-FAE016DA8525}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.102009291521487"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.201261575164014"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.846401418840444"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Environment\Leaves_Rustling_Loop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="792969943"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Leaves_Rustling_Loop_01" ID="{AC286C16-7676-4E45-AB83-FAE016DA8525}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Leaves_Rustling_Loop_02_B" ID="{8E28DE84-2C02-470C-B429-602DD117F900}" ShortID="384306682">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Leaves_Rustling_Loop_02" ID="{8A94E820-29BA-4EC4-A91A-92780A87DDAF}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.508835914062395"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.53026058412818"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.45848089004883"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Environment\Leaves_Rustling_Loop_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="998141908"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Leaves_Rustling_Loop_02" ID="{8A94E820-29BA-4EC4-A91A-92780A87DDAF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Leaves_Rustling_Loop_03_C" ID="{2807DF4B-87DA-46A4-9732-691AD8404B92}" ShortID="692434887">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Leaves_Rustling_Loop_03" ID="{38006D9B-2456-41CD-80B5-C5B1DE3560E5}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.445943703783425"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.486078637123933"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.7837748151337"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Environment\Leaves_Rustling_Loop_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="4865246"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Leaves_Rustling_Loop_03" ID="{38006D9B-2456-41CD-80B5-C5B1DE3560E5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Leaves_Rustling_Loop_04_A" ID="{ABD780C6-19F6-4B83-86E4-13AB5F4C5A4C}" ShortID="164414556">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Leaves_Rustling_Loop_01" ID="{50B19E95-58E9-41E0-B5D3-A03AAE72F540}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.102009291521487"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.201261575164014"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.821588347929811"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.98032551715479"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Environment\Leaves_Rustling_Loop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="558931773"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Leaves_Rustling_Loop_01" ID="{50B19E95-58E9-41E0-B5D3-A03AAE72F540}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Leaves_Rustling_Loop_05_A" ID="{296E688B-AC27-4F73-812D-0B6EF0652BE6}" ShortID="525798628">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Leaves_Rustling_Loop_01" ID="{ACD4FB2C-CB5A-4E33-BA7C-800152E5EC43}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.102009291521487"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.201261575164014"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.91691433593873"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Environment\Leaves_Rustling_Loop_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="646265531"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Leaves_Rustling_Loop_01" ID="{ACD4FB2C-CB5A-4E33-BA7C-800152E5EC43}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Leaves_Rustling_Loop_01_B" ID="{31B92345-95FE-41F2-B81E-260E1C342999}" ShortID="792807261">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Leaves_Rustling_Loop_02" ID="{8A7EDDD0-EB43-461A-A214-DFB6165781E0}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.508835914062395"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.53026058412818"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.25494652442388"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.72038690756461"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Environment\Leaves_Rustling_Loop_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="321893777"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Leaves_Rustling_Loop_02" ID="{8A7EDDD0-EB43-461A-A214-DFB6165781E0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Leaves_Rustling_Loop_04_B" ID="{37444C4F-14E1-4000-9D39-8040E59CA18E}" ShortID="94876529">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Leaves_Rustling_Loop_02" ID="{E19347CE-C194-410F-9951-29C086F4EB4B}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.508835914062395"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.53026058412818"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="5.49542787187387"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Environment\Leaves_Rustling_Loop_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1040058827"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Leaves_Rustling_Loop_02" ID="{E19347CE-C194-410F-9951-29C086F4EB4B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Leaves_Rustling_Loop_01_C" ID="{F25BD052-5A34-4BE4-AC0B-68D6CA811207}" ShortID="524841763">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Leaves_Rustling_Loop_03" ID="{D50DECB3-9B60-4BD0-BD7D-96A77B89FF15}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.445943703783425"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.486078637123933"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.15836752631177"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.23755128946767"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Environment\Leaves_Rustling_Loop_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="22491053"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Leaves_Rustling_Loop_03" ID="{D50DECB3-9B60-4BD0-BD7D-96A77B89FF15}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Leaves_Rustling_Loop_02_C" ID="{D3828CBC-0D63-4AAB-BD36-C7FA5BDA4FFE}" ShortID="291581517">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Leaves_Rustling_Loop_03" ID="{A249318A-52A6-463B-927B-47A67CF516CF}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.445943703783425"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.486078637123933"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.9064668451428"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.43605374911995"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Environment\Leaves_Rustling_Loop_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="303011576"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Leaves_Rustling_Loop_03" ID="{A249318A-52A6-463B-927B-47A67CF516CF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Leaves_Rustling_Loop_04_C" ID="{A366E483-C711-44CF-A3A5-338222779EB9}" ShortID="124987184">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Leaves_Rustling_Loop_03" ID="{7F8E6C8C-888C-47BE-BC5D-1F9824E36437}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.445943703783425"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.486078637123933"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="5.87753801586554"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Environment\Leaves_Rustling_Loop_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="58225192"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Leaves_Rustling_Loop_03" ID="{7F8E6C8C-888C-47BE-BC5D-1F9824E36437}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Insects" ID="{8683A0CC-81D3-40D5-A354-DDFA73E40749}" ShortID="788508370">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Insects" ID="{EE82122E-2F99-4227-A8C5-0BEFBE589319}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -1304,7 +2154,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -1393,7 +2243,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -1468,7 +2318,7 @@
 						<Sound Name="Swarm Bees_Loop" ID="{2BB2C15D-8214-4E7A-81CF-88F4F57EECC6}" ShortID="606373027">
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DD571C81-0B9F-4A07-B4CC-4040EF72B086}"/>
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>

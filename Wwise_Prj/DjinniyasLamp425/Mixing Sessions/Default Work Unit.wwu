@@ -9,6 +9,18 @@
 						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
 					</ObjectList>
 				</MixingSession>
+				<MixingSession Name="Full Mixing Session" ID="{193D3E03-93EE-4266-9E52-CEB287B215C9}">
+					<ObjectList>
+						<ObjectRef Name="Music" ID="{38235DD8-45A3-458A-B5DF-8E9C15B17D9E}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+						<ObjectRef Name="Insects" ID="{EE82122E-2F99-4227-A8C5-0BEFBE589319}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+						<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+						<ObjectRef Name="Character" ID="{85B077C5-D6F8-4AE9-93E4-7792314A3930}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+						<ObjectRef Name="Pris_Voice" ID="{AC2D5EDB-C5EB-498A-808C-A84B64DB4BAB}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+						<ObjectRef Name="Footsteps" ID="{6D1788C8-B93B-4839-B601-A4452C524A35}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+						<ObjectRef Name="SFX" ID="{44EB19F1-9E70-4A48-9736-8B2843B02580}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+						<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+					</ObjectList>
+				</MixingSession>
 			</ChildrenList>
 		</WorkUnit>
 	</MixingSessions>

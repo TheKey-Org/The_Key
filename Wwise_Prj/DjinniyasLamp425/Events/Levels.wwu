@@ -35,6 +35,24 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="EV_Oasis_Back" ID="{ACFEF940-C744-4786-9C25-012EA7401EBB}">
+					<ChildrenList>
+						<Action Name="" ID="{E89B43C9-C6E4-4348-A1BA-2E842D729891}" ShortID="426338570">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{DA997D69-8A15-436F-8730-D8DCE9DF4801}" ShortID="1040637411">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="03_Explore" ID="{6A96FE69-1C42-4E6C-82D9-28437C6AA6D0}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

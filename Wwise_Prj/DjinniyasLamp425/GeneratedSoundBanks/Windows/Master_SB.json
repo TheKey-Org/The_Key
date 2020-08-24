@@ -1110,6 +1110,236 @@
       ]
      },
      {
+      "Id": "4202675357",
+      "Name": "Ev_Env_Leaves_On",
+      "ObjectPath": "\\Events\\Environment\\Ambient\\Ev_Env_Leaves_On",
+      "GUID": "{C629CDF3-305C-414F-BA29-FE299AD8DEBD}",
+      "MaxAttenuation": "1500.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "4865246",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_03.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_C7F1F50E.wem"
+       },
+       {
+        "Id": "22491053",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_03.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_586A26D4.wem"
+       },
+       {
+        "Id": "58225192",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_03.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_AC2124A1.wem"
+       },
+       {
+        "Id": "303011576",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_03.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_CCAFA16A.wem"
+       },
+       {
+        "Id": "321893777",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_02.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_51ACD091.wem"
+       },
+       {
+        "Id": "558931773",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_01.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_01_D4C76813.wem"
+       },
+       {
+        "Id": "646265531",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_01.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_01_C4D209A4.wem"
+       },
+       {
+        "Id": "792969943",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_01.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_01_C8859B63.wem"
+       },
+       {
+        "Id": "998141908",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_02.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_9D023248.wem"
+       },
+       {
+        "Id": "1040058827",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_02.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_72598FC1.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1906188514",
+      "Name": "Ev_Env_Leaves_Stop",
+      "ObjectPath": "\\Events\\Environment\\Ambient\\Ev_Env_Leaves_Stop",
+      "GUID": "{FF8653A6-03DE-4CFB-B41B-2ED6594CCC50}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "1070291111",
+      "Name": "EV_Env_Oasis_Amb",
+      "ObjectPath": "\\Events\\Environment\\Ambient\\EV_Env_Oasis_Amb",
+      "GUID": "{CFEBC2F4-D506-4026-93B3-C4BE7211A340}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "86745989",
+        "Language": "SFX",
+        "ShortName": "Animals\\Environment\\Bee_Loop.wav",
+        "Path": "SFX\\Animals\\Environment\\Bee_Loop_0F5D66AE.wem"
+       },
+       {
+        "Id": "303036354",
+        "Language": "SFX",
+        "ShortName": "Environment\\Desert_Silence.wav",
+        "Path": "SFX\\Environment\\Desert_Silence_D79FB2B7.wem"
+       },
+       {
+        "Id": "385326610",
+        "Language": "SFX",
+        "ShortName": "Animals\\Environment\\Crickets_OneShot_01.wav",
+        "Path": "SFX\\Animals\\Environment\\Crickets_OneShot_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "400556086",
+        "Language": "SFX",
+        "ShortName": "Animals\\Frog\\Frog_Amb_Loop_01.wav",
+        "Path": "SFX\\Animals\\Frog\\Frog_Amb_Loop_01_6F8282C4.wem"
+       },
+       {
+        "Id": "572924580",
+        "Language": "SFX",
+        "ShortName": "Wind_Soft_Loop_01.WAV",
+        "Path": "SFX\\Wind_Soft_Loop_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "1022065363",
+        "Language": "SFX",
+        "ShortName": "Animals\\Environment\\Fly_Loop.wav",
+        "Path": "SFX\\Animals\\Environment\\Fly_Loop_619F4D67.wem"
+       }
+      ]
+     },
+     {
+      "Id": "293820446",
+      "Name": "EV_Env_Wind_Fast",
+      "ObjectPath": "\\Events\\Environment\\Ambient\\EV_Env_Wind_Fast",
+      "GUID": "{48C9AE18-147F-4D90-ACB9-7A3826E0F11E}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "572924580",
+        "Language": "SFX",
+        "ShortName": "Wind_Soft_Loop_01.WAV",
+        "Path": "SFX\\Wind_Soft_Loop_01_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "873588185",
+      "Name": "EV_Env_Wind_Fast_Leaves",
+      "ObjectPath": "\\Events\\Environment\\Ambient\\EV_Env_Wind_Fast_Leaves",
+      "GUID": "{464456F3-CD2C-4138-AC6B-51DB4A7AF7E8}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "4865246",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_03.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_C7F1F50E.wem"
+       },
+       {
+        "Id": "22491053",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_03.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_586A26D4.wem"
+       },
+       {
+        "Id": "58225192",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_03.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_AC2124A1.wem"
+       },
+       {
+        "Id": "303011576",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_03.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_CCAFA16A.wem"
+       },
+       {
+        "Id": "321893777",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_02.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_51ACD091.wem"
+       },
+       {
+        "Id": "558931773",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_01.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_01_D4C76813.wem"
+       },
+       {
+        "Id": "572924580",
+        "Language": "SFX",
+        "ShortName": "Wind_Soft_Loop_01.WAV",
+        "Path": "SFX\\Wind_Soft_Loop_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "646265531",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_01.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_01_C4D209A4.wem"
+       },
+       {
+        "Id": "792969943",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_01.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_01_C8859B63.wem"
+       },
+       {
+        "Id": "998141908",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_02.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_9D023248.wem"
+       },
+       {
+        "Id": "1040058827",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_02.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_72598FC1.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1574813572",
+      "Name": "EV_Env_Wind_Soft",
+      "ObjectPath": "\\Events\\Environment\\Ambient\\EV_Env_Wind_Soft",
+      "GUID": "{99F36DC8-2E77-441F-9A93-DAEAA8846CCF}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "303036354",
+        "Language": "SFX",
+        "ShortName": "Environment\\Desert_Silence.wav",
+        "Path": "SFX\\Environment\\Desert_Silence_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
       "Id": "3257707830",
       "Name": "EV_Frog_Croar_Single",
       "ObjectPath": "\\Events\\Animals\\Frog\\EV_Frog_Croar_Single",
@@ -1369,47 +1599,17 @@
       ]
      },
      {
-      "Id": "444742883",
-      "Name": "EV_Oasis_Amb",
-      "ObjectPath": "\\Events\\Environment\\Ambient\\EV_Oasis_Amb",
-      "GUID": "{CFEBC2F4-D506-4026-93B3-C4BE7211A340}",
+      "Id": "940564084",
+      "Name": "EV_Oasis_Back",
+      "ObjectPath": "\\Events\\Levels\\EV_Oasis_Back",
+      "GUID": "{ACFEF940-C744-4786-9C25-012EA7401EBB}",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
-        "Id": "86745989",
+        "Id": "595116604",
         "Language": "SFX",
-        "ShortName": "Animals\\Environment\\Bee_Loop.wav",
-        "Path": "SFX\\Animals\\Environment\\Bee_Loop_0F5D66AE.wem"
-       },
-       {
-        "Id": "303036354",
-        "Language": "SFX",
-        "ShortName": "Environment\\Desert_Silence.wav",
-        "Path": "SFX\\Environment\\Desert_Silence_D79FB2B7.wem"
-       },
-       {
-        "Id": "385326610",
-        "Language": "SFX",
-        "ShortName": "Animals\\Environment\\Crickets_OneShot_01.wav",
-        "Path": "SFX\\Animals\\Environment\\Crickets_OneShot_01_D79FB2B7.wem"
-       },
-       {
-        "Id": "400556086",
-        "Language": "SFX",
-        "ShortName": "Animals\\Frog\\Frog_Amb_Loop_01.wav",
-        "Path": "SFX\\Animals\\Frog\\Frog_Amb_Loop_01_6F8282C4.wem"
-       },
-       {
-        "Id": "572924580",
-        "Language": "SFX",
-        "ShortName": "Wind_Soft_Loop_01.WAV",
-        "Path": "SFX\\Wind_Soft_Loop_01_D79FB2B7.wem"
-       },
-       {
-        "Id": "1022065363",
-        "Language": "SFX",
-        "ShortName": "Animals\\Environment\\Fly_Loop.wav",
-        "Path": "SFX\\Animals\\Environment\\Fly_Loop_619F4D67.wem"
+        "ShortName": "desert-illusion_70BPM4-4.wav",
+        "Path": "SFX\\desert-illusion_70BPM4-4_D79FB2B7.wem"
        }
       ]
      },
@@ -1911,21 +2111,6 @@
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_03.wav",
         "Path": "SFX\\Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_03_10C4C929.wem"
-       }
-      ]
-     },
-     {
-      "Id": "1537061107",
-      "Name": "Wind",
-      "ObjectPath": "\\Events\\Environment\\Ambient\\Wind",
-      "GUID": "{99F36DC8-2E77-441F-9A93-DAEAA8846CCF}",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "572924580",
-        "Language": "SFX",
-        "ShortName": "Wind_Soft_Loop_01.WAV",
-        "Path": "SFX\\Wind_Soft_Loop_01_D79FB2B7.wem"
        }
       ]
      }

@@ -31,6 +31,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1316907820	GeNoch_Voice_01			\Default Work Unit\Master Audio Bus\Character\GenioNoche\GeNoch_Voice_01	
 	1325448588	Djin_Actions_01			\Default Work Unit\Master Audio Bus\Character\Djinnya\Djin_Actions_01	
 	2151963051	Items			\Default Work Unit\Master Audio Bus\SFX\Items	
+	2385628198	Footsteps			\Default Work Unit\Master Audio Bus\Character\Footsteps	
 	2492899947	Frog			\Default Work Unit\Master Audio Bus\SFX\Animals\Frog	
 	2826386293	GeNoch_Actions_01			\Default Work Unit\Master Audio Bus\Character\GenioNoche\GeNoch_Actions_01	
 	2919599157	Djin_Voice_01			\Default Work Unit\Master Audio Bus\Character\Djinnya\Djin_Voice_01	
