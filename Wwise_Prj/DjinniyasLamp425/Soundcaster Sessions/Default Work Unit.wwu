@@ -81,6 +81,14 @@
 							<ObjectRef Name="Ev_Env_Leaves_Stop" ID="{FF8653A6-03DE-4CFB-B41B-2ED6594CCC50}" WorkUnitID="{16310A29-DF1C-404A-93F3-D23310EC535B}"/>
 							<Position X="2" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="EV_An_Frog_Croar" ID="{AE3EFD8E-21DA-4D53-BFCF-7FDE0B6AA3A5}" WorkUnitID="{16B58919-71EF-412E-8157-887200C1F5FB}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_An_Frog_Croar_Stop" ID="{AD1EADCA-A880-4D7A-8602-14AF7CBBBA62}" WorkUnitID="{16B58919-71EF-412E-8157-887200C1F5FB}"/>
+							<Position X="3" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -154,6 +162,10 @@
 							<ObjectRef Name="Stone_Concrete" ID="{8A6ECEAB-54DE-4BD1-A85B-61FF0D72FB84}" WorkUnitID="{D29F1E3A-551C-4870-AAC4-CA9B911BB266}"/>
 							<Position X="1" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="EV_Pot_Crash" ID="{49C73B76-C438-4CA4-B2DE-39D961ACAF13}" WorkUnitID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}"/>
+							<Position X="2" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -166,7 +178,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_StoneSize" ID="{EF83E806-A76B-43C3-9187-85950092986A}"/>
-							<Value>1</Value>
+							<Value>3.02</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Oasis_Amb" ID="{ABB113A9-8877-4454-897C-064B56D2094F}"/>
@@ -196,12 +208,16 @@
 							<GameParameterRef Name="GP_Intensity" ID="{A3452C9E-0E20-4B53-A903-074D27493768}"/>
 							<Value>82.0905144305118</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GP_PotSize" ID="{97CFEF86-BA72-4EDA-A16D-EE312F1902A4}"/>
+							<Value>3</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="LampFall_02" ID="{EB762B58-A88D-475B-A8BD-856F7CE36F23}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="PM_Concrete" ID="{FF2B32AE-D42E-49BD-BA21-73CAE860422D}"/>
+						<CurrentSwitchRef Name="PM_Gravel" ID="{AD4D776E-A669-45EC-BB98-26AC275422C4}"/>
 						<CurrentSwitchRef Name="Big" ID="{1ECAADDF-7F4B-41EA-9CC1-5564FB04912E}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>

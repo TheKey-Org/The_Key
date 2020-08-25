@@ -20,6 +20,7 @@ State	ID	Name	State Group			Notes
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	77978275	Ambient			\Default Work Unit\Master Audio Bus\Environment\Ambient	
 	257203462	GenioNoche			\Default Work Unit\Master Audio Bus\Character\GenioNoche	
+	307708148	Animals_Small			\Default Work Unit\Master Audio Bus\Environment\Animals_Small	
 	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	436743010	Character			\Default Work Unit\Master Audio Bus\Character	

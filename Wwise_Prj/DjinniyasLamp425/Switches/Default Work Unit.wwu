@@ -14,33 +14,30 @@
 					</ChildrenList>
 				</SwitchGroup>
 				<SwitchGroup Name="AssetSize" ID="{7F335053-C423-4683-B729-CAF5099CD056}">
-					<PropertyList>
-						<Property Name="UseGameParameter" Type="bool" Value="True"/>
-					</PropertyList>
 					<ChildrenList>
 						<Switch Name="Small" ID="{2E56ECFC-B022-49FA-9C94-FC2735F0C0D5}"/>
 						<Switch Name="Medium" ID="{6199B8A2-B675-4EC6-9E0F-F1C122113EAA}"/>
 						<Switch Name="Big" ID="{1ECAADDF-7F4B-41EA-9CC1-5564FB04912E}"/>
 					</ChildrenList>
 					<SwitchOnRTPC>
-						<GameParameterRef Name="GP_Size" ID="{D420419F-6D1B-41BD-9390-745CCB6DFE8A}"/>
+						<GameParameterRef Name="GP_PotSize" ID="{97CFEF86-BA72-4EDA-A16D-EE312F1902A4}"/>
 						<Curve Name="" ID="{5D61614F-7BE7-47BF-B1BD-0FF9AE238C37}">
 							<PropertyList>
 								<Property Name="Flags" Type="int32" Value="65537"/>
 							</PropertyList>
 							<PointList>
 								<Point>
-									<XPos>0</XPos>
+									<XPos>1</XPos>
 									<YPos>1</YPos>
 									<Flags>5</Flags>
 								</Point>
 								<Point>
-									<XPos>1</XPos>
+									<XPos>1.66666666666667</XPos>
 									<YPos>2</YPos>
 									<Flags>0</Flags>
 								</Point>
 								<Point>
-									<XPos>2</XPos>
+									<XPos>2.33333333333333</XPos>
 									<YPos>3</YPos>
 									<Flags>0</Flags>
 								</Point>

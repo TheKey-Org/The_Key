@@ -145,6 +145,11 @@
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 								</Bus>
+								<Bus Name="Animals_Small" ID="{87A18D58-1FA1-43E1-BFE4-ACDCE1136FA6}">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
 							</ChildrenList>
 						</Bus>
 					</ChildrenList>

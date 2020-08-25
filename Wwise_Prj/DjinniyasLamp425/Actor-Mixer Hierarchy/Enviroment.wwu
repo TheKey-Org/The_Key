@@ -2134,6 +2134,175 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Fire" ID="{A4727F47-7918-4329-830C-B4EB0E7EB2F6}" ShortID="189001758">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D9BEA490-F3D0-43EB-BAAF-A0CFF679A16F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-50"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Att_Amb_Small" ID="{4859C823-3F62-4F80-B08E-DE5D10073389}" WorkUnitID="{1F1D049E-E2DC-4F15-BF43-BC6B857A06AD}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Fire_3" ID="{917046DD-1C94-4CE6-9A67-A68A8AE3726B}" ShortID="428483058">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>22</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fire_3" ID="{882E0950-0151-416C-8F8B-9513622E2301}">
+											<Language>SFX</Language>
+											<AudioFile>Environment\Fire_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="514170206"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fire_3" ID="{882E0950-0151-416C-8F8B-9513622E2301}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fire_Crackling" ID="{CABAD63C-D55D-48B7-9748-28F1C817C7A7}" ShortID="879711564">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>24</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fire_Crackling" ID="{45128C2E-2C90-44FB-9ECF-FC60138E8990}">
+											<Language>SFX</Language>
+											<AudioFile>Environment\Fire_Crackling.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="492111722"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fire_Crackling" ID="{45128C2E-2C90-44FB-9ECF-FC60138E8990}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fire_Crackling_01" ID="{0EA63E16-2881-45DC-9372-B652AA5636D0}" ShortID="653867204">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>24</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fire_Crackling" ID="{7E20D78E-E6F1-4DA8-8BFD-D71DE04EA8A7}">
+											<Language>SFX</Language>
+											<AudioFile>Environment\Fire_Crackling.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="492111722"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fire_Crackling" ID="{7E20D78E-E6F1-4DA8-8BFD-D71DE04EA8A7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fire_01" ID="{33E80170-9EEF-4B95-9488-4A69B0F1F240}" ShortID="74360299">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>22</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fire_3" ID="{D45DAEAD-147F-400D-82E6-131B249589CB}">
+											<Language>SFX</Language>
+											<AudioFile>Environment\Fire_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="514170206"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fire_3" ID="{D45DAEAD-147F-400D-82E6-131B249589CB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="Fire_3" ID="{917046DD-1C94-4CE6-9A67-A68A8AE3726B}"/>
+								<ItemRef Name="Fire_Crackling" ID="{CABAD63C-D55D-48B7-9748-28F1C817C7A7}"/>
+								<ItemRef Name="Fire_Crackling" ID="{CABAD63C-D55D-48B7-9748-28F1C817C7A7}"/>
+								<ItemRef Name="Fire_3" ID="{917046DD-1C94-4CE6-9A67-A68A8AE3726B}"/>
+								<ItemRef Name="Fire_3" ID="{917046DD-1C94-4CE6-9A67-A68A8AE3726B}"/>
+							</Playlist>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Insects" ID="{8683A0CC-81D3-40D5-A354-DDFA73E40749}" ShortID="788508370">
@@ -2337,6 +2506,174 @@
 								<ActiveSource Name="Swarm Bees_Pre1_Post1_Loop" ID="{9EE1EA20-D692-4B0A-984A-629AEAF5B568}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<RandomSequenceContainer Name="Crickets" ID="{8CC2DB21-6200-4250-B8AE-7629BD98F7D7}" ShortID="717262077">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="1"/>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{7083F99B-0D9E-4D06-BA96-4BFFD4E53561}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B089F9BC-7850-4DA6-99CF-686F8083A0D2}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-1"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Animals_Small_Attenuation" ID="{6AC7F5A5-F214-45B7-8604-2A6F058EADE9}" WorkUnitID="{1F1D049E-E2DC-4F15-BF43-BC6B857A06AD}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Insects" ID="{EE82122E-2F99-4227-A8C5-0BEFBE589319}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Crickets_OneShot_x1" ID="{80A7E36D-ACC8-4F20-8DC4-EEBF3B1FF510}" ShortID="648328399">
+									<PropertyList>
+										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Insects" ID="{EE82122E-2F99-4227-A8C5-0BEFBE589319}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Crickets_OneShot_01" ID="{919E606A-1903-4A0A-8404-57AFF756979A}">
+											<Language>SFX</Language>
+											<AudioFile>Animals\Environment\Crickets_OneShot_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="958892196"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Crickets_OneShot_01" ID="{919E606A-1903-4A0A-8404-57AFF756979A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Crickets_OneShot_x3" ID="{236AF13A-D6CC-47AA-86AE-B1206DC3B72D}" ShortID="516007761">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+										<Property Name="LoopCount" Type="int32" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Insects" ID="{EE82122E-2F99-4227-A8C5-0BEFBE589319}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Crickets_OneShot_01" ID="{63A2AF97-0E88-401E-9EF2-36317512F87C}">
+											<Language>SFX</Language>
+											<AudioFile>Animals\Environment\Crickets_OneShot_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="385326610"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Crickets_OneShot_01" ID="{63A2AF97-0E88-401E-9EF2-36317512F87C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Crickets_OneShot_x4" ID="{C428923A-327D-4051-8041-30B61EB0B670}" ShortID="855197349">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+										<Property Name="LoopCount" Type="int32" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Insects" ID="{EE82122E-2F99-4227-A8C5-0BEFBE589319}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Crickets_OneShot_01" ID="{269B5A1C-0C9A-4F3F-9CC1-4C8F11BEC75D}">
+											<Language>SFX</Language>
+											<AudioFile>Animals\Environment\Crickets_OneShot_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="385326610"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Crickets_OneShot_01" ID="{269B5A1C-0C9A-4F3F-9CC1-4C8F11BEC75D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Crickets_OneShot_x2" ID="{CE444F0F-1269-4F41-BA07-3CA616E73F27}" ShortID="587524137">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Insects" ID="{EE82122E-2F99-4227-A8C5-0BEFBE589319}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Crickets_OneShot_01" ID="{F6B0B856-2518-4B3E-B58A-27DF978BB849}">
+											<Language>SFX</Language>
+											<AudioFile>Animals\Environment\Crickets_OneShot_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="385326610"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Crickets_OneShot_01" ID="{F6B0B856-2518-4B3E-B58A-27DF978BB849}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{68523AC4-311D-420B-8CD5-4BD98090E5DB}">
+									<PropertyList>
+										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+								</Position>
+							</PositioningInfo>
+							<Playlist>
+								<ItemRef Name="Crickets_OneShot_x1" ID="{80A7E36D-ACC8-4F20-8DC4-EEBF3B1FF510}"/>
+								<ItemRef Name="Crickets_OneShot_x3" ID="{236AF13A-D6CC-47AA-86AE-B1206DC3B72D}"/>
+								<ItemRef Name="Crickets_OneShot_x2" ID="{CE444F0F-1269-4F41-BA07-3CA616E73F27}"/>
+								<ItemRef Name="Crickets_OneShot_x4" ID="{C428923A-327D-4051-8041-30B61EB0B670}"/>
+							</Playlist>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

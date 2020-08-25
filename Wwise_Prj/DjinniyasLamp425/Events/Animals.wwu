@@ -164,12 +164,49 @@
 				</Folder>
 				<Folder Name="Frog" ID="{C8360BCB-6275-4457-B852-E2D18B2ABE65}" ShortID="38548040">
 					<ChildrenList>
-						<Event Name="EV_Frog_Croar_Single" ID="{AE3EFD8E-21DA-4D53-BFCF-7FDE0B6AA3A5}">
+						<Event Name="EV_An_Frog_Croar" ID="{AE3EFD8E-21DA-4D53-BFCF-7FDE0B6AA3A5}">
 							<ChildrenList>
 								<Action Name="" ID="{6CEAA3F6-1738-4375-B73F-E2814D305566}" ShortID="763857096">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Frog_Croar_01" ID="{3C304A7E-90DB-4D5D-A30B-8815D7449D30}" WorkUnitID="{54480B38-97BA-4E35-A356-74B0B32E6630}"/>
+											<ObjectRef Name="Frog" ID="{73392A88-16AF-4684-A0B3-02456AD0CC1B}" WorkUnitID="{54480B38-97BA-4E35-A356-74B0B32E6630}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_An_Frog_Croar_Stop" ID="{AD1EADCA-A880-4D7A-8602-14AF7CBBBA62}">
+							<ChildrenList>
+								<Action Name="" ID="{ED9A3A7E-D4B8-46E2-9C3C-383E598FB5E9}" ShortID="592193422">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Frog" ID="{73392A88-16AF-4684-A0B3-02456AD0CC1B}" WorkUnitID="{54480B38-97BA-4E35-A356-74B0B32E6630}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_An_Frog_Croar_Single" ID="{B79FF695-84E9-40DD-94B3-4FC35E142799}">
+							<ChildrenList>
+								<Action Name="" ID="{8EB4755F-F083-4037-9B33-590384C74A5B}" ShortID="209773015">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Frog_Croar_Single" ID="{1A269B6D-BF3D-4A41-A500-69CD1A724B2D}" WorkUnitID="{54480B38-97BA-4E35-A356-74B0B32E6630}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_An_Frogdrop_into_Lake" ID="{5E23DF06-46F0-4A8C-8E27-58DFD15AD48A}">
+							<ChildrenList>
+								<Action Name="" ID="{B23956BA-9ADD-4746-AB46-6565898EF612}" ShortID="504274294">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Frogdrop_into_Lake" ID="{23A9AB67-A03A-48C6-A79C-F95942A39F59}" WorkUnitID="{54480B38-97BA-4E35-A356-74B0B32E6630}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

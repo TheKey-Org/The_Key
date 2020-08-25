@@ -532,6 +532,102 @@
       "DurationMax": "0.000000"
      },
      {
+      "Id": "3440153816",
+      "Name": "EV_Amb_Fire",
+      "ObjectPath": "\\Events\\Environment\\Ambient\\EV_Amb_Fire",
+      "GUID": "{763DD85E-3EDB-40B9-A614-4A23DFA0362E}",
+      "MaxAttenuation": "1000.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "492111722",
+        "Language": "SFX",
+        "ShortName": "Environment\\Fire_Crackling.wav",
+        "Path": "SFX\\Environment\\Fire_Crackling_10C4C929.wem"
+       },
+       {
+        "Id": "514170206",
+        "Language": "SFX",
+        "ShortName": "Environment\\Fire_3.wav",
+        "Path": "SFX\\Environment\\Fire_3_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2693395393",
+      "Name": "EV_An_Frog_Croar",
+      "ObjectPath": "\\Events\\Animals\\Frog\\EV_An_Frog_Croar",
+      "GUID": "{AE3EFD8E-21DA-4D53-BFCF-7FDE0B6AA3A5}",
+      "MaxAttenuation": "1200.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "283900663",
+        "Language": "SFX",
+        "ShortName": "Animals\\Frog\\Frog_Croar_01.wav",
+        "Path": "SFX\\Animals\\Frog\\Frog_Croar_01_10C4C929.wem"
+       },
+       {
+        "Id": "606326618",
+        "Language": "SFX",
+        "ShortName": "Animals\\Frog\\Frog_Croar_01.wav",
+        "Path": "SFX\\Animals\\Frog\\Frog_Croar_01_A400F9F9.wem"
+       },
+       {
+        "Id": "855497981",
+        "Language": "SFX",
+        "ShortName": "Animals\\Frog\\Frog_Croar_01.wav",
+        "Path": "SFX\\Animals\\Frog\\Frog_Croar_01_9E37C90F.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2461811776",
+      "Name": "EV_An_Frog_Croar_Single",
+      "ObjectPath": "\\Events\\Animals\\Frog\\EV_An_Frog_Croar_Single",
+      "GUID": "{B79FF695-84E9-40DD-94B3-4FC35E142799}",
+      "MaxAttenuation": "1200.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.533455",
+      "DurationMax": "0.591906",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "283900663",
+        "Language": "SFX",
+        "ShortName": "Animals\\Frog\\Frog_Croar_01.wav",
+        "Path": "SFX\\Animals\\Frog\\Frog_Croar_01_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3725221892",
+      "Name": "EV_An_Frog_Croar_Stop",
+      "ObjectPath": "\\Events\\Animals\\Frog\\EV_An_Frog_Croar_Stop",
+      "GUID": "{AD1EADCA-A880-4D7A-8602-14AF7CBBBA62}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "701303193",
+      "Name": "EV_An_Frogdrop_into_Lake",
+      "ObjectPath": "\\Events\\Animals\\Frog\\EV_An_Frogdrop_into_Lake",
+      "GUID": "{5E23DF06-46F0-4A8C-8E27-58DFD15AD48A}",
+      "MaxAttenuation": "1200.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.782741",
+      "DurationMax": "0.782741",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1046166227",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Stone-drop_into_puddle.wav",
+        "Path": "SFX\\Hits\\Stones\\Stone-drop_into_puddle_70457553.wem"
+       }
+      ]
+     },
+     {
       "Id": "479557960",
       "Name": "EV_Animal_Drink",
       "ObjectPath": "\\Events\\Animals\\Common\\EV_Animal_Drink",
@@ -1121,61 +1217,61 @@
         "Id": "4865246",
         "Language": "SFX",
         "ShortName": "Environment\\Leaves_Rustling_Loop_03.wav",
-        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_C7F1F50E.wem"
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_EE41A3C3.wem"
        },
        {
         "Id": "22491053",
         "Language": "SFX",
         "ShortName": "Environment\\Leaves_Rustling_Loop_03.wav",
-        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_586A26D4.wem"
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_77ACC5F2.wem"
        },
        {
         "Id": "58225192",
         "Language": "SFX",
         "ShortName": "Environment\\Leaves_Rustling_Loop_03.wav",
-        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_AC2124A1.wem"
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_E437782C.wem"
        },
        {
         "Id": "303011576",
         "Language": "SFX",
         "ShortName": "Environment\\Leaves_Rustling_Loop_03.wav",
-        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_CCAFA16A.wem"
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_D2A520E5.wem"
        },
        {
         "Id": "321893777",
         "Language": "SFX",
         "ShortName": "Environment\\Leaves_Rustling_Loop_02.wav",
-        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_51ACD091.wem"
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_211BBD0D.wem"
        },
        {
         "Id": "558931773",
         "Language": "SFX",
         "ShortName": "Environment\\Leaves_Rustling_Loop_01.wav",
-        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_01_D4C76813.wem"
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_01_40263CBE.wem"
        },
        {
         "Id": "646265531",
         "Language": "SFX",
         "ShortName": "Environment\\Leaves_Rustling_Loop_01.wav",
-        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_01_C4D209A4.wem"
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_01_095526F8.wem"
        },
        {
         "Id": "792969943",
         "Language": "SFX",
         "ShortName": "Environment\\Leaves_Rustling_Loop_01.wav",
-        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_01_C8859B63.wem"
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_01_444A324B.wem"
        },
        {
         "Id": "998141908",
         "Language": "SFX",
         "ShortName": "Environment\\Leaves_Rustling_Loop_02.wav",
-        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_9D023248.wem"
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_EFB5DDE3.wem"
        },
        {
         "Id": "1040058827",
         "Language": "SFX",
         "ShortName": "Environment\\Leaves_Rustling_Loop_02.wav",
-        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_72598FC1.wem"
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_42C28859.wem"
        }
       ]
      },
@@ -1260,37 +1356,37 @@
         "Id": "4865246",
         "Language": "SFX",
         "ShortName": "Environment\\Leaves_Rustling_Loop_03.wav",
-        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_C7F1F50E.wem"
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_EE41A3C3.wem"
        },
        {
         "Id": "22491053",
         "Language": "SFX",
         "ShortName": "Environment\\Leaves_Rustling_Loop_03.wav",
-        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_586A26D4.wem"
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_77ACC5F2.wem"
        },
        {
         "Id": "58225192",
         "Language": "SFX",
         "ShortName": "Environment\\Leaves_Rustling_Loop_03.wav",
-        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_AC2124A1.wem"
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_E437782C.wem"
        },
        {
         "Id": "303011576",
         "Language": "SFX",
         "ShortName": "Environment\\Leaves_Rustling_Loop_03.wav",
-        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_CCAFA16A.wem"
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_D2A520E5.wem"
        },
        {
         "Id": "321893777",
         "Language": "SFX",
         "ShortName": "Environment\\Leaves_Rustling_Loop_02.wav",
-        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_51ACD091.wem"
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_211BBD0D.wem"
        },
        {
         "Id": "558931773",
         "Language": "SFX",
         "ShortName": "Environment\\Leaves_Rustling_Loop_01.wav",
-        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_01_D4C76813.wem"
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_01_40263CBE.wem"
        },
        {
         "Id": "572924580",
@@ -1302,25 +1398,25 @@
         "Id": "646265531",
         "Language": "SFX",
         "ShortName": "Environment\\Leaves_Rustling_Loop_01.wav",
-        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_01_C4D209A4.wem"
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_01_095526F8.wem"
        },
        {
         "Id": "792969943",
         "Language": "SFX",
         "ShortName": "Environment\\Leaves_Rustling_Loop_01.wav",
-        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_01_C8859B63.wem"
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_01_444A324B.wem"
        },
        {
         "Id": "998141908",
         "Language": "SFX",
         "ShortName": "Environment\\Leaves_Rustling_Loop_02.wav",
-        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_9D023248.wem"
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_EFB5DDE3.wem"
        },
        {
         "Id": "1040058827",
         "Language": "SFX",
         "ShortName": "Environment\\Leaves_Rustling_Loop_02.wav",
-        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_72598FC1.wem"
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_42C28859.wem"
        }
       ]
      },
@@ -1336,23 +1432,6 @@
         "Language": "SFX",
         "ShortName": "Environment\\Desert_Silence.wav",
         "Path": "SFX\\Environment\\Desert_Silence_D79FB2B7.wem"
-       }
-      ]
-     },
-     {
-      "Id": "3257707830",
-      "Name": "EV_Frog_Croar_Single",
-      "ObjectPath": "\\Events\\Animals\\Frog\\EV_Frog_Croar_Single",
-      "GUID": "{AE3EFD8E-21DA-4D53-BFCF-7FDE0B6AA3A5}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.558685",
-      "DurationMax": "0.558685",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "283900663",
-        "Language": "SFX",
-        "ShortName": "Animals\\Frog\\Frog_Croar_01.wav",
-        "Path": "SFX\\Animals\\Frog\\Frog_Croar_01_10C4C929.wem"
        }
       ]
      },

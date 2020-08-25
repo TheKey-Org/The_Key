@@ -90,6 +90,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="EV_Amb_Fire" ID="{763DD85E-3EDB-40B9-A614-4A23DFA0362E}">
+							<ChildrenList>
+								<Action Name="" ID="{0C9551B8-A1F9-4FD8-B6FC-0B0FC9EADE7D}" ShortID="984608036">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fire" ID="{A4727F47-7918-4329-830C-B4EB0E7EB2F6}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Insects" ID="{6473C944-F276-463E-8B94-A9C56EDB147D}" ShortID="1033233314">
@@ -100,6 +111,31 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Swarm Bees_Loop" ID="{2BB2C15D-8214-4E7A-81CF-88F4F57EECC6}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Ins_Crickets" ID="{B292B241-E4D7-425D-AD66-D499ED0253C6}">
+							<ChildrenList>
+								<Action Name="" ID="{2E92E573-EE6B-43CC-972F-8A9EF09C83F1}" ShortID="7414993">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Crickets" ID="{8CC2DB21-6200-4250-B8AE-7629BD98F7D7}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Ins_Crickets_Stop" ID="{DB4C48B7-0C93-4483-AD95-F467F1864060}">
+							<ChildrenList>
+								<Action Name="" ID="{0D52B5C6-B7EE-43B5-A909-77458C74F60F}" ShortID="1022923200">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Crickets" ID="{8CC2DB21-6200-4250-B8AE-7629BD98F7D7}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
