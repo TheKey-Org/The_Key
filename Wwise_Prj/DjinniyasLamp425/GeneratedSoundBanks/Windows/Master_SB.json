@@ -571,13 +571,13 @@
         "Id": "606326618",
         "Language": "SFX",
         "ShortName": "Animals\\Frog\\Frog_Croar_01.wav",
-        "Path": "SFX\\Animals\\Frog\\Frog_Croar_01_A400F9F9.wem"
+        "Path": "SFX\\Animals\\Frog\\Frog_Croar_01_A839D9C3.wem"
        },
        {
         "Id": "855497981",
         "Language": "SFX",
         "ShortName": "Animals\\Frog\\Frog_Croar_01.wav",
-        "Path": "SFX\\Animals\\Frog\\Frog_Croar_01_9E37C90F.wem"
+        "Path": "SFX\\Animals\\Frog\\Frog_Croar_01_2A86535E.wem"
        }
       ]
      },
@@ -623,7 +623,7 @@
         "Id": "1046166227",
         "Language": "SFX",
         "ShortName": "Hits\\Stones\\Stone-drop_into_puddle.wav",
-        "Path": "SFX\\Hits\\Stones\\Stone-drop_into_puddle_70457553.wem"
+        "Path": "SFX\\Hits\\Stones\\Stone-drop_into_puddle_397D8046.wem"
        }
       ]
      },
@@ -1421,6 +1421,79 @@
       ]
      },
      {
+      "Id": "645670377",
+      "Name": "EV_Env_Wind_Fast_Scared",
+      "ObjectPath": "\\Events\\Environment\\Ambient\\EV_Env_Wind_Fast_Scared",
+      "GUID": "{67D22E71-78D1-474B-BA15-655FE8CFBB3F}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "503033313",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Ronroneos_Soft_04.wav",
+        "Path": "SFX\\Animals\\Camel\\Ronroneos_Soft_04_10C4C929.wem"
+       },
+       {
+        "Id": "572924580",
+        "Language": "SFX",
+        "ShortName": "Wind_Soft_Loop_01.WAV",
+        "Path": "SFX\\Wind_Soft_Loop_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "698258540",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Ronroneos_Soft_02.wav",
+        "Path": "SFX\\Animals\\Camel\\Ronroneos_Soft_02_10C4C929.wem"
+       },
+       {
+        "Id": "764052193",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Ronroneos_Soft_03.wav",
+        "Path": "SFX\\Animals\\Camel\\Ronroneos_Soft_03_10C4C929.wem"
+       },
+       {
+        "Id": "808931801",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\voice_female_a_breath_jog_06.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\voice_female_a_breath_jog_06_190D44F5.wem"
+       },
+       {
+        "Id": "830127368",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Ronroneos_Soft_01.wav",
+        "Path": "SFX\\Animals\\Camel\\Ronroneos_Soft_01_10C4C929.wem"
+       },
+       {
+        "Id": "896834865",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\voice_female_a_breath_jog_07.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\voice_female_a_breath_jog_07_B5CB4445.wem"
+       },
+       {
+        "Id": "994466661",
+        "Language": "SFX",
+        "ShortName": "Environment\\Dragon - Breath_Halloween.wav",
+        "Path": "SFX\\Environment\\Dragon - Breath_Halloween_574B1B9B.wem"
+       },
+       {
+        "Id": "1002576936",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\voice_female_a_breath_jog_05.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\voice_female_a_breath_jog_05_FD0D81BB.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1343469020",
+      "Name": "EV_Env_Wind_Fast_Scared_Stop",
+      "ObjectPath": "\\Events\\Environment\\Ambient\\EV_Env_Wind_Fast_Scared_Stop",
+      "GUID": "{5DFB46F9-66C8-4410-A587-34D66B9CAA84}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
       "Id": "1574813572",
       "Name": "EV_Env_Wind_Soft",
       "ObjectPath": "\\Events\\Environment\\Ambient\\EV_Env_Wind_Soft",
@@ -1434,6 +1507,38 @@
         "Path": "SFX\\Environment\\Desert_Silence_D79FB2B7.wem"
        }
       ]
+     },
+     {
+      "Id": "3744801892",
+      "Name": "EV_Ins_Crickets",
+      "ObjectPath": "\\Events\\Environment\\Insects\\EV_Ins_Crickets",
+      "GUID": "{B292B241-E4D7-425D-AD66-D499ED0253C6}",
+      "MaxAttenuation": "1200.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "385326610",
+        "Language": "SFX",
+        "ShortName": "Animals\\Environment\\Crickets_OneShot_01.wav",
+        "Path": "SFX\\Animals\\Environment\\Crickets_OneShot_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "958892196",
+        "Language": "SFX",
+        "ShortName": "Animals\\Environment\\Crickets_OneShot_01.wav",
+        "Path": "SFX\\Animals\\Environment\\Crickets_OneShot_01_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "691933315",
+      "Name": "EV_Ins_Crickets_Stop",
+      "ObjectPath": "\\Events\\Environment\\Insects\\EV_Ins_Crickets_Stop",
+      "GUID": "{DB4C48B7-0C93-4483-AD95-F467F1864060}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      },
      {
       "Id": "1595423298",
@@ -2230,6 +2335,12 @@
       "Name": "GP_Size",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\GP_Size",
       "GUID": "{D420419F-6D1B-41BD-9390-745CCB6DFE8A}"
+     },
+     {
+      "Id": "3708344978",
+      "Name": "GP_Direction_Move",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\GP_Direction_Move",
+      "GUID": "{DF5FB27A-708D-49D8-A11E-C439CEC2CC0C}"
      },
      {
       "Id": "3949169662",

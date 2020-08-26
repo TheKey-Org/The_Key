@@ -101,6 +101,102 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="EV_Env_Wind_Fast_Scared" ID="{67D22E71-78D1-474B-BA15-655FE8CFBB3F}">
+							<ChildrenList>
+								<Action Name="" ID="{B6BFF861-539C-416F-933D-4F4B90F0D80F}" ShortID="972522029">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind_Fast" ID="{32E3810B-A0CF-4E37-B89D-5714E326C51F}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{55261835-BC20-4F58-9E0B-C1093BB19DDB}" ShortID="549213609">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ScaredGrowls" ID="{5674074A-3D29-4428-BE5A-E738A56E1D62}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FF128831-B3D9-44BD-88B8-D70EF6B5FFE3}" ShortID="4871461">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Breath_Dragon" ID="{FC232CD0-3243-4607-8213-0A132340ABF8}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{892CB73C-160E-4D2E-85D7-88A15D8E30C4}" ShortID="553148482">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ScaredBreath" ID="{3E33711F-8CB1-49C8-A8FB-AF3F388824E4}" WorkUnitID="{A93E259D-E41F-4314-93C4-23633DB5187A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Env_Wind_Fast_Scared_Stop" ID="{5DFB46F9-66C8-4410-A587-34D66B9CAA84}">
+							<ChildrenList>
+								<Action Name="" ID="{F7DBFDBB-FEEF-46DE-978B-5DCD5886F9D4}" ShortID="283604880">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind_Fast" ID="{32E3810B-A0CF-4E37-B89D-5714E326C51F}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A23EA8A7-539C-4CB7-8B51-D4B743B9F0D1}" ShortID="22162212">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ScaredGrowls" ID="{5674074A-3D29-4428-BE5A-E738A56E1D62}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{40014271-38DE-438D-A6F8-1B3C11166B06}" ShortID="257314811">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Breath_Dragon" ID="{FC232CD0-3243-4607-8213-0A132340ABF8}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{40ED1580-D17C-4827-8F9C-CECDCAEECB2F}" ShortID="67117593">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ScaredBreath" ID="{3E33711F-8CB1-49C8-A8FB-AF3F388824E4}" WorkUnitID="{A93E259D-E41F-4314-93C4-23633DB5187A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Insects" ID="{6473C944-F276-463E-8B94-A9C56EDB147D}" ShortID="1033233314">

@@ -9,7 +9,9 @@
 				<Property Name="Event Action List\{48C9AE18-147F-4D90-ACB9-7A3826E0F11E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{49C73B76-C438-4CA4-B2DE-39D961ACAF13}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{59AA9BDD-4264-4B11-BB5B-FE2EEBA82AB1}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{5DFB46F9-66C8-4410-A587-34D66B9CAA84}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{5E23DF06-46F0-4A8C-8E27-58DFD15AD48A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{67D22E71-78D1-474B-BA15-655FE8CFBB3F}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{6F8BE938-41AC-4355-953C-2E3F423F3328}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{763DD85E-3EDB-40B9-A614-4A23DFA0362E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{87DDF05C-5D83-43F2-959C-63A8177391F3}\x64_Expand States" Type="string" Value=""/>
@@ -90,7 +92,7 @@
 				<Property Name="MeterView\MeterMode1Viewpoint1" Type="int32" Value="2"/>
 				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
 				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
-				<Property Name="Mixing Desk\CurrentStates\{809472B9-5C4C-456E-B088-CC1BF06DF904}" Type="string" Value="{EB762B58-A88D-475B-A8BD-856F7CE36F23}"/>
+				<Property Name="Mixing Desk\CurrentStates\{809472B9-5C4C-456E-B088-CC1BF06DF904}" Type="string" Value="{1D2BD15D-E1C0-432E-A24D-E985571BC198}"/>
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{193D3E03-93EE-4266-9E52-CEB287B215C9}"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>

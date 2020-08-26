@@ -20,7 +20,15 @@
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
+							<GameParameterRef Name="GP_Velocity" ID="{C3EABE06-E21E-4101-AE40-FE45AD5C64AC}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="GP_Size" ID="{D420419F-6D1B-41BD-9390-745CCB6DFE8A}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GP_StoneSize" ID="{EF83E806-A76B-43C3-9187-85950092986A}"/>
 							<Value>1</Value>
 						</RTPCValue>
 						<RTPCValue>
@@ -51,12 +59,17 @@
 							<GameParameterRef Name="GP_Intensity" ID="{A3452C9E-0E20-4B53-A903-074D27493768}"/>
 							<Value>82.0905144305118</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GP_PotSize" ID="{97CFEF86-BA72-4EDA-A16D-EE312F1902A4}"/>
+							<Value>3</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Hechizo_05" ID="{FE328865-7CB8-41A9-A089-17AEAEB12B6B}"/>
+						<CurrentStateRef Name="LampFall_02" ID="{EB762B58-A88D-475B-A8BD-856F7CE36F23}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="PM_Concrete" ID="{FF2B32AE-D42E-49BD-BA21-73CAE860422D}"/>
+						<CurrentSwitchRef Name="Big" ID="{1ECAADDF-7F4B-41EA-9CC1-5564FB04912E}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Ambient Soundcaster Session" ID="{BD8229E2-93DF-415E-B4D7-A20056E9E2D4}">
@@ -68,6 +81,14 @@
 						<Module>
 							<ObjectRef Name="EV_Oasis_Back" ID="{ACFEF940-C744-4786-9C25-012EA7401EBB}" WorkUnitID="{C6996CF7-92DB-4410-B61E-A48A10628E95}"/>
 							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Env_Wind_Fast_Scared" ID="{67D22E71-78D1-474B-BA15-655FE8CFBB3F}" WorkUnitID="{16310A29-DF1C-404A-93F3-D23310EC535B}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Env_Wind_Fast_Scared_Stop" ID="{5DFB46F9-66C8-4410-A587-34D66B9CAA84}" WorkUnitID="{16310A29-DF1C-404A-93F3-D23310EC535B}"/>
+							<Position X="0" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="EV_Env_Wind_Soft" ID="{99F36DC8-2E77-441F-9A93-DAEAA8846CCF}" WorkUnitID="{16310A29-DF1C-404A-93F3-D23310EC535B}"/>
@@ -130,6 +151,10 @@
 						<RTPCValue>
 							<GameParameterRef Name="GP_Intensity" ID="{A3452C9E-0E20-4B53-A903-074D27493768}"/>
 							<Value>20.5338809034908</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GP_PotSize" ID="{97CFEF86-BA72-4EDA-A16D-EE312F1902A4}"/>
+							<Value>3</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
@@ -198,7 +223,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Direction_Move" ID="{DF5FB27A-708D-49D8-A11E-C439CEC2CC0C}"/>
-							<Value>50</Value>
+							<Value>55.5555555555556</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Character_Speed" ID="{A6A36AB7-5A95-4AE0-AB0D-5B569B1B4800}"/>
