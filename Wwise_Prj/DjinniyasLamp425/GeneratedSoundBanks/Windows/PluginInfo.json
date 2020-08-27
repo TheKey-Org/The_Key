@@ -1,0 +1,29 @@
+{
+ "PluginInfo": {
+  "Project": "DjinniyasLamp425",
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "Plugins": [
+   {
+    "Name": "Wwise Silence",
+    "ID": "6619138",
+    "DLL": "AkSilenceGenerator"
+   },
+   {
+    "Name": "Wwise Gain",
+    "ID": "9109507",
+    "DLL": "AkGain"
+   },
+   {
+    "Name": "System",
+    "ID": "11403271",
+    "DLL": "DefaultSink"
+   },
+   {
+    "Name": "No Output",
+    "ID": "11862023",
+    "DLL": "DefaultSink"
+   }
+  ]
+ }
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2AE489AB-7C21-4937-9C32-25DB8A94F4D6}" SchemaVersion="97">
+	<Modulators>
+		<WorkUnit Name="Default Work Unit" ID="{2AE489AB-7C21-4937-9C32-25DB8A94F4D6}" PersistMode="Standalone">
+			<ChildrenList>
+				<ModulatorEnvelope Name="Wind Modulator Envelope" ID="{38021569-ED46-4426-9E76-CD022ABF4936}" ShortID="306971042">
+					<PropertyList>
+						<Property Name="EnvelopeAttackCurve" Type="Real64" Value="16"/>
+						<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.358"/>
+					</PropertyList>
+				</ModulatorEnvelope>
+				<ModulatorLfo Name="Wind Modulator LFO" ID="{7EE5F573-22CB-4759-8957-FEB657817CDD}" ShortID="41812639">
+					<PropertyList>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.002">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{1E9CEA7D-ABE3-4F46-A72D-2827C71A4769}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="1"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="LfoSmoothing" Type="Real64" Value="44"/>
+					</PropertyList>
+				</ModulatorLfo>
+			</ChildrenList>
+		</WorkUnit>
+	</Modulators>
+</WwiseDocument>

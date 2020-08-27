@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A93E259D-E41F-4314-93C4-23633DB5187A}" SchemaVersion="97" RootDocumentID="{2B2C27BE-884F-44C4-ACE4-33BC551170FD}">
+	<AudioObjects>
+		<WorkUnit Name="Djinniya" ID="{A93E259D-E41F-4314-93C4-23633DB5187A}" OwnerID="{2B2C27BE-884F-44C4-ACE4-33BC551170FD}" PersistMode="Nested">
+			<ChildrenList>
+				<RandomSequenceContainer Name="Cleaning" ID="{AD889477-8902-4CD6-9896-8DB381BB8931}" ShortID="969776841">
+					<PropertyList>
+						<Property Name="Highpass" Type="int16">
+							<ValueList>
+								<Value>65</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{946CED47-5E6E-4E32-A812-B7D135E16259}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="177"/>
+											<Property Name="Min" Type="Real64" Value="-126"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Djin_Actions_01" ID="{855FBFE4-DEF1-4F97-BBAD-10BE11232F24}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Cleaning_01" ID="{FDE221BD-849B-444A-9F72-A9B9C421F495}" ShortID="952240100">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cleaning_Cloth 29" ID="{60A2D5D8-E9A4-4A46-B45C-65886C776522}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.710399290150842"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.57866508922409"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Character\Djinniya\Clean\Cleaning_Cloth 29.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="664631883"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cleaning_Cloth 29" ID="{60A2D5D8-E9A4-4A46-B45C-65886C776522}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Cleaning_02" ID="{2F480A0B-4D13-4FBB-A00F-6733EAD73AC8}" ShortID="914982667">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Character" ID="{85B077C5-D6F8-4AE9-93E4-7792314A3930}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cleaning_Cloth 29" ID="{2DC2E4DB-979E-4BCC-A506-421531F3A6A4}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.53130513654737"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.40746426106674"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Character\Djinniya\Clean\Cleaning_Cloth 29.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="883642316"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cleaning_Cloth 29" ID="{2DC2E4DB-979E-4BCC-A506-421531F3A6A4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Cleaning_03" ID="{9C7F0832-CC3C-4A6A-BBF1-D2A369A8B597}" ShortID="589770069">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Character" ID="{85B077C5-D6F8-4AE9-93E4-7792314A3930}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cleaning_Cloth 29" ID="{DD8D21D0-B9EF-402C-BB20-6D7852C4C1FB}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.3522109829439"/>
+										<Property Name="TrimEnd" Type="Real64" Value="3.10207690032535"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Character\Djinniya\Clean\Cleaning_Cloth 29.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="948913228"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cleaning_Cloth 29" ID="{DD8D21D0-B9EF-402C-BB20-6D7852C4C1FB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Cleaning_04" ID="{94D17325-36C1-4AC8-893A-5E42518097B2}" ShortID="646412344">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Character" ID="{85B077C5-D6F8-4AE9-93E4-7792314A3930}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Cleaning_Cloth 29" ID="{AF404A9D-BC18-4ECF-B0E1-BA0810607977}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="4.57023543330375"/>
+										<Property Name="TrimEnd" Type="Real64" Value="5.26484807256236"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Character\Djinniya\Clean\Cleaning_Cloth 29.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="523807816"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Cleaning_Cloth 29" ID="{AF404A9D-BC18-4ECF-B0E1-BA0810607977}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Folder Name="Voice" ID="{076EB5AA-4B2F-43EE-950E-15D6B434C883}" ShortID="454039109">
+					<ChildrenList>
+						<RandomSequenceContainer Name="ScaredBreath" ID="{3E33711F-8CB1-49C8-A8FB-AF3F388824E4}" ShortID="96053080">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>46</Value>
+									</ValueList>
+								</Property>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>10</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>8</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+									<RTPCList>
+										<RTPC Name="" ID="{3393F38E-7EFA-4DE5-BA56-010BBCFE930D}" ShortID="826284076">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="GP_Direction_Move" ID="{DF5FB27A-708D-49D8-A11E-C439CEC2CC0C}" WorkUnitID="{D42A545A-C39D-4B75-992C-AC8862BFE65C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{E29BCF2E-85F5-4285-9137-51546D55F5A1}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-0</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Log2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Djin_Voice_01" ID="{11AD7C49-D85B-4E29-BCC5-F748341ABAC1}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="voice_female_a_breath_jog_05" ID="{C055D262-6802-4D00-914E-EC23EF58BE25}" ShortID="430642142">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="voice_female_a_breath_jog_05" ID="{FAF81223-49A2-4766-97AE-8FBCEF3EF297}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.861733684904417"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.526730388925511"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Character\Djinniya\Voice\voice_female_a_breath_jog_05.WAV</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1002576936"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="voice_female_a_breath_jog_05" ID="{FAF81223-49A2-4766-97AE-8FBCEF3EF297}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="voice_female_a_breath_jog_06" ID="{331D9C69-4A0A-4E7B-BD19-A5EF3270E376}" ShortID="687185078">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="voice_female_a_breath_jog_06" ID="{62C5B6FB-28AF-4E1F-B818-B73C9F48F987}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.895002815315315"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.614038123489343"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Character\Djinniya\Voice\voice_female_a_breath_jog_06.WAV</AudioFile>
+											<MediaIDList>
+												<MediaID ID="808931801"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="voice_female_a_breath_jog_06" ID="{62C5B6FB-28AF-4E1F-B818-B73C9F48F987}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="voice_female_a_breath_jog_07" ID="{771ABE11-DE51-4DAF-8463-AB7FF7E768F9}" ShortID="796648802">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="voice_female_a_breath_jog_07" ID="{2201A07B-80A3-4642-9275-B8E3B178810D}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.766216216216216"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.558569545154911"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Character\Djinniya\Voice\voice_female_a_breath_jog_07.WAV</AudioFile>
+											<MediaIDList>
+												<MediaID ID="896834865"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="voice_female_a_breath_jog_07" ID="{2201A07B-80A3-4642-9275-B8E3B178810D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

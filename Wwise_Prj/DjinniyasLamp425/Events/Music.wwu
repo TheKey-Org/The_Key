@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{69BDB25A-18ED-4E73-ACBD-ECA37AFCC683}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Music" ID="{69BDB25A-18ED-4E73-ACBD-ECA37AFCC683}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="24"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Oasis" ID="{0809E48D-1232-417E-95BC-85255E1AF4E9}" ShortID="408860810">
+					<ChildrenList>
+						<Event Name="EV_Mus_Oasis_Lvl" ID="{59AA9BDD-4264-4B11-BB5B-FE2EEBA82AB1}">
+							<ChildrenList>
+								<Action Name="" ID="{D1997D9C-187F-4D77-AA6D-39E1790781C2}" ShortID="925150024">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mus_Oasis_Lvl" ID="{FB2385EE-077A-4171-8A63-C8DAFB40818F}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

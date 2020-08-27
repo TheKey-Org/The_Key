@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{16310A29-DF1C-404A-93F3-D23310EC535B}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Environment" ID="{16310A29-DF1C-404A-93F3-D23310EC535B}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Ambient" ID="{D51F90B0-004C-41A8-9DB7-6C23AA616792}" ShortID="342091304">
+					<ChildrenList>
+						<Event Name="EV_Env_Oasis_Amb" ID="{CFEBC2F4-D506-4026-93B3-C4BE7211A340}">
+							<ChildrenList>
+								<Action Name="" ID="{C08691A2-0D2D-4BFC-8D64-AB2BCBC0EF14}" ShortID="396497369">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Oasis_Amb" ID="{BE84B20C-629F-4971-AC23-3A6A6DCF110F}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Env_Wind_Soft" ID="{99F36DC8-2E77-441F-9A93-DAEAA8846CCF}">
+							<ChildrenList>
+								<Action Name="" ID="{E98750FD-E28F-4256-BCF9-291D5C22FEB5}" ShortID="216964211">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind_Soft" ID="{4C3CBBCF-4B8F-471B-9258-E6B3F0931110}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Env_Wind_Fast" ID="{48C9AE18-147F-4D90-ACB9-7A3826E0F11E}">
+							<ChildrenList>
+								<Action Name="" ID="{B4B28406-7151-45AD-B324-3073C60779BB}" ShortID="21850511">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind_Fast" ID="{32E3810B-A0CF-4E37-B89D-5714E326C51F}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Env_Wind_Fast_Leaves" ID="{464456F3-CD2C-4138-AC6B-51DB4A7AF7E8}">
+							<ChildrenList>
+								<Action Name="" ID="{613083B2-8917-42F2-BAB4-1F66559CAF49}" ShortID="508055659">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind_Fast" ID="{32E3810B-A0CF-4E37-B89D-5714E326C51F}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AD030A1E-DA96-4010-884D-1483CA32EB5D}" ShortID="531257000">
+									<PropertyList>
+										<Property Name="Probability" Type="Real64" Value="55"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Leaves_Wind" ID="{F16E6DBF-2D0C-432F-9B01-D90242159E8F}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ev_Env_Leaves_On" ID="{C629CDF3-305C-414F-BA29-FE299AD8DEBD}">
+							<ChildrenList>
+								<Action Name="" ID="{C610D0CF-E7DD-46FA-92F4-EE07945FE48B}" ShortID="949824184">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Leaves" ID="{23677E35-E986-4232-BA04-B177E98F149F}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Ev_Env_Leaves_Stop" ID="{FF8653A6-03DE-4CFB-B41B-2ED6594CCC50}">
+							<ChildrenList>
+								<Action Name="" ID="{AC90B977-EC3D-44AF-BD67-E6F352CA769B}" ShortID="665811460">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Leaves" ID="{23677E35-E986-4232-BA04-B177E98F149F}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Amb_Fire" ID="{763DD85E-3EDB-40B9-A614-4A23DFA0362E}">
+							<ChildrenList>
+								<Action Name="" ID="{0C9551B8-A1F9-4FD8-B6FC-0B0FC9EADE7D}" ShortID="984608036">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fire" ID="{A4727F47-7918-4329-830C-B4EB0E7EB2F6}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Env_Wind_Fast_Scared" ID="{67D22E71-78D1-474B-BA15-655FE8CFBB3F}">
+							<ChildrenList>
+								<Action Name="" ID="{B6BFF861-539C-416F-933D-4F4B90F0D80F}" ShortID="972522029">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind_Fast" ID="{32E3810B-A0CF-4E37-B89D-5714E326C51F}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{55261835-BC20-4F58-9E0B-C1093BB19DDB}" ShortID="549213609">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ScaredGrowls" ID="{5674074A-3D29-4428-BE5A-E738A56E1D62}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FF128831-B3D9-44BD-88B8-D70EF6B5FFE3}" ShortID="4871461">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Breath_Dragon" ID="{FC232CD0-3243-4607-8213-0A132340ABF8}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{892CB73C-160E-4D2E-85D7-88A15D8E30C4}" ShortID="553148482">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ScaredBreath" ID="{3E33711F-8CB1-49C8-A8FB-AF3F388824E4}" WorkUnitID="{A93E259D-E41F-4314-93C4-23633DB5187A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Env_Wind_Fast_Scared_Stop" ID="{5DFB46F9-66C8-4410-A587-34D66B9CAA84}">
+							<ChildrenList>
+								<Action Name="" ID="{F7DBFDBB-FEEF-46DE-978B-5DCD5886F9D4}" ShortID="283604880">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="2.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind_Fast" ID="{32E3810B-A0CF-4E37-B89D-5714E326C51F}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A23EA8A7-539C-4CB7-8B51-D4B743B9F0D1}" ShortID="22162212">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ScaredGrowls" ID="{5674074A-3D29-4428-BE5A-E738A56E1D62}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{40014271-38DE-438D-A6F8-1B3C11166B06}" ShortID="257314811">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Breath_Dragon" ID="{FC232CD0-3243-4607-8213-0A132340ABF8}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{40ED1580-D17C-4827-8F9C-CECDCAEECB2F}" ShortID="67117593">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeInCurve" Type="int16" Value="7"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ScaredBreath" ID="{3E33711F-8CB1-49C8-A8FB-AF3F388824E4}" WorkUnitID="{A93E259D-E41F-4314-93C4-23633DB5187A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Amb_Fire_Stop" ID="{2529065B-4CF2-45E5-A565-387B5B60FA61}">
+							<ChildrenList>
+								<Action Name="" ID="{B57A88E4-CC03-44B7-A64D-834DD593BD79}" ShortID="485240331">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fire" ID="{A4727F47-7918-4329-830C-B4EB0E7EB2F6}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Insects" ID="{6473C944-F276-463E-8B94-A9C56EDB147D}" ShortID="1033233314">
+					<ChildrenList>
+						<Event Name="EV_Swarm_Bees_Loop" ID="{44D1822E-2A99-403F-AD40-7927C58932A7}">
+							<ChildrenList>
+								<Action Name="" ID="{EAB179F5-9DBA-46F0-B4F7-74A3FCA1DC7E}" ShortID="1022924746">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Swarm Bees_Loop" ID="{2BB2C15D-8214-4E7A-81CF-88F4F57EECC6}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Ins_Crickets" ID="{B292B241-E4D7-425D-AD66-D499ED0253C6}">
+							<ChildrenList>
+								<Action Name="" ID="{2E92E573-EE6B-43CC-972F-8A9EF09C83F1}" ShortID="7414993">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Crickets" ID="{8CC2DB21-6200-4250-B8AE-7629BD98F7D7}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Ins_Crickets_Stop" ID="{DB4C48B7-0C93-4483-AD95-F467F1864060}">
+							<ChildrenList>
+								<Action Name="" ID="{0D52B5C6-B7EE-43B5-A909-77458C74F60F}" ShortID="1022923200">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Crickets" ID="{8CC2DB21-6200-4250-B8AE-7629BD98F7D7}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

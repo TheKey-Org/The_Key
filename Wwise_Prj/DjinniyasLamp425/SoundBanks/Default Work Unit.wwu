@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{BF1A29F7-35F4-4517-B713-DE050040D25E}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{BF1A29F7-35F4-4517-B713-DE050040D25E}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Master_SB" ID="{5D725E50-346D-4F0A-B968-8F15F09F92CF}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Environment" ID="{16310A29-DF1C-404A-93F3-D23310EC535B}" WorkUnitID="{16310A29-DF1C-404A-93F3-D23310EC535B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Animals" ID="{16B58919-71EF-412E-8157-887200C1F5FB}" WorkUnitID="{16B58919-71EF-412E-8157-887200C1F5FB}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Character" ID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}" WorkUnitID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Levels" ID="{C6996CF7-92DB-4410-B61E-A48A10628E95}" WorkUnitID="{C6996CF7-92DB-4410-B61E-A48A10628E95}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Items" ID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}" WorkUnitID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Music" ID="{69BDB25A-18ED-4E73-ACBD-ECA37AFCC683}" WorkUnitID="{69BDB25A-18ED-4E73-ACBD-ECA37AFCC683}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

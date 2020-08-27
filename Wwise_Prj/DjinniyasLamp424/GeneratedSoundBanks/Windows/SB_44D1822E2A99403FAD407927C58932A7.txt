@@ -1,3 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	3449931884	EV_Swarm_Bees_Loop			\Environment\EV_Swarm_Bees_Loop	
-
