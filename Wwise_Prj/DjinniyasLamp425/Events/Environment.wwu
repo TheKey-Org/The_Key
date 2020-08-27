@@ -197,6 +197,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="EV_Amb_Fire_Stop" ID="{2529065B-4CF2-45E5-A565-387B5B60FA61}">
+							<ChildrenList>
+								<Action Name="" ID="{B57A88E4-CC03-44B7-A64D-834DD593BD79}" ShortID="485240331">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Fire" ID="{A4727F47-7918-4329-830C-B4EB0E7EB2F6}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Insects" ID="{6473C944-F276-463E-8B94-A9C56EDB147D}" ShortID="1033233314">

@@ -154,7 +154,15 @@
 								<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
-								<Bus Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}"/>
+								<Bus Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}">
+									<PropertyList>
+										<Property Name="OutputBusVolume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
 								<Bus Name="Insects" ID="{EE82122E-2F99-4227-A8C5-0BEFBE589319}">
 									<PropertyList>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>

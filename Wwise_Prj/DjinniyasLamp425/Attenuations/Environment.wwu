@@ -61,7 +61,7 @@
 				</Attenuation>
 				<Attenuation Name="Att_Amb_Small" ID="{4859C823-3F62-4F80-B08E-DE5D10073389}" ShortID="843106954">
 					<PropertyList>
-						<Property Name="RadiusMax" Type="Real64" Value="1000"/>
+						<Property Name="RadiusMax" Type="Real64" Value="1500"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -77,13 +77,13 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>331.765933333333</XPos>
+											<XPos>758.62069</XPos>
 											<YPos>0</YPos>
 											<Flags>0</Flags>
-											<SegmentShape>Log3</SegmentShape>
+											<SegmentShape>Exp2</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>1000</XPos>
+											<XPos>1500</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -111,7 +111,7 @@
 											<SegmentShape>Log3</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>1000</XPos>
+											<XPos>1500</XPos>
 											<YPos>76</YPos>
 											<Flags>37</Flags>
 										</Point>
