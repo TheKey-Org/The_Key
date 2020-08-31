@@ -255,7 +255,7 @@
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="PM_Gravel" ID="{AD4D776E-A669-45EC-BB98-26AC275422C4}"/>
-						<CurrentSwitchRef Name="Big" ID="{1ECAADDF-7F4B-41EA-9CC1-5564FB04912E}"/>
+						<CurrentSwitchRef Name="Small" ID="{2E56ECFC-B022-49FA-9C94-FC2735F0C0D5}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Character Soundcaster Session" ID="{1B0E3169-E02F-478C-B19F-8E1D34D50FAD}">

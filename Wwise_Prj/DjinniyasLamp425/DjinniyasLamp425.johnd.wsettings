@@ -192,6 +192,8 @@
 							<Property Name="EnableInsert" Type="bool" Value="True"/>
 							<Property Name="InsertAtPosition" Type="int32" Value="2"/>
 							<Property Name="InsertToInsert" Type="string" Value="_Env"/>
+							<Property Name="ReplaceFindWhat" Type="string" Value="Crash"/>
+							<Property Name="ReplaceReplaceWith" Type="string" Value="NO_Crash"/>
 							<Property Name="insertFrom" Type="int16" Value="0"/>
 						</PropertyList>
 					</PluginInnerObject>
