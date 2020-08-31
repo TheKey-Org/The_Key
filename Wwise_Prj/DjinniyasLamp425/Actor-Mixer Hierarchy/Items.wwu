@@ -1387,12 +1387,12 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<BlendContainer Name="PotsBreak" ID="{0F94CDA0-D364-4813-AAE9-A429B1F201C6}" ShortID="647662482">
+						<BlendContainer Name="PotsBreakIt" ID="{93CCD4FA-E343-47FE-94E9-6284CCC827AC}" ShortID="780426962">
 							<PropertyList>
 								<Property Name="IgnoreParentMaxSoundInstance" Type="bool" Value="True"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
 									<ValueList>
-										<Value>1</Value>
+										<Value>2</Value>
 									</ValueList>
 								</Property>
 								<Property Name="UseMaxSoundPerInstance" Type="bool">
@@ -1406,7 +1406,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+									<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -2022,7 +2022,7 @@
 								</SwitchContainer>
 							</ChildrenList>
 							<BlendTrackList>
-								<BlendTrack Name="BreakOnOff" ID="{2FDCAC92-9A51-49E2-9D85-01A3B18C7534}" ShortID="994509761">
+								<BlendTrack Name="PotsBreakable" ID="{1F03A970-9E14-4A7A-AE39-19C2276E4864}" ShortID="484430983">
 									<PropertyList>
 										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
 									</PropertyList>
@@ -2035,16 +2035,16 @@
 										<BlendTrackAssoc>
 											<ItemRef Name="Pot_NO_Crash" ID="{2DF103F7-C5FB-4E6A-91D9-B5897BDFC86B}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>0</LeftEdgePos>
+												<LeftEdgePos>100</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
-												<RightEdgePos>150</RightEdgePos>
+												<RightEdgePos>300</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>
 											</CrossfadingInfo>
 										</BlendTrackAssoc>
 										<BlendTrackAssoc>
 											<ItemRef Name="Pot_Crash" ID="{650E1B5C-EC39-44E5-A768-F28407357978}"/>
 											<CrossfadingInfo>
-												<LeftEdgePos>150</LeftEdgePos>
+												<LeftEdgePos>300</LeftEdgePos>
 												<LeftFadingMode>Automatic</LeftFadingMode>
 												<RightEdgePos>1000</RightEdgePos>
 												<RightFadingMode>Automatic</RightFadingMode>

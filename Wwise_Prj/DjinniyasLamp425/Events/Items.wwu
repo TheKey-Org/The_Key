@@ -51,7 +51,7 @@
 								<Action Name="" ID="{89953FB6-B37C-4EF8-AA8B-4F8C0C88D6A8}" ShortID="742413623">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="PotsBreak" ID="{0F94CDA0-D364-4813-AAE9-A429B1F201C6}" WorkUnitID="{D29F1E3A-551C-4870-AAC4-CA9B911BB266}"/>
+											<ObjectRef Name="PotsBreakIt" ID="{93CCD4FA-E343-47FE-94E9-6284CCC827AC}" WorkUnitID="{D29F1E3A-551C-4870-AAC4-CA9B911BB266}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

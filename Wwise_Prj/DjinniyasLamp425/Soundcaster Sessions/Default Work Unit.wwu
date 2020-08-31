@@ -231,7 +231,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Object_Speed" ID="{DE7223A8-7826-48CB-9645-55A77AF1FC5D}"/>
-							<Value>0</Value>
+							<Value>50</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Direction_Move" ID="{DF5FB27A-708D-49D8-A11E-C439CEC2CC0C}"/>
@@ -256,6 +256,7 @@
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="PM_Gravel" ID="{AD4D776E-A669-45EC-BB98-26AC275422C4}"/>
 						<CurrentSwitchRef Name="Small" ID="{2E56ECFC-B022-49FA-9C94-FC2735F0C0D5}"/>
+						<CurrentSwitchRef Name="Break_Si" ID="{2F5B781A-759B-4E03-A70E-7FB173B9289A}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Character Soundcaster Session" ID="{1B0E3169-E02F-478C-B19F-8E1D34D50FAD}">
