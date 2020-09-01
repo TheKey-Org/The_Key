@@ -1551,6 +1551,88 @@
       "DurationMax": "0.000000"
      },
      {
+      "Id": "3758102453",
+      "Name": "EV_It_Tablillas_In",
+      "ObjectPath": "\\Events\\Items\\Tablillas\\EV_It_Tablillas_In",
+      "GUID": "{0518A9E5-C95E-4E8B-9CA5-D82492986C74}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.100000",
+      "DurationMax": "3.100000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "108475109",
+        "Language": "SFX",
+        "ShortName": "Items\\Tablillas_In_01_3seg.wav",
+        "Path": "SFX\\Items\\Tablillas_In_01_3seg_10C4C929.wem"
+       },
+       {
+        "Id": "420471464",
+        "Language": "SFX",
+        "ShortName": "Items\\Tablillas_In_03_3seg.wav",
+        "Path": "SFX\\Items\\Tablillas_In_03_3seg_10C4C929.wem"
+       },
+       {
+        "Id": "482243175",
+        "Language": "SFX",
+        "ShortName": "Items\\Tablillas_In_05_3seg.wav",
+        "Path": "SFX\\Items\\Tablillas_In_05_3seg_10C4C929.wem"
+       },
+       {
+        "Id": "592109386",
+        "Language": "SFX",
+        "ShortName": "Items\\Tablillas_In_02_3seg.wav",
+        "Path": "SFX\\Items\\Tablillas_In_02_3seg_10C4C929.wem"
+       },
+       {
+        "Id": "864786538",
+        "Language": "SFX",
+        "ShortName": "Items\\Tablillas_In_04_3seg.wav",
+        "Path": "SFX\\Items\\Tablillas_In_04_3seg_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1244941148",
+      "Name": "EV_It_Tablillas_Out",
+      "ObjectPath": "\\Events\\Items\\Tablillas\\EV_It_Tablillas_Out",
+      "GUID": "{91FD4F4A-6789-4B35-9BDD-60619D0FEA46}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.100000",
+      "DurationMax": "3.100000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "155859009",
+        "Language": "SFX",
+        "ShortName": "Items\\Tablillas_Out_01_3seg.wav",
+        "Path": "SFX\\Items\\Tablillas_Out_01_3seg_10C4C929.wem"
+       },
+       {
+        "Id": "164562694",
+        "Language": "SFX",
+        "ShortName": "Items\\Tablillas_Out_03_3seg.wav",
+        "Path": "SFX\\Items\\Tablillas_Out_03_3seg_10C4C929.wem"
+       },
+       {
+        "Id": "467032119",
+        "Language": "SFX",
+        "ShortName": "Items\\Tablillas_Out_04_3seg.wav",
+        "Path": "SFX\\Items\\Tablillas_Out_04_3seg_10C4C929.wem"
+       },
+       {
+        "Id": "507048980",
+        "Language": "SFX",
+        "ShortName": "Items\\Tablillas_Out_05_3seg.wav",
+        "Path": "SFX\\Items\\Tablillas_Out_05_3seg_10C4C929.wem"
+       },
+       {
+        "Id": "1061314683",
+        "Language": "SFX",
+        "ShortName": "Items\\Tablillas_Out_02_3seg.wav",
+        "Path": "SFX\\Items\\Tablillas_Out_02_3seg_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "1595423298",
       "Name": "EV_LevelOasis",
       "ObjectPath": "\\Events\\Levels\\EV_LevelOasis",
@@ -1823,6 +1905,12 @@
         "Path": "SFX\\Hits\\Pot\\Pot_Crash_01_10C4C929.wem"
        },
        {
+        "Id": "168048728",
+        "Language": "SFX",
+        "ShortName": "Hits\\Pot\\Pot_Crash_14.wav",
+        "Path": "SFX\\Hits\\Pot\\Pot_Crash_14_1A106E46.wem"
+       },
+       {
         "Id": "240239109",
         "Language": "SFX",
         "ShortName": "Hits\\Pot\\Pot_Crash_12.wav",
@@ -1839,6 +1927,12 @@
         "Language": "SFX",
         "ShortName": "Hits\\Pot\\Pot_Crash_04.wav",
         "Path": "SFX\\Hits\\Pot\\Pot_Crash_04_10C4C929.wem"
+       },
+       {
+        "Id": "438034881",
+        "Language": "SFX",
+        "ShortName": "Hits\\Pot\\Pot_Crash_04.wav",
+        "Path": "SFX\\Hits\\Pot\\Pot_Crash_04_F12BBBCC.wem"
        },
        {
         "Id": "444766052",
@@ -1881,6 +1975,12 @@
         "Language": "SFX",
         "ShortName": "Hits\\Pot\\Pot_Crash_09.wav",
         "Path": "SFX\\Hits\\Pot\\Pot_Crash_09_10C4C929.wem"
+       },
+       {
+        "Id": "1000857915",
+        "Language": "SFX",
+        "ShortName": "Hits\\Pot\\Pot_Crash_09.wav",
+        "Path": "SFX\\Hits\\Pot\\Pot_Crash_09_D3B8F54E.wem"
        },
        {
         "Id": "1054048143",
@@ -1941,6 +2041,30 @@
           "Id": "379277942"
          }
         ]
+       },
+       {
+        "SwitchValue": "{1ECAADDF-7F4B-41EA-9CC1-5564FB04912E}",
+        "Media": [
+         {
+          "Id": "168048728"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{2E56ECFC-B022-49FA-9C94-FC2735F0C0D5}",
+        "Media": [
+         {
+          "Id": "1000857915"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{6199B8A2-B675-4EC6-9E0F-F1C122113EAA}",
+        "Media": [
+         {
+          "Id": "438034881"
+         }
+        ]
        }
       ]
      },
@@ -1984,9 +2108,15 @@
       "ObjectPath": "\\Events\\Items\\Stone\\EV_Stone_Weight_Impact",
       "GUID": "{8B11925C-41F8-48CD-AC1E-3F71765FC150}",
       "DurationType": "OneShot",
-      "DurationMin": "0.551995",
+      "DurationMin": "0.146013",
       "DurationMax": "1.901985",
       "IncludedMemoryFiles": [
+       {
+        "Id": "54693022",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_01.wav",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_01_996B0F82.wem"
+       },
        {
         "Id": "124739891",
         "Language": "SFX",
@@ -2018,6 +2148,12 @@
         "Path": "SFX\\Hits\\Stones\\Rock_Gravel_03_10C4C929.wem"
        },
        {
+        "Id": "286687416",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_03.wav",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_03_EE4382EA.wem"
+       },
+       {
         "Id": "286944441",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_run_14.WAV",
@@ -2040,6 +2176,12 @@
         "Language": "SFX",
         "ShortName": "Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash.wav",
         "Path": "SFX\\Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash_10C4C929.wem"
+       },
+       {
+        "Id": "423863987",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_01.wav",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_01_BB8B9745.wem"
        },
        {
         "Id": "553390352",
@@ -2066,16 +2208,40 @@
         "Path": "SFX\\Hits\\Stones\\Rock_Gravel_02_10C4C929.wem"
        },
        {
+        "Id": "701329245",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_03.wav",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_03_71779BBB.wem"
+       },
+       {
+        "Id": "704362871",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Rock_Big_06.wav",
+        "Path": "SFX\\Hits\\Stones\\Rock_Big_06_5CA5F961.wem"
+       },
+       {
         "Id": "714983882",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_run_08.WAV",
         "Path": "SFX\\Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_run_08_10C4C929.wem"
        },
        {
+        "Id": "763820648",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_02.wav",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_02_E66376E6.wem"
+       },
+       {
         "Id": "811937125",
         "Language": "SFX",
         "ShortName": "Hits\\Stones\\Petank_boules_metal_ball_land_in_sand_001.wav",
         "Path": "SFX\\Hits\\Stones\\Petank_boules_metal_ball_land_in_sand_001_10C4C929.wem"
+       },
+       {
+        "Id": "879959545",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Wood\\footstep_wood_walk_03.WAV",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Wood\\footstep_wood_walk_03_10C4C929.wem"
        },
        {
         "Id": "882907017",
@@ -2088,6 +2254,12 @@
         "Language": "SFX",
         "ShortName": "Hits\\Stones\\Petank_boules_metal_ball_land_in_sand_002.wav",
         "Path": "SFX\\Hits\\Stones\\Petank_boules_metal_ball_land_in_sand_002_10C4C929.wem"
+       },
+       {
+        "Id": "925117803",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_02.wav",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_02_33680F4E.wem"
        }
       ],
       "DefaultSwitchValue": "{95C0C10B-58E4-4A69-992C-9FF297A7EA29}",
@@ -2160,6 +2332,46 @@
          },
          {
           "Id": "574829474"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{DE5C9741-2EA0-45AA-A9F1-59C567C3D7AC}",
+        "Media": [
+         {
+          "Id": "423863987"
+         },
+         {
+          "Id": "763820648"
+         },
+         {
+          "Id": "701329245"
+         },
+         {
+          "Id": "54693022"
+         },
+         {
+          "Id": "925117803"
+         },
+         {
+          "Id": "286687416"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{604A446C-B7E0-483E-9602-8CF438326396}",
+        "Media": [
+         {
+          "Id": "704362871"
+         },
+         {
+          "Id": "879959545"
+         },
+         {
+          "Id": "704362871"
+         },
+         {
+          "Id": "879959545"
          }
         ]
        }
@@ -2323,16 +2535,22 @@
       "GUID": "{A6A36AB7-5A95-4AE0-AB0D-5B569B1B4800}"
      },
      {
-      "Id": "794307894",
-      "Name": "GP_Velocity",
-      "ObjectPath": "\\Game Parameters\\Default Work Unit\\GP_Velocity",
-      "GUID": "{C3EABE06-E21E-4101-AE40-FE45AD5C64AC}"
-     },
-     {
       "Id": "808401773",
       "Name": "GP_Wind",
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\GP_Wind",
       "GUID": "{1E3C488C-976E-4788-A89E-D2A8A5EC2F8D}"
+     },
+     {
+      "Id": "1350766177",
+      "Name": "GP_StoneSize",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\GP_StoneSize",
+      "GUID": "{EF83E806-A76B-43C3-9187-85950092986A}"
+     },
+     {
+      "Id": "1389549966",
+      "Name": "GP_Object_Speed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\GP_Object_Speed",
+      "GUID": "{DE7223A8-7826-48CB-9645-55A77AF1FC5D}"
      },
      {
       "Id": "2157298947",

@@ -47,7 +47,7 @@
 				<GameParameter Name="GP_StoneSize" ID="{EF83E806-A76B-43C3-9187-85950092986A}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="1"/>
-						<Property Name="Max" Type="Real64" Value="4"/>
+						<Property Name="Max" Type="Real64" Value="3"/>
 						<Property Name="Min" Type="Real64" Value="1"/>
 					</PropertyList>
 				</GameParameter>
