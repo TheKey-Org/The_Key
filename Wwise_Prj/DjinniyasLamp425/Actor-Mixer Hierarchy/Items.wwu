@@ -140,29 +140,29 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 									<BlendTrackList>
-										<BlendTrack Name="Stone_Water_Speed" ID="{9EAC8AA8-799A-45C0-AA3A-3955D0F81FD5}" ShortID="489368956">
+										<BlendTrack Name="Stone_Water_Size" ID="{9EAC8AA8-799A-45C0-AA3A-3955D0F81FD5}" ShortID="489368956">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="LayerCrossFadeControlInput">
-													<ObjectRef Name="GP_Size" ID="{D420419F-6D1B-41BD-9390-745CCB6DFE8A}" WorkUnitID="{D42A545A-C39D-4B75-992C-AC8862BFE65C}"/>
+													<ObjectRef Name="GP_StoneSize" ID="{EF83E806-A76B-43C3-9187-85950092986A}" WorkUnitID="{D42A545A-C39D-4B75-992C-AC8862BFE65C}"/>
 												</Reference>
 											</ReferenceList>
 											<BlendTrackAssocList>
 												<BlendTrackAssoc>
 													<ItemRef Name="Stone_Water_Light" ID="{FF1C9166-CF56-4025-BF4E-35D1E875088A}"/>
 													<CrossfadingInfo>
-														<LeftEdgePos>0</LeftEdgePos>
+														<LeftEdgePos>1</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
-														<RightEdgePos>1.26746263345196</RightEdgePos>
+														<RightEdgePos>2</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>
 													</CrossfadingInfo>
 												</BlendTrackAssoc>
 												<BlendTrackAssoc>
 													<ItemRef Name="Stone_Water_Heavy" ID="{D98C3309-8B33-4E5D-A86A-7198F4CBD199}"/>
 													<CrossfadingInfo>
-														<LeftEdgePos>1.74021352313167</LeftEdgePos>
+														<LeftEdgePos>2</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
 														<RightEdgePos>3</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>
@@ -296,29 +296,29 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 									<BlendTrackList>
-										<BlendTrack Name="Stone_Dirt_Speed" ID="{A221F472-67B6-42AC-AFAF-01434D1FD222}" ShortID="960814499">
+										<BlendTrack Name="Stone_Dirt_Size" ID="{A221F472-67B6-42AC-AFAF-01434D1FD222}" ShortID="960814499">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="LayerCrossFadeControlInput">
-													<ObjectRef Name="GP_Size" ID="{D420419F-6D1B-41BD-9390-745CCB6DFE8A}" WorkUnitID="{D42A545A-C39D-4B75-992C-AC8862BFE65C}"/>
+													<ObjectRef Name="GP_StoneSize" ID="{EF83E806-A76B-43C3-9187-85950092986A}" WorkUnitID="{D42A545A-C39D-4B75-992C-AC8862BFE65C}"/>
 												</Reference>
 											</ReferenceList>
 											<BlendTrackAssocList>
 												<BlendTrackAssoc>
 													<ItemRef Name="Stone_Dirt_Light" ID="{53C7914E-DC87-4104-BDCB-0B2E722EEE1A}"/>
 													<CrossfadingInfo>
-														<LeftEdgePos>0</LeftEdgePos>
+														<LeftEdgePos>1</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
-														<RightEdgePos>1.25251601423488</RightEdgePos>
+														<RightEdgePos>2</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>
 													</CrossfadingInfo>
 												</BlendTrackAssoc>
 												<BlendTrackAssoc>
 													<ItemRef Name="Stone_Dirt_Heavy" ID="{BB20F26D-8F6B-44F4-A94A-F0C0682248CF}"/>
 													<CrossfadingInfo>
-														<LeftEdgePos>1.74661921708185</LeftEdgePos>
+														<LeftEdgePos>2</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
 														<RightEdgePos>3</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>
@@ -518,29 +518,29 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 									<BlendTrackList>
-										<BlendTrack Name="Stone_Gravel_Speed" ID="{63072122-2450-424D-A8C9-352B84169E2E}" ShortID="872476925">
+										<BlendTrack Name="Stone_Gravel_Size" ID="{63072122-2450-424D-A8C9-352B84169E2E}" ShortID="872476925">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="LayerCrossFadeControlInput">
-													<ObjectRef Name="GP_Size" ID="{D420419F-6D1B-41BD-9390-745CCB6DFE8A}" WorkUnitID="{D42A545A-C39D-4B75-992C-AC8862BFE65C}"/>
+													<ObjectRef Name="GP_StoneSize" ID="{EF83E806-A76B-43C3-9187-85950092986A}" WorkUnitID="{D42A545A-C39D-4B75-992C-AC8862BFE65C}"/>
 												</Reference>
 											</ReferenceList>
 											<BlendTrackAssocList>
 												<BlendTrackAssoc>
 													<ItemRef Name="Stone_Gravel_Light" ID="{06DB8138-2BAF-4AC4-8B82-DBECE7F230F0}"/>
 													<CrossfadingInfo>
-														<LeftEdgePos>0</LeftEdgePos>
+														<LeftEdgePos>1</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
-														<RightEdgePos>1.24824555160142</RightEdgePos>
+														<RightEdgePos>2</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>
 													</CrossfadingInfo>
 												</BlendTrackAssoc>
 												<BlendTrackAssoc>
 													<ItemRef Name="Stone_Gravel_Heavy" ID="{ADA9A0B2-2BD9-4649-8B32-41256B2ECF38}"/>
 													<CrossfadingInfo>
-														<LeftEdgePos>1.74448398576512</LeftEdgePos>
+														<LeftEdgePos>2</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
 														<RightEdgePos>3</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>
@@ -557,7 +557,7 @@
 												<RTPC Name="" ID="{A1E46985-F3D8-4D8B-ACD4-935F2E2BF025}" ShortID="849662416">
 													<ReferenceList>
 														<Reference Name="ControlInput">
-															<ObjectRef Name="GP_Velocity" ID="{C3EABE06-E21E-4101-AE40-FE45AD5C64AC}" WorkUnitID="{D42A545A-C39D-4B75-992C-AC8862BFE65C}"/>
+															<ObjectRef Name="GP_Object_Speed" ID="{DE7223A8-7826-48CB-9645-55A77AF1FC5D}" WorkUnitID="{D42A545A-C39D-4B75-992C-AC8862BFE65C}"/>
 														</Reference>
 													</ReferenceList>
 													<Curve Name="" ID="{5EF7639D-D278-489F-98E1-DB5D2F3A1C61}">
@@ -571,7 +571,7 @@
 																<Flags>5</Flags>
 															</Point>
 															<Point>
-																<XPos>100</XPos>
+																<XPos>1000</XPos>
 																<YPos>500</YPos>
 																<Flags>37</Flags>
 															</Point>
@@ -743,24 +743,26 @@
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="LayerCrossFadeControlInput">
-													<ObjectRef Name="GP_Size" ID="{D420419F-6D1B-41BD-9390-745CCB6DFE8A}" WorkUnitID="{D42A545A-C39D-4B75-992C-AC8862BFE65C}"/>
+													<ObjectRef Name="GP_StoneSize" ID="{EF83E806-A76B-43C3-9187-85950092986A}" WorkUnitID="{D42A545A-C39D-4B75-992C-AC8862BFE65C}"/>
 												</Reference>
 											</ReferenceList>
 											<BlendTrackAssocList>
 												<BlendTrackAssoc>
 													<ItemRef Name="Stone_Concrete_Light" ID="{4361E5DE-ECF1-4B31-B1F2-B43F336B744B}"/>
 													<CrossfadingInfo>
-														<LeftEdgePos>0</LeftEdgePos>
+														<LeftEdgePos>1</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
-														<RightEdgePos>1.2576512455516</RightEdgePos>
+														<RightEdgePos>2</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>
+														<RightFadingSegmentShape>Log3</RightFadingSegmentShape>
 													</CrossfadingInfo>
 												</BlendTrackAssoc>
 												<BlendTrackAssoc>
 													<ItemRef Name="Stone_Concrete_Heavy" ID="{5CD0DC69-61DF-4872-A5F0-BE8E9187FDA3}"/>
 													<CrossfadingInfo>
-														<LeftEdgePos>1.73594306049822</LeftEdgePos>
+														<LeftEdgePos>2</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
+														<LeftFadingSegmentShape>Log1</LeftFadingSegmentShape>
 														<RightEdgePos>3</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>
 													</CrossfadingInfo>
@@ -779,7 +781,14 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<RandomSequenceContainer Name="Grass" ID="{65963B97-05BB-46F1-BFC8-C334C1F7178A}" ShortID="717050926">
+										<RandomSequenceContainer Name="Grass_Heavy" ID="{65963B97-05BB-46F1-BFC8-C334C1F7178A}" ShortID="717050926">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ValueList>
+														<Value>12</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
@@ -800,10 +809,19 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="footsteps_shoe_grass_walk_01" ID="{3AF0FDAA-E603-4577-BEBB-C5CD1F0D0481}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0142302653263019"/>
+																<Property Name="FadeInShape" Type="int16" Value="7"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0547317897165458"/>
+																<Property Name="FadeOutShape" Type="int16" Value="2"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0207980800922874"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.176236362887277"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Character\Prisioner\Footstep\Grass\footsteps_shoe_grass_walk_01.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="1065374544"/>
+																<MediaID ID="423863987"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -822,10 +840,19 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="footsteps_shoe_grass_walk_02" ID="{15580114-F775-42A1-8F19-294BDE3BAC05}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.00800510876730389"/>
+																<Property Name="FadeInShape" Type="int16" Value="7"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0323406394199077"/>
+																<Property Name="FadeOutShape" Type="int16" Value="2"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0172910349373764"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.163304218852999"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Character\Prisioner\Footstep\Grass\footsteps_shoe_grass_walk_02.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="771472934"/>
+																<MediaID ID="763820648"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -844,10 +871,19 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="footsteps_shoe_grass_walk_03" ID="{03EA72D6-9E82-40E5-A828-549D20BC1D77}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0138511178861789"/>
+																<Property Name="FadeInShape" Type="int16" Value="7"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0992039524280378"/>
+																<Property Name="FadeOutShape" Type="int16" Value="2"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0479173807954296"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.207018059217754"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Character\Prisioner\Footstep\Grass\footsteps_shoe_grass_walk_03.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="615217748"/>
+																<MediaID ID="701329245"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -857,7 +893,151 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Grass_Light" ID="{DF6503C0-D781-4D66-AEA6-A46A074C65A7}" ShortID="977777953">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>19</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="foot_grass_walk_01" ID="{5CE9C330-7D19-40B5-AE12-8BB0F75CC762}" ShortID="75932293">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_shoe_grass_walk_01" ID="{9AF83037-4F6F-4055-933A-0FE60B5EDF20}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0171492941111844"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0711513266315096"/>
+																<Property Name="FadeOutShape" Type="int16" Value="2"/>
+																<Property Name="LoopBegin" Type="Real64" Value="0.11968018018018"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0700566908371786"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.202507621951219"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Character\Prisioner\Footstep\Grass\footsteps_shoe_grass_walk_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="54693022"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_shoe_grass_walk_01" ID="{9AF83037-4F6F-4055-933A-0FE60B5EDF20}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="foot_grass_walk_02" ID="{4B099CD9-8709-4289-B5B0-6EF452891B15}" ShortID="1062081133">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_shoe_grass_walk_02" ID="{A3D707A3-7B9C-4554-BC5A-F5ACC73B52B2}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0179314436387607"/>
+																<Property Name="FadeInShape" Type="int16" Value="7"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0643610744891232"/>
+																<Property Name="FadeOutShape" Type="int16" Value="2"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0461094264996704"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.174511371127225"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Character\Prisioner\Footstep\Grass\footsteps_shoe_grass_walk_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="925117803"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_shoe_grass_walk_02" ID="{A3D707A3-7B9C-4554-BC5A-F5ACC73B52B2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="foot_grass_walk_03" ID="{5369620E-F9A4-478D-9A1E-F47EAF2FA4CA}" ShortID="269637520">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="footsteps_shoe_grass_walk_03" ID="{2703C47A-FF53-4347-B8B4-3C4BF5601BDD}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0224612722478576"/>
+																<Property Name="FadeInShape" Type="int16" Value="7"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.101824434190288"/>
+																<Property Name="FadeOutShape" Type="int16" Value="2"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0823579982421446"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.244453512964184"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Character\Prisioner\Footstep\Grass\footsteps_shoe_grass_walk_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="286687416"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="footsteps_shoe_grass_walk_03" ID="{2703C47A-FF53-4347-B8B4-3C4BF5601BDD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="Stone_Grass_Size" ID="{8461D61E-2EB5-4C6E-AEC0-7DA7A4E6885C}" ShortID="790816394">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="GP_StoneSize" ID="{EF83E806-A76B-43C3-9187-85950092986A}" WorkUnitID="{D42A545A-C39D-4B75-992C-AC8862BFE65C}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="Grass_Light" ID="{DF6503C0-D781-4D66-AEA6-A46A074C65A7}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>1</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>2.25</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="Grass_Heavy" ID="{65963B97-05BB-46F1-BFC8-C334C1F7178A}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>1.75</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>3</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
 								</BlendContainer>
 								<BlendContainer Name="Stone_Wood" ID="{8F036D75-EB22-4101-8F1A-002F3323E950}" ShortID="460700707">
 									<ReferenceList>
@@ -869,7 +1049,21 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<RandomSequenceContainer Name="Wood" ID="{764FFAB9-4F9B-4905-BFF5-D0691BBEE6BF}" ShortID="887886325">
+										<RandomSequenceContainer Name="Stone_Wood_Heavy" ID="{FD2697FB-EE9B-4123-B2AD-05F83E1611CF}" ShortID="459330541">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{0700A720-61FA-494A-AACD-8324F9DC0952}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
@@ -879,66 +1073,10 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="foot_wood_walk_04" ID="{07DF52CA-63AA-4DDB-91CF-EF3EFCEA7DE1}" ShortID="409046691">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="footstep_wood_walk_04" ID="{B4E3710D-70F4-4A4F-B841-7364E9139925}">
-															<Language>SFX</Language>
-															<AudioFile>Character\Prisioner\Footstep\Wood\footstep_wood_walk_04.WAV</AudioFile>
-															<MediaIDList>
-																<MediaID ID="956678191"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="footstep_wood_walk_04" ID="{B4E3710D-70F4-4A4F-B841-7364E9139925}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="foot_wood_walk_09" ID="{B8BEEFA7-3171-438C-A319-39D9CC1120E3}" ShortID="589217444">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="footstep_wood_walk_09" ID="{D555DA8D-18E5-4EEC-B850-598555074B5F}">
-															<Language>SFX</Language>
-															<AudioFile>Character\Prisioner\Footstep\Wood\footstep_wood_walk_09.WAV</AudioFile>
-															<MediaIDList>
-																<MediaID ID="314953184"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="footstep_wood_walk_09" ID="{D555DA8D-18E5-4EEC-B850-598555074B5F}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="Stone_Concrete_Heavy" ID="{FD2697FB-EE9B-4123-B2AD-05F83E1611CF}" ShortID="459330541">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<RandomSequenceContainer Name="New Sequence Container" ID="{D7CB8F56-5681-4270-86A8-B24EBC8B3DFB}" ShortID="25490121">
+												<RandomSequenceContainer Name="StoneWood" ID="{D7CB8F56-5681-4270-86A8-B24EBC8B3DFB}" ShortID="25490121">
 													<PropertyList>
 														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0"/>
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.2"/>
 														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 														<Property Name="RandomOrSequence" Type="int16" Value="0"/>
 													</PropertyList>
@@ -1026,7 +1164,7 @@
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="Stone_Concrete_Light" ID="{26ADAD11-A8FD-4793-BF5C-01C113C8A2A5}" ShortID="679883213">
+										<RandomSequenceContainer Name="Stone_Wood_Light" ID="{26ADAD11-A8FD-4793-BF5C-01C113C8A2A5}" ShortID="679883213">
 											<PropertyList>
 												<Property Name="Pitch" Type="int32">
 													<ModifierList>
@@ -1051,7 +1189,13 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="rock_small_01" ID="{D2D19FE3-BC68-4EFD-82F7-596E3DD3FF27}" ShortID="707846420">
+												<RandomSequenceContainer Name="StoneWood" ID="{99C44D26-9221-4146-8701-0388D3624041}" ShortID="51695364">
+													<PropertyList>
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.2"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
@@ -1061,65 +1205,126 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="rock_small_01" ID="{D137E1C5-8B9C-406E-9E88-FFFD2738BF68}">
-															<Language>SFX</Language>
-															<AudioFile>Hits\Stones\rock_small_01.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="882907017"/>
-															</MediaIDList>
-														</AudioFileSource>
+														<Sound Name="Rock_Big_06" ID="{4DD7D808-2D22-4380-BE1A-BEBBF43198EA}" ShortID="580017269">
+															<PropertyList>
+																<Property Name="Highpass" Type="int16">
+																	<ValueList>
+																		<Value>30</Value>
+																	</ValueList>
+																</Property>
+																<Property Name="Pitch" Type="int32">
+																	<ValueList>
+																		<Value>-300</Value>
+																	</ValueList>
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{86C3F21D-B7FD-454F-B549-F5C8B95ACA40}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="300"/>
+																					<Property Name="Min" Type="Real64" Value="-300"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Rock_Big_06" ID="{55C95778-08E5-4B23-943F-B6FFD441EF15}">
+																	<PropertyList>
+																		<Property Name="FadeOutDuration" Type="Real64" Value="0.111067912113208"/>
+																		<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																		<Property Name="TrimEnd" Type="Real64" Value="0.199558084714879"/>
+																	</PropertyList>
+																	<Language>SFX</Language>
+																	<AudioFile>Hits\Stones\Rock_Big_06.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="704362871"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Rock_Big_06" ID="{55C95778-08E5-4B23-943F-B6FFD441EF15}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="foot_wood_walk_03" ID="{256B1C0A-3A12-4447-8C99-83D5F9BA7C27}" ShortID="210326170">
+															<PropertyList>
+																<Property Name="Highpass" Type="int16">
+																	<ValueList>
+																		<Value>25</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="footstep_wood_walk_03" ID="{862EC4BD-47FB-49ED-B542-F3A150EEFE32}">
+																	<Language>SFX</Language>
+																	<AudioFile>Character\Prisioner\Footstep\Wood\footstep_wood_walk_03.WAV</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="879959545"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="footstep_wood_walk_03" ID="{862EC4BD-47FB-49ED-B542-F3A150EEFE32}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
 													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="rock_small_01" ID="{D137E1C5-8B9C-406E-9E88-FFFD2738BF68}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="rock_small_02" ID="{E9A19D5A-1767-4926-B748-70BDBEE0EF28}" ShortID="658733018">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="rock_small_02" ID="{B250CF18-38CA-4E74-BAC2-B1ED983A3595}">
-															<Language>SFX</Language>
-															<AudioFile>Hits\Stones\rock_small_02.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="586896782"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="rock_small_02" ID="{B250CF18-38CA-4E74-BAC2-B1ED983A3595}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<Sound Name="rock_small_03" ID="{97AD8915-1514-46BA-A3A8-A1CD3200E20F}" ShortID="536373459">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="rock_small_03" ID="{29321D05-9A6A-49FA-A2CD-DF9E8EE18296}">
-															<Language>SFX</Language>
-															<AudioFile>Hits\Stones\rock_small_03.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="332664854"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="rock_small_03" ID="{29321D05-9A6A-49FA-A2CD-DF9E8EE18296}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
+													<Playlist>
+														<ItemRef Name="Rock_Big_06" ID="{4DD7D808-2D22-4380-BE1A-BEBBF43198EA}"/>
+														<ItemRef Name="foot_wood_walk_03" ID="{256B1C0A-3A12-4447-8C99-83D5F9BA7C27}"/>
+													</Playlist>
+												</RandomSequenceContainer>
 											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="Stone_Wood_Size" ID="{83F7251F-B8B1-45E3-93F7-436E3753D9D4}" ShortID="792326608">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="GP_StoneSize" ID="{EF83E806-A76B-43C3-9187-85950092986A}" WorkUnitID="{D42A545A-C39D-4B75-992C-AC8862BFE65C}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="Stone_Wood_Light" ID="{26ADAD11-A8FD-4793-BF5C-01C113C8A2A5}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>1</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>2</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="Stone_Wood_Heavy" ID="{FD2697FB-EE9B-4123-B2AD-05F83E1611CF}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>2</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>3</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
 								</BlendContainer>
 							</ChildrenList>
 							<GroupingInfo>
@@ -1154,6 +1359,18 @@
 										<SwitchRef Name="PM_Dirt" ID="{95C0C10B-58E4-4A69-992C-9FF297A7EA29}"/>
 										<ItemList>
 											<ItemRef Name="Stone_Dirt" ID="{893DF0AA-8174-4115-9CDC-6B8A02156E9C}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="PM_Grass" ID="{DE5C9741-2EA0-45AA-A9F1-59C567C3D7AC}"/>
+										<ItemList>
+											<ItemRef Name="Stone_Grass" ID="{F4E47771-6357-406C-8608-F7BBBDB9B38E}"/>
+										</ItemList>
+									</Grouping>
+									<Grouping>
+										<SwitchRef Name="PM_Wood" ID="{604A446C-B7E0-483E-9602-8CF438326396}"/>
+										<ItemList>
+											<ItemRef Name="Stone_Wood" ID="{8F036D75-EB22-4101-8F1A-002F3323E950}"/>
 										</ItemList>
 									</Grouping>
 									<Grouping>
@@ -1371,6 +1588,135 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Foley_Wood_Stick_Large_Through_Water_Splash" ID="{B80FF551-B650-4F5A-B043-DB258B4DB323}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Wood" ID="{764FFAB9-4F9B-4905-BFF5-D0691BBEE6BF}" ShortID="887886325">
+							<PropertyList>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="foot_wood_walk_04" ID="{07DF52CA-63AA-4DDB-91CF-EF3EFCEA7DE1}" ShortID="409046691">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footstep_wood_walk_04" ID="{B4E3710D-70F4-4A4F-B841-7364E9139925}">
+											<Language>SFX</Language>
+											<AudioFile>Character\Prisioner\Footstep\Wood\footstep_wood_walk_04.WAV</AudioFile>
+											<MediaIDList>
+												<MediaID ID="956678191"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="footstep_wood_walk_04" ID="{B4E3710D-70F4-4A4F-B841-7364E9139925}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="foot_wood_walk_09" ID="{B8BEEFA7-3171-438C-A319-39D9CC1120E3}" ShortID="589217444">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="footstep_wood_walk_09" ID="{D555DA8D-18E5-4EEC-B850-598555074B5F}">
+											<Language>SFX</Language>
+											<AudioFile>Character\Prisioner\Footstep\Wood\footstep_wood_walk_09.WAV</AudioFile>
+											<MediaIDList>
+												<MediaID ID="314953184"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="footstep_wood_walk_09" ID="{D555DA8D-18E5-4EEC-B850-598555074B5F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="rock_small_01" ID="{D2D19FE3-BC68-4EFD-82F7-596E3DD3FF27}" ShortID="707846420">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="rock_small_01" ID="{D137E1C5-8B9C-406E-9E88-FFFD2738BF68}">
+											<Language>SFX</Language>
+											<AudioFile>Hits\Stones\rock_small_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="882907017"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="rock_small_01" ID="{D137E1C5-8B9C-406E-9E88-FFFD2738BF68}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="rock_small_02" ID="{E9A19D5A-1767-4926-B748-70BDBEE0EF28}" ShortID="658733018">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="rock_small_02" ID="{B250CF18-38CA-4E74-BAC2-B1ED983A3595}">
+											<Language>SFX</Language>
+											<AudioFile>Hits\Stones\rock_small_02.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="586896782"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="rock_small_02" ID="{B250CF18-38CA-4E74-BAC2-B1ED983A3595}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="rock_small_03" ID="{97AD8915-1514-46BA-A3A8-A1CD3200E20F}" ShortID="536373459">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="rock_small_03" ID="{29321D05-9A6A-49FA-A2CD-DF9E8EE18296}">
+											<Language>SFX</Language>
+											<AudioFile>Hits\Stones\rock_small_03.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="332664854"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="rock_small_03" ID="{29321D05-9A6A-49FA-A2CD-DF9E8EE18296}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
