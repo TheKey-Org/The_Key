@@ -56,22 +56,84 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<RandomSequenceContainer Name="Stone_Water_Heavy" ID="{D98C3309-8B33-4E5D-A86A-7198F4CBD199}" ShortID="632055012">
+										<RandomSequenceContainer Name="Stone_Water_Splash" ID="{D14EB84A-89D0-41A7-B76B-26A73929F597}" ShortID="567453574">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+													<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Stone_Water_Splash_Heavy" ID="{90D1174F-65E2-4108-BDDF-3C2BBA9D2CE0}" ShortID="440184254">
+												<Sound Name="Stone_Water_Splash" ID="{3C9F9114-20BE-44ED-A179-DD19852D3FA2}" ShortID="262471557">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>22</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Pitch" Type="int32">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{7EE4BA1D-A5B5-4E75-A870-AD6C65341A1F}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="455"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Foley_Wood_Stick_Large_Through_Water_Splash" ID="{CAB9AE3E-B75F-46D0-AE2B-4612CD3EFC57}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0243407275953859"/>
+																<Property Name="FadeInShape" Type="int16" Value="7"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.188640638864241"/>
+																<Property Name="FadeOutShape" Type="int16" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.314908163265306"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.585698757763975"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Hits\Stones\Foley_Wood_Stick_Large_Through_Water_Splash.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="542426678"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Foley_Wood_Stick_Large_Through_Water_Splash" ID="{CAB9AE3E-B75F-46D0-AE2B-4612CD3EFC57}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Stone_Water_Sunk" ID="{084158D8-6BF4-4005-B5A0-4E8F4598E635}" ShortID="873055578">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Stone_Water_Sunk" ID="{08ED143F-4C13-4D1A-A82B-A9B33BBF735D}" ShortID="359038946">
 													<PropertyList>
 														<Property Name="Pitch" Type="int32">
 															<ModifierList>
 																<ModifierInfo>
-																	<Modifier Name="" ID="{65AC85DE-1959-4471-8E2A-E96EC2A98932}">
+																	<Modifier Name="" ID="{021F3C06-F8AD-41D2-AE64-BAF35DF7B325}">
 																		<PropertyList>
 																			<Property Name="Enabled" Type="bool" Value="True"/>
 																			<Property Name="Min" Type="Real64" Value="-531"/>
@@ -90,7 +152,7 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Foley_Wood_Stick_Large_Through_Water_Splash" ID="{CF17AC59-0B39-45F9-861C-B80F9FF7D89E}">
+														<AudioFileSource Name="Foley_Wood_Stick_Large_Through_Water_Splash" ID="{191A116F-5284-463C-8A33-4E97BAC13625}">
 															<Language>SFX</Language>
 															<AudioFile>Hits\Stones\Foley_Wood_Stick_Large_Through_Water_Splash.wav</AudioFile>
 															<MediaIDList>
@@ -99,41 +161,7 @@
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Foley_Wood_Stick_Large_Through_Water_Splash" ID="{CF17AC59-0B39-45F9-861C-B80F9FF7D89E}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-											</ChildrenList>
-										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="Stone_Water_Light" ID="{FF1C9166-CF56-4025-BF4E-35D1E875088A}" ShortID="8923545">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<Sound Name="Stone-drop_into_puddle" ID="{F8F75BC8-8918-410F-8F07-AE525BC15686}" ShortID="364054990">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Stone-drop_into_puddle" ID="{CE50F646-8F4D-41E6-85C5-C58F51112280}">
-															<Language>SFX</Language>
-															<AudioFile>Hits\Stones\Stone-drop_into_puddle.wav</AudioFile>
-															<MediaIDList>
-																<MediaID ID="193653177"/>
-															</MediaIDList>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Stone-drop_into_puddle" ID="{CE50F646-8F4D-41E6-85C5-C58F51112280}" Platform="Linked"/>
+														<ActiveSource Name="Foley_Wood_Stick_Large_Through_Water_Splash" ID="{191A116F-5284-463C-8A33-4E97BAC13625}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -143,28 +171,66 @@
 										<BlendTrack Name="Stone_Water_Size" ID="{9EAC8AA8-799A-45C0-AA3A-3955D0F81FD5}" ShortID="489368956">
 											<PropertyList>
 												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+												<Property Name="Highpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{1EBC7829-5294-44D8-8752-AB184CD76712}" ShortID="810640867">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="GP_Object_Speed" ID="{DE7223A8-7826-48CB-9645-55A77AF1FC5D}" WorkUnitID="{D42A545A-C39D-4B75-992C-AC8862BFE65C}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{B6F1C048-A43D-48F1-9D38-B5F954CAEDB7}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-2</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>298.42932</XPos>
+																		<YPos>54</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>318.06283</XPos>
+																		<YPos>33</YPos>
+																		<Flags>0</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1000</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="LayerCrossFadeControlInput">
-													<ObjectRef Name="GP_StoneSize" ID="{EF83E806-A76B-43C3-9187-85950092986A}" WorkUnitID="{D42A545A-C39D-4B75-992C-AC8862BFE65C}"/>
+													<ObjectRef Name="GP_Object_Speed" ID="{DE7223A8-7826-48CB-9645-55A77AF1FC5D}" WorkUnitID="{D42A545A-C39D-4B75-992C-AC8862BFE65C}"/>
 												</Reference>
 											</ReferenceList>
 											<BlendTrackAssocList>
 												<BlendTrackAssoc>
-													<ItemRef Name="Stone_Water_Light" ID="{FF1C9166-CF56-4025-BF4E-35D1E875088A}"/>
+													<ItemRef Name="Stone_Water_Sunk" ID="{084158D8-6BF4-4005-B5A0-4E8F4598E635}"/>
 													<CrossfadingInfo>
-														<LeftEdgePos>1</LeftEdgePos>
+														<LeftEdgePos>100</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
-														<RightEdgePos>2</RightEdgePos>
+														<RightEdgePos>319.633507853403</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>
 													</CrossfadingInfo>
 												</BlendTrackAssoc>
 												<BlendTrackAssoc>
-													<ItemRef Name="Stone_Water_Heavy" ID="{D98C3309-8B33-4E5D-A86A-7198F4CBD199}"/>
+													<ItemRef Name="Stone_Water_Splash" ID="{D14EB84A-89D0-41A7-B76B-26A73929F597}"/>
 													<CrossfadingInfo>
-														<LeftEdgePos>2</LeftEdgePos>
+														<LeftEdgePos>279.057591623037</LeftEdgePos>
 														<LeftFadingMode>Automatic</LeftFadingMode>
-														<RightEdgePos>3</RightEdgePos>
+														<RightEdgePos>1000</RightEdgePos>
 														<RightFadingMode>Automatic</RightFadingMode>
 													</CrossfadingInfo>
 												</BlendTrackAssoc>
@@ -173,6 +239,13 @@
 									</BlendTrackList>
 								</BlendContainer>
 								<BlendContainer Name="Stone_Dirt" ID="{893DF0AA-8174-4115-9CDC-6B8A02156E9C}" ShortID="227722669">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>12</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
@@ -183,6 +256,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<RandomSequenceContainer Name="Stone_Dirt_Heavy" ID="{BB20F26D-8F6B-44F4-A94A-F0C0682248CF}" ShortID="622660284">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
@@ -193,6 +273,18 @@
 											</ReferenceList>
 											<ChildrenList>
 												<Sound Name="Petank_boules_metal_ball_land_in_sand_001" ID="{47C538AE-DFD5-4439-B82C-EE1C9AA3C787}" ShortID="50520708">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>42</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
@@ -203,6 +295,12 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Petank_boules_metal_ball_land_in_sand_001" ID="{59FDF593-A2D9-4ABC-8EED-B9D6E69C2C4B}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0451202621237464"/>
+																<Property Name="FadeInShape" Type="int16" Value="7"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0560364545730399"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Hits\Stones\Petank_boules_metal_ball_land_in_sand_001.wav</AudioFile>
 															<MediaIDList>
@@ -215,6 +313,18 @@
 													</ActiveSourceList>
 												</Sound>
 												<Sound Name="Petank_boules_metal_ball_land_in_sand_002" ID="{8FD8775D-733B-4D0E-99AE-F95B2007AC14}" ShortID="205777234">
+													<PropertyList>
+														<Property Name="Highpass" Type="int16">
+															<ValueList>
+																<Value>43</Value>
+															</ValueList>
+														</Property>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>6</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
@@ -225,6 +335,11 @@
 													</ReferenceList>
 													<ChildrenList>
 														<AudioFileSource Name="Petank_boules_metal_ball_land_in_sand_002" ID="{6F4E5A90-88CB-4420-85FB-23D41DB54D1C}">
+															<PropertyList>
+																<Property Name="FadeInDuration" Type="Real64" Value="0.0130994309391522"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0738662355735527"/>
+															</PropertyList>
 															<Language>SFX</Language>
 															<AudioFile>Hits\Stones\Petank_boules_metal_ball_land_in_sand_002.wav</AudioFile>
 															<MediaIDList>
@@ -239,6 +354,13 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Stone_Dirt_Light" ID="{53C7914E-DC87-4104-BDCB-0B2E722EEE1A}" ShortID="127908461">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
@@ -1717,6 +1839,88 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="rock_small_03" ID="{29321D05-9A6A-49FA-A2CD-DF9E8EE18296}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Stone_Water_Heavy" ID="{D98C3309-8B33-4E5D-A86A-7198F4CBD199}" ShortID="632055012">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Stone_Water_Splash_Heavy" ID="{90D1174F-65E2-4108-BDDF-3C2BBA9D2CE0}" ShortID="440184254">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{65AC85DE-1959-4471-8E2A-E96EC2A98932}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-531"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Foley_Wood_Stick_Large_Through_Water_Splash" ID="{CF17AC59-0B39-45F9-861C-B80F9FF7D89E}">
+											<Language>SFX</Language>
+											<AudioFile>Hits\Stones\Foley_Wood_Stick_Large_Through_Water_Splash.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="381790358"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Foley_Wood_Stick_Large_Through_Water_Splash" ID="{CF17AC59-0B39-45F9-861C-B80F9FF7D89E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Stone_Water_Light" ID="{FF1C9166-CF56-4025-BF4E-35D1E875088A}" ShortID="8923545">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Stone-drop_into_puddle" ID="{F8F75BC8-8918-410F-8F07-AE525BC15686}" ShortID="364054990">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Stone-drop_into_puddle" ID="{CE50F646-8F4D-41E6-85C5-C58F51112280}">
+											<Language>SFX</Language>
+											<AudioFile>Hits\Stones\Stone-drop_into_puddle.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="193653177"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Stone-drop_into_puddle" ID="{CE50F646-8F4D-41E6-85C5-C58F51112280}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
