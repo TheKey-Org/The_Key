@@ -31,7 +31,7 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="EV_Stone_Weight_Impact" ID="{8B11925C-41F8-48CD-AC1E-3F71765FC150}">
+						<Event Name="EV_Stone_Throwable" ID="{8B11925C-41F8-48CD-AC1E-3F71765FC150}">
 							<ChildrenList>
 								<Action Name="" ID="{8BB68537-9C5F-4410-A302-06D359FE5AF4}" ShortID="496613075">
 									<ReferenceList>
