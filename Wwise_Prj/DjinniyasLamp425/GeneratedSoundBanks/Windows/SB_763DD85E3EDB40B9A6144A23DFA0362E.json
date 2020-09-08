@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1508088223",
+    "GUID": "{59E3999F-999F-199F-9F9F-9F9F9F9F9F9F}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_763DD85E3EDB40B9A6144A23DFA0362E",
+    "ShortName": "SB_763DD85E3EDB40B9A6144A23DFA0362E",
+    "Path": "SB_763DD85E3EDB40B9A6144A23DFA0362E.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3440153816",
+      "Name": "EV_Amb_Fire",
+      "ObjectPath": "\\Events\\Environment\\Ambient\\EV_Amb_Fire",
+      "GUID": "{763DD85E-3EDB-40B9-A614-4A23DFA0362E}",
+      "MaxAttenuation": "1500.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "492111722",
+        "Language": "SFX",
+        "ShortName": "Environment\\Fire_Crackling.wav",
+        "Path": "SFX\\Environment\\Fire_Crackling_10C4C929.wem"
+       },
+       {
+        "Id": "514170206",
+        "Language": "SFX",
+        "ShortName": "Environment\\Fire_3.wav",
+        "Path": "SFX\\Environment\\Fire_3_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

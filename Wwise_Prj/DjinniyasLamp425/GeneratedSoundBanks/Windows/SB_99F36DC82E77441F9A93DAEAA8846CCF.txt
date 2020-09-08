@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1574813572	EV_Env_Wind_Soft			\Environment\Ambient\EV_Env_Wind_Soft	
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	41812639	Wind Modulator LFO			\Default Work Unit\Wind Modulator LFO	
+

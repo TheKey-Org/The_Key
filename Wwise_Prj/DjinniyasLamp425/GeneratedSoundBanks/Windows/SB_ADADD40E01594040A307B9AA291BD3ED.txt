@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	32491493	CHA_PRIS_Footstep_Land			\Character\Prisioner\Footstep\CHA_PRIS_Footstep_Land	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3275108276	SWT_Surface_Type			\Default Work Unit\SWT_Surface_Type	
+
+Switch	ID	Name	Switch Group			Notes
+	761628071	PM_Grass	SWT_Surface_Type			
+	1003149622	PM_Gravel	SWT_Surface_Type			
+	1554534098	PM_Concrete	SWT_Surface_Type			
+	1773321336	PM_Dirt	SWT_Surface_Type			
+	2220787912	PM_Water	SWT_Surface_Type			
+	4257446624	PM_Wood	SWT_Surface_Type			
+

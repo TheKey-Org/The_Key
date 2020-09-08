@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3139012327",
+    "GUID": "{BB1986E7-86E7-16E7-E7E7-E7E7E7E7E7E7}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_5E23DF0646F04A8C8E2758DFD15AD48A",
+    "ShortName": "SB_5E23DF0646F04A8C8E2758DFD15AD48A",
+    "Path": "SB_5E23DF0646F04A8C8E2758DFD15AD48A.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "701303193",
+      "Name": "EV_An_Frogdrop_into_Lake",
+      "ObjectPath": "\\Events\\Animals\\Frog\\EV_An_Frogdrop_into_Lake",
+      "GUID": "{5E23DF06-46F0-4A8C-8E27-58DFD15AD48A}",
+      "MaxAttenuation": "1200.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.782741",
+      "DurationMax": "0.782741",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "1046166227",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Stone-drop_into_puddle.wav",
+        "Path": "SFX\\Hits\\Stones\\Stone-drop_into_puddle_397D8046.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

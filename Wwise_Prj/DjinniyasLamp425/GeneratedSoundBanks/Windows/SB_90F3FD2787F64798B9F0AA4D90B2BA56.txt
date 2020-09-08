@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2069013163	EV_DFox_Happy			\Animals\DFox\EV_DFox_Happy	
+

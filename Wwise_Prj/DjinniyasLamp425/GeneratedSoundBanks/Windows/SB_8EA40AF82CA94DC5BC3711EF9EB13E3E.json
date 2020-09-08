@@ -1,0 +1,37 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4036340486",
+    "GUID": "{F095AB06-AB06-1B06-0606-060606060606}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_8EA40AF82CA94DC5BC3711EF9EB13E3E",
+    "ShortName": "SB_8EA40AF82CA94DC5BC3711EF9EB13E3E",
+    "Path": "SB_8EA40AF82CA94DC5BC3711EF9EB13E3E.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3667589936",
+      "Name": "Cleaning_Lamp_Stop",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\Actions\\Cleaning_Lamp_Stop",
+      "GUID": "{8EA40AF8-2CA9-4DC5-BC37-11EF9EB13E3E}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ]
+   }
+  ]
+ }
+}

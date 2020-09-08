@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1668132102	EV_Camel_Quiet			\Animals\Camel\EV_Camel_Quiet	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	174103858	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Quiet\Silence_01\Wwise Silence	
+	581023617	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Animals\Camel\Camel\Camel_Quiet\Silence\Wwise Silence	
+

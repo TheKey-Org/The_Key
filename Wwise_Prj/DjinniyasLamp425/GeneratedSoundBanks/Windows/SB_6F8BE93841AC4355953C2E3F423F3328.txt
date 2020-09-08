@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2624474190	Cleaning_Lamp_Play			\Character\Djinniya\Actions\Cleaning_Lamp_Play	
+
