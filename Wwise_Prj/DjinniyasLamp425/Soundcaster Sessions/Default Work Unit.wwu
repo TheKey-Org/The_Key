@@ -70,6 +70,7 @@
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="PM_Concrete" ID="{FF2B32AE-D42E-49BD-BA21-73CAE860422D}"/>
 						<CurrentSwitchRef Name="Big" ID="{1ECAADDF-7F4B-41EA-9CC1-5564FB04912E}"/>
+						<CurrentSwitchRef Name="Break_No" ID="{1EA3335C-9711-45CD-B902-60D201CDDA5C}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Ambient Soundcaster Session" ID="{BD8229E2-93DF-415E-B4D7-A20056E9E2D4}">
@@ -180,6 +181,10 @@
 							<Position X="0" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="EV_LevelOasis" ID="{D4C5B748-E33A-4F43-BD0F-AFC34982D9A0}" WorkUnitID="{C6996CF7-92DB-4410-B61E-A48A10628E95}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="ST_Stone_Impact" ID="{14C8BD9E-72C7-4EC0-A59A-D7C154A382B7}" WorkUnitID="{D29F1E3A-551C-4870-AAC4-CA9B911BB266}"/>
 							<Position X="1" Y="0"/>
 						</Module>
@@ -191,19 +196,27 @@
 							<ObjectRef Name="EV_Pot_Crash" ID="{49C73B76-C438-4CA4-B2DE-39D961ACAF13}" WorkUnitID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}"/>
 							<Position X="2" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="EV_It_Tablillas_In" ID="{0518A9E5-C95E-4E8B-9CA5-D82492986C74}" WorkUnitID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_It_Tablillas_Out" ID="{91FD4F4A-6789-4B35-9BDD-60619D0FEA46}" WorkUnitID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}"/>
+							<Position X="3" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="GP_Velocity" ID="{C3EABE06-E21E-4101-AE40-FE45AD5C64AC}"/>
-							<Value>0</Value>
+							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Size" ID="{D420419F-6D1B-41BD-9390-745CCB6DFE8A}"/>
-							<Value>0</Value>
+							<Value>3</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_StoneSize" ID="{EF83E806-A76B-43C3-9187-85950092986A}"/>
-							<Value>3.02</Value>
+							<Value>1</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Oasis_Amb" ID="{ABB113A9-8877-4454-897C-064B56D2094F}"/>
@@ -219,7 +232,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Object_Speed" ID="{DE7223A8-7826-48CB-9645-55A77AF1FC5D}"/>
-							<Value>0</Value>
+							<Value>495</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Direction_Move" ID="{DF5FB27A-708D-49D8-A11E-C439CEC2CC0C}"/>
@@ -239,11 +252,12 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="LampFall_02" ID="{EB762B58-A88D-475B-A8BD-856F7CE36F23}"/>
+						<CurrentStateRef Name="None" ID="{1D2BD15D-E1C0-432E-A24D-E985571BC198}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="PM_Gravel" ID="{AD4D776E-A669-45EC-BB98-26AC275422C4}"/>
+						<CurrentSwitchRef Name="PM_Water" ID="{59348400-61EE-4D26-9606-50BFF5F919A0}"/>
 						<CurrentSwitchRef Name="Big" ID="{1ECAADDF-7F4B-41EA-9CC1-5564FB04912E}"/>
+						<CurrentSwitchRef Name="Break_Si" ID="{2F5B781A-759B-4E03-A70E-7FB173B9289A}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Character Soundcaster Session" ID="{1B0E3169-E02F-478C-B19F-8E1D34D50FAD}">
