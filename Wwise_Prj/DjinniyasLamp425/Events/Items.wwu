@@ -42,6 +42,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="EV_Stone_Throwable_Speed" ID="{71A05BF4-1C93-4592-9204-554AB2ED0D0A}">
+							<ChildrenList>
+								<Action Name="" ID="{13E08AFC-09B7-4FD4-B86D-0C83484C095E}" ShortID="358194521">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ST_Stone_Speed" ID="{A614B332-297A-40DB-8D55-7C3A9076DC07}" WorkUnitID="{D29F1E3A-551C-4870-AAC4-CA9B911BB266}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Pots" ID="{F632C1F2-2DB8-45ED-8EE5-CFCC37C8DA1E}" ShortID="208221060">
