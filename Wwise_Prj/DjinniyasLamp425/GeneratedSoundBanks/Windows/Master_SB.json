@@ -2069,47 +2069,13 @@
       ]
      },
      {
-      "Id": "4105498399",
-      "Name": "EV_Stone_Water_Deep",
-      "ObjectPath": "\\Events\\Items\\Stone\\EV_Stone_Water_Deep",
-      "GUID": "{87DDF05C-5D83-43F2-959C-63A8177391F3}",
-      "DurationType": "OneShot",
-      "DurationMin": "1.399592",
-      "DurationMax": "1.901985",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "381790358",
-        "Language": "SFX",
-        "ShortName": "Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash.wav",
-        "Path": "SFX\\Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash_10C4C929.wem"
-       }
-      ]
-     },
-     {
-      "Id": "4147822987",
-      "Name": "EV_Stone_Water_Over",
-      "ObjectPath": "\\Events\\Items\\Stone\\EV_Stone_Water_Over",
-      "GUID": "{257A0293-AF0B-4DDD-AF2C-6E4E9BC6B394}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.208206",
-      "DurationMax": "0.270791",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "542426678",
-        "Language": "SFX",
-        "ShortName": "Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash.wav",
-        "Path": "SFX\\Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash_C1CC09E3.wem"
-       }
-      ]
-     },
-     {
-      "Id": "4102285274",
-      "Name": "EV_Stone_Weight_Impact",
-      "ObjectPath": "\\Events\\Items\\Stone\\EV_Stone_Weight_Impact",
+      "Id": "620124299",
+      "Name": "EV_Stone_Throwable",
+      "ObjectPath": "\\Events\\Items\\Stone\\EV_Stone_Throwable",
       "GUID": "{8B11925C-41F8-48CD-AC1E-3F71765FC150}",
       "DurationType": "OneShot",
       "DurationMin": "0.146013",
-      "DurationMax": "1.901985",
+      "DurationMax": "2.074130",
       "IncludedMemoryFiles": [
        {
         "Id": "54693022",
@@ -2118,10 +2084,10 @@
         "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_01_996B0F82.wem"
        },
        {
-        "Id": "124739891",
+        "Id": "72644900",
         "Language": "SFX",
-        "ShortName": "Hits\\Stones\\Rock_Gravel_01.wav",
-        "Path": "SFX\\Hits\\Stones\\Rock_Gravel_01_10C4C929.wem"
+        "ShortName": "Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash.wav",
+        "Path": "SFX\\Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash_19CC8319.wem"
        },
        {
         "Id": "142684545",
@@ -2136,28 +2102,10 @@
         "Path": "SFX\\Hits\\Stones\\Rock_small_hit_solid_ground_003_11180_10C4C929.wem"
        },
        {
-        "Id": "193653177",
-        "Language": "SFX",
-        "ShortName": "Hits\\Stones\\Stone-drop_into_puddle.wav",
-        "Path": "SFX\\Hits\\Stones\\Stone-drop_into_puddle_10C4C929.wem"
-       },
-       {
-        "Id": "266754551",
-        "Language": "SFX",
-        "ShortName": "Hits\\Stones\\Rock_Gravel_03.wav",
-        "Path": "SFX\\Hits\\Stones\\Rock_Gravel_03_10C4C929.wem"
-       },
-       {
         "Id": "286687416",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_03.wav",
         "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_03_EE4382EA.wem"
-       },
-       {
-        "Id": "286944441",
-        "Language": "SFX",
-        "ShortName": "Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_run_14.WAV",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_run_14_10C4C929.wem"
        },
        {
         "Id": "332664854",
@@ -2166,16 +2114,16 @@
         "Path": "SFX\\Hits\\Stones\\rock_small_03_10C4C929.wem"
        },
        {
-        "Id": "335209370",
-        "Language": "SFX",
-        "ShortName": "Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_run_13.WAV",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_run_13_10C4C929.wem"
-       },
-       {
         "Id": "381790358",
         "Language": "SFX",
         "ShortName": "Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash.wav",
         "Path": "SFX\\Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash_10C4C929.wem"
+       },
+       {
+        "Id": "402071054",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash.wav",
+        "Path": "SFX\\Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash_014D50C0.wem"
        },
        {
         "Id": "423863987",
@@ -2184,28 +2132,22 @@
         "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_01_BB8B9745.wem"
        },
        {
-        "Id": "553390352",
+        "Id": "429995863",
         "Language": "SFX",
-        "ShortName": "Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_run_06.WAV",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_run_06_10C4C929.wem"
+        "ShortName": "Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash.wav",
+        "Path": "SFX\\Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash_5F1613F0.wem"
        },
        {
-        "Id": "574829474",
+        "Id": "525635708",
         "Language": "SFX",
-        "ShortName": "Hits\\Stones\\Rock_Big_06.wav",
-        "Path": "SFX\\Hits\\Stones\\Rock_Big_06_10C4C929.wem"
+        "ShortName": "Hits\\Stones\\Rock_Gravel_02.wav",
+        "Path": "SFX\\Hits\\Stones\\Rock_Gravel_02_56F77B48.wem"
        },
        {
         "Id": "586896782",
         "Language": "SFX",
         "ShortName": "Hits\\Stones\\rock_small_02.wav",
         "Path": "SFX\\Hits\\Stones\\rock_small_02_10C4C929.wem"
-       },
-       {
-        "Id": "685715923",
-        "Language": "SFX",
-        "ShortName": "Hits\\Stones\\Rock_Gravel_02.wav",
-        "Path": "SFX\\Hits\\Stones\\Rock_Gravel_02_10C4C929.wem"
        },
        {
         "Id": "701329245",
@@ -2220,22 +2162,28 @@
         "Path": "SFX\\Hits\\Stones\\Rock_Big_06_5CA5F961.wem"
        },
        {
-        "Id": "714983882",
-        "Language": "SFX",
-        "ShortName": "Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_run_08.WAV",
-        "Path": "SFX\\Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_run_08_10C4C929.wem"
-       },
-       {
         "Id": "763820648",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_02.wav",
         "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_02_E66376E6.wem"
        },
        {
+        "Id": "800806014",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Rock_Gravel_01.wav",
+        "Path": "SFX\\Hits\\Stones\\Rock_Gravel_01_152D213E.wem"
+       },
+       {
         "Id": "811937125",
         "Language": "SFX",
         "ShortName": "Hits\\Stones\\Petank_boules_metal_ball_land_in_sand_001.wav",
-        "Path": "SFX\\Hits\\Stones\\Petank_boules_metal_ball_land_in_sand_001_10C4C929.wem"
+        "Path": "SFX\\Hits\\Stones\\Petank_boules_metal_ball_land_in_sand_001_EC317E80.wem"
+       },
+       {
+        "Id": "845184526",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Rock_Gravel_03.wav",
+        "Path": "SFX\\Hits\\Stones\\Rock_Gravel_03_8567F2CC.wem"
        },
        {
         "Id": "879959545",
@@ -2253,13 +2201,25 @@
         "Id": "913330223",
         "Language": "SFX",
         "ShortName": "Hits\\Stones\\Petank_boules_metal_ball_land_in_sand_002.wav",
-        "Path": "SFX\\Hits\\Stones\\Petank_boules_metal_ball_land_in_sand_002_10C4C929.wem"
+        "Path": "SFX\\Hits\\Stones\\Petank_boules_metal_ball_land_in_sand_002_4727ED7D.wem"
        },
        {
         "Id": "925117803",
         "Language": "SFX",
         "ShortName": "Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_02.wav",
         "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_02_33680F4E.wem"
+       },
+       {
+        "Id": "930875025",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash.wav",
+        "Path": "SFX\\Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash_70009D66.wem"
+       },
+       {
+        "Id": "934204645",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash.wav",
+        "Path": "SFX\\Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash_1BFC9E6C.wem"
        }
       ],
       "DefaultSwitchValue": "{95C0C10B-58E4-4A69-992C-9FF297A7EA29}",
@@ -2268,10 +2228,22 @@
         "SwitchValue": "{59348400-61EE-4D26-9606-50BFF5F919A0}",
         "Media": [
          {
+          "Id": "402071054"
+         },
+         {
+          "Id": "72644900"
+         },
+         {
+          "Id": "429995863"
+         },
+         {
           "Id": "381790358"
          },
          {
-          "Id": "193653177"
+          "Id": "934204645"
+         },
+         {
+          "Id": "930875025"
          }
         ]
        },
@@ -2296,25 +2268,22 @@
         "SwitchValue": "{AD4D776E-A669-45EC-BB98-26AC275422C4}",
         "Media": [
          {
-          "Id": "553390352"
+          "Id": "845184526"
          },
          {
-          "Id": "714983882"
+          "Id": "800806014"
          },
          {
-          "Id": "335209370"
+          "Id": "525635708"
          },
          {
-          "Id": "286944441"
+          "Id": "845184526"
          },
          {
-          "Id": "124739891"
+          "Id": "525635708"
          },
          {
-          "Id": "685715923"
-         },
-         {
-          "Id": "266754551"
+          "Id": "800806014"
          }
         ]
        },
@@ -2331,7 +2300,13 @@
           "Id": "332664854"
          },
          {
-          "Id": "574829474"
+          "Id": "586896782"
+         },
+         {
+          "Id": "882907017"
+         },
+         {
+          "Id": "332664854"
          }
         ]
        },
@@ -2374,6 +2349,288 @@
           "Id": "879959545"
          }
         ]
+       }
+      ]
+     },
+     {
+      "Id": "744638175",
+      "Name": "EV_Stone_Throwable_Speed",
+      "ObjectPath": "\\Events\\Items\\Stone\\EV_Stone_Throwable_Speed",
+      "GUID": "{71A05BF4-1C93-4592-9204-554AB2ED0D0A}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.146013",
+      "DurationMax": "1.344907",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "54693022",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_01.wav",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_01_996B0F82.wem"
+       },
+       {
+        "Id": "142684545",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Rock_small_hit_solid_ground_004_11181.wav",
+        "Path": "SFX\\Hits\\Stones\\Rock_small_hit_solid_ground_004_11181_10C4C929.wem"
+       },
+       {
+        "Id": "170756168",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Rock_small_hit_solid_ground_003_11180.wav",
+        "Path": "SFX\\Hits\\Stones\\Rock_small_hit_solid_ground_003_11180_10C4C929.wem"
+       },
+       {
+        "Id": "286687416",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_03.wav",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_03_EE4382EA.wem"
+       },
+       {
+        "Id": "332664854",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\rock_small_03.wav",
+        "Path": "SFX\\Hits\\Stones\\rock_small_03_10C4C929.wem"
+       },
+       {
+        "Id": "381790358",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash.wav",
+        "Path": "SFX\\Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash_10C4C929.wem"
+       },
+       {
+        "Id": "423863987",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_01.wav",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_01_BB8B9745.wem"
+       },
+       {
+        "Id": "525635708",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Rock_Gravel_02.wav",
+        "Path": "SFX\\Hits\\Stones\\Rock_Gravel_02_56F77B48.wem"
+       },
+       {
+        "Id": "542426678",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash.wav",
+        "Path": "SFX\\Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash_C1CC09E3.wem"
+       },
+       {
+        "Id": "586896782",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\rock_small_02.wav",
+        "Path": "SFX\\Hits\\Stones\\rock_small_02_10C4C929.wem"
+       },
+       {
+        "Id": "701329245",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_03.wav",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_03_71779BBB.wem"
+       },
+       {
+        "Id": "704362871",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Rock_Big_06.wav",
+        "Path": "SFX\\Hits\\Stones\\Rock_Big_06_5CA5F961.wem"
+       },
+       {
+        "Id": "763820648",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_02.wav",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_02_E66376E6.wem"
+       },
+       {
+        "Id": "800806014",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Rock_Gravel_01.wav",
+        "Path": "SFX\\Hits\\Stones\\Rock_Gravel_01_152D213E.wem"
+       },
+       {
+        "Id": "811937125",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Petank_boules_metal_ball_land_in_sand_001.wav",
+        "Path": "SFX\\Hits\\Stones\\Petank_boules_metal_ball_land_in_sand_001_EC317E80.wem"
+       },
+       {
+        "Id": "845184526",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Rock_Gravel_03.wav",
+        "Path": "SFX\\Hits\\Stones\\Rock_Gravel_03_8567F2CC.wem"
+       },
+       {
+        "Id": "879959545",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Wood\\footstep_wood_walk_03.WAV",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Wood\\footstep_wood_walk_03_10C4C929.wem"
+       },
+       {
+        "Id": "882907017",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\rock_small_01.wav",
+        "Path": "SFX\\Hits\\Stones\\rock_small_01_10C4C929.wem"
+       },
+       {
+        "Id": "913330223",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Petank_boules_metal_ball_land_in_sand_002.wav",
+        "Path": "SFX\\Hits\\Stones\\Petank_boules_metal_ball_land_in_sand_002_4727ED7D.wem"
+       },
+       {
+        "Id": "925117803",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_02.wav",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_02_33680F4E.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{95C0C10B-58E4-4A69-992C-9FF297A7EA29}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{59348400-61EE-4D26-9606-50BFF5F919A0}",
+        "Media": [
+         {
+          "Id": "542426678"
+         },
+         {
+          "Id": "381790358"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{95C0C10B-58E4-4A69-992C-9FF297A7EA29}",
+        "Media": [
+         {
+          "Id": "811937125"
+         },
+         {
+          "Id": "913330223"
+         },
+         {
+          "Id": "142684545"
+         },
+         {
+          "Id": "170756168"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{AD4D776E-A669-45EC-BB98-26AC275422C4}",
+        "Media": [
+         {
+          "Id": "800806014"
+         },
+         {
+          "Id": "525635708"
+         },
+         {
+          "Id": "845184526"
+         },
+         {
+          "Id": "800806014"
+         },
+         {
+          "Id": "525635708"
+         },
+         {
+          "Id": "845184526"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{FF2B32AE-D42E-49BD-BA21-73CAE860422D}",
+        "Media": [
+         {
+          "Id": "882907017"
+         },
+         {
+          "Id": "586896782"
+         },
+         {
+          "Id": "332664854"
+         },
+         {
+          "Id": "332664854"
+         },
+         {
+          "Id": "586896782"
+         },
+         {
+          "Id": "882907017"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{DE5C9741-2EA0-45AA-A9F1-59C567C3D7AC}",
+        "Media": [
+         {
+          "Id": "423863987"
+         },
+         {
+          "Id": "763820648"
+         },
+         {
+          "Id": "701329245"
+         },
+         {
+          "Id": "54693022"
+         },
+         {
+          "Id": "925117803"
+         },
+         {
+          "Id": "286687416"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{604A446C-B7E0-483E-9602-8CF438326396}",
+        "Media": [
+         {
+          "Id": "704362871"
+         },
+         {
+          "Id": "879959545"
+         },
+         {
+          "Id": "704362871"
+         },
+         {
+          "Id": "879959545"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "4105498399",
+      "Name": "EV_Stone_Water_Deep",
+      "ObjectPath": "\\Events\\Items\\Stone\\EV_Stone_Water_Deep",
+      "GUID": "{87DDF05C-5D83-43F2-959C-63A8177391F3}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.399592",
+      "DurationMax": "1.901985",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "381790358",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash.wav",
+        "Path": "SFX\\Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4147822987",
+      "Name": "EV_Stone_Water_Over",
+      "ObjectPath": "\\Events\\Items\\Stone\\EV_Stone_Water_Over",
+      "GUID": "{257A0293-AF0B-4DDD-AF2C-6E4E9BC6B394}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.208206",
+      "DurationMax": "0.270791",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "542426678",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash.wav",
+        "Path": "SFX\\Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash_C1CC09E3.wem"
        }
       ]
      },
