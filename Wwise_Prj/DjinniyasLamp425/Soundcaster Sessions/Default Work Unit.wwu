@@ -68,7 +68,7 @@
 						<CurrentStateRef Name="LampFall_02" ID="{EB762B58-A88D-475B-A8BD-856F7CE36F23}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="PM_Concrete" ID="{FF2B32AE-D42E-49BD-BA21-73CAE860422D}"/>
+						<CurrentSwitchRef Name="Phys_Concrete" ID="{FF2B32AE-D42E-49BD-BA21-73CAE860422D}"/>
 						<CurrentSwitchRef Name="Big" ID="{1ECAADDF-7F4B-41EA-9CC1-5564FB04912E}"/>
 						<CurrentSwitchRef Name="Break_No" ID="{1EA3335C-9711-45CD-B902-60D201CDDA5C}"/>
 					</CurrentSwitchList>
@@ -162,7 +162,7 @@
 						<CurrentStateRef Name="Explore_03" ID="{37ED6456-5FA2-4D7D-9FF9-14B4900A8719}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="PM_Concrete" ID="{FF2B32AE-D42E-49BD-BA21-73CAE860422D}"/>
+						<CurrentSwitchRef Name="Phys_Concrete" ID="{FF2B32AE-D42E-49BD-BA21-73CAE860422D}"/>
 						<CurrentSwitchRef Name="Big" ID="{1ECAADDF-7F4B-41EA-9CC1-5564FB04912E}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
@@ -205,6 +205,14 @@
 							<Position X="2" Y="0"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="PotsBreakIt" ID="{93CCD4FA-E343-47FE-94E9-6284CCC827AC}" WorkUnitID="{D29F1E3A-551C-4870-AAC4-CA9B911BB266}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="PotsBreakItSurface-NO" ID="{A21223EE-F035-4C82-BADF-15FC5BB33312}" WorkUnitID="{D29F1E3A-551C-4870-AAC4-CA9B911BB266}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="EV_It_Tablillas_In" ID="{0518A9E5-C95E-4E8B-9CA5-D82492986C74}" WorkUnitID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}"/>
 							<Position X="3" Y="0"/>
 						</Module>
@@ -224,7 +232,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_StoneSize" ID="{EF83E806-A76B-43C3-9187-85950092986A}"/>
-							<Value>3</Value>
+							<Value>1</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Oasis_Amb" ID="{ABB113A9-8877-4454-897C-064B56D2094F}"/>
@@ -240,7 +248,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Object_Speed" ID="{DE7223A8-7826-48CB-9645-55A77AF1FC5D}"/>
-							<Value>100</Value>
+							<Value>110.20942408377</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Direction_Move" ID="{DF5FB27A-708D-49D8-A11E-C439CEC2CC0C}"/>
@@ -263,7 +271,7 @@
 						<CurrentStateRef Name="None" ID="{1D2BD15D-E1C0-432E-A24D-E985571BC198}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="PM_Concrete" ID="{FF2B32AE-D42E-49BD-BA21-73CAE860422D}"/>
+						<CurrentSwitchRef Name="Phys_Water" ID="{59348400-61EE-4D26-9606-50BFF5F919A0}"/>
 						<CurrentSwitchRef Name="Big" ID="{1ECAADDF-7F4B-41EA-9CC1-5564FB04912E}"/>
 						<CurrentSwitchRef Name="Break_Si" ID="{2F5B781A-759B-4E03-A70E-7FB173B9289A}"/>
 					</CurrentSwitchList>
@@ -341,7 +349,7 @@
 						<CurrentStateRef Name="SplashIntro_01" ID="{CEE5CA46-8BEA-41C6-BBFF-664348303453}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="PM_Grass" ID="{DE5C9741-2EA0-45AA-A9F1-59C567C3D7AC}"/>
+						<CurrentSwitchRef Name="Phys_Grass" ID="{DE5C9741-2EA0-45AA-A9F1-59C567C3D7AC}"/>
 						<CurrentSwitchRef Name="Big" ID="{1ECAADDF-7F4B-41EA-9CC1-5564FB04912E}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
