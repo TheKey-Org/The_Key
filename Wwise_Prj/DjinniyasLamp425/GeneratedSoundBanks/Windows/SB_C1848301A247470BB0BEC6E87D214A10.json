@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "176489117",
+    "GUID": "{0A85029D-029D-129D-9D9D-9D9D9D9D9D9D}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_C1848301A247470BB0BEC6E87D214A10",
+    "ShortName": "SB_C1848301A247470BB0BEC6E87D214A10",
+    "Path": "SB_C1848301A247470BB0BEC6E87D214A10.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1823141559",
+      "Name": "EV_DFox_Playing",
+      "ObjectPath": "\\Events\\Animals\\DFox\\EV_DFox_Playing",
+      "GUID": "{C1848301-A247-470B-B0BE-C6E87D214A10}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.494997",
+      "DurationMax": "1.494997",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "603593962",
+        "Language": "SFX",
+        "ShortName": "Animals\\Fox\\Fennec_01.wav",
+        "Path": "SFX\\Animals\\Fox\\Fennec_01_AA9BA228.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

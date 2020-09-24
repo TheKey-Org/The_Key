@@ -1,0 +1,98 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1602742347",
+    "GUID": "{5F87E84B-E84B-184B-4B4B-4B4B4B4B4B4B}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_CFEBC2F4D506402693B3C4BE7211A340",
+    "ShortName": "SB_CFEBC2F4D506402693B3C4BE7211A340",
+    "Path": "SB_CFEBC2F4D506402693B3C4BE7211A340.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1070291111",
+      "Name": "EV_Env_Oasis_Amb",
+      "ObjectPath": "\\Events\\Environment\\Ambient\\EV_Env_Oasis_Amb",
+      "GUID": "{CFEBC2F4-D506-4026-93B3-C4BE7211A340}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "86745989",
+        "Language": "SFX",
+        "ShortName": "Animals\\Environment\\Bee_Loop.wav",
+        "Path": "SFX\\Animals\\Environment\\Bee_Loop_0F5D66AE.wem"
+       },
+       {
+        "Id": "303036354",
+        "Language": "SFX",
+        "ShortName": "Environment\\Desert_Silence.wav",
+        "Path": "SFX\\Environment\\Desert_Silence_D79FB2B7.wem"
+       },
+       {
+        "Id": "385326610",
+        "Language": "SFX",
+        "ShortName": "Animals\\Environment\\Crickets_OneShot_01.wav",
+        "Path": "SFX\\Animals\\Environment\\Crickets_OneShot_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "400556086",
+        "Language": "SFX",
+        "ShortName": "Animals\\Frog\\Frog_Amb_Loop_01.wav",
+        "Path": "SFX\\Animals\\Frog\\Frog_Amb_Loop_01_6F8282C4.wem"
+       },
+       {
+        "Id": "572924580",
+        "Language": "SFX",
+        "ShortName": "Wind_Soft_Loop_01.WAV",
+        "Path": "SFX\\Wind_Soft_Loop_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "1022065363",
+        "Language": "SFX",
+        "ShortName": "Animals\\Environment\\Fly_Loop.wav",
+        "Path": "SFX\\Animals\\Environment\\Fly_Loop_619F4D67.wem"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "313362146",
+      "Name": "GP_Insects",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\GP_Insects",
+      "GUID": "{E00E954B-A8CC-45D9-ABD7-040DB78E5C6B}"
+     },
+     {
+      "Id": "808401773",
+      "Name": "GP_Wind",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\GP_Wind",
+      "GUID": "{1E3C488C-976E-4788-A89E-D2A8A5EC2F8D}"
+     },
+     {
+      "Id": "2157298947",
+      "Name": "GP_Oasis_Amb",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\GP_Oasis_Amb",
+      "GUID": "{ABB113A9-8877-4454-897C-064B56D2094F}"
+     },
+     {
+      "Id": "3949169662",
+      "Name": "GP_Intensity",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\GP_Intensity",
+      "GUID": "{A3452C9E-0E20-4B53-A903-074D27493768}"
+     }
+    ]
+   }
+  ]
+ }
+}

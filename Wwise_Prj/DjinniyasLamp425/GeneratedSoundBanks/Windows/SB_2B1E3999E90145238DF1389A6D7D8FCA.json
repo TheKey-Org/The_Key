@@ -1,0 +1,69 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2953057851",
+    "GUID": "{B004163B-163B-163B-3B3B-3B3B3B3B3B3B}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_2B1E3999E90145238DF1389A6D7D8FCA",
+    "ShortName": "SB_2B1E3999E90145238DF1389A6D7D8FCA",
+    "Path": "SB_2B1E3999E90145238DF1389A6D7D8FCA.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2245548160",
+      "Name": "EV_Camel_Drink",
+      "ObjectPath": "\\Events\\Animals\\Camel\\EV_Camel_Drink",
+      "GUID": "{2B1E3999-E901-4523-8DF1-389A6D7D8FCA}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.220123",
+      "DurationMax": "6.223310",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "157607473",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Animal_Comiendo_05.wav",
+        "Path": "SFX\\Animals\\Camel\\Animal_Comiendo_05_10C4C929.wem"
+       },
+       {
+        "Id": "627651370",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Animal_Comiendo_04.wav",
+        "Path": "SFX\\Animals\\Camel\\Animal_Comiendo_04_10C4C929.wem"
+       },
+       {
+        "Id": "972377837",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Animal_Comiendo_01.wav",
+        "Path": "SFX\\Animals\\Camel\\Animal_Comiendo_01_ED2F9936.wem"
+       },
+       {
+        "Id": "1019482852",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Animal_Comiendo_02.wav",
+        "Path": "SFX\\Animals\\Camel\\Animal_Comiendo_02_10C4C929.wem"
+       },
+       {
+        "Id": "1048535314",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Animal_Comiendo_03.wav",
+        "Path": "SFX\\Animals\\Camel\\Animal_Comiendo_03_C3CE35A5.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

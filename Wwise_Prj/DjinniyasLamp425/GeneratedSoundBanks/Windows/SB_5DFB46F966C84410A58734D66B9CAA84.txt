@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1343469020	EV_Env_Wind_Fast_Scared_Stop			\Environment\Ambient\EV_Env_Wind_Fast_Scared_Stop	
+

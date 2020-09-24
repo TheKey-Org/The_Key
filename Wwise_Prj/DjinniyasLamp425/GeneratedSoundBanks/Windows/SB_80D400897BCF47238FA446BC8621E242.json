@@ -1,0 +1,61 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2212212118",
+    "GUID": "{83DBAD96-AD96-1D96-9696-969696969696}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_80D400897BCF47238FA446BC8621E242",
+    "ShortName": "SB_80D400897BCF47238FA446BC8621E242",
+    "Path": "SB_80D400897BCF47238FA446BC8621E242.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1668132102",
+      "Name": "EV_Camel_Quiet",
+      "ObjectPath": "\\Events\\Animals\\Camel\\EV_Camel_Quiet",
+      "GUID": "{80D40089-7BCF-4723-8FA4-46BC8621E242}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "503033313",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Ronroneos_Soft_04.wav",
+        "Path": "SFX\\Animals\\Camel\\Ronroneos_Soft_04_10C4C929.wem"
+       },
+       {
+        "Id": "698258540",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Ronroneos_Soft_02.wav",
+        "Path": "SFX\\Animals\\Camel\\Ronroneos_Soft_02_10C4C929.wem"
+       },
+       {
+        "Id": "764052193",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Ronroneos_Soft_03.wav",
+        "Path": "SFX\\Animals\\Camel\\Ronroneos_Soft_03_10C4C929.wem"
+       },
+       {
+        "Id": "830127368",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Ronroneos_Soft_01.wav",
+        "Path": "SFX\\Animals\\Camel\\Ronroneos_Soft_01_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

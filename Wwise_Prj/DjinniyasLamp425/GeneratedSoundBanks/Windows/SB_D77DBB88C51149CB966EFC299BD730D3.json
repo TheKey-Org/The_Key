@@ -1,0 +1,51 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2835042691",
+    "GUID": "{A8FB5183-5183-1183-8383-838383838383}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_D77DBB88C51149CB966EFC299BD730D3",
+    "ShortName": "SB_D77DBB88C51149CB966EFC299BD730D3",
+    "Path": "SB_D77DBB88C51149CB966EFC299BD730D3.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2670397528",
+      "Name": "EV_Camel_Happy",
+      "ObjectPath": "\\Events\\Animals\\Camel\\EV_Camel_Happy",
+      "GUID": "{D77DBB88-C511-49CB-966E-FC299BD730D3}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "3.052993",
+      "DurationMax": "3.343764",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "280298703",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Camel SFX_01_Soft.wav",
+        "Path": "SFX\\Animals\\Camel\\Camel SFX_01_Soft_10C4C929.wem"
+       },
+       {
+        "Id": "486796379",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Camel SFX_01.wav",
+        "Path": "SFX\\Animals\\Camel\\Camel SFX_01_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

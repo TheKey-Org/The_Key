@@ -1,0 +1,49 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "471863707",
+    "GUID": "{1C20119B-119B-119B-9B9B-9B9B9B9B9B9B}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_B292B241E4D7425DAD66D499ED0253C6",
+    "ShortName": "SB_B292B241E4D7425DAD66D499ED0253C6",
+    "Path": "SB_B292B241E4D7425DAD66D499ED0253C6.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3744801892",
+      "Name": "EV_Ins_Crickets",
+      "ObjectPath": "\\Events\\Environment\\Insects\\EV_Ins_Crickets",
+      "GUID": "{B292B241-E4D7-425D-AD66-D499ED0253C6}",
+      "MaxAttenuation": "1200.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "385326610",
+        "Language": "SFX",
+        "ShortName": "Animals\\Environment\\Crickets_OneShot_01.wav",
+        "Path": "SFX\\Animals\\Environment\\Crickets_OneShot_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "958892196",
+        "Language": "SFX",
+        "ShortName": "Animals\\Environment\\Crickets_OneShot_01.wav",
+        "Path": "SFX\\Animals\\Environment\\Crickets_OneShot_01_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1070291111	EV_Env_Oasis_Amb			\Environment\Ambient\EV_Env_Oasis_Amb	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	313362146	GP_Insects			\Default Work Unit\GP_Insects	
+	808401773	GP_Wind			\Default Work Unit\GP_Wind	
+	2157298947	GP_Oasis_Amb			\Default Work Unit\GP_Oasis_Amb	
+	3949169662	GP_Intensity			\Default Work Unit\GP_Intensity	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	11033809	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Enviroment\Ambient\Oasis_Amb\Frog\Silence\Wwise Silence	
+	387404006	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Enviroment\Ambient\Oasis_Amb\Bees_Loop\Silence\Wwise Silence	
+	853826191	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Enviroment\Ambient\Oasis_Amb\Insect_Fly\Silence\Wwise Silence	
+

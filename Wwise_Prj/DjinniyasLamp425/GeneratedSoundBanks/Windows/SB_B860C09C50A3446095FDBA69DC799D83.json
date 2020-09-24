@@ -1,0 +1,87 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3125746742",
+    "GUID": "{BA4F1C36-1C36-1C36-3636-363636363636}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_B860C09C50A3446095FDBA69DC799D83",
+    "ShortName": "SB_B860C09C50A3446095FDBA69DC799D83",
+    "Path": "SB_B860C09C50A3446095FDBA69DC799D83.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2764188031",
+      "Name": "EV_Camel_Steps",
+      "ObjectPath": "\\Events\\Animals\\Camel\\EV_Camel_Steps",
+      "GUID": "{B860C09C-50A3-4460-95FD-BA69DC799D83}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.226757",
+      "DurationMax": "0.359184",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "122551984",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Step_07.WAV",
+        "Path": "SFX\\Animals\\Camel\\Step_07_10C4C929.wem"
+       },
+       {
+        "Id": "467453631",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Step_01.WAV",
+        "Path": "SFX\\Animals\\Camel\\Step_01_D31BF55B.wem"
+       },
+       {
+        "Id": "491956589",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Step_05.WAV",
+        "Path": "SFX\\Animals\\Camel\\Step_05_10C4C929.wem"
+       },
+       {
+        "Id": "701091700",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Step_02.WAV",
+        "Path": "SFX\\Animals\\Camel\\Step_02_10C4C929.wem"
+       },
+       {
+        "Id": "748401940",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Step_08.WAV",
+        "Path": "SFX\\Animals\\Camel\\Step_08_10C4C929.wem"
+       },
+       {
+        "Id": "950879501",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Step_04.WAV",
+        "Path": "SFX\\Animals\\Camel\\Step_04_10C4C929.wem"
+       },
+       {
+        "Id": "973336670",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Step_03.WAV",
+        "Path": "SFX\\Animals\\Camel\\Step_03_10C4C929.wem"
+       },
+       {
+        "Id": "1038017333",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Step_06.WAV",
+        "Path": "SFX\\Animals\\Camel\\Step_06_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
