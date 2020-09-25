@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
-   "SourceFilesRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
-   "SoundBanksRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
@@ -3965,39 +3965,39 @@
       "GUID": "{119B9A05-E63D-41FE-9A1F-C86129F52185}",
       "Switches": [
        {
-        "Id": "1554534098",
-        "Name": "PM_Concrete",
-        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\PM_Concrete",
+        "Id": "1629872253",
+        "Name": "Phys_Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\Phys_Concrete",
         "GUID": "{FF2B32AE-D42E-49BD-BA21-73CAE860422D}"
        },
        {
-        "Id": "1773321336",
-        "Name": "PM_Dirt",
-        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\PM_Dirt",
+        "Id": "2030127807",
+        "Name": "Phys_Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\Phys_Dirt",
         "GUID": "{95C0C10B-58E4-4A69-992C-9FF297A7EA29}"
        },
        {
-        "Id": "761628071",
-        "Name": "PM_Grass",
-        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\PM_Grass",
+        "Id": "3027932250",
+        "Name": "Phys_Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\Phys_Grass",
         "GUID": "{DE5C9741-2EA0-45AA-A9F1-59C567C3D7AC}"
        },
        {
-        "Id": "2220787912",
-        "Name": "PM_Water",
-        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\PM_Water",
+        "Id": "2183455345",
+        "Name": "Phys_Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\Phys_Water",
         "GUID": "{59348400-61EE-4D26-9606-50BFF5F919A0}"
        },
        {
-        "Id": "4257446624",
-        "Name": "PM_Wood",
-        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\PM_Wood",
+        "Id": "3693834771",
+        "Name": "Phys_Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\Phys_Wood",
         "GUID": "{604A446C-B7E0-483E-9602-8CF438326396}"
        },
        {
-        "Id": "1539675628",
-        "Name": "PM_Metal",
-        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\PM_Metal",
+        "Id": "3952148861",
+        "Name": "Phys_Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\Phys_Metal",
         "GUID": "{AD4D776E-A669-45EC-BB98-26AC275422C4}"
        }
       ]
