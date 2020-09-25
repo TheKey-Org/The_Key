@@ -1,0 +1,37 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4156822593",
+    "GUID": "{F7C41441-1441-1441-4141-414141414141}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_5DFB46F966C84410A58734D66B9CAA84",
+    "ShortName": "SB_5DFB46F966C84410A58734D66B9CAA84",
+    "Path": "SB_5DFB46F966C84410A58734D66B9CAA84.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1343469020",
+      "Name": "EV_Env_Wind_Fast_Scared_Stop",
+      "ObjectPath": "\\Events\\Environment\\Ambient\\EV_Env_Wind_Fast_Scared_Stop",
+      "GUID": "{5DFB46F9-66C8-4410-A587-34D66B9CAA84}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ]
+   }
+  ]
+ }
+}

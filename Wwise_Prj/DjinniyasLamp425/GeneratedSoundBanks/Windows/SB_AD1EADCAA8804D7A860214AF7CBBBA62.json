@@ -1,0 +1,37 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2597272619",
+    "GUID": "{9ACF3C2B-3C2B-1C2B-2B2B-2B2B2B2B2B2B}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_AD1EADCAA8804D7A860214AF7CBBBA62",
+    "ShortName": "SB_AD1EADCAA8804D7A860214AF7CBBBA62",
+    "Path": "SB_AD1EADCAA8804D7A860214AF7CBBBA62.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3725221892",
+      "Name": "EV_An_Frog_Croar_Stop",
+      "ObjectPath": "\\Events\\Animals\\Frog\\EV_An_Frog_Croar_Stop",
+      "GUID": "{AD1EADCA-A880-4D7A-8602-14AF7CBBBA62}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ]
+   }
+  ]
+ }
+}

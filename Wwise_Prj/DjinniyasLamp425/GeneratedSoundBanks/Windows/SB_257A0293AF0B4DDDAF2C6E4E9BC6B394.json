@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "595590421",
+    "GUID": "{237FFD15-FD15-1D15-1515-151515151515}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_257A0293AF0B4DDDAF2C6E4E9BC6B394",
+    "ShortName": "SB_257A0293AF0B4DDDAF2C6E4E9BC6B394",
+    "Path": "SB_257A0293AF0B4DDDAF2C6E4E9BC6B394.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4147822987",
+      "Name": "EV_Stone_Water_Over",
+      "ObjectPath": "\\Events\\Items\\Stone\\EV_Stone_Water_Over",
+      "GUID": "{257A0293-AF0B-4DDD-AF2C-6E4E9BC6B394}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.208206",
+      "DurationMax": "0.270791",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "542426678",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash.wav",
+        "Path": "SFX\\Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash_C1CC09E3.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

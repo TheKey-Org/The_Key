@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4261248300	EV_Pot_Crash			\Items\Pots\EV_Pot_Crash	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1729843896	AssetSize			\Default Work Unit\AssetSize	
+
+Switch	ID	Name	Switch Group			Notes
+	647611021	Big	AssetSize			
+	1846755610	Small	AssetSize			
+	2849147824	Medium	AssetSize			
+

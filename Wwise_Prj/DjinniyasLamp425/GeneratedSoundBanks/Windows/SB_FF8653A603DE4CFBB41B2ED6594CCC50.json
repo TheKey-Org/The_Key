@@ -1,0 +1,37 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2017802885",
+    "GUID": "{78453A85-3A85-1A85-8585-858585858585}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_FF8653A603DE4CFBB41B2ED6594CCC50",
+    "ShortName": "SB_FF8653A603DE4CFBB41B2ED6594CCC50",
+    "Path": "SB_FF8653A603DE4CFBB41B2ED6594CCC50.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1906188514",
+      "Name": "Ev_Env_Leaves_Stop",
+      "ObjectPath": "\\Events\\Environment\\Ambient\\Ev_Env_Leaves_Stop",
+      "GUID": "{FF8653A6-03DE-4CFB-B41B-2ED6594CCC50}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ]
+   }
+  ]
+ }
+}

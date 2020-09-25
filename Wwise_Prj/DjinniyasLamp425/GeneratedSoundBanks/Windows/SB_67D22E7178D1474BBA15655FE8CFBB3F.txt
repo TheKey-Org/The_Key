@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	645670377	EV_Env_Wind_Fast_Scared			\Environment\Ambient\EV_Env_Wind_Fast_Scared	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3708344978	GP_Direction_Move			\Default Work Unit\GP_Direction_Move	
+
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	41812639	Wind Modulator LFO			\Default Work Unit\Wind Modulator LFO	
+

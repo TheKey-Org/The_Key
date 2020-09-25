@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1981606522",
+    "GUID": "{761CEA7A-EA7A-1A7A-7A7A-7A7A7A7A7A7A}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_33624C1C74834040A13D26A0EF8449D4",
+    "ShortName": "SB_33624C1C74834040A13D26A0EF8449D4",
+    "Path": "SB_33624C1C74834040A13D26A0EF8449D4.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "167098337",
+      "Name": "EV_Camel_Chewing",
+      "ObjectPath": "\\Events\\Animals\\Camel\\EV_Camel_Chewing",
+      "GUID": "{33624C1C-7483-4040-A13D-26A0EF8449D4}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.406722",
+      "DurationMax": "2.379520",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "898613911",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Animal_Comiendo_04.wav",
+        "Path": "SFX\\Animals\\Camel\\Animal_Comiendo_04_F58D7DCD.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

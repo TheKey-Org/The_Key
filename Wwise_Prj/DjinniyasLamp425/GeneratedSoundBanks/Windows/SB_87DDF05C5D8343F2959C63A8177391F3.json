@@ -1,0 +1,52 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\REPOSITORIOS\\repositorio_Dijnnya\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2969177478",
+    "GUID": "{B0FA0D86-0D86-1D86-8686-868686868686}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_87DDF05C5D8343F2959C63A8177391F3",
+    "ShortName": "SB_87DDF05C5D8343F2959C63A8177391F3",
+    "Path": "SB_87DDF05C5D8343F2959C63A8177391F3.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4105498399",
+      "Name": "EV_Stone_Water_Deep",
+      "ObjectPath": "\\Events\\Items\\Stone\\EV_Stone_Water_Deep",
+      "GUID": "{87DDF05C-5D83-43F2-959C-63A8177391F3}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.399592",
+      "DurationMax": "1.901985",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "381790358",
+        "Language": "SFX",
+        "ShortName": "Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash.wav",
+        "Path": "SFX\\Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash_10C4C929.wem"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3506875268",
+      "Name": "GP_Size",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\GP_Size",
+      "GUID": "{D420419F-6D1B-41BD-9390-745CCB6DFE8A}"
+     }
+    ]
+   }
+  ]
+ }
+}
