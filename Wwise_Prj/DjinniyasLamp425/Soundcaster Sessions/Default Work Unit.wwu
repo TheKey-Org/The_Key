@@ -232,7 +232,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_StoneSize" ID="{EF83E806-A76B-43C3-9187-85950092986A}"/>
-							<Value>1</Value>
+							<Value>3</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Oasis_Amb" ID="{ABB113A9-8877-4454-897C-064B56D2094F}"/>
@@ -248,7 +248,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Object_Speed" ID="{DE7223A8-7826-48CB-9645-55A77AF1FC5D}"/>
-							<Value>110.20942408377</Value>
+							<Value>300</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Direction_Move" ID="{DF5FB27A-708D-49D8-A11E-C439CEC2CC0C}"/>
@@ -271,7 +271,7 @@
 						<CurrentStateRef Name="None" ID="{1D2BD15D-E1C0-432E-A24D-E985571BC198}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Phys_Water" ID="{59348400-61EE-4D26-9606-50BFF5F919A0}"/>
+						<CurrentSwitchRef Name="Phys_Metal" ID="{AD4D776E-A669-45EC-BB98-26AC275422C4}"/>
 						<CurrentSwitchRef Name="Big" ID="{1ECAADDF-7F4B-41EA-9CC1-5564FB04912E}"/>
 						<CurrentSwitchRef Name="Break_Si" ID="{2F5B781A-759B-4E03-A70E-7FB173B9289A}"/>
 					</CurrentSwitchList>
