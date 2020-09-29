@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3758102453	EV_It_Tablillas_In			\Items\Tablillas\EV_It_Tablillas_In	
+
