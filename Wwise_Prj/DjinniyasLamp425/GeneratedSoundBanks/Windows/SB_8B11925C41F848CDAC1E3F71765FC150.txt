@@ -1,18 +1,18 @@
 Event	ID	Name			Wwise Object Path	Notes
-	4102285274	EV_Stone_Weight_Impact			\Items\Stone\EV_Stone_Weight_Impact	
+	620124299	EV_Stone_Throwable			\Items\Stone\EV_Stone_Throwable	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	3275108276	SWT_Surface_Type			\Default Work Unit\SWT_Surface_Type	
 
 Switch	ID	Name	Switch Group			Notes
-	761628071	PM_Grass	SWT_Surface_Type			
-	1003149622	PM_Gravel	SWT_Surface_Type			
-	1554534098	PM_Concrete	SWT_Surface_Type			
-	1773321336	PM_Dirt	SWT_Surface_Type			
-	2220787912	PM_Water	SWT_Surface_Type			
-	4257446624	PM_Wood	SWT_Surface_Type			
+	1629872253	Phys_Concrete	SWT_Surface_Type			
+	2030127807	Phys_Dirt	SWT_Surface_Type			
+	2183455345	Phys_Water	SWT_Surface_Type			
+	3027932250	Phys_Grass	SWT_Surface_Type			
+	3693834771	Phys_Wood	SWT_Surface_Type			
+	3952148861	Phys_Metal	SWT_Surface_Type			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
-	794307894	GP_Velocity			\Default Work Unit\GP_Velocity	
-	3506875268	GP_Size			\Default Work Unit\GP_Size	
+	1350766177	GP_StoneSize			\Default Work Unit\GP_StoneSize	
+	1389549966	GP_Object_Speed			\Default Work Unit\GP_Object_Speed	
 

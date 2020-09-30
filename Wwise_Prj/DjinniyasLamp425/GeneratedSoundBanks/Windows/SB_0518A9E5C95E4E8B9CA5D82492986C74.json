@@ -1,0 +1,68 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1469128348",
+    "GUID": "{57911E9C-1E9C-1E9C-9C9C-9C9C9C9C9C9C}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_0518A9E5C95E4E8B9CA5D82492986C74",
+    "ShortName": "SB_0518A9E5C95E4E8B9CA5D82492986C74",
+    "Path": "SB_0518A9E5C95E4E8B9CA5D82492986C74.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3758102453",
+      "Name": "EV_It_Tablillas_In",
+      "ObjectPath": "\\Events\\Items\\Tablillas\\EV_It_Tablillas_In",
+      "GUID": "{0518A9E5-C95E-4E8B-9CA5-D82492986C74}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.100000",
+      "DurationMax": "3.100000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "108475109",
+        "Language": "SFX",
+        "ShortName": "Items\\Tablillas_In_01_3seg.wav",
+        "Path": "SFX\\Items\\Tablillas_In_01_3seg_10C4C929.wem"
+       },
+       {
+        "Id": "420471464",
+        "Language": "SFX",
+        "ShortName": "Items\\Tablillas_In_03_3seg.wav",
+        "Path": "SFX\\Items\\Tablillas_In_03_3seg_10C4C929.wem"
+       },
+       {
+        "Id": "482243175",
+        "Language": "SFX",
+        "ShortName": "Items\\Tablillas_In_05_3seg.wav",
+        "Path": "SFX\\Items\\Tablillas_In_05_3seg_10C4C929.wem"
+       },
+       {
+        "Id": "592109386",
+        "Language": "SFX",
+        "ShortName": "Items\\Tablillas_In_02_3seg.wav",
+        "Path": "SFX\\Items\\Tablillas_In_02_3seg_10C4C929.wem"
+       },
+       {
+        "Id": "864786538",
+        "Language": "SFX",
+        "ShortName": "Items\\Tablillas_In_04_3seg.wav",
+        "Path": "SFX\\Items\\Tablillas_In_04_3seg_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
