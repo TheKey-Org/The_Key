@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1369556196",
+    "GUID": "{51A1C4E4-C4E4-14E4-E4E4-E4E4E4E4E4E4}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_AA6DEBA6401D4CE8A481E11058B2E746",
+    "ShortName": "SB_AA6DEBA6401D4CE8A481E11058B2E746",
+    "Path": "SB_AA6DEBA6401D4CE8A481E11058B2E746.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1793661039",
+      "Name": "EV_DFox_Scared",
+      "ObjectPath": "\\Events\\Animals\\DFox\\EV_DFox_Scared",
+      "GUID": "{AA6DEBA6-401D-4CE8-A481-E11058B2E746}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.145685",
+      "DurationMax": "1.287474",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "111231447",
+        "Language": "SFX",
+        "ShortName": "Animals\\Fox\\Fennec_11.wav",
+        "Path": "SFX\\Animals\\Fox\\Fennec_11_BFB5650D.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

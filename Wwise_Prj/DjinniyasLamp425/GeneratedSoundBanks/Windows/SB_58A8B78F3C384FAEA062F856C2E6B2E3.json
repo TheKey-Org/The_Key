@@ -1,0 +1,305 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1379104055",
+    "GUID": "{52337537-7537-1537-3737-373737373737}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_58A8B78F3C384FAEA062F856C2E6B2E3",
+    "ShortName": "SB_58A8B78F3C384FAEA062F856C2E6B2E3",
+    "Path": "SB_58A8B78F3C384FAEA062F856C2E6B2E3.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2469430068",
+      "Name": "EV_DFox_Footstep_Type",
+      "ObjectPath": "\\Events\\Animals\\DFox\\EV_DFox_Footstep_Type",
+      "GUID": "{58A8B78F-3C38-4FAE-A062-F856C2E6B2E3}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.078053",
+      "DurationMax": "0.276250",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "87061890",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_01.wav",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_01_434BA07A.wem"
+       },
+       {
+        "Id": "102218097",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_walk_16.WAV",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_walk_16_B028BFC8.wem"
+       },
+       {
+        "Id": "180866948",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Wood\\footstep_wood_walk_03.WAV",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Wood\\footstep_wood_walk_03_AB30D29C.wem"
+       },
+       {
+        "Id": "271628114",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Water\\footstep_water_walk_08.WAV",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Water\\footstep_water_walk_08_F6C8E9C5.wem"
+       },
+       {
+        "Id": "278871662",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Concrete\\footstep_concrete_walk_13.WAV",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Concrete\\footstep_concrete_walk_13_6A800606.wem"
+       },
+       {
+        "Id": "307847640",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Wood\\footstep_wood_walk_04.WAV",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Wood\\footstep_wood_walk_04_616EE548.wem"
+       },
+       {
+        "Id": "495856737",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Dirt\\footstep_dirt_walk_run_07.WAV",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Dirt\\footstep_dirt_walk_run_07_45125DEC.wem"
+       },
+       {
+        "Id": "521656326",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Dirt\\footstep_dirt_walk_run_06.WAV",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Dirt\\footstep_dirt_walk_run_06_0B0D8444.wem"
+       },
+       {
+        "Id": "535770469",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Wood\\footstep_wood_walk_09.WAV",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Wood\\footstep_wood_walk_09_62876CBB.wem"
+       },
+       {
+        "Id": "542200597",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Concrete\\footstep_concrete_walk_01.WAV",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Concrete\\footstep_concrete_walk_01_C6F6FAF5.wem"
+       },
+       {
+        "Id": "563091453",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_walk_13.WAV",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_walk_13_A190D3F3.wem"
+       },
+       {
+        "Id": "572273498",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Concrete\\footstep_concrete_walk_12.WAV",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Concrete\\footstep_concrete_walk_12_E2445B71.wem"
+       },
+       {
+        "Id": "610502538",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_02.wav",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_02_4294C4D0.wem"
+       },
+       {
+        "Id": "651901015",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Water\\footstep_water_walk_04.WAV",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Water\\footstep_water_walk_04_5903975A.wem"
+       },
+       {
+        "Id": "704894860",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_walk_14.WAV",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_walk_14_D451FB16.wem"
+       },
+       {
+        "Id": "790401776",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_walk_15.WAV",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Gravel\\footstep_gravel_walk_15_6E063022.wem"
+       },
+       {
+        "Id": "810714219",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_03.wav",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Grass\\footsteps_shoe_grass_walk_03_44407854.wem"
+       },
+       {
+        "Id": "825751727",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Concrete\\footstep_concrete_walk_08.WAV",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Concrete\\footstep_concrete_walk_08_8CFC6517.wem"
+       },
+       {
+        "Id": "893157134",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Water\\footstep_water_walk_05.WAV",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Water\\footstep_water_walk_05_7B8740F5.wem"
+       },
+       {
+        "Id": "1055005579",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Footstep\\Water\\footstep_water_walk_06.WAV",
+        "Path": "SFX\\Character\\Prisioner\\Footstep\\Water\\footstep_water_walk_06_6B314B5F.wem"
+       }
+      ],
+      "DefaultSwitchValue": "{95C0C10B-58E4-4A69-992C-9FF297A7EA29}",
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{DE5C9741-2EA0-45AA-A9F1-59C567C3D7AC}",
+        "Media": [
+         {
+          "Id": "87061890"
+         },
+         {
+          "Id": "610502538"
+         },
+         {
+          "Id": "810714219"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{AD4D776E-A669-45EC-BB98-26AC275422C4}",
+        "Media": [
+         {
+          "Id": "563091453"
+         },
+         {
+          "Id": "704894860"
+         },
+         {
+          "Id": "790401776"
+         },
+         {
+          "Id": "102218097"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{59348400-61EE-4D26-9606-50BFF5F919A0}",
+        "Media": [
+         {
+          "Id": "651901015"
+         },
+         {
+          "Id": "893157134"
+         },
+         {
+          "Id": "1055005579"
+         },
+         {
+          "Id": "271628114"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{604A446C-B7E0-483E-9602-8CF438326396}",
+        "Media": [
+         {
+          "Id": "180866948"
+         },
+         {
+          "Id": "307847640"
+         },
+         {
+          "Id": "535770469"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{FF2B32AE-D42E-49BD-BA21-73CAE860422D}",
+        "Media": [
+         {
+          "Id": "542200597"
+         },
+         {
+          "Id": "825751727"
+         },
+         {
+          "Id": "572273498"
+         },
+         {
+          "Id": "278871662"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{95C0C10B-58E4-4A69-992C-9FF297A7EA29}",
+        "Media": [
+         {
+          "Id": "521656326"
+         },
+         {
+          "Id": "495856737"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "371406312",
+      "Name": "GP_Character_Speed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\GP_Character_Speed",
+      "GUID": "{A6A36AB7-5A95-4AE0-AB0D-5B569B1B4800}"
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "3275108276",
+      "Name": "SWT_Surface_Type",
+      "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type",
+      "GUID": "{119B9A05-E63D-41FE-9A1F-C86129F52185}",
+      "Switches": [
+       {
+        "Id": "1629872253",
+        "Name": "Phys_Concrete",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\Phys_Concrete",
+        "GUID": "{FF2B32AE-D42E-49BD-BA21-73CAE860422D}"
+       },
+       {
+        "Id": "2030127807",
+        "Name": "Phys_Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\Phys_Dirt",
+        "GUID": "{95C0C10B-58E4-4A69-992C-9FF297A7EA29}"
+       },
+       {
+        "Id": "3027932250",
+        "Name": "Phys_Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\Phys_Grass",
+        "GUID": "{DE5C9741-2EA0-45AA-A9F1-59C567C3D7AC}"
+       },
+       {
+        "Id": "2183455345",
+        "Name": "Phys_Water",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\Phys_Water",
+        "GUID": "{59348400-61EE-4D26-9606-50BFF5F919A0}"
+       },
+       {
+        "Id": "3693834771",
+        "Name": "Phys_Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\Phys_Wood",
+        "GUID": "{604A446C-B7E0-483E-9602-8CF438326396}"
+       },
+       {
+        "Id": "3952148861",
+        "Name": "Phys_Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SWT_Surface_Type\\Phys_Metal",
+        "GUID": "{AD4D776E-A669-45EC-BB98-26AC275422C4}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

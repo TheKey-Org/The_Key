@@ -1,0 +1,42 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3321840059",
+    "GUID": "{C5FF41BB-41BB-11BB-BBBB-BBBBBBBBBBBB}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_48C9AE18147F4D90ACB97A3826E0F11E",
+    "ShortName": "SB_48C9AE18147F4D90ACB97A3826E0F11E",
+    "Path": "SB_48C9AE18147F4D90ACB97A3826E0F11E.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "293820446",
+      "Name": "EV_Env_Wind_Fast",
+      "ObjectPath": "\\Events\\Environment\\Ambient\\EV_Env_Wind_Fast",
+      "GUID": "{48C9AE18-147F-4D90-ACB9-7A3826E0F11E}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "572924580",
+        "Language": "SFX",
+        "ShortName": "Wind_Soft_Loop_01.WAV",
+        "Path": "SFX\\Wind_Soft_Loop_01_D79FB2B7.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,42 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4286187013",
+    "GUID": "{FF7A0605-0605-1605-0505-050505050505}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_99F36DC82E77441F9A93DAEAA8846CCF",
+    "ShortName": "SB_99F36DC82E77441F9A93DAEAA8846CCF",
+    "Path": "SB_99F36DC82E77441F9A93DAEAA8846CCF.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1574813572",
+      "Name": "EV_Env_Wind_Soft",
+      "ObjectPath": "\\Events\\Environment\\Ambient\\EV_Env_Wind_Soft",
+      "GUID": "{99F36DC8-2E77-441F-9A93-DAEAA8846CCF}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "303036354",
+        "Language": "SFX",
+        "ShortName": "Environment\\Desert_Silence.wav",
+        "Path": "SFX\\Environment\\Desert_Silence_D79FB2B7.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3135759086",
+    "GUID": "{BAE7E2EE-E2EE-12EE-EEEE-EEEEEEEEEEEE}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_00BCE9B4FBD3498594D27DEC882ECCB2",
+    "ShortName": "SB_00BCE9B4FBD3498594D27DEC882ECCB2",
+    "Path": "SB_00BCE9B4FBD3498594D27DEC882ECCB2.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4181041693",
+      "Name": "Prisioner_Jump",
+      "ObjectPath": "\\Events\\Character\\Prisioner\\Voices\\Prisioner_Jump",
+      "GUID": "{00BCE9B4-FBD3-4985-94D2-7DEC882ECCB2}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.449977",
+      "DurationMax": "0.500000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "151987646",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_07.wav",
+        "Path": "SFX\\Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_07_10C4C929.wem"
+       },
+       {
+        "Id": "269202632",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_05.wav",
+        "Path": "SFX\\Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_05_10C4C929.wem"
+       },
+       {
+        "Id": "382040779",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_06.wav",
+        "Path": "SFX\\Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_06_10C4C929.wem"
+       },
+       {
+        "Id": "1012597449",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_11.wav",
+        "Path": "SFX\\Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_11_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

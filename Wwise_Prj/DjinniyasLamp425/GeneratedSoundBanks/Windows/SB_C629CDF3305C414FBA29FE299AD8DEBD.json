@@ -1,0 +1,97 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3006430446",
+    "GUID": "{B3327CEE-7CEE-1CEE-EEEE-EEEEEEEEEEEE}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_C629CDF3305C414FBA29FE299AD8DEBD",
+    "ShortName": "SB_C629CDF3305C414FBA29FE299AD8DEBD",
+    "Path": "SB_C629CDF3305C414FBA29FE299AD8DEBD.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4202675357",
+      "Name": "Ev_Env_Leaves_On",
+      "ObjectPath": "\\Events\\Environment\\Ambient\\Ev_Env_Leaves_On",
+      "GUID": "{C629CDF3-305C-414F-BA29-FE299AD8DEBD}",
+      "MaxAttenuation": "1500.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "4865246",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_03.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_EE41A3C3.wem"
+       },
+       {
+        "Id": "22491053",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_03.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_77ACC5F2.wem"
+       },
+       {
+        "Id": "58225192",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_03.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_E437782C.wem"
+       },
+       {
+        "Id": "303011576",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_03.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_D2A520E5.wem"
+       },
+       {
+        "Id": "321893777",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_02.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_211BBD0D.wem"
+       },
+       {
+        "Id": "558931773",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_01.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_01_40263CBE.wem"
+       },
+       {
+        "Id": "646265531",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_01.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_01_095526F8.wem"
+       },
+       {
+        "Id": "792969943",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_01.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_01_444A324B.wem"
+       },
+       {
+        "Id": "998141908",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_02.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_EFB5DDE3.wem"
+       },
+       {
+        "Id": "1040058827",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_02.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_42C28859.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

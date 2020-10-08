@@ -1,0 +1,17 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2469430068	EV_DFox_Footstep_Type			\Animals\DFox\EV_DFox_Footstep_Type	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3275108276	SWT_Surface_Type			\Default Work Unit\SWT_Surface_Type	
+
+Switch	ID	Name	Switch Group			Notes
+	1629872253	Phys_Concrete	SWT_Surface_Type			
+	2030127807	Phys_Dirt	SWT_Surface_Type			
+	2183455345	Phys_Water	SWT_Surface_Type			
+	3027932250	Phys_Grass	SWT_Surface_Type			
+	3693834771	Phys_Wood	SWT_Surface_Type			
+	3952148861	Phys_Metal	SWT_Surface_Type			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	371406312	GP_Character_Speed			\Default Work Unit\GP_Character_Speed	
+

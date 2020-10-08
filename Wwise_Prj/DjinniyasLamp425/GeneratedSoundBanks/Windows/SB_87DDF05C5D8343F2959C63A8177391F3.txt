@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4105498399	EV_Stone_Water_Deep			\Items\Stone\EV_Stone_Water_Deep	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3506875268	GP_Size			\Default Work Unit\GP_Size	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	1055666257	Modulator Envelope (Custom)				
+

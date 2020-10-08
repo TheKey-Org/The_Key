@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "195962264",
+    "GUID": "{0BAE2598-2598-1598-9898-989898989898}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_8F9F94705D3D41B3911EE2804D0B7FFD",
+    "ShortName": "SB_8F9F94705D3D41B3911EE2804D0B7FFD",
+    "Path": "SB_8F9F94705D3D41B3911EE2804D0B7FFD.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1946784328",
+      "Name": "Prisioner_Surprise",
+      "ObjectPath": "\\Events\\Character\\Prisioner\\Voices\\Prisioner_Surprise",
+      "GUID": "{8F9F9470-5D3D-41B3-911E-E2804D0B7FFD}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.500000",
+      "DurationMax": "0.500000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "697140696",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_01.wav",
+        "Path": "SFX\\Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_01_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

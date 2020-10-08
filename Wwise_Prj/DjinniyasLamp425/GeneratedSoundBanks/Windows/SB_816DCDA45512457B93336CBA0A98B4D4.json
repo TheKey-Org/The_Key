@@ -1,0 +1,57 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4050005905",
+    "GUID": "{F1662F91-2F91-1F91-9191-919191919191}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_816DCDA45512457B93336CBA0A98B4D4",
+    "ShortName": "SB_816DCDA45512457B93336CBA0A98B4D4",
+    "Path": "SB_816DCDA45512457B93336CBA0A98B4D4.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3751923070",
+      "Name": "EV_Camel_Attack",
+      "ObjectPath": "\\Events\\Animals\\Camel\\EV_Camel_Attack",
+      "GUID": "{816DCDA4-5512-457B-9333-6CBA0A98B4D4}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.461720",
+      "DurationMax": "0.646693",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "156011117",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Camel SFX_03.wav",
+        "Path": "SFX\\Animals\\Camel\\Camel SFX_03_19493AF2.wem"
+       },
+       {
+        "Id": "195558274",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Camello_Fast_01.wav",
+        "Path": "SFX\\Animals\\Camel\\Camello_Fast_01_955668F1.wem"
+       },
+       {
+        "Id": "739141379",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Camello_Fast_01.wav",
+        "Path": "SFX\\Animals\\Camel\\Camello_Fast_01_7C160AF3.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

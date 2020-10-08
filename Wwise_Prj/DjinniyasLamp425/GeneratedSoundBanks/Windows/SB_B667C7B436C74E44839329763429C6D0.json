@@ -1,0 +1,50 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1355519902",
+    "GUID": "{50CB979E-979E-179E-9E9E-9E9E9E9E9E9E}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_B667C7B436C74E44839329763429C6D0",
+    "ShortName": "SB_B667C7B436C74E44839329763429C6D0",
+    "Path": "SB_B667C7B436C74E44839329763429C6D0.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3627703185",
+      "Name": "EV_DFox_Bark",
+      "ObjectPath": "\\Events\\Animals\\DFox\\EV_DFox_Bark",
+      "GUID": "{B667C7B4-36C7-4E44-8393-29763429C6D0}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.969320",
+      "DurationMax": "1.215048",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "182114653",
+        "Language": "SFX",
+        "ShortName": "Animals\\Fox\\Fox_Red_Call_Long_02.wav",
+        "Path": "SFX\\Animals\\Fox\\Fox_Red_Call_Long_02_10C4C929.wem"
+       },
+       {
+        "Id": "547538402",
+        "Language": "SFX",
+        "ShortName": "Animals\\Fox\\Fox_Red_Call_Long_01.wav",
+        "Path": "SFX\\Animals\\Fox\\Fox_Red_Call_Long_01_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

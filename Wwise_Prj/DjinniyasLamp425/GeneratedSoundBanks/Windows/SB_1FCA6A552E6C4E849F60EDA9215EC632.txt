@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1052216993	EV_Camel_Angry			\Animals\Camel\EV_Camel_Angry	
+

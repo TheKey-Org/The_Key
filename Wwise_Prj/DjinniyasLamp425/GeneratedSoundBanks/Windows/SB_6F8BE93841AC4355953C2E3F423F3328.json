@@ -1,0 +1,60 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2509106741",
+    "GUID": "{958DEE35-EE35-1E35-3535-353535353535}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_6F8BE93841AC4355953C2E3F423F3328",
+    "ShortName": "SB_6F8BE93841AC4355953C2E3F423F3328",
+    "Path": "SB_6F8BE93841AC4355953C2E3F423F3328.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2624474190",
+      "Name": "Cleaning_Lamp_Play",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\Actions\\Cleaning_Lamp_Play",
+      "GUID": "{6F8BE938-41AC-4355-953C-2E3F423F3328}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "523807816",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Clean\\Cleaning_Cloth 29.wav",
+        "Path": "SFX\\Character\\Djinniya\\Clean\\Cleaning_Cloth 29_6DD8B30F.wem"
+       },
+       {
+        "Id": "664631883",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Clean\\Cleaning_Cloth 29.wav",
+        "Path": "SFX\\Character\\Djinniya\\Clean\\Cleaning_Cloth 29_FE6DAB14.wem"
+       },
+       {
+        "Id": "883642316",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Clean\\Cleaning_Cloth 29.wav",
+        "Path": "SFX\\Character\\Djinniya\\Clean\\Cleaning_Cloth 29_F70B37EC.wem"
+       },
+       {
+        "Id": "948913228",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Clean\\Cleaning_Cloth 29.wav",
+        "Path": "SFX\\Character\\Djinniya\\Clean\\Cleaning_Cloth 29_073323C9.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

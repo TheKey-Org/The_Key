@@ -1,0 +1,42 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1216005277",
+    "GUID": "{487AC49D-C49D-149D-9D9D-9D9D9D9D9D9D}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_ACFEF940C74447869C25012EA7401EBB",
+    "ShortName": "SB_ACFEF940C74447869C25012EA7401EBB",
+    "Path": "SB_ACFEF940C74447869C25012EA7401EBB.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "940564084",
+      "Name": "EV_Oasis_Back",
+      "ObjectPath": "\\Events\\Levels\\EV_Oasis_Back",
+      "GUID": "{ACFEF940-C744-4786-9C25-012EA7401EBB}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "595116604",
+        "Language": "SFX",
+        "ShortName": "desert-illusion_70BPM4-4.wav",
+        "Path": "SFX\\desert-illusion_70BPM4-4_D79FB2B7.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

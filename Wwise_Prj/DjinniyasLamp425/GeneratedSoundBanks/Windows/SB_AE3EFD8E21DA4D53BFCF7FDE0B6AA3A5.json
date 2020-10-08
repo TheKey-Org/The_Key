@@ -1,0 +1,55 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3148003568",
+    "GUID": "{BBA2B8F0-B8F0-18F0-F0F0-F0F0F0F0F0F0}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_AE3EFD8E21DA4D53BFCF7FDE0B6AA3A5",
+    "ShortName": "SB_AE3EFD8E21DA4D53BFCF7FDE0B6AA3A5",
+    "Path": "SB_AE3EFD8E21DA4D53BFCF7FDE0B6AA3A5.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2693395393",
+      "Name": "EV_An_Frog_Croar",
+      "ObjectPath": "\\Events\\Animals\\Frog\\EV_An_Frog_Croar",
+      "GUID": "{AE3EFD8E-21DA-4D53-BFCF-7FDE0B6AA3A5}",
+      "MaxAttenuation": "1200.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "283900663",
+        "Language": "SFX",
+        "ShortName": "Animals\\Frog\\Frog_Croar_01.wav",
+        "Path": "SFX\\Animals\\Frog\\Frog_Croar_01_10C4C929.wem"
+       },
+       {
+        "Id": "606326618",
+        "Language": "SFX",
+        "ShortName": "Animals\\Frog\\Frog_Croar_01.wav",
+        "Path": "SFX\\Animals\\Frog\\Frog_Croar_01_A839D9C3.wem"
+       },
+       {
+        "Id": "855497981",
+        "Language": "SFX",
+        "ShortName": "Animals\\Frog\\Frog_Croar_01.wav",
+        "Path": "SFX\\Animals\\Frog\\Frog_Croar_01_2A86535E.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
