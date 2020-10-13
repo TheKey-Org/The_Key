@@ -220,6 +220,14 @@
 							<ObjectRef Name="EV_It_Tablillas_Out" ID="{91FD4F4A-6789-4B35-9BDD-60619D0FEA46}" WorkUnitID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}"/>
 							<Position X="3" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="EV_Lamp_Oasis_Fly_On" ID="{98A32DEE-28AF-4513-A14E-14C104522336}" WorkUnitID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Lamp_Oasis_Fly_Stop" ID="{4DA594BE-449E-4946-922B-8845B2C9DB61}" WorkUnitID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}"/>
+							<Position X="3" Y="3"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -268,7 +276,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{1D2BD15D-E1C0-432E-A24D-E985571BC198}"/>
+						<CurrentStateRef Name="SplashIntro_01" ID="{CEE5CA46-8BEA-41C6-BBFF-664348303453}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Phys_Metal" ID="{AD4D776E-A669-45EC-BB98-26AC275422C4}"/>

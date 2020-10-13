@@ -31,6 +31,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1311345142	Djinnya			\Default Work Unit\Master Audio Bus\Character\Djinnya	
 	1316907820	GeNoch_Voice_01			\Default Work Unit\Master Audio Bus\Character\GenioNoche\GeNoch_Voice_01	
 	1325448588	Djin_Actions_01			\Default Work Unit\Master Audio Bus\Character\Djinnya\Djin_Actions_01	
+	1880439950	Magic			\Default Work Unit\Master Audio Bus\SFX\Magic	
 	2151963051	Items			\Default Work Unit\Master Audio Bus\SFX\Items	
 	2385628198	Footsteps			\Default Work Unit\Master Audio Bus\Character\Footsteps	
 	2492899947	Frog			\Default Work Unit\Master Audio Bus\SFX\Animals\Frog	
@@ -38,6 +39,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	2919599157	Djin_Voice_01			\Default Work Unit\Master Audio Bus\Character\Djinnya\Djin_Voice_01	
 	2956342541	Sol_Actions_01			\Default Work Unit\Master Audio Bus\Character\Solomon\Sol_Actions_01	
 	2958148671	Pris_Actions			\Default Work Unit\Master Audio Bus\Character\Prisioner\Pris_Actions	
+	3232033907	Hits			\Default Work Unit\Master Audio Bus\SFX\Hits	
 	3308581358	Solomon			\Default Work Unit\Master Audio Bus\Character\Solomon	
 	3322216404	Sol_Voice_01			\Default Work Unit\Master Audio Bus\Character\Solomon\Sol_Voice_01	
 	3521043444	Mus_Oasis			\Default Work Unit\Master Audio Bus\Music\Mus_Oasis	

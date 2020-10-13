@@ -1633,6 +1633,38 @@
       ]
      },
      {
+      "Id": "713215119",
+      "Name": "EV_Lamp_Oasis_Fly_On",
+      "ObjectPath": "\\Events\\Items\\Lamps\\EV_Lamp_Oasis_Fly_On",
+      "GUID": "{98A32DEE-28AF-4513-A14E-14C104522336}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "457524475",
+        "Language": "SFX",
+        "ShortName": "Items\\Lamp\\Drone_Chime_Bass_Mldy_Loop.wav",
+        "Path": "SFX\\Items\\Lamp\\Drone_Chime_Bass_Mldy_Loop_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1261760948",
+      "Name": "EV_Lamp_Oasis_Fly_Stop",
+      "ObjectPath": "\\Events\\Items\\Lamps\\EV_Lamp_Oasis_Fly_Stop",
+      "GUID": "{4DA594BE-449E-4946-922B-8845B2C9DB61}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.503991",
+      "DurationMax": "6.503991",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "993562710",
+        "Language": "SFX",
+        "ShortName": "Hits\\Hit_02.wav",
+        "Path": "SFX\\Hits\\Hit_02_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "1595423298",
       "Name": "EV_LevelOasis",
       "ObjectPath": "\\Events\\Levels\\EV_LevelOasis",
