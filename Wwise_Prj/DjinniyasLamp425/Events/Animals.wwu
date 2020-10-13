@@ -145,6 +145,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="EV_DFox_Feeding_Short" ID="{7CE0C496-1A75-48FF-B52D-2065702738F8}">
+							<ChildrenList>
+								<Action Name="" ID="{DBD41271-10AC-432F-A469-0B059F78E179}" ShortID="868556505">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Animal_Comiendo_Light_Short" ID="{2C3BC8A4-ED7B-44DD-ABA1-3C484F173BB8}" WorkUnitID="{E8E5BCA4-2EC7-4813-BB88-3942257F8E78}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_DFox_Feeding_Long" ID="{16A6F537-043C-459B-9025-DEE22DEE4925}">
+							<ChildrenList>
+								<Action Name="" ID="{897FF855-3B56-499D-94D4-24A3BD6882DB}" ShortID="954286934">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Animal_Comiendo_Light_Long" ID="{5AAED759-95CA-462F-A6D3-53A81B485322}" WorkUnitID="{E8E5BCA4-2EC7-4813-BB88-3942257F8E78}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Common" ID="{303B0CBB-E70E-446F-BBED-50ECE6049F17}" ShortID="148685764">
