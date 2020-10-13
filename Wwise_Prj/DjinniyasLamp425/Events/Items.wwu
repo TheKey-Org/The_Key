@@ -96,6 +96,47 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Lamps" ID="{E87898CE-D6B6-4D57-A4C1-2092A062BA2E}" ShortID="71965329">
+					<ChildrenList>
+						<Event Name="EV_Lamp_Oasis_Fly_On" ID="{98A32DEE-28AF-4513-A14E-14C104522336}">
+							<ChildrenList>
+								<Action Name="" ID="{A4C0051D-7302-472B-B3B8-D4E64C13CCF1}" ShortID="778564559">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Drone_Chime_Bass_Mldy_Loop" ID="{42BE692B-D4F4-4D35-812F-F8A9D1F40643}" WorkUnitID="{D29F1E3A-551C-4870-AAC4-CA9B911BB266}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Lamp_Oasis_Fly_Stop" ID="{4DA594BE-449E-4946-922B-8845B2C9DB61}">
+							<ChildrenList>
+								<Action Name="" ID="{AADDED73-7C60-43C5-B8B9-355F5A5404A3}" ShortID="61170124">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="6"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Drone_Chime_Bass_Mldy_Loop" ID="{42BE692B-D4F4-4D35-812F-F8A9D1F40643}" WorkUnitID="{D29F1E3A-551C-4870-AAC4-CA9B911BB266}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{17CB695B-01AD-4595-A17A-0FB7677FFAB7}" ShortID="625735863">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hit_02" ID="{4676DDA8-9455-4282-82E0-32775392F48D}" WorkUnitID="{D29F1E3A-551C-4870-AAC4-CA9B911BB266}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
