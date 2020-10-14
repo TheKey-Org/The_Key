@@ -180,6 +180,122 @@
 								<ActiveSource Name="Wind_Soft_Loop_01" ID="{8CCF7B2E-9E40-4DD0-8126-4DE5FAC7E85E}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Wind_Fast_Palm" ID="{755BB256-B2F8-4EAD-82A9-A8F6FF4BA88E}" ShortID="504409570">
+							<PropertyList>
+								<Property Name="Highpass" Type="int16">
+									<RTPCList>
+										<RTPC Name="" ID="{83CAA70C-A2A9-453E-8B0C-74E9DD0AABB0}" ShortID="98627269">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Wind Modulator LFO" ID="{7EE5F573-22CB-4759-8957-FEB657817CDD}" WorkUnitID="{2AE489AB-7C21-4937-9C32-25DB8A94F4D6}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{D30822BC-0AA0-4D78-B49D-4BD697B53250}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>13</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>28</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{B2673CB3-6233-46A9-894E-94D1CE9FD21E}" ShortID="94387120">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Wind Modulator LFO" ID="{7EE5F573-22CB-4759-8957-FEB657817CDD}" WorkUnitID="{2AE489AB-7C21-4937-9C32-25DB8A94F4D6}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{EB358FD7-2115-4FD9-A23C-A1CEE18876F0}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>453</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{D092A040-29C0-436D-B226-BE8EA8F008CC}" ShortID="355810646">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="GP_Wind" ID="{1E3C488C-976E-4788-A89E-D2A8A5EC2F8D}" WorkUnitID="{D42A545A-C39D-4B75-992C-AC8862BFE65C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{3FA75E62-69E6-43B1-A198-5340B7F5E028}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp2</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>300</XPos>
+														<YPos>8.91045</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Wind_Soft_Loop_01" ID="{64F39EC0-172B-42AB-809E-40206DEB6C59}">
+									<Language>SFX</Language>
+									<AudioFile>Wind_Soft_Loop_01.WAV</AudioFile>
+									<MediaIDList>
+										<MediaID ID="572924580"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Wind_Soft_Loop_01" ID="{64F39EC0-172B-42AB-809E-40206DEB6C59}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Ambient" ID="{DDCF41D6-1B5F-471A-BD7B-2FA66982D22A}" ShortID="132598641">
@@ -2765,6 +2881,450 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
+						<RandomSequenceContainer Name="Palmeras" ID="{FBDA4EDF-C22E-4164-B2A4-C83073E4B6F8}" ShortID="201310354">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<RTPCList>
+										<RTPC Name="" ID="{B167E8BB-1E67-4B9E-87AB-18EA91342D01}" ShortID="225625597">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="GP_Wind" ID="{1E3C488C-976E-4788-A89E-D2A8A5EC2F8D}" WorkUnitID="{D42A545A-C39D-4B75-992C-AC8862BFE65C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{CE8CCA37-C117-486E-BCB3-0AA11B103344}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="65537"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>0</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100.78431</XPos>
+														<YPos>-0</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>300</XPos>
+														<YPos>-453</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{34058AC1-C1A2-45BA-BCAB-D630E75CA20D}" ShortID="16600084">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="GP_Wind" ID="{1E3C488C-976E-4788-A89E-D2A8A5EC2F8D}" WorkUnitID="{D42A545A-C39D-4B75-992C-AC8862BFE65C}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{327DD04C-DD10-435F-8CC6-FECA5412020A}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>98.82353</XPos>
+														<YPos>-200</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>300</XPos>
+														<YPos>12.20665</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Palms Attenuation" ID="{2015F366-5003-4CA2-9965-873167B5F7DE}" WorkUnitID="{1F1D049E-E2DC-4F15-BF43-BC6B857A06AD}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="Viento Palmeras" ID="{B164E4DF-FEAA-42A6-9ACF-B58992B35ADC}" ShortID="838917640">
+									<PropertyList>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Leaves_Rustling_Loop_01_B" ID="{45568835-AEAE-4FDE-AD90-F5806382105A}" ShortID="1010860899">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Leaves_Rustling_Loop_02" ID="{7296F8AF-C629-47EC-AFDB-43624DF7DE04}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.508835914062395"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.53026058412818"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.25494652442388"/>
+														<Property Name="TrimEnd" Type="Real64" Value="5.72038690756461"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Environment\Leaves_Rustling_Loop_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="321893777"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Leaves_Rustling_Loop_02" ID="{7296F8AF-C629-47EC-AFDB-43624DF7DE04}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Leaves_Rustling_Loop_03_C" ID="{E2E1A7C2-4D85-4449-8B9D-F826C9694C77}" ShortID="57929213">
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Att_Env_Small" ID="{ECB4353A-2C8D-414D-8F54-EF597B15CF13}" WorkUnitID="{1F1D049E-E2DC-4F15-BF43-BC6B857A06AD}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Leaves_Rustling_Loop_03" ID="{76870CBB-025A-448A-AA92-35C1E0269867}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.445943703783425"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.486078637123933"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.7837748151337"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Environment\Leaves_Rustling_Loop_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="4865246"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Leaves_Rustling_Loop_03" ID="{76870CBB-025A-448A-AA92-35C1E0269867}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Leaves_Rustling_Loop_02_B" ID="{0B8FB596-E1FF-4DE0-9D59-7008EB297E52}" ShortID="837734285">
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Att_Env_Small" ID="{ECB4353A-2C8D-414D-8F54-EF597B15CF13}" WorkUnitID="{1F1D049E-E2DC-4F15-BF43-BC6B857A06AD}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Leaves_Rustling_Loop_02" ID="{BA375F9D-AE2E-46AB-BE41-EACFC53D6825}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.508835914062395"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.53026058412818"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.45848089004883"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Environment\Leaves_Rustling_Loop_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="998141908"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Leaves_Rustling_Loop_02" ID="{BA375F9D-AE2E-46AB-BE41-EACFC53D6825}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="Leaves_Rustling_Loop_01_B" ID="{45568835-AEAE-4FDE-AD90-F5806382105A}"/>
+										<ItemRef Name="Leaves_Rustling_Loop_03_C" ID="{E2E1A7C2-4D85-4449-8B9D-F826C9694C77}"/>
+										<ItemRef Name="Leaves_Rustling_Loop_02_B" ID="{0B8FB596-E1FF-4DE0-9D59-7008EB297E52}"/>
+										<ItemRef Name="Leaves_Rustling_Loop_03_C" ID="{E2E1A7C2-4D85-4449-8B9D-F826C9694C77}"/>
+										<ItemRef Name="Leaves_Rustling_Loop_02_B" ID="{0B8FB596-E1FF-4DE0-9D59-7008EB297E52}"/>
+										<ItemRef Name="Leaves_Rustling_Loop_01_B" ID="{45568835-AEAE-4FDE-AD90-F5806382105A}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Viento Palmeras_01" ID="{DEC071BF-27FC-4E8C-ADDB-93013208FEB8}" ShortID="214998717">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Leaves_Rustling_Loop_01_B" ID="{7C577B3B-24CD-4BFF-B966-C5BB8A191F20}" ShortID="1054158830">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Leaves_Rustling_Loop_02" ID="{0054DF9C-95B5-43C4-9ADC-958A45CEC3E3}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.508835914062395"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.53026058412818"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.25494652442388"/>
+														<Property Name="TrimEnd" Type="Real64" Value="5.72038690756461"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Environment\Leaves_Rustling_Loop_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="321893777"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Leaves_Rustling_Loop_02" ID="{0054DF9C-95B5-43C4-9ADC-958A45CEC3E3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Leaves_Rustling_Loop_03_C" ID="{991664E7-AA3E-4EB6-8EC8-747AF65AC8CB}" ShortID="724528974">
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Att_Env_Small" ID="{ECB4353A-2C8D-414D-8F54-EF597B15CF13}" WorkUnitID="{1F1D049E-E2DC-4F15-BF43-BC6B857A06AD}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Leaves_Rustling_Loop_03" ID="{7E313627-A055-4BEA-BD3C-AB6F258F78BF}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.445943703783425"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.486078637123933"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.7837748151337"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Environment\Leaves_Rustling_Loop_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="4865246"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Leaves_Rustling_Loop_03" ID="{7E313627-A055-4BEA-BD3C-AB6F258F78BF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Leaves_Rustling_Loop_02_B" ID="{388AF91B-CCBD-4AB5-AC39-78229B478586}" ShortID="480025724">
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Att_Env_Small" ID="{ECB4353A-2C8D-414D-8F54-EF597B15CF13}" WorkUnitID="{1F1D049E-E2DC-4F15-BF43-BC6B857A06AD}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Leaves_Rustling_Loop_02" ID="{CCE56B8C-8C1D-473E-9059-B198286AE8E8}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.508835914062395"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.53026058412818"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.45848089004883"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Environment\Leaves_Rustling_Loop_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="998141908"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Leaves_Rustling_Loop_02" ID="{CCE56B8C-8C1D-473E-9059-B198286AE8E8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="Leaves_Rustling_Loop_01_B" ID="{7C577B3B-24CD-4BFF-B966-C5BB8A191F20}"/>
+										<ItemRef Name="Leaves_Rustling_Loop_03_C" ID="{991664E7-AA3E-4EB6-8EC8-747AF65AC8CB}"/>
+										<ItemRef Name="Leaves_Rustling_Loop_02_B" ID="{388AF91B-CCBD-4AB5-AC39-78229B478586}"/>
+										<ItemRef Name="Leaves_Rustling_Loop_03_C" ID="{991664E7-AA3E-4EB6-8EC8-747AF65AC8CB}"/>
+										<ItemRef Name="Leaves_Rustling_Loop_02_B" ID="{388AF91B-CCBD-4AB5-AC39-78229B478586}"/>
+										<ItemRef Name="Leaves_Rustling_Loop_01_B" ID="{7C577B3B-24CD-4BFF-B966-C5BB8A191F20}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Viento Palmeras_02" ID="{A2AEA784-FAEF-45B6-9BAF-F426A6DD5975}" ShortID="140004129">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Leaves_Rustling_Loop_01_B" ID="{6E8A8107-F1E1-47DD-8BB5-2FAE933DBD24}" ShortID="460354771">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Leaves_Rustling_Loop_02" ID="{24A42201-5B18-4837-B3C6-D5550838D053}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.508835914062395"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.53026058412818"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="2.25494652442388"/>
+														<Property Name="TrimEnd" Type="Real64" Value="5.72038690756461"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Environment\Leaves_Rustling_Loop_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="321893777"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Leaves_Rustling_Loop_02" ID="{24A42201-5B18-4837-B3C6-D5550838D053}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Leaves_Rustling_Loop_03_C" ID="{EF6839FD-050B-434A-87C9-2AD1B9B0673D}" ShortID="531030810">
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Att_Env_Small" ID="{ECB4353A-2C8D-414D-8F54-EF597B15CF13}" WorkUnitID="{1F1D049E-E2DC-4F15-BF43-BC6B857A06AD}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Leaves_Rustling_Loop_03" ID="{54728F21-9B62-464D-8467-2AD6AC50DC72}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.445943703783425"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.486078637123933"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.7837748151337"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Environment\Leaves_Rustling_Loop_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="4865246"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Leaves_Rustling_Loop_03" ID="{54728F21-9B62-464D-8467-2AD6AC50DC72}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Leaves_Rustling_Loop_02_B" ID="{E9ED08B7-E2B5-4CB9-BE99-3D1B98036551}" ShortID="164008265">
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Att_Env_Small" ID="{ECB4353A-2C8D-414D-8F54-EF597B15CF13}" WorkUnitID="{1F1D049E-E2DC-4F15-BF43-BC6B857A06AD}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Leaves_Rustling_Loop_02" ID="{C96BD21F-5E3F-4C7C-A821-081E1D6998E1}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.508835914062395"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.53026058412818"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.45848089004883"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Environment\Leaves_Rustling_Loop_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="998141908"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Leaves_Rustling_Loop_02" ID="{C96BD21F-5E3F-4C7C-A821-081E1D6998E1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="Leaves_Rustling_Loop_01_B" ID="{6E8A8107-F1E1-47DD-8BB5-2FAE933DBD24}"/>
+										<ItemRef Name="Leaves_Rustling_Loop_03_C" ID="{EF6839FD-050B-434A-87C9-2AD1B9B0673D}"/>
+										<ItemRef Name="Leaves_Rustling_Loop_02_B" ID="{E9ED08B7-E2B5-4CB9-BE99-3D1B98036551}"/>
+										<ItemRef Name="Leaves_Rustling_Loop_03_C" ID="{EF6839FD-050B-434A-87C9-2AD1B9B0673D}"/>
+										<ItemRef Name="Leaves_Rustling_Loop_02_B" ID="{E9ED08B7-E2B5-4CB9-BE99-3D1B98036551}"/>
+										<ItemRef Name="Leaves_Rustling_Loop_01_B" ID="{6E8A8107-F1E1-47DD-8BB5-2FAE933DBD24}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<Playlist>
+								<ItemRef Name="Viento Palmeras" ID="{B164E4DF-FEAA-42A6-9ACF-B58992B35ADC}"/>
+								<ItemRef Name="Viento Palmeras_01" ID="{DEC071BF-27FC-4E8C-ADDB-93013208FEB8}"/>
+								<ItemRef Name="Viento Palmeras_02" ID="{A2AEA784-FAEF-45B6-9BAF-F426A6DD5975}"/>
+							</Playlist>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Insects" ID="{8683A0CC-81D3-40D5-A354-DDFA73E40749}" ShortID="788508370">

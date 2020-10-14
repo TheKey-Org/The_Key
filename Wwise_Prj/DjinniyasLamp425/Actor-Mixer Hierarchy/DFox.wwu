@@ -1122,6 +1122,86 @@
 								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
+						<Sound Name="Animal_Comiendo_Light_Short" ID="{2C3BC8A4-ED7B-44DD-ABA1-3C484F173BB8}" ShortID="383233430">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{93C92B94-0080-45DC-8BD6-E9F8A3502F90}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="76"/>
+													<Property Name="Min" Type="Real64" Value="-152"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_CHA_Generic" ID="{8B94C7BA-80D7-419E-AE2F-199897BAB647}" WorkUnitID="{6D48CC01-6253-4DE8-A355-72C130272A21}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Camel" ID="{95637C97-BB92-4960-8F5A-E76AE667C6BF}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Animal_Comiendo_01" ID="{C8E1D12B-F4F4-41E3-BA36-99C329000A46}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.27487848762694"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Animals\Camel\Animal_Comiendo_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="972377837"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Animal_Comiendo_01" ID="{C8E1D12B-F4F4-41E3-BA36-99C329000A46}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Animal_Comiendo_Light_Long" ID="{5AAED759-95CA-462F-A6D3-53A81B485322}" ShortID="868085157">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_CHA_Generic" ID="{8B94C7BA-80D7-419E-AE2F-199897BAB647}" WorkUnitID="{6D48CC01-6253-4DE8-A355-72C130272A21}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Camel" ID="{95637C97-BB92-4960-8F5A-E76AE667C6BF}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Animal_Comiendo_03" ID="{340ED890-5F88-451E-94B5-FE7836D53B26}">
+									<PropertyList>
+										<Property Name="FadeOutShape" Type="int16" Value="7"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.128428029182688"/>
+										<Property Name="TrimEnd" Type="Real64" Value="4.11957601301391"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Animals\Camel\Animal_Comiendo_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1048535314"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Animal_Comiendo_03" ID="{340ED890-5F88-451E-94B5-FE7836D53B26}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
