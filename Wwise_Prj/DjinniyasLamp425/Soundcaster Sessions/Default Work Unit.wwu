@@ -104,6 +104,10 @@
 							<Position X="2" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="EV_Swarm_Bees_Loop" ID="{44D1822E-2A99-403F-AD40-7927C58932A7}" WorkUnitID="{16310A29-DF1C-404A-93F3-D23310EC535B}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="EV_An_Frog_Croar" ID="{AE3EFD8E-21DA-4D53-BFCF-7FDE0B6AA3A5}" WorkUnitID="{16B58919-71EF-412E-8157-887200C1F5FB}"/>
 							<Position X="3" Y="0"/>
 						</Module>
@@ -111,15 +115,27 @@
 							<ObjectRef Name="EV_An_Frog_Croar_Stop" ID="{AD1EADCA-A880-4D7A-8602-14AF7CBBBA62}" WorkUnitID="{16B58919-71EF-412E-8157-887200C1F5FB}"/>
 							<Position X="3" Y="1"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Inicio_Oasis_Bus_Volume_Start" ID="{5CA42E90-D9E7-4885-B1CE-3F483159FAB2}" WorkUnitID="{C6996CF7-92DB-4410-B61E-A48A10628E95}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Inicio_Oasis_Bus_Volume_Stop" ID="{68031DA8-0AC5-467C-8CF3-0B1BE4C376F4}" WorkUnitID="{C6996CF7-92DB-4410-B61E-A48A10628E95}"/>
+							<Position X="3" Y="3"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
+							<GameParameterRef Name="Bus_OnOff" ID="{486C7C2B-C8D6-402D-865F-4052793C03E7}"/>
+							<Value>1.08371806467471E-311</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="GP_Velocity" ID="{C3EABE06-E21E-4101-AE40-FE45AD5C64AC}"/>
-							<Value>100</Value>
+							<Value>50</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Size" ID="{D420419F-6D1B-41BD-9390-745CCB6DFE8A}"/>
-							<Value>1</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_StoneSize" ID="{EF83E806-A76B-43C3-9187-85950092986A}"/>
@@ -127,19 +143,23 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Oasis_Amb" ID="{ABB113A9-8877-4454-897C-064B56D2094F}"/>
-							<Value>78.8480492813142</Value>
+							<Value>10</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Insects" ID="{E00E954B-A8CC-45D9-ABD7-040DB78E5C6B}"/>
-							<Value>1.26</Value>
+							<Value>2</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GP_StoneIntoWater" ID="{9E09CF4E-B03F-4617-8B50-F193EB3DB05D}"/>
+							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Wind" ID="{1E3C488C-976E-4788-A89E-D2A8A5EC2F8D}"/>
-							<Value>0</Value>
+							<Value>5</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Object_Speed" ID="{DE7223A8-7826-48CB-9645-55A77AF1FC5D}"/>
-							<Value>50</Value>
+							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Direction_Move" ID="{DF5FB27A-708D-49D8-A11E-C439CEC2CC0C}"/>
@@ -147,23 +167,24 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Character_Speed" ID="{A6A36AB7-5A95-4AE0-AB0D-5B569B1B4800}"/>
-							<Value>88.3660130718954</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Intensity" ID="{A3452C9E-0E20-4B53-A903-074D27493768}"/>
-							<Value>20.5338809034908</Value>
+							<Value>50</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_PotSize" ID="{97CFEF86-BA72-4EDA-A16D-EE312F1902A4}"/>
-							<Value>3</Value>
+							<Value>1</Value>
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Explore_03" ID="{37ED6456-5FA2-4D7D-9FF9-14B4900A8719}"/>
+						<CurrentStateRef Name="None" ID="{1D2BD15D-E1C0-432E-A24D-E985571BC198}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Phys_Concrete" ID="{FF2B32AE-D42E-49BD-BA21-73CAE860422D}"/>
 						<CurrentSwitchRef Name="Big" ID="{1ECAADDF-7F4B-41EA-9CC1-5564FB04912E}"/>
+						<CurrentSwitchRef Name="Break_No" ID="{1EA3335C-9711-45CD-B902-60D201CDDA5C}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
 				<SoundcasterSession Name="Items Soundcaster Session" ID="{EF19EB31-0C54-4E54-8C82-229395D81F19}">
@@ -213,6 +234,10 @@
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Inicio_Oasis_Bus_Volume_Start" ID="{5CA42E90-D9E7-4885-B1CE-3F483159FAB2}" WorkUnitID="{C6996CF7-92DB-4410-B61E-A48A10628E95}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="EV_It_Tablillas_In" ID="{0518A9E5-C95E-4E8B-9CA5-D82492986C74}" WorkUnitID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}"/>
 							<Position X="3" Y="0"/>
 						</Module>
@@ -230,6 +255,10 @@
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Bus_OnOff" ID="{486C7C2B-C8D6-402D-865F-4052793C03E7}"/>
+							<Value>1</Value>
+						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Velocity" ID="{C3EABE06-E21E-4101-AE40-FE45AD5C64AC}"/>
 							<Value>100</Value>
@@ -252,7 +281,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Wind" ID="{1E3C488C-976E-4788-A89E-D2A8A5EC2F8D}"/>
-							<Value>246</Value>
+							<Value>117</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Object_Speed" ID="{DE7223A8-7826-48CB-9645-55A77AF1FC5D}"/>
@@ -279,7 +308,7 @@
 						<CurrentStateRef Name="SplashIntro_01" ID="{CEE5CA46-8BEA-41C6-BBFF-664348303453}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
-						<CurrentSwitchRef Name="Phys_Water" ID="{59348400-61EE-4D26-9606-50BFF5F919A0}"/>
+						<CurrentSwitchRef Name="Phys_Concrete" ID="{FF2B32AE-D42E-49BD-BA21-73CAE860422D}"/>
 						<CurrentSwitchRef Name="Big" ID="{1ECAADDF-7F4B-41EA-9CC1-5564FB04912E}"/>
 						<CurrentSwitchRef Name="Break_Si" ID="{2F5B781A-759B-4E03-A70E-7FB173B9289A}"/>
 					</CurrentSwitchList>
