@@ -211,6 +211,48 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="EV_Env_PalmerasViento_On" ID="{7ECF8DE2-227D-4C01-B36F-DA587653AF92}">
+							<ChildrenList>
+								<Action Name="" ID="{B314BD07-780F-4D32-8F28-50D4340E374E}" ShortID="98350226">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Palmeras" ID="{FBDA4EDF-C22E-4164-B2A4-C83073E4B6F8}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{622596A9-B15D-4880-8ACA-506354842188}" ShortID="781774922">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind_Fast_Palm" ID="{755BB256-B2F8-4EAD-82A9-A8F6FF4BA88E}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Env_PalmerasViento_Stop" ID="{9507A6E1-C2F8-48B9-BAF0-6BECE27228AB}">
+							<ChildrenList>
+								<Action Name="" ID="{EF75096F-B70B-47AB-8768-6D84B470B78D}" ShortID="580278060">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Palmeras" ID="{FBDA4EDF-C22E-4164-B2A4-C83073E4B6F8}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{26643AA8-E15D-4997-A948-93A2F2CE775A}" ShortID="644047707">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Wind_Fast_Palm" ID="{755BB256-B2F8-4EAD-82A9-A8F6FF4BA88E}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Insects" ID="{6473C944-F276-463E-8B94-A9C56EDB147D}" ShortID="1033233314">
