@@ -29,8 +29,7 @@
 							<ChildrenList>
 								<Bus Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}">
 									<PropertyList>
-										<Property Name="Color" Type="int16" Value="20"/>
-										<Property Name="OutputBusVolume" Type="Real64">
+										<Property Name="BusVolume" Type="Real64">
 											<RTPCList>
 												<RTPC Name="" ID="{555440EC-2857-4BA3-84B7-A5E5DC81053E}" ShortID="220012033">
 													<ReferenceList>
@@ -68,6 +67,7 @@
 												</RTPC>
 											</RTPCList>
 										</Property>
+										<Property Name="Color" Type="int16" Value="20"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
