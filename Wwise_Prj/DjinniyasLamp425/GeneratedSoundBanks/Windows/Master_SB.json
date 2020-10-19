@@ -941,6 +941,40 @@
       ]
      },
      {
+      "Id": "575205070",
+      "Name": "EV_DFox_Feeding_Long",
+      "ObjectPath": "\\Events\\Animals\\DFox\\EV_DFox_Feeding_Long",
+      "GUID": "{16A6F537-043C-459B-9025-DEE22DEE4925}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.991148",
+      "DurationMax": "3.991148",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1048535314",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Animal_Comiendo_03.wav",
+        "Path": "SFX\\Animals\\Camel\\Animal_Comiendo_03_C3CE35A5.wem"
+       }
+      ]
+     },
+     {
+      "Id": "285902034",
+      "Name": "EV_DFox_Feeding_Short",
+      "ObjectPath": "\\Events\\Animals\\DFox\\EV_DFox_Feeding_Short",
+      "GUID": "{7CE0C496-1A75-48FF-B52D-2065702738F8}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.220123",
+      "DurationMax": "1.391872",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "972377837",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Animal_Comiendo_01.wav",
+        "Path": "SFX\\Animals\\Camel\\Animal_Comiendo_01_ED2F9936.wem"
+       }
+      ]
+     },
+     {
       "Id": "2469430068",
       "Name": "EV_DFox_Footstep_Type",
       "ObjectPath": "\\Events\\Animals\\DFox\\EV_DFox_Footstep_Type",
@@ -1341,6 +1375,49 @@
       ]
      },
      {
+      "Id": "671985285",
+      "Name": "EV_Env_PalmerasViento_On",
+      "ObjectPath": "\\Events\\Environment\\Ambient\\EV_Env_PalmerasViento_On",
+      "GUID": "{7ECF8DE2-227D-4C01-B36F-DA587653AF92}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "4865246",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_03.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_EE41A3C3.wem"
+       },
+       {
+        "Id": "321893777",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_02.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_211BBD0D.wem"
+       },
+       {
+        "Id": "572924580",
+        "Language": "SFX",
+        "ShortName": "Wind_Soft_Loop_01.WAV",
+        "Path": "SFX\\Wind_Soft_Loop_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "998141908",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_02.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_EFB5DDE3.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3664580986",
+      "Name": "EV_Env_PalmerasViento_Stop",
+      "ObjectPath": "\\Events\\Environment\\Ambient\\EV_Env_PalmerasViento_Stop",
+      "GUID": "{9507A6E1-C2F8-48B9-BAF0-6BECE27228AB}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
       "Id": "293820446",
       "Name": "EV_Env_Wind_Fast",
       "ObjectPath": "\\Events\\Environment\\Ambient\\EV_Env_Wind_Fast",
@@ -1629,6 +1706,38 @@
         "Language": "SFX",
         "ShortName": "Items\\Tablillas_Out_02_3seg.wav",
         "Path": "SFX\\Items\\Tablillas_Out_02_3seg_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "713215119",
+      "Name": "EV_Lamp_Oasis_Fly_On",
+      "ObjectPath": "\\Events\\Items\\Lamps\\EV_Lamp_Oasis_Fly_On",
+      "GUID": "{98A32DEE-28AF-4513-A14E-14C104522336}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "457524475",
+        "Language": "SFX",
+        "ShortName": "Items\\Lamp\\Drone_Chime_Bass_Mldy_Loop.wav",
+        "Path": "SFX\\Items\\Lamp\\Drone_Chime_Bass_Mldy_Loop_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1261760948",
+      "Name": "EV_Lamp_Oasis_Fly_Stop",
+      "ObjectPath": "\\Events\\Items\\Lamps\\EV_Lamp_Oasis_Fly_Stop",
+      "GUID": "{4DA594BE-449E-4946-922B-8845B2C9DB61}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.503991",
+      "DurationMax": "6.503991",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "993562710",
+        "Language": "SFX",
+        "ShortName": "Hits\\Hit_02.wav",
+        "Path": "SFX\\Hits\\Hit_02_10C4C929.wem"
        }
       ]
      },
