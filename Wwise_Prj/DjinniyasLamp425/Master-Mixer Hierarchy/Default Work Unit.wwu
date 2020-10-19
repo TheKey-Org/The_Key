@@ -29,8 +29,47 @@
 							<ChildrenList>
 								<Bus Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}">
 									<PropertyList>
+										<Property Name="BusVolume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{555440EC-2857-4BA3-84B7-A5E5DC81053E}" ShortID="220012033">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Bus_OnOff" ID="{486C7C2B-C8D6-402D-865F-4052793C03E7}" WorkUnitID="{D42A545A-C39D-4B75-992C-AC8862BFE65C}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{27F52E6E-C377-49A2-BD76-9B00626CB6BB}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-96</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>0.50196</XPos>
+																<YPos>-96</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>0.82745</XPos>
+																<YPos>-0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
 										<Property Name="Color" Type="int16" Value="20"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 								</Bus>
 								<Bus Name="Animals" ID="{2BD7E8D7-6928-44ED-9229-2AD3EF55DEA8}">
