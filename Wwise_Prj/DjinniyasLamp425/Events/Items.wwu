@@ -135,6 +135,20 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="EV_Lamp_Oasis_EndHit" ID="{C43DA261-8CCB-41A6-B6B1-F7DEB6480A8A}">
+							<ChildrenList>
+								<Action Name="" ID="{EE58D3F2-E51B-40F2-9E61-25B8635972BC}" ShortID="568940091">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Hit_02" ID="{4676DDA8-9455-4282-82E0-32775392F48D}" WorkUnitID="{D29F1E3A-551C-4870-AAC4-CA9B911BB266}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
