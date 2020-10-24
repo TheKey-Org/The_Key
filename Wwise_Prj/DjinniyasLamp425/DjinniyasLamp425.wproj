@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="Project" SchemaVersion="97" WwiseVersion="v2019.2.4" WwiseBuild="7329">
+<WwiseDocument Type="Project" SchemaVersion="97" WwiseVersion="v2019.2.5" WwiseBuild="7349">
 	<ProjectInfo>
 		<Project Name="DjinniyasLamp425" ID="{0D47E403-370D-4047-887E-84B5DE413971}">
 			<Platforms>
@@ -12,36 +12,24 @@
 				<Language Name="SFX" ID="{28A667D0-CC35-4969-AF87-ABF4756FB73B}"/>
 			</LanguageList>
 			<PropertyList>
-<Property Name="GenerateSoundBankXML" Type="bool" Value="False"/>
-<Property Name="GenerateMainSoundBank" Type="bool" Value="False"/>
-<Property Name="SoundBankGeneratePrintGUID" Type="bool" Value="True"/>
-<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>
-<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
-<Property Name="GenerateSoundBankJSON" Type="bool" Value="True"/>
-<Property Name="GenerateMultipleBanks" Type="bool" Value="True"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
-				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjgyMzIiIG1hc2s9Ik5QU0ExNTk3IiBlbmM9IjAiPjxsaWNl
-bnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDEw
-IiBleHBpcmVzPSIyMDIxLTAyLTAxIiAgLz48bGljZW5zZSBpZD0iMjEiIG5hbWU9
-Ik1haW50ZW5hbmNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMTAiIGV4cGlyZXM9
-IjIwMjEtMDItMDEiICAvPjxsaWNlbnNlIGlkPSIyMiIgbmFtZT0iTGV2ZWwgQSBM
-aWNlbnNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMTAiIGV4cGlyZXM9IjIwMjEt
-MDItMDEiICAvPjwvcHJvamVjdD4=|jdon/YmtF9hF0sfDsaOJ+eSajNpRmovUFcc
-rsho5oNcz2PI+d5UpK0ZpxOeO1vwkKymjlN/leczKMNoyc2iGn03QpWD2jl7B64M
-95ZG9TJKcU/QLC4VVKn8zar0z2eoMv4n8dcaATnDGwYm+2H/OLLmomoqbnrMu5Vi
-s6rYnkH4sxU3u266SSBnoyu1f8jp6xDvBos74PVWa/RqUlzqNkVIfmw9eDMtuwnL
-m2JvCxvJVUODSWWpHhAW1wre0mSPZt5R0/lXfTKae9ckcZIh6NEctdMCXW1Cep1D
-IHWK/73in4wevwLGwk1d2JY5l75cgUsCj0pZSbBJpDgM2lYH8ig==
-"/>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
+				<Property Name="GenerateMainSoundBank" Type="bool" Value="False"/>
+				<Property Name="GenerateMultipleBanks" Type="bool" Value="True"/>
+				<Property Name="GenerateSoundBankJSON" Type="bool" Value="True"/>
+				<Property Name="GenerateSoundBankXML" Type="bool" Value="False"/>
+				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjgyMzIiIG1hc2s9Ik5QU0ExNTk3IiBlbmM9IjAiPjxsaWNl bnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDEw IiBleHBpcmVzPSIyMDIxLTAyLTAxIiAgLz48bGljZW5zZSBpZD0iMjEiIG5hbWU9 Ik1haW50ZW5hbmNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMTAiIGV4cGlyZXM9 IjIwMjEtMDItMDEiICAvPjxsaWNlbnNlIGlkPSIyMiIgbmFtZT0iTGV2ZWwgQSBM aWNlbnNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMTAiIGV4cGlyZXM9IjIwMjEt MDItMDEiICAvPjwvcHJvamVjdD4=|jdon/YmtF9hF0sfDsaOJ+eSajNpRmovUFcc rsho5oNcz2PI+d5UpK0ZpxOeO1vwkKymjlN/leczKMNoyc2iGn03QpWD2jl7B64M 95ZG9TJKcU/QLC4VVKn8zar0z2eoMv4n8dcaATnDGwYm+2H/OLLmomoqbnrMu5Vi s6rYnkH4sxU3u266SSBnoyu1f8jp6xDvBos74PVWa/RqUlzqNkVIfmw9eDMtuwnL m2JvCxvJVUODSWWpHhAW1wre0mSPZt5R0/lXfTKae9ckcZIh6NEctdMCXW1Cep1D IHWK/73in4wevwLGwk1d2JY5l75cgUsCj0pZSbBJpDgM2lYH8ig== "/>
+				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
+				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>
+				<Property Name="SoundBankGeneratePrintGUID" Type="bool" Value="True"/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
@@ -8772,7 +8760,7 @@ IHWK/73in4wevwLGwk1d2JY5l75cgUsCj0pZSbBJpDgM2lYH8ig==
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Oculus Spatializer" PluginType="6" CompanyID="266" PluginID="146">
+				<SharedPropertyList ClassName="" PluginType="6" CompanyID="266" PluginID="146">
 					<PropertyList>
 						<Property Name="Bypass" Type="bool">
 							<ValueList>
@@ -9596,7 +9584,7 @@ IHWK/73in4wevwLGwk1d2JY5l75cgUsCj0pZSbBJpDgM2lYH8ig==
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="AttachableMixerInput" PluginType="3" CompanyID="266" PluginID="501">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="266" PluginID="501">
 					<PropertyList>
 						<Property Name="Ambisonic" Type="bool">
 							<ValueList>
@@ -9894,10 +9882,10 @@ IHWK/73in4wevwLGwk1d2JY5l75cgUsCj0pZSbBJpDgM2lYH8ig==
 					</ObsOccCurve>
 				</ObsOccCurves>
 			</EnvironmentalSettings>
-<LogCentralIgnoreList>
-<IgnoreItem MessageId="MediaDuplicated"/>
-<IgnoreItem MessageId="MediaNotFound"/>
-</LogCentralIgnoreList>
+			<LogCentralIgnoreList>
+				<IgnoreItem MessageId="MediaDuplicated"/>
+				<IgnoreItem MessageId="MediaNotFound"/>
+			</LogCentralIgnoreList>
 			<DefaultConversion Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}"/>
 			<PhysicalFolderList>
 				<PhysicalFolder Path="Actor-Mixer Hierarchy">
