@@ -3324,6 +3324,751 @@
 								<ItemRef Name="Viento Palmeras_02" ID="{A2AEA784-FAEF-45B6-9BAF-F426A6DD5975}"/>
 							</Playlist>
 						</RandomSequenceContainer>
+						<BlendContainer Name="Oasis_AmbWeather" ID="{3B1FCF51-DE9B-4CB9-A303-0AE3FCE039D1}" ShortID="231280148">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="Wind_Types" ID="{CA2CD22E-E4B6-480A-BC46-9C4E9E8E8C8C}" ShortID="726009215">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Wind_Soft" ID="{129AEFF8-2D22-4B79-9CB4-653D5BDB9C4A}" ShortID="125441852">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Desert_Silence" ID="{19740534-5A0B-4D1D-8A22-A247CC7F1CBE}">
+													<Language>SFX</Language>
+													<AudioFile>Environment\Desert_Silence.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="303036354"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Desert_Silence" ID="{19740534-5A0B-4D1D-8A22-A247CC7F1CBE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Wind_Fast" ID="{AD9AE17C-1C6D-4B98-A9ED-A44D67669538}" ShortID="286971010">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{8A848A9B-818A-42EC-B876-61DBECF302EE}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="4"/>
+																	<Property Name="Min" Type="Real64" Value="-3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Wind_Soft_Loop_01" ID="{466A7112-8738-416F-9FBC-9D628B5F172C}">
+													<Language>SFX</Language>
+													<AudioFile>Wind_Soft_Loop_01.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="572924580"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wind_Soft_Loop_01" ID="{466A7112-8738-416F-9FBC-9D628B5F172C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<BlendTrackList>
+										<BlendTrack Name="Wind_Strength" ID="{5D59E4E3-0122-46E8-8A63-07A69B7DBE36}" ShortID="820132869">
+											<PropertyList>
+												<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="LayerCrossFadeControlInput">
+													<ObjectRef Name="Amb Modulator LFO" ID="{0831FC9D-DEBE-43FB-96E2-B46BB09F5D5F}" WorkUnitID="{2AE489AB-7C21-4937-9C32-25DB8A94F4D6}"/>
+												</Reference>
+											</ReferenceList>
+											<BlendTrackAssocList>
+												<BlendTrackAssoc>
+													<ItemRef Name="Wind_Soft" ID="{129AEFF8-2D22-4B79-9CB4-653D5BDB9C4A}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>0.947207678883072</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+												<BlendTrackAssoc>
+													<ItemRef Name="Wind_Fast" ID="{AD9AE17C-1C6D-4B98-A9ED-A44D67669538}"/>
+													<CrossfadingInfo>
+														<LeftEdgePos>0.138307155322863</LeftEdgePos>
+														<LeftFadingMode>Automatic</LeftFadingMode>
+														<RightEdgePos>1</RightEdgePos>
+														<RightFadingMode>Automatic</RightFadingMode>
+													</CrossfadingInfo>
+												</BlendTrackAssoc>
+											</BlendTrackAssocList>
+										</BlendTrack>
+									</BlendTrackList>
+								</BlendContainer>
+								<RandomSequenceContainer Name="Bees_Loop" ID="{BA702133-6E71-4F25-996D-637CB1E04125}" ShortID="962447316">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>45</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Insects" ID="{EE82122E-2F99-4227-A8C5-0BEFBE589319}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Bee_Loop" ID="{96C3E251-7B55-482F-AC36-1B7A549DF3C6}" ShortID="399990256">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="1"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+												<Property Name="LoopCount" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{81BA0439-AF9C-4480-A015-01E5FE417A76}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Bee_Loop" ID="{E2F2F122-D9BF-43E0-B01D-17BFBC2FFA21}">
+													<PropertyList>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="4.43273622202504"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Animals\Environment\Bee_Loop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="86745989"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{1A4BAE0C-3994-49D6-B418-DECD34BAAE6B}">
+													<PropertyList>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="1.5"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="Bee_Loop_Path" ID="{A7C8D8F7-2FD2-40B3-BE6C-F1D9BE20065C}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="3106"/>
+																<Property Name="RandomZ" Type="Real64" Value="9"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-59.49367</XPos>
+																	<YPos>30.89172</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Bee_Loop_Path_01" ID="{582203C8-D850-4F86-9755-F373425935BF}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="2500"/>
+																<Property Name="RandomX" Type="Real64" Value="4"/>
+																<Property Name="RandomY" Type="Real64" Value="7"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>15.18987</XPos>
+																	<YPos>37.26115</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Bee_Loop_Path_02" ID="{2FBC6189-432A-4F58-BE9E-CD4CDE60B760}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="3000"/>
+																<Property Name="RandomY" Type="Real64" Value="7"/>
+																<Property Name="RandomZ" Type="Real64" Value="15"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>24.68354</XPos>
+																	<YPos>-47.45223</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Bee_Loop_Path_03" ID="{0C4E9F25-F5B2-49ED-AEAD-2467A87206CD}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="2000"/>
+																<Property Name="RandomX" Type="Real64" Value="14"/>
+																<Property Name="RandomY" Type="Real64" Value="12"/>
+																<Property Name="RandomZ" Type="Real64" Value="1"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-47.46835</XPos>
+																	<YPos>-50.63694</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Bee_Loop_Path_04" ID="{9A617945-8D13-4B0E-A099-45C49BA2B6CF}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="1800"/>
+																<Property Name="RandomX" Type="Real64" Value="9"/>
+																<Property Name="RandomY" Type="Real64" Value="22"/>
+																<Property Name="RandomZ" Type="Real64" Value="14"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>86.07595</XPos>
+																	<YPos>21.97452</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Bee_Loop_Path_05" ID="{616F38E2-CF35-42BA-8128-740CF2DC9C87}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="2600"/>
+																<Property Name="RandomZ" Type="Real64" Value="92"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-51.26582</XPos>
+																	<YPos>83.12102</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Bee_Loop_Path_06" ID="{04B5D47E-BCC5-4B80-9072-1FB495D02B61}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="3200"/>
+																<Property Name="RandomY" Type="Real64" Value="57"/>
+																<Property Name="RandomZ" Type="Real64" Value="40"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-32.27848</XPos>
+																	<YPos>-75.47771</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Bee_Loop" ID="{E2F2F122-D9BF-43E0-B01D-17BFBC2FFA21}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Silence" ID="{3C47EACB-B5B2-4584-AB96-FECE1C185163}" ShortID="170468759">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>0.5</Value>
+													</ValueList>
+												</Property>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+												<Property Name="LoopCount" Type="int32" Value="3">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C31F6144-129D-4228-A720-1732CCE97102}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{55EF6A74-E533-4D23-9AAB-C50DABF55051}" ShortID="208299055" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="2"/>
+														<Property Name="LengthMax" Type="Real32" Value="4.5"/>
+														<Property Name="LengthMin" Type="Real32" Value="-1.5"/>
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{0600A7D9-9CCD-4502-8F28-A37A67428DC9}">
+													<PropertyList>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="Insect_Fly_Path_01" ID="{37E9A01A-58F7-4424-988A-61AF638781B6}">
+															<PointList>
+																<Point>
+																	<XPos>-55.06329</XPos>
+																	<YPos>26.43312</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Insect_Fly_Path_02" ID="{A313448C-EF0D-49D8-922A-B19D961205E2}">
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Insect_Fly_Path_03" ID="{6D988755-B33E-4268-9684-F36EC7521581}">
+															<PointList>
+																<Point>
+																	<XPos>50.63291</XPos>
+																	<YPos>7.32484</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="Insect_Fly_Path_04" ID="{7504F23E-BB67-41A2-B98C-EE74E9094ADE}">
+															<PropertyList>
+																<Property Name="RandomY" Type="Real64" Value="9"/>
+																<Property Name="RandomZ" Type="Real64" Value="22"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>-40.44586</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{55EF6A74-E533-4D23-9AAB-C50DABF55051}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Insect_Fly" ID="{A1262B7D-DC14-4C2D-8567-8D7F5F15723A}" ShortID="913333735">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="2"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverrideOutput" Type="bool" Value="True"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Insects" ID="{EE82122E-2F99-4227-A8C5-0BEFBE589319}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Fly_Loop" ID="{12762B7F-165C-40F5-AEE2-681EDDCF5A56}" ShortID="941370241">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+												<Property Name="LoopCount" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{4676F5AA-06E3-4F00-BD9C-04D14EE2D150}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="3"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Fly_Loop" ID="{C9F96C4D-B396-47F6-9D34-241A28FF8A17}">
+													<PropertyList>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="6.50134885834539"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Animals\Environment\Fly_Loop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1022065363"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Fly_Loop" ID="{C9F96C4D-B396-47F6-9D34-241A28FF8A17}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Silence" ID="{AA1250AD-565E-46CF-8044-9E6023E5C1CE}" ShortID="492416486">
+											<PropertyList>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="IsLoopingInfinite" Type="bool" Value="False"/>
+												<Property Name="LoopCount" Type="int32" Value="3">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{F034573A-18B2-4121-BEC5-1A1042BA4A00}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<SourcePlugin Name="Wwise Silence" ID="{9E3DE44E-EFCB-45C2-9ABD-5C48118EACB1}" ShortID="889757572" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+													<PropertyList>
+														<Property Name="Length" Type="Real32" Value="2"/>
+														<Property Name="LengthMax" Type="Real32" Value="4.5"/>
+														<Property Name="LengthMin" Type="Real32" Value="-1.5"/>
+													</PropertyList>
+													<Language>SFX</Language>
+												</SourcePlugin>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Wwise Silence" ID="{9E3DE44E-EFCB-45C2-9ABD-5C48118EACB1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{4B690018-9BF3-4A66-9075-D2D834E24EC8}">
+											<PropertyList>
+												<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="1.5"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="Insect_Fly_Path_01" ID="{58052594-5F72-44F1-A981-3147EC800992}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="3000"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>-55.06329</XPos>
+															<YPos>26.43312</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Insect_Fly_Path_02" ID="{609820B5-FD8A-4639-9A42-824171279B36}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="2400"/>
+														<Property Name="RandomY" Type="Real64" Value="55"/>
+														<Property Name="RandomZ" Type="Real64" Value="16"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>50</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Insect_Fly_Path_03" ID="{3032AA46-8910-4BDC-B113-AED8D12ECC3B}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="3200"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>50.63291</XPos>
+															<YPos>7.32484</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Insect_Fly_Path_04" ID="{27A30009-62E4-456A-B8C8-9392E9797692}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="2000"/>
+														<Property Name="RandomY" Type="Real64" Value="9"/>
+														<Property Name="RandomZ" Type="Real64" Value="22"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>-40.44586</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Insect_Fly_Path_05" ID="{D0463C03-4BB9-4A9F-8553-AE72031355B6}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="3500"/>
+														<Property Name="RandomY" Type="Real64" Value="2"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>72.78481</XPos>
+															<YPos>64.01274</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Insect_Fly_Path_06" ID="{E1870544-926C-4595-B37B-959F5AA56879}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="1500"/>
+														<Property Name="RandomY" Type="Real64" Value="76"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>-47.46835</XPos>
+															<YPos>-71.65605</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="Insect_Fly_Path_07" ID="{5BC09843-2346-4000-8DA1-941DEC143CF3}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="2800"/>
+														<Property Name="RandomZ" Type="Real64" Value="66"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>-65.82278</XPos>
+															<YPos>76.11465</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+								</RandomSequenceContainer>
+							</ChildrenList>
+							<BlendTrackList>
+								<BlendTrack Name="Wind" ID="{43EEAE80-716D-4BBD-B746-9E0761CD058A}" ShortID="575976047">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Amb Modulator Time" ID="{C1092D1D-0ADA-40F0-821B-793DED8864AA}" WorkUnitID="{2AE489AB-7C21-4937-9C32-25DB8A94F4D6}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Wind_Types" ID="{CA2CD22E-E4B6-480A-BC46-9C4E9E8E8C8C}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>30</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+								<BlendTrack Name="Bees" ID="{D217F052-AFBE-4D57-AAF1-A0EACD335D05}" ShortID="282916124">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{94AFBE25-4EEE-4CBC-8D9F-2CC034663AD6}" ShortID="139263829">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Amb Modulator LFO" ID="{0831FC9D-DEBE-43FB-96E2-B46BB09F5D5F}" WorkUnitID="{2AE489AB-7C21-4937-9C32-25DB8A94F4D6}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{7E9E1E7B-170E-4160-A36F-F2E41FE3D0E9}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>-12.0412</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Amb Modulator Time" ID="{C1092D1D-0ADA-40F0-821B-793DED8864AA}" WorkUnitID="{2AE489AB-7C21-4937-9C32-25DB8A94F4D6}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Bees_Loop" ID="{BA702133-6E71-4F25-996D-637CB1E04125}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>30</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+								<BlendTrack Name="Flies" ID="{1EF0A4E7-8723-4DE8-B773-2537A7E95663}" ShortID="608832798">
+									<PropertyList>
+										<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<RTPCList>
+												<RTPC Name="" ID="{70E985DA-E37A-4AF0-B05C-8FC2B7FCF703}" ShortID="621512359">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="Amb Modulator LFO" ID="{0831FC9D-DEBE-43FB-96E2-B46BB09F5D5F}" WorkUnitID="{2AE489AB-7C21-4937-9C32-25DB8A94F4D6}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{6E0FF6AD-6C9A-4879-A920-96B238CA00B4}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>21</Flags>
+															</Point>
+															<Point>
+																<XPos>1</XPos>
+																<YPos>-16.90196</YPos>
+																<Flags>53</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="LayerCrossFadeControlInput">
+											<ObjectRef Name="Amb Modulator Time" ID="{C1092D1D-0ADA-40F0-821B-793DED8864AA}" WorkUnitID="{2AE489AB-7C21-4937-9C32-25DB8A94F4D6}"/>
+										</Reference>
+									</ReferenceList>
+									<BlendTrackAssocList>
+										<BlendTrackAssoc>
+											<ItemRef Name="Insect_Fly" ID="{A1262B7D-DC14-4C2D-8567-8D7F5F15723A}"/>
+											<CrossfadingInfo>
+												<LeftEdgePos>0</LeftEdgePos>
+												<LeftFadingMode>Automatic</LeftFadingMode>
+												<RightEdgePos>30</RightEdgePos>
+												<RightFadingMode>Automatic</RightFadingMode>
+											</CrossfadingInfo>
+										</BlendTrackAssoc>
+									</BlendTrackAssocList>
+								</BlendTrack>
+							</BlendTrackList>
+						</BlendContainer>
 					</ChildrenList>
 				</ActorMixer>
 				<ActorMixer Name="Insects" ID="{8683A0CC-81D3-40D5-A354-DDFA73E40749}" ShortID="788508370">

@@ -19,18 +19,23 @@
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows</Value>
 					</ValueList>
 				</Property>
 				<Property Name="GenerateMainSoundBank" Type="bool" Value="False"/>
 				<Property Name="GenerateMultipleBanks" Type="bool" Value="True"/>
 				<Property Name="GenerateSoundBankJSON" Type="bool" Value="True"/>
 				<Property Name="GenerateSoundBankXML" Type="bool" Value="False"/>
+				<Property Name="GlobalVoiceInstancesLimit" Type="int16">
+					<ValueList>
+						<Value Platform="Windows">256</Value>
+					</ValueList>
+				</Property>
 				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjgyMzIiIG1hc2s9Ik5QU0ExNTk3IiBlbmM9IjAiPjxsaWNl bnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDEw IiBleHBpcmVzPSIyMDIxLTAyLTAxIiAgLz48bGljZW5zZSBpZD0iMjEiIG5hbWU9 Ik1haW50ZW5hbmNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMTAiIGV4cGlyZXM9 IjIwMjEtMDItMDEiICAvPjxsaWNlbnNlIGlkPSIyMiIgbmFtZT0iTGV2ZWwgQSBM aWNlbnNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMTAiIGV4cGlyZXM9IjIwMjEt MDItMDEiICAvPjwvcHJvamVjdD4=|jdon/YmtF9hF0sfDsaOJ+eSajNpRmovUFcc rsho5oNcz2PI+d5UpK0ZpxOeO1vwkKymjlN/leczKMNoyc2iGn03QpWD2jl7B64M 95ZG9TJKcU/QLC4VVKn8zar0z2eoMv4n8dcaATnDGwYm+2H/OLLmomoqbnrMu5Vi s6rYnkH4sxU3u266SSBnoyu1f8jp6xDvBos74PVWa/RqUlzqNkVIfmw9eDMtuwnL m2JvCxvJVUODSWWpHhAW1wre0mSPZt5R0/lXfTKae9ckcZIh6NEctdMCXW1Cep1D IHWK/73in4wevwLGwk1d2JY5l75cgUsCj0pZSbBJpDgM2lYH8ig== "/>
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>
 				<Property Name="SoundBankGeneratePrintGUID" Type="bool" Value="True"/>
-				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
+				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
@@ -56,8 +61,17 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="VolumeThreshold" Type="Real64">
+					<ValueList>
+						<Value Platform="Windows">-80</Value>
+					</ValueList>
+				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2019.2|Build=7329|VersionName=v2019.2.4|Config=Release"/>
 			</PropertyList>
+			<MiscSettings>
+				<MiscSettingEntry Name="Cache"><![CDATA[.cache]]></MiscSettingEntry>
+				<MiscSettingEntry Name="Originals"><![CDATA[Originals]]></MiscSettingEntry>
+			</MiscSettings>
 			<SharedValues>
 				<SharedPropertyList ClassName="AudioSource" PluginType="0" CompanyID="1" PluginID="0">
 					<PropertyList>
@@ -9768,7 +9782,7 @@
 									</Point>
 									<Point>
 										<XPos>100</XPos>
-										<YPos>-200</YPos>
+										<YPos>-3.94979</YPos>
 										<Flags>37</Flags>
 									</Point>
 								</PointList>
@@ -9883,8 +9897,8 @@
 				</ObsOccCurves>
 			</EnvironmentalSettings>
 			<LogCentralIgnoreList>
-				<IgnoreItem MessageId="MediaDuplicated"/>
 				<IgnoreItem MessageId="MediaNotFound"/>
+				<IgnoreItem MessageId="MediaDuplicated"/>
 			</LogCentralIgnoreList>
 			<DefaultConversion Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}"/>
 			<PhysicalFolderList>

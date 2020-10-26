@@ -151,6 +151,32 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Constelacion" ID="{80FA6F71-34AD-447D-8FD5-11AA1D0A2865}" ShortID="958665287">
+					<ChildrenList>
+						<Event Name="EV_ConstelacionStartChimes" ID="{A8B2EF90-2EAE-4300-AA3B-B9EC472F17DF}">
+							<ChildrenList>
+								<Action Name="" ID="{9250B95F-3CAF-48B5-B048-E864687C90DB}" ShortID="140007388">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Chimes_Magic_Ding_04" ID="{5E49709A-567C-4FB0-B496-D9BA2D577FB7}" WorkUnitID="{D29F1E3A-551C-4870-AAC4-CA9B911BB266}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_ConstelacionFaceChimes" ID="{AFF7BB27-EDE9-42DA-ACC5-DF542207B068}">
+							<ChildrenList>
+								<Action Name="" ID="{E7668733-C222-48D4-AF1B-A84A25991BC9}" ShortID="533061281">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Chimes_Magic_03" ID="{BA3E70AA-542E-4DA8-8173-F231D39CF655}" WorkUnitID="{D29F1E3A-551C-4870-AAC4-CA9B911BB266}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

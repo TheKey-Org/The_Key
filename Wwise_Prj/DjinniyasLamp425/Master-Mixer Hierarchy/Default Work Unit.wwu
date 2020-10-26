@@ -84,7 +84,11 @@
 										<Bus Name="Spells" ID="{36A7724B-B728-4D39-B3F8-0855DD757C92}"/>
 									</ChildrenList>
 								</Bus>
-								<Bus Name="Hits" ID="{67F58A6E-D132-43FD-9075-986399503CEB}"/>
+								<Bus Name="Hits" ID="{67F58A6E-D132-43FD-9075-986399503CEB}">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
 								<Bus Name="TimeFX" ID="{68750E96-2C34-4601-B174-56C833FA6493}"/>
 							</ChildrenList>
 							<DuckingList>

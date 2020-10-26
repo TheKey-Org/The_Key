@@ -143,11 +143,11 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Oasis_Amb" ID="{ABB113A9-8877-4454-897C-064B56D2094F}"/>
-							<Value>10</Value>
+							<Value>39.0575916230367</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Insects" ID="{E00E954B-A8CC-45D9-ABD7-040DB78E5C6B}"/>
-							<Value>2</Value>
+							<Value>0.704188481675392</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_StoneIntoWater" ID="{9E09CF4E-B03F-4617-8B50-F193EB3DB05D}"/>
@@ -155,11 +155,15 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Wind" ID="{1E3C488C-976E-4788-A89E-D2A8A5EC2F8D}"/>
-							<Value>5</Value>
+							<Value>76.0732984293194</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Object_Speed" ID="{DE7223A8-7826-48CB-9645-55A77AF1FC5D}"/>
 							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GP_Insects_Time" ID="{A6D26EE9-DD86-49C8-B975-1C77CBBB310B}"/>
+							<Value>9.81675392670157</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Direction_Move" ID="{DF5FB27A-708D-49D8-A11E-C439CEC2CC0C}"/>
@@ -171,7 +175,7 @@
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_Intensity" ID="{A3452C9E-0E20-4B53-A903-074D27493768}"/>
-							<Value>50</Value>
+							<Value>16.8848167539267</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="GP_PotSize" ID="{97CFEF86-BA72-4EDA-A16D-EE312F1902A4}"/>
@@ -179,7 +183,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="None" ID="{1D2BD15D-E1C0-432E-A24D-E985571BC198}"/>
+						<CurrentStateRef Name="Explore_03" ID="{37ED6456-5FA2-4D7D-9FF9-14B4900A8719}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Phys_Concrete" ID="{FF2B32AE-D42E-49BD-BA21-73CAE860422D}"/>
