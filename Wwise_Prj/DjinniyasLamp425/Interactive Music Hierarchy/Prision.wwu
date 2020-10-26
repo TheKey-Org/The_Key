@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6A6CB9AD-0158-4CCD-A33C-A4185F898430}" SchemaVersion="97">
+	<InteractiveMusic>
+		<WorkUnit Name="Prision" ID="{6A6CB9AD-0158-4CCD-A33C-A4185F898430}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="Clock" ID="{136186EB-B505-42C6-A964-8F37B69D5B27}" ShortID="487200440">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="10000"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="TimeFX" ID="{68750E96-2C34-4601-B174-56C833FA6493}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="Clock_TicToc" ID="{11120BFD-D375-4A36-A2CC-3B78588E8BFC}" ShortID="586127050">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Clock_TicToc_01_120bpm_4-4_L4" ID="{DBD69F6C-4C55-4DB0-A3D4-4A9A38E5F80A}">
+									<Language>SFX</Language>
+									<AudioFile>Clock_TicToc_01_120bpm_4-4_L4.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="779462095"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{DA3D8583-7C2B-4922-87A4-7BA38F7FBEE6}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{B0F59D1D-BA8C-4DD5-9C61-4A9588C7C7F4}">
+									<ClipList>
+										<MusicClip Name="Clock_TicToc_01_120bpm_4-4_L4" ID="{32E88D81-841F-42FF-B6C4-050E271CE4B9}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="10000"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="Clock_TicToc_01_120bpm_4-4_L4" ID="{DBD69F6C-4C55-4DB0-A3D4-4A9A38E5F80A}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<StingerList>
+						<MusicStinger Name="" ID="{EC60F4C3-BE61-41DF-83B3-D3AF2D653655}">
+							<TriggerRef Name="Timing_Trigger" ID="{4BE77857-B32C-40B2-97F8-A82C7392B436}" WorkUnitID="{BAD64BD0-322E-4ED0-8492-4440ED097804}"/>
+						</MusicStinger>
+					</StingerList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{F748264B-7A2D-4199-A9D2-F4E99D468A9E}"/>
+						<MusicCue Name="Exit Cue" ID="{61A96393-0D5F-4BED-9AEE-5450824527CF}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="8000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<Folder Name="Stingers" ID="{BE7ABFCB-0076-48CD-B62C-49562D8E03F0}" ShortID="742812295">
+					<ChildrenList>
+						<MusicSegment Name="Clock_Stinger" ID="{42D75DA5-FB21-4D5F-B099-326BDAEEA1E2}" ShortID="106135408">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="10000"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="TimeFX" ID="{68750E96-2C34-4601-B174-56C833FA6493}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Clock_TicToc" ID="{D8BB5041-1F73-420F-86CC-8ADD9DA6E430}" ShortID="422251363">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="TimeFX" ID="{68750E96-2C34-4601-B174-56C833FA6493}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Clock_TicToc_01_120bpm_4-4_L4" ID="{2A5EF245-0703-4C04-9AB2-EA69D947CFA9}">
+											<Language>SFX</Language>
+											<AudioFile>Clock_TicToc_01_120bpm_4-4_L4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="779462095"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{90BFDFF9-7769-4620-9053-E01BE23AEF7E}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{5046D406-A149-4CB4-AF84-B156DE34D862}">
+											<ClipList>
+												<MusicClip Name="Clock_TicToc_01_120bpm_4-4_L4" ID="{C849EF63-9F0E-46E6-882E-02F17FBC3B31}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="10000"/>
+														<Property Name="FadeInMode" Type="int16" Value="0"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Clock_TicToc_01_120bpm_4-4_L4" ID="{2A5EF245-0703-4C04-9AB2-EA69D947CFA9}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{E226CE45-79BB-4A9A-BC4B-0ABFF0E4C6B5}"/>
+								<MusicCue Name="Exit Cue" ID="{25779547-CB27-4DE0-903B-662152C03839}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="8000"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

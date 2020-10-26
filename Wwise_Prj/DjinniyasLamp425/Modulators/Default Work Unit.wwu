@@ -26,6 +26,38 @@
 						<Property Name="LfoSmoothing" Type="Real64" Value="44"/>
 					</PropertyList>
 				</ModulatorLfo>
+				<ModulatorEnvelope Name="Amb Modulator Envelope" ID="{F4CF3CBD-5887-40C9-B59B-093D8E097E89}" ShortID="1036652711"/>
+				<ModulatorLfo Name="Amb Modulator LFO" ID="{0831FC9D-DEBE-43FB-96E2-B46BB09F5D5F}" ShortID="243771563">
+					<PropertyList>
+						<Property Name="LfoDepth" Type="Real64" Value="62.1"/>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.02">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{921F6882-6145-46AA-AB0A-46BBF122ABFA}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="0.2"/>
+											<Property Name="Min" Type="Real64" Value="-0.03"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+					</PropertyList>
+				</ModulatorLfo>
+				<ModulatorTime Name="Amb Modulator Time" ID="{C1092D1D-0ADA-40F0-821B-793DED8864AA}" ShortID="632338576">
+					<PropertyList>
+						<Property Name="TimeModDuration" Type="Real64" Value="30"/>
+						<Property Name="TimeModLoops" Type="int32" Value="0"/>
+					</PropertyList>
+				</ModulatorTime>
+				<ModulatorLfo Name="Insects Modulator LFO" ID="{C1178E57-196E-4D31-ACF9-D399BAE2946F}" ShortID="294530130">
+					<PropertyList>
+						<Property Name="LfoDepth" Type="Real64" Value="64.2"/>
+						<Property Name="LfoFrequency" Type="Real64" Value="0.06"/>
+						<Property Name="LfoWaveform" Type="int32" Value="2"/>
+					</PropertyList>
+				</ModulatorLfo>
 			</ChildrenList>
 		</WorkUnit>
 	</Modulators>
