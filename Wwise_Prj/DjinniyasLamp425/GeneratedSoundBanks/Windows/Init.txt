@@ -17,6 +17,9 @@ State	ID	Name	State Group			Notes
 	2857410150	Explore_03	Music_State			
 	3466561645	LampFall_02	Music_State			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1020477210	Bus_OnOff			\Default Work Unit\Bus_OnOff	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	77978275	Ambient			\Default Work Unit\Master Audio Bus\Environment\Ambient	
 	257203462	GenioNoche			\Default Work Unit\Master Audio Bus\Character\GenioNoche	
@@ -24,6 +27,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	348963605	Reverb			\Default Work Unit\Master Audio Bus\Reverb	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
 	436743010	Character			\Default Work Unit\Master Audio Bus\Character	
+	477591328	TimeFX			\Default Work Unit\Master Audio Bus\SFX\TimeFX	
 	802911192	Pris_Voice			\Default Work Unit\Master Audio Bus\Character\Prisioner\Pris_Voice	
 	949388280	Animals			\Default Work Unit\Master Audio Bus\SFX\Animals	
 	1083137540	Fox			\Default Work Unit\Master Audio Bus\SFX\Animals\Fox	
@@ -47,6 +51,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3833343604	Insects			\Default Work Unit\Master Audio Bus\Environment\Insects	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 	4017077586	Prisioner			\Default Work Unit\Master Audio Bus\Character\Prisioner	
+	4160437992	Spells			\Default Work Unit\Master Audio Bus\SFX\Magic\Spells	
 	4235322293	Camel			\Default Work Unit\Master Audio Bus\SFX\Animals\Camel	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes

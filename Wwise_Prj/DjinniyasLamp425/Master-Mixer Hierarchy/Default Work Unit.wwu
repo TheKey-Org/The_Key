@@ -54,7 +54,7 @@
 															</Point>
 															<Point>
 																<XPos>0.82745</XPos>
-																<YPos>-0</YPos>
+																<YPos>0</YPos>
 																<Flags>0</Flags>
 															</Point>
 															<Point>
@@ -79,8 +79,17 @@
 										<Bus Name="Frog" ID="{C0F6B2B5-CCD4-4D08-AFE3-563ED255B4AA}"/>
 									</ChildrenList>
 								</Bus>
-								<Bus Name="Magic" ID="{82C41B8E-08BB-4843-A77E-AEA850E7DB5A}"/>
-								<Bus Name="Hits" ID="{67F58A6E-D132-43FD-9075-986399503CEB}"/>
+								<Bus Name="Magic" ID="{82C41B8E-08BB-4843-A77E-AEA850E7DB5A}">
+									<ChildrenList>
+										<Bus Name="Spells" ID="{36A7724B-B728-4D39-B3F8-0855DD757C92}"/>
+									</ChildrenList>
+								</Bus>
+								<Bus Name="Hits" ID="{67F58A6E-D132-43FD-9075-986399503CEB}">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+								<Bus Name="TimeFX" ID="{68750E96-2C34-4601-B174-56C833FA6493}"/>
 							</ChildrenList>
 							<DuckingList>
 								<DuckItem>

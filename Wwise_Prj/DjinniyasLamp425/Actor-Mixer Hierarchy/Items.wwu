@@ -25522,7 +25522,18 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Hit_02" ID="{4676DDA8-9455-4282-82E0-32775392F48D}" ShortID="349668531">
+							<PropertyList>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="Priority" Type="int16">
+									<ValueList>
+										<Value>80</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Lamp Hit Attenuation" ID="{9211A0AB-705F-4636-AA86-3EEA289523BE}" WorkUnitID="{1F1D049E-E2DC-4F15-BF43-BC6B857A06AD}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 								</Reference>
@@ -25541,6 +25552,54 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Hit_02" ID="{3C6B25C3-2B8A-45D2-A93C-E4D4DBBE551F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Constelación" ID="{FB3CE33E-9D5A-4C96-A204-23CE5CECB567}" ShortID="290357360">
+					<ChildrenList>
+						<Sound Name="Chimes_Magic_03" ID="{BA3E70AA-542E-4DA8-8173-F231D39CF655}" ShortID="714043046">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Magic" ID="{82C41B8E-08BB-4843-A77E-AEA850E7DB5A}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Chimes_Magic_03" ID="{3910A958-79E7-48F7-9535-67F665EF078D}">
+									<Language>SFX</Language>
+									<AudioFile>Magic\Chimes_Magic_03.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="175477357"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Chimes_Magic_03" ID="{3910A958-79E7-48F7-9535-67F665EF078D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Chimes_Magic_Ding_04" ID="{5E49709A-567C-4FB0-B496-D9BA2D577FB7}" ShortID="511759697">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Magic" ID="{82C41B8E-08BB-4843-A77E-AEA850E7DB5A}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Chimes_Magic_Ding_04" ID="{503C3963-9E59-4CF3-AF47-769490B8F1EA}">
+									<Language>SFX</Language>
+									<AudioFile>Magic\Chimes_Magic_Ding_04.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="699542411"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Chimes_Magic_Ding_04" ID="{503C3963-9E59-4CF3-AF47-769490B8F1EA}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
