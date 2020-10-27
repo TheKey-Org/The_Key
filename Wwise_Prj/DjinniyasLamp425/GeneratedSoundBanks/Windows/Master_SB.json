@@ -1596,6 +1596,23 @@
       ]
      },
      {
+      "Id": "2940629373",
+      "Name": "EV_Genius_Smile",
+      "ObjectPath": "\\Events\\Character\\GenioNoche\\Voice\\EV_Genius_Smile",
+      "GUID": "{51102D24-0ABD-4B63-8C23-0A81756DF299}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.756285",
+      "DurationMax": "5.756285",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "549808537",
+        "Language": "SFX",
+        "ShortName": "Character\\GenioNoche\\Voice\\Genius_Smile.wav",
+        "Path": "SFX\\Character\\GenioNoche\\Voice\\Genius_Smile_1F955D75.wem"
+       }
+      ]
+     },
+     {
       "Id": "3744801892",
       "Name": "EV_Ins_Crickets",
       "ObjectPath": "\\Events\\Environment\\Insects\\EV_Ins_Crickets",
@@ -1710,6 +1727,24 @@
       ]
      },
      {
+      "Id": "673439304",
+      "Name": "EV_Lamp_Oasis_EndHit",
+      "ObjectPath": "\\Events\\Items\\Lamps\\EV_Lamp_Oasis_EndHit",
+      "GUID": "{C43DA261-8CCB-41A6-B6B1-F7DEB6480A8A}",
+      "MaxAttenuation": "5000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "6.503991",
+      "DurationMax": "6.503991",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "993562710",
+        "Language": "SFX",
+        "ShortName": "Hits\\Hit_02.wav",
+        "Path": "SFX\\Hits\\Hit_02_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "713215119",
       "Name": "EV_Lamp_Oasis_Fly_On",
       "ObjectPath": "\\Events\\Items\\Lamps\\EV_Lamp_Oasis_Fly_On",
@@ -1729,6 +1764,7 @@
       "Name": "EV_Lamp_Oasis_Fly_Stop",
       "ObjectPath": "\\Events\\Items\\Lamps\\EV_Lamp_Oasis_Fly_Stop",
       "GUID": "{4DA594BE-449E-4946-922B-8845B2C9DB61}",
+      "MaxAttenuation": "5000.000000",
       "DurationType": "OneShot",
       "DurationMin": "6.503991",
       "DurationMax": "6.503991",
@@ -1749,16 +1785,34 @@
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
+        "Id": "86745989",
+        "Language": "SFX",
+        "ShortName": "Animals\\Environment\\Bee_Loop.wav",
+        "Path": "SFX\\Animals\\Environment\\Bee_Loop_0F5D66AE.wem"
+       },
+       {
         "Id": "134273198",
         "Language": "SFX",
         "ShortName": "Music\\Oasis\\ethnic-desert_161BPM3-4_EndReverse.wav",
         "Path": "SFX\\Music\\Oasis\\ethnic-desert_161BPM3-4_EndReverse_D79FB2B7.wem"
        },
        {
+        "Id": "303036354",
+        "Language": "SFX",
+        "ShortName": "Environment\\Desert_Silence.wav",
+        "Path": "SFX\\Environment\\Desert_Silence_D79FB2B7.wem"
+       },
+       {
         "Id": "530037478",
         "Language": "SFX",
         "ShortName": "Music\\Oasis\\eastern-sky_59BPM4-4.wav",
         "Path": "SFX\\Music\\Oasis\\eastern-sky_59BPM4-4_D79FB2B7.wem"
+       },
+       {
+        "Id": "572924580",
+        "Language": "SFX",
+        "ShortName": "Wind_Soft_Loop_01.WAV",
+        "Path": "SFX\\Wind_Soft_Loop_01_D79FB2B7.wem"
        },
        {
         "Id": "595116604",
@@ -1771,6 +1825,12 @@
         "Language": "SFX",
         "ShortName": "Music\\Oasis\\ethnic-desert_161BPM3-4.wav",
         "Path": "SFX\\Music\\Oasis\\ethnic-desert_161BPM3-4_D79FB2B7.wem"
+       },
+       {
+        "Id": "1022065363",
+        "Language": "SFX",
+        "ShortName": "Animals\\Environment\\Fly_Loop.wav",
+        "Path": "SFX\\Animals\\Environment\\Fly_Loop_619F4D67.wem"
        }
       ],
       "SwitchContainers": [
@@ -3792,15 +3852,138 @@
       "Name": "EV_Swarm_Bees_Loop",
       "ObjectPath": "\\Events\\Environment\\Insects\\EV_Swarm_Bees_Loop",
       "GUID": "{44D1822E-2A99-403F-AD40-7927C58932A7}",
-      "DurationType": "OneShot",
-      "DurationMin": "11.009660",
-      "DurationMax": "11.009660",
+      "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
         "Id": "395557208",
         "Language": "SFX",
         "ShortName": "Animals\\Environment\\Swarm Bees_Pre1_Post1_Loop.wav",
-        "Path": "SFX\\Animals\\Environment\\Swarm Bees_Pre1_Post1_Loop_10C4C929.wem"
+        "Path": "SFX\\Animals\\Environment\\Swarm Bees_Pre1_Post1_Loop_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3548792587",
+      "Name": "Inicio_Oasis_Bus_Volume_Start",
+      "ObjectPath": "\\Events\\Levels\\Inicio_Oasis_Bus_Volume_Start",
+      "GUID": "{5CA42E90-D9E7-4885-B1CE-3F483159FAB2}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2410608041",
+      "Name": "Inicio_Oasis_Bus_Volume_Stop",
+      "ObjectPath": "\\Events\\Levels\\Inicio_Oasis_Bus_Volume_Stop",
+      "GUID": "{68031DA8-0AC5-467C-8CF3-0B1BE4C376F4}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2450987521",
+      "Name": "Play_Magic_GenioNoche_Spell_2",
+      "ObjectPath": "\\Events\\Character\\GenioNoche\\Spells\\Play_Magic_GenioNoche_Spell_2",
+      "GUID": "{9477CA35-B9D1-40BC-88E6-CBC550B8B29D}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.500000",
+      "DurationMax": "7.500000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1041802213",
+        "Language": "SFX",
+        "ShortName": "Magic\\Magic_GenioNoche_Spell_2.wav",
+        "Path": "SFX\\Magic\\Magic_GenioNoche_Spell_2_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1239026968",
+      "Name": "Play_Magic_GenioNoche_Spell_2_Out",
+      "ObjectPath": "\\Events\\Character\\GenioNoche\\Spells\\Play_Magic_GenioNoche_Spell_2_Out",
+      "GUID": "{EE049D2E-45F8-4D61-8744-12825630FE6A}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.903428",
+      "DurationMax": "1.903428",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "955953320",
+        "Language": "SFX",
+        "ShortName": "Magic\\Magic_GenioNoche_Spell_2.wav",
+        "Path": "SFX\\Magic\\Magic_GenioNoche_Spell_2_98392929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3898070634",
+      "Name": "Play_Magic_GenioNoche_Spell_Full",
+      "ObjectPath": "\\Events\\Character\\GenioNoche\\Spells\\Play_Magic_GenioNoche_Spell_Full",
+      "GUID": "{D9E51323-05CE-4A71-B6F7-EB333ADE6957}",
+      "MaxAttenuation": "3000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "8.500000",
+      "DurationMax": "8.500000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "145581867",
+        "Language": "SFX",
+        "ShortName": "Magic\\Magic_GenioNoche_Spell.wav",
+        "Path": "SFX\\Magic\\Magic_GenioNoche_Spell_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "694263419",
+      "Name": "Play_Magic_GenioNoche_Spell_Loop",
+      "ObjectPath": "\\Events\\Character\\GenioNoche\\Spells\\Play_Magic_GenioNoche_Spell_Loop",
+      "GUID": "{CEE55D5A-B029-40AD-B344-FF9F837737D4}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.421226",
+      "DurationMax": "6.421226",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "186620206",
+        "Language": "SFX",
+        "ShortName": "Magic\\Magic_GenioNoche_Spell.wav",
+        "Path": "SFX\\Magic\\Magic_GenioNoche_Spell_3840A45C.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2546030343",
+      "Name": "Play_Magic_GenioNoche_Spell_Out",
+      "ObjectPath": "\\Events\\Character\\GenioNoche\\Spells\\Play_Magic_GenioNoche_Spell_Out",
+      "GUID": "{FBB674AB-DDDD-42D6-841C-5F7C935E6C62}",
+      "MaxAttenuation": "3000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.078774",
+      "DurationMax": "2.078774",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "787295333",
+        "Language": "SFX",
+        "ShortName": "Magic\\Magic_GenioNoche_Spell.wav",
+        "Path": "SFX\\Magic\\Magic_GenioNoche_Spell_D5FB8CDC.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3336696155",
+      "Name": "Play_Magic_GenioNoche_Spell_Start",
+      "ObjectPath": "\\Events\\Character\\GenioNoche\\Spells\\Play_Magic_GenioNoche_Spell_Start",
+      "GUID": "{5C3219E8-A270-4689-8008-3010C258BCF8}",
+      "MaxAttenuation": "3000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.370138",
+      "DurationMax": "2.370138",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "459392125",
+        "Language": "SFX",
+        "ShortName": "Magic\\Magic_GenioNoche_Spell.wav",
+        "Path": "SFX\\Magic\\Magic_GenioNoche_Spell_CBBDBBC2.wem"
        }
       ]
      },

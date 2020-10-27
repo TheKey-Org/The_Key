@@ -6,6 +6,7 @@
 				<Folder Name="Stingers" ID="{2284A285-30F5-466A-8AAD-D8B7F0C2B3A3}" ShortID="172754240">
 					<ChildrenList>
 						<Trigger Name="Sting_EndLoop" ID="{0904ED5F-4537-48DB-AC0A-B14B3E67215B}"/>
+						<Trigger Name="Timing_Trigger" ID="{4BE77857-B32C-40B2-97F8-A82C7392B436}"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

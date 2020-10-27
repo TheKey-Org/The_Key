@@ -118,6 +118,95 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="GenioNoche" ID="{B6D1E232-8392-4133-9134-E3E4DB52606C}" ShortID="245709376">
+					<ChildrenList>
+						<Folder Name="Spells" ID="{D4B1B948-27A2-4504-B15D-B08732FCF833}" ShortID="695886230">
+							<ChildrenList>
+								<Event Name="Play_Magic_GenioNoche_Spell_Loop" ID="{CEE55D5A-B029-40AD-B344-FF9F837737D4}">
+									<ChildrenList>
+										<Action Name="" ID="{8D3F6738-E5D3-4181-B550-EB81E2D4EC77}" ShortID="640512837">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Magic_GenioNoche_Spell_Loop" ID="{F240664B-1454-48EF-8B84-5CCE3522CFFC}" WorkUnitID="{3F04342E-6ABF-4AF5-BBFA-A05EB0B402FB}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Magic_GenioNoche_Spell_Start" ID="{5C3219E8-A270-4689-8008-3010C258BCF8}">
+									<ChildrenList>
+										<Action Name="" ID="{BAA8D59E-6BEA-4B16-BFC7-993D86EECD30}" ShortID="459000924">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Magic_GenioNoche_Spell_Start" ID="{101986AC-9F5F-4C3E-9A41-F748E19E0672}" WorkUnitID="{3F04342E-6ABF-4AF5-BBFA-A05EB0B402FB}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Magic_GenioNoche_Spell_Out" ID="{FBB674AB-DDDD-42D6-841C-5F7C935E6C62}">
+									<ChildrenList>
+										<Action Name="" ID="{EB226A2F-79E0-4A79-821D-70E43C1FF757}" ShortID="598404830">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Magic_GenioNoche_Spell_Out" ID="{9B2B7B01-D64C-4AC3-BF42-5F3F92BE9B73}" WorkUnitID="{3F04342E-6ABF-4AF5-BBFA-A05EB0B402FB}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Magic_GenioNoche_Spell_Full" ID="{D9E51323-05CE-4A71-B6F7-EB333ADE6957}">
+									<ChildrenList>
+										<Action Name="" ID="{624A7192-7E22-4358-83BE-BA6B67FD0B58}" ShortID="981026217">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Magic_GenioNoche_Spell_Full" ID="{7CFC1766-8B92-4D9E-8989-06D892984A37}" WorkUnitID="{3F04342E-6ABF-4AF5-BBFA-A05EB0B402FB}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Magic_GenioNoche_Spell_2_Out" ID="{EE049D2E-45F8-4D61-8744-12825630FE6A}">
+									<ChildrenList>
+										<Action Name="" ID="{C2C1FC21-FEEF-4089-9B09-DD716623FD2B}" ShortID="848014933">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Magic_GenioNoche_Spell_2_Out" ID="{6AE64E21-702D-40A0-9761-1A7B13BC24AC}" WorkUnitID="{3F04342E-6ABF-4AF5-BBFA-A05EB0B402FB}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Magic_GenioNoche_Spell_2" ID="{9477CA35-B9D1-40BC-88E6-CBC550B8B29D}">
+									<ChildrenList>
+										<Action Name="" ID="{63676786-5969-4050-AB93-7B557D65728A}" ShortID="206093797">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Magic_GenioNoche_Spell_2" ID="{B185744C-F277-4A8F-A5BA-9BFBC7DBBD08}" WorkUnitID="{3F04342E-6ABF-4AF5-BBFA-A05EB0B402FB}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Voice" ID="{E9B49DA2-104D-4EC4-AF94-91E534B676B4}" ShortID="315866129">
+							<ChildrenList>
+								<Event Name="EV_Genius_Smile" ID="{51102D24-0ABD-4B63-8C23-0A81756DF299}">
+									<ChildrenList>
+										<Action Name="" ID="{AB897F73-E593-428E-9BDC-7346C71A186A}" ShortID="592846952">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Genius_Smile" ID="{8FB65BB0-02E5-4F9A-A4B4-669CC397634E}" WorkUnitID="{3F04342E-6ABF-4AF5-BBFA-A05EB0B402FB}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
