@@ -26,6 +26,14 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Reverb\\Fx_Rev_Outside",
       "GUID": "{0E98FAEE-0E84-4592-A214-D2E72186D755}"
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "1020477210",
+      "Name": "Bus_OnOff",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\Bus_OnOff",
+      "GUID": "{486C7C2B-C8D6-402D-865F-4052793C03E7}"
+     }
     ]
    }
   ]

@@ -33,6 +33,18 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{390270FF-01BA-45A1-A907-1E2C07AE5785}" ShortID="235159842">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="10"/>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Oasis_AmbWeather" ID="{3B1FCF51-DE9B-4CB9-A303-0AE3FCE039D1}" WorkUnitID="{159E9D6C-FAFF-4095-883E-13034A3EBBF8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="EV_Oasis_Back" ID="{ACFEF940-C744-4786-9C25-012EA7401EBB}">
