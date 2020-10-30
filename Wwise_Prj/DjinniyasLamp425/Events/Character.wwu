@@ -116,6 +116,65 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Voices" ID="{949E8EDC-FE75-43A6-8431-FEC777C8C5E5}" ShortID="707181772">
+							<ChildrenList>
+								<Event Name="EV_Djinniya_Voc_Surprised_02" ID="{B6858E56-EB5E-4B89-B95A-F42723C0E50A}">
+									<ChildrenList>
+										<Action Name="" ID="{F48E1013-EF42-48B5-947A-40C9A72C3F95}" ShortID="479472609">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Surprised_02" ID="{D6B85482-9BD6-4227-AFA7-F309CA7D2653}" WorkUnitID="{A93E259D-E41F-4314-93C4-23633DB5187A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="EV_Djinniya_Voc_Effort_Strong_Long" ID="{C27BBCC4-931A-48C1-919D-7EA285650753}">
+									<ChildrenList>
+										<Action Name="" ID="{63F69D56-8CAE-4EF6-A9B3-5EF937AC4A50}" ShortID="860462929">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Effort_Strong_Long" ID="{B90E8DD7-810D-4E6B-9BDC-0B0BC0800DD2}" WorkUnitID="{A93E259D-E41F-4314-93C4-23633DB5187A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="EV_Djinniya_Voc_Jump_B" ID="{E00FAF5B-D8E0-455E-9264-17360C433B3D}">
+									<ChildrenList>
+										<Action Name="" ID="{9D8AF58A-E343-4DF5-88C5-8FA06CD057C3}" ShortID="573146385">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Jump_B" ID="{91A982F7-325B-4547-9F0B-678D066B3F5F}" WorkUnitID="{A93E259D-E41F-4314-93C4-23633DB5187A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="EV_Djinniya_Voc_Jump_A" ID="{4E57E316-916B-42E2-AC5D-F1061F48D2EF}">
+									<ChildrenList>
+										<Action Name="" ID="{D7702D9F-698F-4BED-9A13-42944C3E9A40}" ShortID="223999040">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Jump_A" ID="{E4A2B342-FFF2-44AD-8484-EA1E2464E3DB}" WorkUnitID="{A93E259D-E41F-4314-93C4-23633DB5187A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="EV_Djinniya_Voc_Effort_Strong_Short" ID="{C64F6EA9-E5B4-4381-BB03-65F16135EDED}">
+									<ChildrenList>
+										<Action Name="" ID="{A4AEE6C4-FC10-4FCE-B843-C14BCC7E0247}" ShortID="252194501">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Effort_Strong_Short" ID="{83674106-A52B-4CF4-AC30-7B4797FACC00}" WorkUnitID="{A93E259D-E41F-4314-93C4-23633DB5187A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="GenioNoche" ID="{B6D1E232-8392-4133-9134-E3E4DB52606C}" ShortID="245709376">
@@ -220,6 +279,50 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Genius_Smile" ID="{8FB65BB0-02E5-4F9A-A4B4-669CC397634E}" WorkUnitID="{3F04342E-6ABF-4AF5-BBFA-A05EB0B402FB}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Genio_Jump_01" ID="{0ED3EEEB-DE2D-4D68-9F11-6310C338231A}">
+									<ChildrenList>
+										<Action Name="" ID="{245B6A64-E4FF-461B-A0C5-F09A627EEFC1}" ShortID="86481004">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Prisioner_Jump_Rdm" ID="{69B7287E-8A30-4D51-8EEE-E9054A0ED12C}" WorkUnitID="{71F46426-1E70-42CA-A481-4A50A1B8F045}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Genio_Surprise_Angry_Short_01" ID="{F3A53111-5130-41BF-9D84-E92F1C61C0EA}">
+									<ChildrenList>
+										<Action Name="" ID="{8851C1F9-D064-4F06-B127-9CF8F4E7F7E4}" ShortID="663481824">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Prisioner_Surprise_Angry_Short_Rdm" ID="{F5DF1FA7-68B0-4671-8F51-3CCA10345903}" WorkUnitID="{71F46426-1E70-42CA-A481-4A50A1B8F045}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Genio_Surprise_Angry_Long_01" ID="{5A4570AE-5FDE-4029-8F98-D7A866BE2D9D}">
+									<ChildrenList>
+										<Action Name="" ID="{0E503F88-C84F-49A0-9ED4-447A050CC486}" ShortID="514586257">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Prisioner_Surprise_Angry_Long_Rdm" ID="{D7DECEEB-5DB7-4D8F-A2E8-A2B89FE8F0C9}" WorkUnitID="{71F46426-1E70-42CA-A481-4A50A1B8F045}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Genio_Surprise_01" ID="{3E59DB58-8BBD-4E9A-82C8-5619A757221D}">
+									<ChildrenList>
+										<Action Name="" ID="{FBD7995F-BE18-49A8-AB2D-23ED9D5BDE83}" ShortID="408824476">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Prisioner_Surprise_Rdm" ID="{9D5A8F8F-3C0D-4360-91C4-58BFBF188747}" WorkUnitID="{71F46426-1E70-42CA-A481-4A50A1B8F045}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
