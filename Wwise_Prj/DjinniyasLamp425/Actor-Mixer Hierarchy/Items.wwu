@@ -25554,6 +25554,58 @@
 								<ActiveSource Name="Hit_02" ID="{3C6B25C3-2B8A-45D2-A93C-E4D4DBBE551F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Magic_Lamp_Loop" ID="{5AB8A750-FB38-4E0E-89C2-EC753816E255}" ShortID="397402683">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>40</Value>
+									</ValueList>
+								</Property>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>19</Value>
+									</ValueList>
+								</Property>
+								<Property Name="SpeakerPanning3DSpatializationMix" Type="int32" Value="89"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Magic Attenuation" ID="{EFD453B5-6199-40F2-9F24-867081336065}" WorkUnitID="{1F1D049E-E2DC-4F15-BF43-BC6B857A06AD}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Magic" ID="{82C41B8E-08BB-4843-A77E-AEA850E7DB5A}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Magic_GenioNoche_Spell" ID="{A037632A-B919-48F0-838C-A8CDB6D7C5CC}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.190507580751483"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.106460118655241"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="1.04218852999341"/>
+										<Property Name="TrimEnd" Type="Real64" Value="7.46341463414634"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Magic\Magic_GenioNoche_Spell.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="684481614"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Magic_GenioNoche_Spell" ID="{A037632A-B919-48F0-838C-A8CDB6D7C5CC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Constelación" ID="{FB3CE33E-9D5A-4C96-A204-23CE5CECB567}" ShortID="290357360">
