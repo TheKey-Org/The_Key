@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3336696155	Play_Magic_GenioNoche_Spell_Start			\Character\GenioNoche\Spells\Play_Magic_GenioNoche_Spell_Start	
+

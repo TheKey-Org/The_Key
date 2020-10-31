@@ -1,0 +1,51 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "976625978",
+    "GUID": "{3A36213A-213A-113A-3A3A-3A3A3A3A3A3A}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_E00FAF5BD8E0455E926417360C433B3D",
+    "ShortName": "SB_E00FAF5BD8E0455E926417360C433B3D",
+    "Path": "SB_E00FAF5BD8E0455E926417360C433B3D.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3961406284",
+      "Name": "EV_Djinniya_Voc_Jump_B",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\Voices\\EV_Djinniya_Voc_Jump_B",
+      "GUID": "{E00FAF5B-D8E0-455E-9264-17360C433B3D}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.250000",
+      "DurationMax": "0.400000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "497122773",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Action\\voice_female_b_effort_jump_action_06.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Action\\voice_female_b_effort_jump_action_06_10C4C929.wem"
+       },
+       {
+        "Id": "967683108",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Action\\voice_female_b_effort_jump_action_03.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Action\\voice_female_b_effort_jump_action_03_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

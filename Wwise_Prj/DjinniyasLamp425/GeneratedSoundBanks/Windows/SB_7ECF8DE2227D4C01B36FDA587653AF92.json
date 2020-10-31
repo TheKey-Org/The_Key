@@ -1,0 +1,68 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "403454432",
+    "GUID": "{180C39E0-39E0-19E0-E0E0-E0E0E0E0E0E0}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_7ECF8DE2227D4C01B36FDA587653AF92",
+    "ShortName": "SB_7ECF8DE2227D4C01B36FDA587653AF92",
+    "Path": "SB_7ECF8DE2227D4C01B36FDA587653AF92.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "671985285",
+      "Name": "EV_Env_PalmerasViento_On",
+      "ObjectPath": "\\Events\\Environment\\Ambient\\EV_Env_PalmerasViento_On",
+      "GUID": "{7ECF8DE2-227D-4C01-B36F-DA587653AF92}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "4865246",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_03.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_03_EE41A3C3.wem"
+       },
+       {
+        "Id": "321893777",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_02.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_211BBD0D.wem"
+       },
+       {
+        "Id": "572924580",
+        "Language": "SFX",
+        "ShortName": "Wind_Soft_Loop_01.WAV",
+        "Path": "SFX\\Wind_Soft_Loop_01_D79FB2B7.wem"
+       },
+       {
+        "Id": "998141908",
+        "Language": "SFX",
+        "ShortName": "Environment\\Leaves_Rustling_Loop_02.wav",
+        "Path": "SFX\\Environment\\Leaves_Rustling_Loop_02_EFB5DDE3.wem"
+       }
+      ]
+     }
+    ],
+    "GameParameters": [
+     {
+      "Id": "808401773",
+      "Name": "GP_Wind",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\GP_Wind",
+      "GUID": "{1E3C488C-976E-4788-A89E-D2A8A5EC2F8D}"
+     }
+    ]
+   }
+  ]
+ }
+}

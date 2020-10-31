@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
-   "SourceFilesRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
-   "SoundBanksRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
@@ -28,16 +28,34 @@
       "DurationType": "Infinite",
       "ExcludedMemoryFiles": [
        {
+        "Id": "86745989",
+        "Language": "SFX",
+        "ShortName": "Animals\\Environment\\Bee_Loop.wav",
+        "Path": "SFX\\Animals\\Environment\\Bee_Loop_0F5D66AE.wem"
+       },
+       {
         "Id": "134273198",
         "Language": "SFX",
         "ShortName": "Music\\Oasis\\ethnic-desert_161BPM3-4_EndReverse.wav",
         "Path": "SFX\\Music\\Oasis\\ethnic-desert_161BPM3-4_EndReverse_D79FB2B7.wem"
        },
        {
+        "Id": "303036354",
+        "Language": "SFX",
+        "ShortName": "Environment\\Desert_Silence.wav",
+        "Path": "SFX\\Environment\\Desert_Silence_D79FB2B7.wem"
+       },
+       {
         "Id": "530037478",
         "Language": "SFX",
         "ShortName": "Music\\Oasis\\eastern-sky_59BPM4-4.wav",
         "Path": "SFX\\Music\\Oasis\\eastern-sky_59BPM4-4_D79FB2B7.wem"
+       },
+       {
+        "Id": "572924580",
+        "Language": "SFX",
+        "ShortName": "Wind_Soft_Loop_01.WAV",
+        "Path": "SFX\\Wind_Soft_Loop_01_D79FB2B7.wem"
        },
        {
         "Id": "595116604",
@@ -50,6 +68,12 @@
         "Language": "SFX",
         "ShortName": "Music\\Oasis\\ethnic-desert_161BPM3-4.wav",
         "Path": "SFX\\Music\\Oasis\\ethnic-desert_161BPM3-4_D79FB2B7.wem"
+       },
+       {
+        "Id": "1022065363",
+        "Language": "SFX",
+        "ShortName": "Animals\\Environment\\Fly_Loop.wav",
+        "Path": "SFX\\Animals\\Environment\\Fly_Loop_619F4D67.wem"
        }
       ],
       "SwitchContainers": [

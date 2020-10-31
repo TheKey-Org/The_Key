@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2378760077",
+    "GUID": "{8DC8FF8D-FF8D-1F8D-8D8D-8D8D8D8D8D8D}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_1F99839F54A54CD7A046402F9BB416E8",
+    "ShortName": "SB_1F99839F54A54CD7A046402F9BB416E8",
+    "Path": "SB_1F99839F54A54CD7A046402F9BB416E8.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3356404001",
+      "Name": "Play_Isolation_spell_Outro",
+      "ObjectPath": "\\Events\\Character\\GenioNoche\\Spells\\Play_Isolation_spell_Outro",
+      "GUID": "{1F99839F-54A5-4CD7-A046-402F9BB416E8}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.284881",
+      "DurationMax": "3.284881",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "184592802",
+        "Language": "SFX",
+        "ShortName": "Magic\\Isolation_spell_Outro.wav",
+        "Path": "SFX\\Magic\\Isolation_spell_Outro_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

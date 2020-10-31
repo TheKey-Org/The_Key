@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "885797907",
+    "GUID": "{34CC3413-3413-1413-1313-131313131313}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_4DA594BE449E4946922B8845B2C9DB61",
+    "ShortName": "SB_4DA594BE449E4946922B8845B2C9DB61",
+    "Path": "SB_4DA594BE449E4946922B8845B2C9DB61.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1261760948",
+      "Name": "EV_Lamp_Oasis_Fly_Stop",
+      "ObjectPath": "\\Events\\Items\\Lamps\\EV_Lamp_Oasis_Fly_Stop",
+      "GUID": "{4DA594BE-449E-4946-922B-8845B2C9DB61}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.503991",
+      "DurationMax": "6.503991",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "993562710",
+        "Language": "SFX",
+        "ShortName": "Hits\\Hit_02.wav",
+        "Path": "SFX\\Hits\\Hit_02_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

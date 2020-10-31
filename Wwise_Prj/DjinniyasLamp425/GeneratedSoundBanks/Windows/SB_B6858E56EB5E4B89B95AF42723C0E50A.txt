@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3922820567	EV_Djinniya_Voc_Surprised_02			\Character\Djinniya\Voices\EV_Djinniya_Voc_Surprised_02	
+

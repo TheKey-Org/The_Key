@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3664580986	EV_Env_PalmerasViento_Stop			\Environment\Ambient\EV_Env_PalmerasViento_Stop	
+
