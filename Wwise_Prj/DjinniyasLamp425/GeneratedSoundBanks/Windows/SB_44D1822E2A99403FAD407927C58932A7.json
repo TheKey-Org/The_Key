@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
-   "SourceFilesRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
-   "SoundBanksRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
@@ -25,15 +25,13 @@
       "Name": "EV_Swarm_Bees_Loop",
       "ObjectPath": "\\Events\\Environment\\Insects\\EV_Swarm_Bees_Loop",
       "GUID": "{44D1822E-2A99-403F-AD40-7927C58932A7}",
-      "DurationType": "OneShot",
-      "DurationMin": "11.009660",
-      "DurationMax": "11.009660",
+      "DurationType": "Infinite",
       "ExcludedMemoryFiles": [
        {
         "Id": "395557208",
         "Language": "SFX",
         "ShortName": "Animals\\Environment\\Swarm Bees_Pre1_Post1_Loop.wav",
-        "Path": "SFX\\Animals\\Environment\\Swarm Bees_Pre1_Post1_Loop_10C4C929.wem"
+        "Path": "SFX\\Animals\\Environment\\Swarm Bees_Pre1_Post1_Loop_D79FB2B7.wem"
        }
       ]
      }

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2940629373	EV_Genius_Smile			\Character\GenioNoche\Voice\EV_Genius_Smile	
+

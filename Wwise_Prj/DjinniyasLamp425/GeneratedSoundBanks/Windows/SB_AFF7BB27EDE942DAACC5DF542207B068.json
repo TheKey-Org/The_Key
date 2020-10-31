@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2514222892",
+    "GUID": "{95DBFF2C-FF2C-1F2C-2C2C-2C2C2C2C2C2C}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_AFF7BB27EDE942DAACC5DF542207B068",
+    "ShortName": "SB_AFF7BB27EDE942DAACC5DF542207B068",
+    "Path": "SB_AFF7BB27EDE942DAACC5DF542207B068.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "553718723",
+      "Name": "EV_ConstelacionFaceChimes",
+      "ObjectPath": "\\Events\\Items\\Constelacion\\EV_ConstelacionFaceChimes",
+      "GUID": "{AFF7BB27-EDE9-42DA-ACC5-DF542207B068}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.300000",
+      "DurationMax": "2.300000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "175477357",
+        "Language": "SFX",
+        "ShortName": "Magic\\Chimes_Magic_03.wav",
+        "Path": "SFX\\Magic\\Chimes_Magic_03_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

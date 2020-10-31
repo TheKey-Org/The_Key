@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2472213385",
+    "GUID": "{935AFB89-FB89-1B89-8989-898989898989}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_B6858E56EB5E4B89B95AF42723C0E50A",
+    "ShortName": "SB_B6858E56EB5E4B89B95AF42723C0E50A",
+    "Path": "SB_B6858E56EB5E4B89B95AF42723C0E50A.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3922820567",
+      "Name": "EV_Djinniya_Voc_Surprised_02",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\Voices\\EV_Djinniya_Voc_Surprised_02",
+      "GUID": "{B6858E56-EB5E-4B89-B95A-F42723C0E50A}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.368521",
+      "DurationMax": "0.368521",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "921942069",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Emote\\voice_fun_small_character_emote_surprised_02.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Emote\\voice_fun_small_character_emote_surprised_02_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

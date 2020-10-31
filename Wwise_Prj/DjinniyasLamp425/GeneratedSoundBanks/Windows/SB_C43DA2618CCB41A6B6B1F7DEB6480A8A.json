@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2664537408",
+    "GUID": "{9ED19D40-9D40-1D40-4040-404040404040}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_C43DA2618CCB41A6B6B1F7DEB6480A8A",
+    "ShortName": "SB_C43DA2618CCB41A6B6B1F7DEB6480A8A",
+    "Path": "SB_C43DA2618CCB41A6B6B1F7DEB6480A8A.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "673439304",
+      "Name": "EV_Lamp_Oasis_EndHit",
+      "ObjectPath": "\\Events\\Items\\Lamps\\EV_Lamp_Oasis_EndHit",
+      "GUID": "{C43DA261-8CCB-41A6-B6B1-F7DEB6480A8A}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.503991",
+      "DurationMax": "6.503991",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "993562710",
+        "Language": "SFX",
+        "ShortName": "Hits\\Hit_02.wav",
+        "Path": "SFX\\Hits\\Hit_02_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	673439304	EV_Lamp_Oasis_EndHit			\Items\Lamps\EV_Lamp_Oasis_EndHit	
+

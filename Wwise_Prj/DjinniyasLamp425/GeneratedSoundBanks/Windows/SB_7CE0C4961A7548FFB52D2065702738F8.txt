@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	285902034	EV_DFox_Feeding_Short			\Animals\DFox\EV_DFox_Feeding_Short	
+
