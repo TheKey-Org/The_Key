@@ -139,7 +139,7 @@
 				<Property Name="MeterView\MeterMode1Viewpoint1" Type="int32" Value="2"/>
 				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
 				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
-				<Property Name="Mixing Desk\CurrentStates\{809472B9-5C4C-456E-B088-CC1BF06DF904}" Type="string" Value="{506F5B03-2AAF-448D-8D25-B734C2B96238}"/>
+				<Property Name="Mixing Desk\CurrentStates\{809472B9-5C4C-456E-B088-CC1BF06DF904}" Type="string" Value="{FE328865-7CB8-41A9-A089-17AEAEB12B6B}"/>
 				<Property Name="Mixing Desk\LastSession" Type="string" Value="{193D3E03-93EE-4266-9E52-CEB287B215C9}"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
@@ -170,8 +170,8 @@
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{BA3E70AA-542E-4DA8-8173-F231D39CF655}"/>
-				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{E00FAF5B-D8E0-455E-9264-17360C433B3D}"/>
-				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{A7BE7D0C-9067-4E1D-891B-4DA4938081DE}"/>
+				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{C629CDF3-305C-414F-BA29-FE299AD8DEBD}"/>
+				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{B1FC0A8F-5EAB-4741-9D9A-EBD323C76449}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
 				<Property Name="ProjectExplorer\FirstVisible_8_1" Type="string" Value="{41093F77-829F-4D88-8601-E8B25F3D4781}"/>
 				<Property Name="ProjectExplorer\x64_Expanded_10_1" Type="string" Value=""/>
