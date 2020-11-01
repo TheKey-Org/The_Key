@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3356404001	Play_Isolation_spell_Outro			\Character\GenioNoche\Spells\Play_Isolation_spell_Outro	
+

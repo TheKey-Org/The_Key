@@ -1,0 +1,75 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1199855734",
+    "GUID": "{47845876-5876-1876-7676-767676767676}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_C27BBCC4931A48C1919D7EA285650753",
+    "ShortName": "SB_C27BBCC4931A48C1919D7EA285650753",
+    "Path": "SB_C27BBCC4931A48C1919D7EA285650753.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4054209178",
+      "Name": "EV_Djinniya_Voc_Effort_Strong_Long",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\Voices\\EV_Djinniya_Voc_Effort_Strong_Long",
+      "GUID": "{C27BBCC4-931A-48C1-919D-7EA285650753}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.447417",
+      "DurationMax": "1.235229",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "38374164",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Action\\voice_female_b_effort_quick_action_02.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Action\\voice_female_b_effort_quick_action_02_10C4C929.wem"
+       },
+       {
+        "Id": "160993615",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Action\\voice_female_a_effort_quick_action_07.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Action\\voice_female_a_effort_quick_action_07_10C4C929.wem"
+       },
+       {
+        "Id": "423379962",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Action\\voice_female_b_effort_quick_action_04.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Action\\voice_female_b_effort_quick_action_04_10C4C929.wem"
+       },
+       {
+        "Id": "858743018",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Action\\voice_female_a_effort_quick_action_02.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Action\\voice_female_a_effort_quick_action_02_10C4C929.wem"
+       },
+       {
+        "Id": "1029297459",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Action\\voice_female_a_effort_quick_action_01.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Action\\voice_female_a_effort_quick_action_01_10C4C929.wem"
+       },
+       {
+        "Id": "1072328583",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Action\\voice_female_a_effort_quick_action_06.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Action\\voice_female_a_effort_quick_action_06_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

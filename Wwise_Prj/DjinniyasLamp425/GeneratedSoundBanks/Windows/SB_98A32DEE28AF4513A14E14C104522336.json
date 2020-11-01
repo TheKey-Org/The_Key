@@ -1,0 +1,42 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2996050487",
+    "GUID": "{B2941A37-1A37-1A37-3737-373737373737}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_98A32DEE28AF4513A14E14C104522336",
+    "ShortName": "SB_98A32DEE28AF4513A14E14C104522336",
+    "Path": "SB_98A32DEE28AF4513A14E14C104522336.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "713215119",
+      "Name": "EV_Lamp_Oasis_Fly_On",
+      "ObjectPath": "\\Events\\Items\\Lamps\\EV_Lamp_Oasis_Fly_On",
+      "GUID": "{98A32DEE-28AF-4513-A14E-14C104522336}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "457524475",
+        "Language": "SFX",
+        "ShortName": "Items\\Lamp\\Drone_Chime_Bass_Mldy_Loop.wav",
+        "Path": "SFX\\Items\\Lamp\\Drone_Chime_Bass_Mldy_Loop_D79FB2B7.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

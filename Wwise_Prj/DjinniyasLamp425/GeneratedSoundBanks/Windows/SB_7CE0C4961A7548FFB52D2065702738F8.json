@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "726585261",
+    "GUID": "{2B4ECFAD-CFAD-1FAD-ADAD-ADADADADADAD}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_7CE0C4961A7548FFB52D2065702738F8",
+    "ShortName": "SB_7CE0C4961A7548FFB52D2065702738F8",
+    "Path": "SB_7CE0C4961A7548FFB52D2065702738F8.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "285902034",
+      "Name": "EV_DFox_Feeding_Short",
+      "ObjectPath": "\\Events\\Animals\\DFox\\EV_DFox_Feeding_Short",
+      "GUID": "{7CE0C496-1A75-48FF-B52D-2065702738F8}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.220123",
+      "DurationMax": "1.391872",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "972377837",
+        "Language": "SFX",
+        "ShortName": "Animals\\Camel\\Animal_Comiendo_01.wav",
+        "Path": "SFX\\Animals\\Camel\\Animal_Comiendo_01_ED2F9936.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

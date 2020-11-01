@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2741071958	Genio_Surprise_Angry_Short_01			\Character\GenioNoche\Voice\Genio_Surprise_Angry_Short_01	
+

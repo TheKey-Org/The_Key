@@ -10,9 +10,14 @@
     "DLL": "AkSilenceGenerator"
    },
    {
-    "Name": "Wwise Gain",
-    "ID": "9109507",
-    "DLL": "AkGain"
+    "Name": "Wwise Compressor",
+    "ID": "7077891",
+    "DLL": "AkCompressor"
+   },
+   {
+    "Name": "Wwise Peak Limiter",
+    "ID": "7208963",
+    "DLL": "AkPeakLimiter"
    },
    {
     "Name": "System",

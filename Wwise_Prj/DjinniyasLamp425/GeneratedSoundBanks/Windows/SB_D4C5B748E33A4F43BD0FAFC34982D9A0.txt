@@ -12,3 +12,13 @@ State	ID	Name	State Group			Notes
 	2857410150	Explore_03	Music_State			
 	3466561645	LampFall_02	Music_State			
 
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	243771563	Amb Modulator LFO			\Default Work Unit\Amb Modulator LFO	
+
+Modulator Time	ID	Name			Wwise Object Path	Notes
+	632338576	Amb Modulator Time			\Default Work Unit\Amb Modulator Time	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	208299055	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Enviroment\Ambient\Oasis_AmbWeather\Bees_Loop\Silence\Wwise Silence	
+	889757572	Wwise Silence	Wwise Silence		\Actor-Mixer Hierarchy\Enviroment\Ambient\Oasis_AmbWeather\Insect_Fly\Silence\Wwise Silence	
+
