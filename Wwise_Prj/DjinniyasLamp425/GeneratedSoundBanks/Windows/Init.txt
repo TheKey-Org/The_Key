@@ -7,15 +7,25 @@ Switch	ID	Name	Switch Group			Notes
 	2849147824	Medium	AssetSize			
 
 State Group	ID	Name			Wwise Object Path	Notes
+	2213237662	Underwater			\Environment\Underwater	
 	3826569560	Music_State			\Default Work Unit\Music_State	
 
 State	ID	Name	State Group			Notes
+	748895195	None	Underwater			
+	2311510956	UnderWater_No	Underwater			
+	2851086918	UnderWater_Yes	Underwater			
 	475131587	Hechizo_05	Music_State			
 	748895195	None	Music_State			
+	1460634452	OasisEnd_06	Music_State			
 	1842894781	GeniusStart_04	Music_State			
 	2209150908	SplashIntro_01	Music_State			
 	2857410150	Explore_03	Music_State			
 	3466561645	LampFall_02	Music_State			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	58227570	UnderWater_Yes	Underwater	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX		
+	252751127	UnderWater_Yes	Underwater	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music		
+	710556871	UnderWater_Yes	Underwater	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Environment		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	1020477210	Bus_OnOff			\Default Work Unit\Bus_OnOff	
@@ -37,10 +47,12 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	1316907820	GeNoch_Voice_01			\Default Work Unit\Master Audio Bus\Character\GenioNoche\GeNoch_Voice_01	
 	1325448588	Djin_Actions_01			\Default Work Unit\Master Audio Bus\Character\Djinnya\Djin_Actions_01	
 	1537061107	Wind			\Default Work Unit\Master Audio Bus\Environment\Ambient\Wind	
+	1805679204	Environment_Sfx			\Default Work Unit\Master Audio Bus\Environment_Sfx	
 	1880439950	Magic			\Default Work Unit\Master Audio Bus\SFX\Magic	
 	2151963051	Items			\Default Work Unit\Master Audio Bus\SFX\Items	
 	2385628198	Footsteps			\Default Work Unit\Master Audio Bus\Character\Footsteps	
 	2492899947	Frog			\Default Work Unit\Master Audio Bus\SFX\Animals\Frog	
+	2654748154	Water			\Default Work Unit\Master Audio Bus\Environment_Sfx\Water	
 	2826386293	GeNoch_Actions_01			\Default Work Unit\Master Audio Bus\Character\GenioNoche\GeNoch_Actions_01	
 	2919599157	Djin_Voice_01			\Default Work Unit\Master Audio Bus\Character\Djinnya\Djin_Voice_01	
 	2956342541	Sol_Actions_01			\Default Work Unit\Master Audio Bus\Character\Solomon\Sol_Actions_01	

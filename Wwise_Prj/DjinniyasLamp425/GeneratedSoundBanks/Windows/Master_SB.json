@@ -1997,6 +1997,12 @@
         "Path": "SFX\\Environment\\Desert_Silence_D79FB2B7.wem"
        },
        {
+        "Id": "458142420",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Hechizo_End_BPM170_3-4_L16-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Hechizo_End_BPM170_3-4_L16-P0_D79FB2B7.wem"
+       },
+       {
         "Id": "530037478",
         "Language": "SFX",
         "ShortName": "Music\\Oasis\\eastern-sky_59BPM4-4.wav",
@@ -2109,6 +2115,17 @@
           "Id": "595116604"
          }
         ]
+       },
+       {
+        "SwitchValue": "{506F5B03-2AAF-448D-8D25-B734C2B96238}",
+        "Media": [
+         {
+          "Id": "595116604"
+         },
+         {
+          "Id": "458142420"
+         }
+        ]
        }
       ],
       "ActionSetState": [
@@ -2158,6 +2175,12 @@
         "Language": "SFX",
         "ShortName": "Music\\Oasis\\ethnic-desert_161BPM3-4_EndReverse.wav",
         "Path": "SFX\\Music\\Oasis\\ethnic-desert_161BPM3-4_EndReverse_D79FB2B7.wem"
+       },
+       {
+        "Id": "458142420",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Hechizo_End_BPM170_3-4_L16-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Hechizo_End_BPM170_3-4_L16-P0_D79FB2B7.wem"
        },
        {
         "Id": "530037478",
@@ -2258,6 +2281,17 @@
          },
          {
           "Id": "595116604"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{506F5B03-2AAF-448D-8D25-B734C2B96238}",
+        "Media": [
+         {
+          "Id": "595116604"
+         },
+         {
+          "Id": "458142420"
          }
         ]
        }
@@ -4083,6 +4117,84 @@
       ]
      },
      {
+      "Id": "1127512328",
+      "Name": "EV_Underwater",
+      "ObjectPath": "\\Events\\Environment\\Underwater\\EV_Underwater",
+      "GUID": "{676AE2FA-6D20-48C9-86B5-47B209B21E80}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "101000123",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\footstep_water_splash_med_wading_06.WAV",
+        "Path": "SFX\\Environment\\Water\\footstep_water_splash_med_wading_06_10C4C929.wem"
+       },
+       {
+        "Id": "315480188",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\footstep_water_splash_med_wading_01.WAV",
+        "Path": "SFX\\Environment\\Water\\footstep_water_splash_med_wading_01_10C4C929.wem"
+       },
+       {
+        "Id": "676387735",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\underwater_sea_diving_bubbles_loop_03.WAV",
+        "Path": "SFX\\Environment\\Water\\underwater_sea_diving_bubbles_loop_03_D79FB2B7.wem"
+       },
+       {
+        "Id": "923515958",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\footstep_water_splash_med_wading_02.WAV",
+        "Path": "SFX\\Environment\\Water\\footstep_water_splash_med_wading_02_10C4C929.wem"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "2851086918",
+        "Name": "UnderWater_Yes",
+        "ObjectPath": "\\States\\Environment\\Underwater\\UnderWater_Yes",
+        "GUID": "{32F6949A-42E2-4F29-8765-0F8F51E4211E}"
+       }
+      ]
+     },
+     {
+      "Id": "1772337774",
+      "Name": "EV_Underwater_End",
+      "ObjectPath": "\\Events\\Environment\\Underwater\\EV_Underwater_End",
+      "GUID": "{308BE443-E5D5-47A1-84F6-AF70E672A768}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.706322",
+      "DurationMax": "0.856166",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "489896129",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\footstep_water_splash_med_wading_02.WAV",
+        "Path": "SFX\\Environment\\Water\\footstep_water_splash_med_wading_02_FB78CD91.wem"
+       },
+       {
+        "Id": "786185137",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\footstep_water_splash_med_wading_06.WAV",
+        "Path": "SFX\\Environment\\Water\\footstep_water_splash_med_wading_06_19C2D624.wem"
+       },
+       {
+        "Id": "1009237850",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\footstep_water_splash_med_wading_01.WAV",
+        "Path": "SFX\\Environment\\Water\\footstep_water_splash_med_wading_01_DF8B3A93.wem"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "2311510956",
+        "Name": "UnderWater_No",
+        "ObjectPath": "\\States\\Environment\\Underwater\\UnderWater_No",
+        "GUID": "{40BC0357-FFD5-4263-91AC-A82D2054EC9C}"
+       }
+      ]
+     },
+     {
       "Id": "4097815294",
       "Name": "Genio_Jump_01",
       "ObjectPath": "\\Events\\Character\\GenioNoche\\Voice\\Genio_Jump_01",
@@ -4559,6 +4671,20 @@
       "States": []
      },
      {
+      "Id": "2311510956",
+      "Name": "UnderWater_No",
+      "ObjectPath": "\\States\\Environment\\Underwater\\UnderWater_No",
+      "GUID": "{40BC0357-FFD5-4263-91AC-A82D2054EC9C}",
+      "States": []
+     },
+     {
+      "Id": "2851086918",
+      "Name": "UnderWater_Yes",
+      "ObjectPath": "\\States\\Environment\\Underwater\\UnderWater_Yes",
+      "GUID": "{32F6949A-42E2-4F29-8765-0F8F51E4211E}",
+      "States": []
+     },
+     {
       "Id": "3826569560",
       "Name": "Music_State",
       "ObjectPath": "\\States\\Default Work Unit\\Music_State",
@@ -4599,6 +4725,12 @@
         "Name": "Hechizo_05",
         "ObjectPath": "\\States\\Default Work Unit\\Music_State\\Hechizo_05",
         "GUID": "{FE328865-7CB8-41A9-A089-17AEAEB12B6B}"
+       },
+       {
+        "Id": "1460634452",
+        "Name": "OasisEnd_06",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\OasisEnd_06",
+        "GUID": "{506F5B03-2AAF-448D-8D25-B734C2B96238}"
        }
       ]
      }

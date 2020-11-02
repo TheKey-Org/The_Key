@@ -520,6 +520,14 @@
 							<ObjectRef Name="Genio_Surprise_Angry_Short_01" ID="{F3A53111-5130-41BF-9D84-E92F1C61C0EA}" WorkUnitID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}"/>
 							<Position X="6" Y="3"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="EV_Underwater" ID="{676AE2FA-6D20-48C9-86B5-47B209B21E80}" WorkUnitID="{16310A29-DF1C-404A-93F3-D23310EC535B}"/>
+							<Position X="7" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Underwater_End" ID="{308BE443-E5D5-47A1-84F6-AF70E672A768}" WorkUnitID="{16310A29-DF1C-404A-93F3-D23310EC535B}"/>
+							<Position X="7" Y="1"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -580,7 +588,8 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Explore_03" ID="{37ED6456-5FA2-4D7D-9FF9-14B4900A8719}"/>
+						<CurrentStateRef Name="SplashIntro_01" ID="{CEE5CA46-8BEA-41C6-BBFF-664348303453}"/>
+						<CurrentStateRef Name="UnderWater_No" ID="{40BC0357-FFD5-4263-91AC-A82D2054EC9C}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Phys_Concrete" ID="{FF2B32AE-D42E-49BD-BA21-73CAE860422D}"/>

@@ -110,6 +110,28 @@
 								</Bus>
 								<Bus Name="TimeFX" ID="{68750E96-2C34-4601-B174-56C833FA6493}"/>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Underwater" ID="{4B647CB7-74BB-4A49-9A41-30F4BF0535D5}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="UnderWater_No" ID="{40BC0357-FFD5-4263-91AC-A82D2054EC9C}"/>
+										<CustomState Name="" ID="{9470D8B3-3CFD-4040-98FC-CFB7A99F7EE9}" ShortID="947330054"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="UnderWater_Yes" ID="{32F6949A-42E2-4F29-8765-0F8F51E4211E}"/>
+										<CustomState Name="" ID="{79248450-0356-40EF-8064-298673DBC859}" ShortID="58227570">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-10"/>
+												<Property Name="Lowpass" Type="int16" Value="56"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<DuckingList>
 								<DuckItem>
 									<BusRef Name="Music" ID="{38235DD8-45A3-458A-B5DF-8E9C15B17D9E}"/>
@@ -140,6 +162,28 @@
 							<ChildrenList>
 								<Bus Name="Mus_Oasis" ID="{C9C31AB9-C909-45F2-B166-BF4403D0119B}"/>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Underwater" ID="{4B647CB7-74BB-4A49-9A41-30F4BF0535D5}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="UnderWater_No" ID="{40BC0357-FFD5-4263-91AC-A82D2054EC9C}"/>
+										<CustomState Name="" ID="{24202ADD-26E8-4681-9B8B-EBCC885DD37C}" ShortID="371252102"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="UnderWater_Yes" ID="{32F6949A-42E2-4F29-8765-0F8F51E4211E}"/>
+										<CustomState Name="" ID="{FC0BEA8B-853A-489D-8124-A80E570FAD29}" ShortID="252751127">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-9"/>
+												<Property Name="Lowpass" Type="int16" Value="31"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</Bus>
 						<Bus Name="Character" ID="{85B077C5-D6F8-4AE9-93E4-7792314A3930}">
 							<PropertyList>
@@ -258,6 +302,37 @@
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 								</Bus>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Underwater" ID="{4B647CB7-74BB-4A49-9A41-30F4BF0535D5}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="UnderWater_No" ID="{40BC0357-FFD5-4263-91AC-A82D2054EC9C}"/>
+										<CustomState Name="" ID="{94B183C4-D633-4324-AD5E-35AD742A75E0}" ShortID="750019303"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="UnderWater_Yes" ID="{32F6949A-42E2-4F29-8765-0F8F51E4211E}"/>
+										<CustomState Name="" ID="{2BC4A28F-76CD-423F-8E27-0202F463DA4B}" ShortID="710556871">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-8"/>
+												<Property Name="Lowpass" Type="int16" Value="58"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+						<Bus Name="Environment_Sfx" ID="{01CD49A8-3BF8-42AF-97A3-9A9E9046E016}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="3"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Water" ID="{456D2568-2E14-417A-8F50-40C6B83AACBB}"/>
 							</ChildrenList>
 						</Bus>
 					</ChildrenList>

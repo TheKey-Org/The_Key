@@ -381,6 +381,71 @@
 								</MusicCue>
 							</CueList>
 						</MusicSegment>
+						<MusicSegment Name="06_OasisEnd_Long" ID="{EC8C8348-A816-415B-96D7-9671A1087676}" ShortID="140899033">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="33529.410430839"/>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="170"/>
+								<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Mus_Oasis" ID="{C9C31AB9-C909-45F2-B166-BF4403D0119B}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Hechizo_End_BPM170_3-4_L31-P0" ID="{9C48E2D7-212E-473A-8EDA-1D54830CDE76}" ShortID="80637708">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Hechizo_End_BPM170_3-4_L31-P0" ID="{3276E7AF-6072-4654-9084-1C2893853968}">
+											<Language>SFX</Language>
+											<AudioFile>Music\Oasis\Hechizo_End_BPM170_3-4_L31-P0.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="419246512"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{56FE0209-D982-44ED-9E25-8FE8517B3BDA}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<SequenceList>
+										<MusicTrackSequence Name="" ID="{EE1FD6DC-5DFC-45A5-8BA3-0370AA3CC719}">
+											<ClipList>
+												<MusicClip Name="Hechizo_End_BPM170_3-4_L31-P0" ID="{DB7A61DF-6210-455C-83F9-5B4E96495AA5}">
+													<PropertyList>
+														<Property Name="EndTrimOffset" Type="Real64" Value="33529.410430839"/>
+														<Property Name="FadeInDuration" Type="Real64" Value="78.3258032219164"/>
+														<Property Name="FadeOutMode" Type="int16" Value="0"/>
+													</PropertyList>
+													<AudioSourceRef Name="Hechizo_End_BPM170_3-4_L31-P0" ID="{3276E7AF-6072-4654-9084-1C2893853968}"/>
+												</MusicClip>
+											</ClipList>
+										</MusicTrackSequence>
+									</SequenceList>
+								</MusicTrack>
+							</ChildrenList>
+							<CueList>
+								<MusicCue Name="Entry Cue" ID="{3CAD6291-CA00-495A-87DD-1F1AFFD31C83}"/>
+								<MusicCue Name="Exit Cue" ID="{36B9755C-93B2-4550-AA55-BD230C68A67D}">
+									<PropertyList>
+										<Property Name="CueType" Type="int16" Value="1"/>
+										<Property Name="TimeMs" Type="Real64" Value="33529.410430839"/>
+									</PropertyList>
+								</MusicCue>
+							</CueList>
+						</MusicSegment>
 					</ChildrenList>
 				</Folder>
 				<MusicSwitchContainer Name="Mus_Oasis_Lvl" ID="{FB2385EE-077A-4171-8A63-C8DAFB40818F}" ShortID="640186717">
@@ -3353,6 +3418,245 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="06_OasisEnd" ID="{FDDEC7D3-1B23-4236-992D-0D2F8222BC63}" ShortID="896274977">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Iillusion_70BPM4-4_Loop_End" ID="{FA18A743-D7D2-498C-BA18-AD2586F9172E}" ShortID="816699658">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="4320.28971728487"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="70"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Mus_Oasis" ID="{C9C31AB9-C909-45F2-B166-BF4403D0119B}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="desert-illusion_70BPM4-4" ID="{DF01187D-B363-440C-96C7-54CDDF6D0D2C}" ShortID="53124221">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="desert-illusion_70BPM4-4" ID="{62769927-6178-4DC4-9950-00B5B530BC27}">
+													<Language>SFX</Language>
+													<AudioFile>desert-illusion_70BPM4-4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="595116604"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{CBD5BF08-A3ED-4657-AE2E-6C0966690A92}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{7BB5203E-7858-4827-BFD1-D57807A1E48F}">
+													<ClipList>
+														<MusicClip Name="desert-illusion_70BPM4-4" ID="{00DF2931-0C4B-46B8-9F5C-FC72497563EE}">
+															<PropertyList>
+																<Property Name="BeginTrimOffset" Type="Real64" Value="64285.7142857143"/>
+																<Property Name="EndTrimOffset" Type="Real64" Value="68571.4285714286"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="687.27660905107"/>
+																<Property Name="FadeInShape" Type="int16" Value="7"/>
+																<Property Name="FadeOutDuration" Type="Real64" Value="1457.5446301908"/>
+																<Property Name="FadeOutShape" Type="int16" Value="2"/>
+																<Property Name="PlayAt" Type="Real64" Value="-64285.7142857143"/>
+															</PropertyList>
+															<AudioSourceRef Name="desert-illusion_70BPM4-4" ID="{62769927-6178-4DC4-9950-00B5B530BC27}"/>
+															<PropertyCurveList>
+																<PropertyCurve PropertyName="Highpass">
+																	<Curve Name="" ID="{3C6E7BFD-E360-47E2-A8CF-0E88C0771F51}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>64.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>68.57143</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Lowpass">
+																	<Curve Name="" ID="{68EAF138-1FA1-4F17-8D28-BFAA10235D6A}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="1"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>64.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>68.57143</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+																<PropertyCurve PropertyName="Volume">
+																	<Curve Name="" ID="{FBA9D2FC-B025-446C-9B77-7C7EBF585B67}">
+																		<PropertyList>
+																			<Property Name="Flags" Type="int32" Value="3"/>
+																		</PropertyList>
+																		<PointList>
+																			<Point>
+																				<XPos>64.28571</XPos>
+																				<YPos>0</YPos>
+																				<Flags>5</Flags>
+																			</Point>
+																			<Point>
+																				<XPos>68.57143</XPos>
+																				<YPos>0</YPos>
+																				<Flags>37</Flags>
+																			</Point>
+																		</PointList>
+																	</Curve>
+																</PropertyCurve>
+															</PropertyCurveList>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{1293F599-0934-4D4A-85F4-73B30C3086DC}">
+											<PropertyList>
+												<Property Name="TimeMs" Type="Real64" Value="857.142857142857"/>
+											</PropertyList>
+										</MusicCue>
+										<MusicCue Name="Exit Cue" ID="{D4965D82-8DAD-403E-846D-116A3F3616C5}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="857.142857142857"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+								<MusicSegment Name="06_OasisEnd" ID="{98DD1935-7704-44FE-9448-1011A2B90652}" ShortID="329068726">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="16941.179138322"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="170"/>
+										<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Hechizo_End_BPM170_3-4_L16-P0" ID="{4E899F11-08E5-46B7-A9AF-9C90709A3E9B}" ShortID="855723334">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hechizo_End_BPM170_3-4_L16-P0" ID="{2FA795EF-EA46-4407-B66E-3396FFB36424}">
+													<Language>SFX</Language>
+													<AudioFile>Music\Oasis\Hechizo_End_BPM170_3-4_L16-P0.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="458142420"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{0F145259-79ED-4418-BE34-A547472C49D3}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{2625C88C-3062-454D-B815-1BDFFBD54D1A}">
+													<ClipList>
+														<MusicClip Name="Hechizo_End_BPM170_3-4_L16-P0" ID="{D0338337-F71C-4045-8ED0-4B42F5D36403}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="16941.179138322"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="177.770897965027"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Hechizo_End_BPM170_3-4_L16-P0" ID="{2FA795EF-EA46-4407-B66E-3396FFB36424}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{D88CE316-A2D3-4455-8C4F-A6C125AD8460}"/>
+										<MusicCue Name="Exit Cue" ID="{D51F0E4C-3230-444F-BB6B-53382188DA8C}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="16941.179138322"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{D5C3DB64-6B8F-459B-A0A4-636C90E78FCC}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{4D69A989-D1B2-4E4A-A2C0-C701F10CAD2F}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{C52CE016-8140-454A-9A01-482AFBEF25BC}" ShortID="109319804">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{6C502F78-42FA-4364-9DDF-2D7D68BF31F9}" ShortID="195641826">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Iillusion_70BPM4-4_Loop_End" ID="{FA18A743-D7D2-498C-BA18-AD2586F9172E}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{7C58A63B-83D6-4541-8D7D-331D09D0F72F}" ShortID="562768572">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="06_OasisEnd" ID="{98DD1935-7704-44FE-9448-1011A2B90652}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
 					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{A4351BF2-76B8-4743-B179-6C659FE63456}">
@@ -3514,6 +3818,82 @@
 										</DestinationFadeIn>
 									</TransitionInfo>
 								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{C53E1EB2-8DD7-4660-9476-94CD6EADB9BC}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="06_OasisEnd" ID="{FDDEC7D3-1B23-4236-992D-0D2F8222BC63}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="05_Hechizo" ID="{5CE51B97-2834-41EF-9701-D21E89582888}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{7BEA3B25-309E-4161-8455-339052ADA4ED}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="2"/>
+													<Property Name="FadeOffset" Type="Real64" Value="1.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{C4560A09-AEE0-4906-A88B-07D85AAAD151}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="6"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{708DEEEE-F00D-41D4-827B-7303AE354A8F}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="06_OasisEnd" ID="{FDDEC7D3-1B23-4236-992D-0D2F8222BC63}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="04_GeniusStart" ID="{19EE23A0-C50C-4307-9AE2-C890474AB5F7}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{A2AC58C1-F019-411A-984E-E2663AC13CAA}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="2"/>
+													<Property Name="FadeOffset" Type="Real64" Value="1.5"/>
+													<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+										<DestinationFadeIn>
+											<MusicFade Name="Destination Fade-in" ID="{A794E245-8782-42C4-887C-D6C154463327}">
+												<PropertyList>
+													<Property Name="FadeCurve" Type="int16" Value="6"/>
+													<Property Name="FadeOffset" Type="Real64" Value="-1"/>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</DestinationFadeIn>
+									</TransitionInfo>
+								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>
 						</MusicTransition>
@@ -3560,6 +3940,14 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="05_Hechizo" ID="{5CE51B97-2834-41EF-9701-D21E89582888}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="OasisEnd_06" ID="{506F5B03-2AAF-448D-8D25-B734C2B96238}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="06_OasisEnd" ID="{FDDEC7D3-1B23-4236-992D-0D2F8222BC63}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
