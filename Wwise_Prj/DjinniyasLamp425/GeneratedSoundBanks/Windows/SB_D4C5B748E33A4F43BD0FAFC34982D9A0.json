@@ -46,6 +46,12 @@
         "Path": "SFX\\Environment\\Desert_Silence_D79FB2B7.wem"
        },
        {
+        "Id": "419246512",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Hechizo_End_BPM170_3-4_L31-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Hechizo_End_BPM170_3-4_L31-P0_D79FB2B7.wem"
+       },
+       {
         "Id": "458142420",
         "Language": "SFX",
         "ShortName": "Music\\Oasis\\Hechizo_End_BPM170_3-4_L16-P0.wav",
@@ -173,6 +179,9 @@
          },
          {
           "Id": "458142420"
+         },
+         {
+          "Id": "419246512"
          }
         ]
        }

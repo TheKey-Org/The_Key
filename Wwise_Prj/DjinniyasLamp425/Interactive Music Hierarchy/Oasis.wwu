@@ -3624,6 +3624,71 @@
 										</MusicCue>
 									</CueList>
 								</MusicSegment>
+								<MusicSegment Name="06_OasisEnd_Long" ID="{D7572EED-1A77-497C-9B4A-24221E8C32F0}" ShortID="850173810">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="33529.410430839"/>
+										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+										<Property Name="Tempo" Type="Real64" Value="170"/>
+										<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Mus_Oasis" ID="{C9C31AB9-C909-45F2-B166-BF4403D0119B}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Hechizo_End_BPM170_3-4_L31-P0" ID="{E7C50D1E-334F-4B8A-A425-88C1C249A3FF}" ShortID="217785373">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Hechizo_End_BPM170_3-4_L31-P0" ID="{5AF4B8BB-698A-4900-B632-C64C25DF783D}">
+													<Language>SFX</Language>
+													<AudioFile>Music\Oasis\Hechizo_End_BPM170_3-4_L31-P0.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="419246512"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{CD948088-726C-4FE5-A11D-BDC6459C0F03}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<SequenceList>
+												<MusicTrackSequence Name="" ID="{9A0A39E9-BF1B-4333-A482-6C1B2F6BC4FE}">
+													<ClipList>
+														<MusicClip Name="Hechizo_End_BPM170_3-4_L31-P0" ID="{1B2A7B5E-BA7B-443A-A49D-69DFAA78D253}">
+															<PropertyList>
+																<Property Name="EndTrimOffset" Type="Real64" Value="33529.410430839"/>
+																<Property Name="FadeInDuration" Type="Real64" Value="78.3258032219164"/>
+																<Property Name="FadeOutMode" Type="int16" Value="0"/>
+															</PropertyList>
+															<AudioSourceRef Name="Hechizo_End_BPM170_3-4_L31-P0" ID="{5AF4B8BB-698A-4900-B632-C64C25DF783D}"/>
+														</MusicClip>
+													</ClipList>
+												</MusicTrackSequence>
+											</SequenceList>
+										</MusicTrack>
+									</ChildrenList>
+									<CueList>
+										<MusicCue Name="Entry Cue" ID="{264BB3C3-B48E-43EB-AFC7-E86D73A81D04}"/>
+										<MusicCue Name="Exit Cue" ID="{9DDF94D3-317D-4583-9E9A-17D161B5E5B8}">
+											<PropertyList>
+												<Property Name="CueType" Type="int16" Value="1"/>
+												<Property Name="TimeMs" Type="Real64" Value="33529.410430839"/>
+											</PropertyList>
+										</MusicCue>
+									</CueList>
+								</MusicSegment>
 							</ChildrenList>
 							<TransitionList>
 								<MusicTransition Name="Root" ID="{D5C3DB64-6B8F-459B-A0A4-636C90E78FCC}">
@@ -3647,11 +3712,11 @@
 											</PropertyList>
 											<SegmentRef Name="Iillusion_70BPM4-4_Loop_End" ID="{FA18A743-D7D2-498C-BA18-AD2586F9172E}"/>
 										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{7C58A63B-83D6-4541-8D7D-331D09D0F72F}" ShortID="562768572">
+										<MusicPlaylistItem Name="" ID="{FAC7C102-A4F2-4B00-BB0A-35D55B260284}" ShortID="518053286">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="06_OasisEnd" ID="{98DD1935-7704-44FE-9448-1011A2B90652}"/>
+											<SegmentRef Name="06_OasisEnd_Long" ID="{D7572EED-1A77-497C-9B4A-24221E8C32F0}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
