@@ -46,6 +46,18 @@
         "Path": "SFX\\Environment\\Desert_Silence_D79FB2B7.wem"
        },
        {
+        "Id": "419246512",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Hechizo_End_BPM170_3-4_L31-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Hechizo_End_BPM170_3-4_L31-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "458142420",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Hechizo_End_BPM170_3-4_L16-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Hechizo_End_BPM170_3-4_L16-P0_D79FB2B7.wem"
+       },
+       {
         "Id": "530037478",
         "Language": "SFX",
         "ShortName": "Music\\Oasis\\eastern-sky_59BPM4-4.wav",
@@ -158,6 +170,20 @@
           "Id": "595116604"
          }
         ]
+       },
+       {
+        "SwitchValue": "{506F5B03-2AAF-448D-8D25-B734C2B96238}",
+        "Media": [
+         {
+          "Id": "595116604"
+         },
+         {
+          "Id": "458142420"
+         },
+         {
+          "Id": "419246512"
+         }
+        ]
        }
       ],
       "ActionSetState": [
@@ -219,6 +245,12 @@
         "Name": "Hechizo_05",
         "ObjectPath": "\\States\\Default Work Unit\\Music_State\\Hechizo_05",
         "GUID": "{FE328865-7CB8-41A9-A089-17AEAEB12B6B}"
+       },
+       {
+        "Id": "1460634452",
+        "Name": "OasisEnd_06",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\OasisEnd_06",
+        "GUID": "{506F5B03-2AAF-448D-8D25-B734C2B96238}"
        }
       ]
      }

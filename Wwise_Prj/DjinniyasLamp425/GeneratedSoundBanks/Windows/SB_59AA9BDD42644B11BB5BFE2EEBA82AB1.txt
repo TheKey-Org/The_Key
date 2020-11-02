@@ -7,6 +7,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 State	ID	Name	State Group			Notes
 	475131587	Hechizo_05	Music_State			
 	748895195	None	Music_State			
+	1460634452	OasisEnd_06	Music_State			
 	1842894781	GeniusStart_04	Music_State			
 	2209150908	SplashIntro_01	Music_State			
 	2857410150	Explore_03	Music_State			
