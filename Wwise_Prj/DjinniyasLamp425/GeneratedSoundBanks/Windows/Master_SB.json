@@ -918,6 +918,40 @@
       ]
      },
      {
+      "Id": "553718723",
+      "Name": "EV_ConstelacionFaceChimes",
+      "ObjectPath": "\\Events\\Items\\Constelacion\\EV_ConstelacionFaceChimes",
+      "GUID": "{AFF7BB27-EDE9-42DA-ACC5-DF542207B068}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.300000",
+      "DurationMax": "2.300000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "175477357",
+        "Language": "SFX",
+        "ShortName": "Magic\\Chimes_Magic_03.wav",
+        "Path": "SFX\\Magic\\Chimes_Magic_03_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3848220074",
+      "Name": "EV_ConstelacionStartChimes",
+      "ObjectPath": "\\Events\\Items\\Constelacion\\EV_ConstelacionStartChimes",
+      "GUID": "{A8B2EF90-2EAE-4300-AA3B-B9EC472F17DF}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.271020",
+      "DurationMax": "1.271020",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "699542411",
+        "Language": "SFX",
+        "ShortName": "Magic\\Chimes_Magic_Ding_04.wav",
+        "Path": "SFX\\Magic\\Chimes_Magic_Ding_04_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "3627703185",
       "Name": "EV_DFox_Bark",
       "ObjectPath": "\\Events\\Animals\\DFox\\EV_DFox_Bark",
@@ -1246,6 +1280,168 @@
         "Language": "SFX",
         "ShortName": "Animals\\Fox\\Fennec_11.wav",
         "Path": "SFX\\Animals\\Fox\\Fennec_11_BFB5650D.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4054209178",
+      "Name": "EV_Djinniya_Voc_Effort_Strong_Long",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\Voices\\EV_Djinniya_Voc_Effort_Strong_Long",
+      "GUID": "{C27BBCC4-931A-48C1-919D-7EA285650753}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.447417",
+      "DurationMax": "1.235229",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "38374164",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Action\\voice_female_b_effort_quick_action_02.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Action\\voice_female_b_effort_quick_action_02_10C4C929.wem"
+       },
+       {
+        "Id": "160993615",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Action\\voice_female_a_effort_quick_action_07.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Action\\voice_female_a_effort_quick_action_07_10C4C929.wem"
+       },
+       {
+        "Id": "423379962",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Action\\voice_female_b_effort_quick_action_04.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Action\\voice_female_b_effort_quick_action_04_10C4C929.wem"
+       },
+       {
+        "Id": "858743018",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Action\\voice_female_a_effort_quick_action_02.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Action\\voice_female_a_effort_quick_action_02_10C4C929.wem"
+       },
+       {
+        "Id": "1029297459",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Action\\voice_female_a_effort_quick_action_01.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Action\\voice_female_a_effort_quick_action_01_10C4C929.wem"
+       },
+       {
+        "Id": "1072328583",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Action\\voice_female_a_effort_quick_action_06.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Action\\voice_female_a_effort_quick_action_06_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "484682774",
+      "Name": "EV_Djinniya_Voc_Effort_Strong_Short",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\Voices\\EV_Djinniya_Voc_Effort_Strong_Short",
+      "GUID": "{C64F6EA9-E5B4-4381-BB03-65F16135EDED}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.291917",
+      "DurationMax": "0.572104",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "114642717",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Action\\voice_female_b_effort_quick_action_01.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Action\\voice_female_b_effort_quick_action_01_10C4C929.wem"
+       },
+       {
+        "Id": "337920704",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Action\\voice_female_a_effort_quick_action_03.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Action\\voice_female_a_effort_quick_action_03_10C4C929.wem"
+       },
+       {
+        "Id": "777979428",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Action\\voice_female_a_effort_quick_action_04.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Action\\voice_female_a_effort_quick_action_04_10C4C929.wem"
+       },
+       {
+        "Id": "880356374",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Action\\voice_female_b_effort_quick_action_05.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Action\\voice_female_b_effort_quick_action_05_10C4C929.wem"
+       },
+       {
+        "Id": "880510905",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Action\\voice_female_a_effort_quick_action_05.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Action\\voice_female_a_effort_quick_action_05_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3961406287",
+      "Name": "EV_Djinniya_Voc_Jump_A",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\Voices\\EV_Djinniya_Voc_Jump_A",
+      "GUID": "{4E57E316-916B-42E2-AC5D-F1061F48D2EF}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.344813",
+      "DurationMax": "0.435625",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "193195434",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Jump\\voice_female_a_effort_jump_action_03.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Jump\\voice_female_a_effort_jump_action_03_10C4C929.wem"
+       },
+       {
+        "Id": "288465714",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Jump\\voice_female_a_effort_jump_action_10.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Jump\\voice_female_a_effort_jump_action_10_10C4C929.wem"
+       },
+       {
+        "Id": "947133664",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Jump\\voice_female_a_effort_jump_action_07.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Jump\\voice_female_a_effort_jump_action_07_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3961406284",
+      "Name": "EV_Djinniya_Voc_Jump_B",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\Voices\\EV_Djinniya_Voc_Jump_B",
+      "GUID": "{E00FAF5B-D8E0-455E-9264-17360C433B3D}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.250000",
+      "DurationMax": "0.400000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "497122773",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Action\\voice_female_b_effort_jump_action_06.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Action\\voice_female_b_effort_jump_action_06_10C4C929.wem"
+       },
+       {
+        "Id": "967683108",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Action\\voice_female_b_effort_jump_action_03.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Action\\voice_female_b_effort_jump_action_03_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3922820567",
+      "Name": "EV_Djinniya_Voc_Surprised_02",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\Voices\\EV_Djinniya_Voc_Surprised_02",
+      "GUID": "{B6858E56-EB5E-4B89-B95A-F42723C0E50A}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.368521",
+      "DurationMax": "0.368521",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "921942069",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Emote\\voice_fun_small_character_emote_surprised_02.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Emote\\voice_fun_small_character_emote_surprised_02_10C4C929.wem"
        }
       ]
      },
@@ -1731,7 +1927,6 @@
       "Name": "EV_Lamp_Oasis_EndHit",
       "ObjectPath": "\\Events\\Items\\Lamps\\EV_Lamp_Oasis_EndHit",
       "GUID": "{C43DA261-8CCB-41A6-B6B1-F7DEB6480A8A}",
-      "MaxAttenuation": "5000.000000",
       "DurationType": "OneShot",
       "DurationMin": "6.503991",
       "DurationMax": "6.503991",
@@ -1764,7 +1959,6 @@
       "Name": "EV_Lamp_Oasis_Fly_Stop",
       "ObjectPath": "\\Events\\Items\\Lamps\\EV_Lamp_Oasis_Fly_Stop",
       "GUID": "{4DA594BE-449E-4946-922B-8845B2C9DB61}",
-      "MaxAttenuation": "5000.000000",
       "DurationType": "OneShot",
       "DurationMin": "6.503991",
       "DurationMax": "6.503991",
@@ -1801,6 +1995,18 @@
         "Language": "SFX",
         "ShortName": "Environment\\Desert_Silence.wav",
         "Path": "SFX\\Environment\\Desert_Silence_D79FB2B7.wem"
+       },
+       {
+        "Id": "419246512",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Hechizo_End_BPM170_3-4_L31-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Hechizo_End_BPM170_3-4_L31-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "458142420",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Hechizo_End_BPM170_3-4_L16-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Hechizo_End_BPM170_3-4_L16-P0_D79FB2B7.wem"
        },
        {
         "Id": "530037478",
@@ -1915,6 +2121,20 @@
           "Id": "595116604"
          }
         ]
+       },
+       {
+        "SwitchValue": "{506F5B03-2AAF-448D-8D25-B734C2B96238}",
+        "Media": [
+         {
+          "Id": "595116604"
+         },
+         {
+          "Id": "458142420"
+         },
+         {
+          "Id": "419246512"
+         }
+        ]
        }
       ],
       "ActionSetState": [
@@ -1925,6 +2145,32 @@
         "GUID": "{CEE5CA46-8BEA-41C6-BBFF-664348303453}"
        }
       ]
+     },
+     {
+      "Id": "4107439994",
+      "Name": "EV_Magic_Lamp_Loop",
+      "ObjectPath": "\\Events\\Items\\Lamps\\EV_Magic_Lamp_Loop",
+      "GUID": "{7B0F69C1-0279-4090-8333-571C3395BF1A}",
+      "MaxAttenuation": "3000.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "684481614",
+        "Language": "SFX",
+        "ShortName": "Magic\\Magic_GenioNoche_Spell.wav",
+        "Path": "SFX\\Magic\\Magic_GenioNoche_Spell_48466C4A.wem"
+       }
+      ]
+     },
+     {
+      "Id": "690360841",
+      "Name": "EV_Magic_Lamp_Loop_Stop",
+      "ObjectPath": "\\Events\\Items\\Lamps\\EV_Magic_Lamp_Loop_Stop",
+      "GUID": "{727CD33B-7159-4572-8569-2209F6ED043E}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      },
      {
       "Id": "280480313",
@@ -1938,6 +2184,18 @@
         "Language": "SFX",
         "ShortName": "Music\\Oasis\\ethnic-desert_161BPM3-4_EndReverse.wav",
         "Path": "SFX\\Music\\Oasis\\ethnic-desert_161BPM3-4_EndReverse_D79FB2B7.wem"
+       },
+       {
+        "Id": "419246512",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Hechizo_End_BPM170_3-4_L31-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Hechizo_End_BPM170_3-4_L31-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "458142420",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Hechizo_End_BPM170_3-4_L16-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Hechizo_End_BPM170_3-4_L16-P0_D79FB2B7.wem"
        },
        {
         "Id": "530037478",
@@ -2038,6 +2296,20 @@
          },
          {
           "Id": "595116604"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{506F5B03-2AAF-448D-8D25-B734C2B96238}",
+        "Media": [
+         {
+          "Id": "595116604"
+         },
+         {
+          "Id": "458142420"
+         },
+         {
+          "Id": "419246512"
          }
         ]
        }
@@ -3863,6 +4135,210 @@
       ]
      },
      {
+      "Id": "1127512328",
+      "Name": "EV_Underwater",
+      "ObjectPath": "\\Events\\Environment\\Underwater\\EV_Underwater",
+      "GUID": "{676AE2FA-6D20-48C9-86B5-47B209B21E80}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "101000123",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\footstep_water_splash_med_wading_06.WAV",
+        "Path": "SFX\\Environment\\Water\\footstep_water_splash_med_wading_06_10C4C929.wem"
+       },
+       {
+        "Id": "315480188",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\footstep_water_splash_med_wading_01.WAV",
+        "Path": "SFX\\Environment\\Water\\footstep_water_splash_med_wading_01_10C4C929.wem"
+       },
+       {
+        "Id": "676387735",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\underwater_sea_diving_bubbles_loop_03.WAV",
+        "Path": "SFX\\Environment\\Water\\underwater_sea_diving_bubbles_loop_03_D79FB2B7.wem"
+       },
+       {
+        "Id": "923515958",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\footstep_water_splash_med_wading_02.WAV",
+        "Path": "SFX\\Environment\\Water\\footstep_water_splash_med_wading_02_10C4C929.wem"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "2851086918",
+        "Name": "UnderWater_Yes",
+        "ObjectPath": "\\States\\Environment\\Underwater\\UnderWater_Yes",
+        "GUID": "{32F6949A-42E2-4F29-8765-0F8F51E4211E}"
+       }
+      ]
+     },
+     {
+      "Id": "1772337774",
+      "Name": "EV_Underwater_End",
+      "ObjectPath": "\\Events\\Environment\\Underwater\\EV_Underwater_End",
+      "GUID": "{308BE443-E5D5-47A1-84F6-AF70E672A768}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.706322",
+      "DurationMax": "0.856166",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "489896129",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\footstep_water_splash_med_wading_02.WAV",
+        "Path": "SFX\\Environment\\Water\\footstep_water_splash_med_wading_02_FB78CD91.wem"
+       },
+       {
+        "Id": "786185137",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\footstep_water_splash_med_wading_06.WAV",
+        "Path": "SFX\\Environment\\Water\\footstep_water_splash_med_wading_06_19C2D624.wem"
+       },
+       {
+        "Id": "1009237850",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\footstep_water_splash_med_wading_01.WAV",
+        "Path": "SFX\\Environment\\Water\\footstep_water_splash_med_wading_01_DF8B3A93.wem"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "2311510956",
+        "Name": "UnderWater_No",
+        "ObjectPath": "\\States\\Environment\\Underwater\\UnderWater_No",
+        "GUID": "{40BC0357-FFD5-4263-91AC-A82D2054EC9C}"
+       }
+      ]
+     },
+     {
+      "Id": "4097815294",
+      "Name": "Genio_Jump_01",
+      "ObjectPath": "\\Events\\Character\\GenioNoche\\Voice\\Genio_Jump_01",
+      "GUID": "{0ED3EEEB-DE2D-4D68-9F11-6310C338231A}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.449977",
+      "DurationMax": "0.500000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "151987646",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_07.wav",
+        "Path": "SFX\\Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_07_10C4C929.wem"
+       },
+       {
+        "Id": "269202632",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_05.wav",
+        "Path": "SFX\\Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_05_10C4C929.wem"
+       },
+       {
+        "Id": "382040779",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_06.wav",
+        "Path": "SFX\\Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_06_10C4C929.wem"
+       },
+       {
+        "Id": "1012597449",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_11.wav",
+        "Path": "SFX\\Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_11_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3336511825",
+      "Name": "Genio_Surprise_01",
+      "ObjectPath": "\\Events\\Character\\GenioNoche\\Voice\\Genio_Surprise_01",
+      "GUID": "{3E59DB58-8BBD-4E9A-82C8-5619A757221D}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.500000",
+      "DurationMax": "0.500000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "697140696",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_01.wav",
+        "Path": "SFX\\Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_01_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3302042998",
+      "Name": "Genio_Surprise_Angry_Long_01",
+      "ObjectPath": "\\Events\\Character\\GenioNoche\\Voice\\Genio_Surprise_Angry_Long_01",
+      "GUID": "{5A4570AE-5FDE-4029-8F98-D7A866BE2D9D}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.500000",
+      "DurationMax": "0.500000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "382037857",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_09.wav",
+        "Path": "SFX\\Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_09_10C4C929.wem"
+       },
+       {
+        "Id": "664547947",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_08.wav",
+        "Path": "SFX\\Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_08_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2741071958",
+      "Name": "Genio_Surprise_Angry_Short_01",
+      "ObjectPath": "\\Events\\Character\\GenioNoche\\Voice\\Genio_Surprise_Angry_Short_01",
+      "GUID": "{F3A53111-5130-41BF-9D84-E92F1C61C0EA}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.440000",
+      "DurationMax": "0.500000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "197696028",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_02.wav",
+        "Path": "SFX\\Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_02_10C4C929.wem"
+       },
+       {
+        "Id": "331327722",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_10.wav",
+        "Path": "SFX\\Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_10_10C4C929.wem"
+       },
+       {
+        "Id": "342261477",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_13.wav",
+        "Path": "SFX\\Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_13_10C4C929.wem"
+       },
+       {
+        "Id": "612642580",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_12.wav",
+        "Path": "SFX\\Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_12_10C4C929.wem"
+       },
+       {
+        "Id": "691790023",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_04.wav",
+        "Path": "SFX\\Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_04_10C4C929.wem"
+       },
+       {
+        "Id": "890062790",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_03.wav",
+        "Path": "SFX\\Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_03_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "3548792587",
       "Name": "Inicio_Oasis_Bus_Volume_Start",
       "ObjectPath": "\\Events\\Levels\\Inicio_Oasis_Bus_Volume_Start",
@@ -3881,6 +4357,40 @@
       "DurationType": "OneShot",
       "DurationMin": "0.000000",
       "DurationMax": "0.000000"
+     },
+     {
+      "Id": "1876909362",
+      "Name": "Play_Isolation_spell_Intro",
+      "ObjectPath": "\\Events\\Character\\GenioNoche\\Spells\\Play_Isolation_spell_Intro",
+      "GUID": "{762AE417-D5C8-4543-817F-C4ADF992D919}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.284881",
+      "DurationMax": "3.284881",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "439352929",
+        "Language": "SFX",
+        "ShortName": "Magic\\Isolation_spell_Intro.wav",
+        "Path": "SFX\\Magic\\Isolation_spell_Intro_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3356404001",
+      "Name": "Play_Isolation_spell_Outro",
+      "ObjectPath": "\\Events\\Character\\GenioNoche\\Spells\\Play_Isolation_spell_Outro",
+      "GUID": "{1F99839F-54A5-4CD7-A046-402F9BB416E8}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.284881",
+      "DurationMax": "3.284881",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "184592802",
+        "Language": "SFX",
+        "ShortName": "Magic\\Isolation_spell_Outro.wav",
+        "Path": "SFX\\Magic\\Isolation_spell_Outro_10C4C929.wem"
+       }
+      ]
      },
      {
       "Id": "2450987521",
@@ -4179,6 +4689,20 @@
       "States": []
      },
      {
+      "Id": "2311510956",
+      "Name": "UnderWater_No",
+      "ObjectPath": "\\States\\Environment\\Underwater\\UnderWater_No",
+      "GUID": "{40BC0357-FFD5-4263-91AC-A82D2054EC9C}",
+      "States": []
+     },
+     {
+      "Id": "2851086918",
+      "Name": "UnderWater_Yes",
+      "ObjectPath": "\\States\\Environment\\Underwater\\UnderWater_Yes",
+      "GUID": "{32F6949A-42E2-4F29-8765-0F8F51E4211E}",
+      "States": []
+     },
+     {
       "Id": "3826569560",
       "Name": "Music_State",
       "ObjectPath": "\\States\\Default Work Unit\\Music_State",
@@ -4219,6 +4743,12 @@
         "Name": "Hechizo_05",
         "ObjectPath": "\\States\\Default Work Unit\\Music_State\\Hechizo_05",
         "GUID": "{FE328865-7CB8-41A9-A089-17AEAEB12B6B}"
+       },
+       {
+        "Id": "1460634452",
+        "Name": "OasisEnd_06",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\OasisEnd_06",
+        "GUID": "{506F5B03-2AAF-448D-8D25-B734C2B96238}"
        }
       ]
      }

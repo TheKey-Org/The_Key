@@ -5,3 +5,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	1646940361	Fx_Rev_Outside			\Default Work Unit\Master Audio Bus\Reverb\Fx_Rev_Outside	
 
+Effect plug-ins	ID	Name	Type				Notes
+	764507215	Mastering_Compressor	Wwise Compressor			
+	1268876375	Mastereing_Peak_Limiter	Wwise Peak Limiter			
+

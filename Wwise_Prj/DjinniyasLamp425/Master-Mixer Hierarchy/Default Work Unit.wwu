@@ -8,6 +8,12 @@
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{344CCB51-FABD-40F0-928A-546B1E5D64FB}" WorkUnitID="{A4695769-8AD8-4B03-B304-9E23996CE459}"/>
 						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+							<ObjectRef Name="Mastereing_Peak_Limiter" ID="{A986C405-DD59-48DB-AD88-940789A40E4D}" WorkUnitID="{2DDFC3BD-5CFB-40D8-8E00-207B47A18143}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+							<ObjectRef Name="Mastering_Compressor" ID="{1EB819EC-2979-4EF0-B94C-DA9C9812D21E}" WorkUnitID="{2DDFC3BD-5CFB-40D8-8E00-207B47A18143}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Reverb" ID="{9CD9D18F-F5DC-4CAF-A75A-0A2E1B56E01B}">
@@ -73,6 +79,11 @@
 									</PropertyList>
 								</Bus>
 								<Bus Name="Animals" ID="{2BD7E8D7-6928-44ED-9229-2AD3EF55DEA8}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+											<ObjectRef Name="Animals_Compressor" ID="{80462CAC-5325-4F8E-A359-050089E13A10}" WorkUnitID="{2DDFC3BD-5CFB-40D8-8E00-207B47A18143}"/>
+										</Reference>
+									</ReferenceList>
 									<ChildrenList>
 										<Bus Name="Camel" ID="{95637C97-BB92-4960-8F5A-E76AE667C6BF}"/>
 										<Bus Name="Fox" ID="{59938FEA-F088-45F7-B981-CFB306F08E76}"/>
@@ -80,6 +91,14 @@
 									</ChildrenList>
 								</Bus>
 								<Bus Name="Magic" ID="{82C41B8E-08BB-4843-A77E-AEA850E7DB5A}">
+									<PropertyList>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+											<ObjectRef Name="Magic_Compressor" ID="{F431C95D-5493-4917-8203-CCEFE06B75E4}" WorkUnitID="{2DDFC3BD-5CFB-40D8-8E00-207B47A18143}"/>
+										</Reference>
+									</ReferenceList>
 									<ChildrenList>
 										<Bus Name="Spells" ID="{36A7724B-B728-4D39-B3F8-0855DD757C92}"/>
 									</ChildrenList>
@@ -91,6 +110,28 @@
 								</Bus>
 								<Bus Name="TimeFX" ID="{68750E96-2C34-4601-B174-56C833FA6493}"/>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Underwater" ID="{4B647CB7-74BB-4A49-9A41-30F4BF0535D5}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="UnderWater_No" ID="{40BC0357-FFD5-4263-91AC-A82D2054EC9C}"/>
+										<CustomState Name="" ID="{9470D8B3-3CFD-4040-98FC-CFB7A99F7EE9}" ShortID="947330054"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="UnderWater_Yes" ID="{32F6949A-42E2-4F29-8765-0F8F51E4211E}"/>
+										<CustomState Name="" ID="{79248450-0356-40EF-8064-298673DBC859}" ShortID="58227570">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-10"/>
+												<Property Name="Lowpass" Type="int16" Value="56"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<DuckingList>
 								<DuckItem>
 									<BusRef Name="Music" ID="{38235DD8-45A3-458A-B5DF-8E9C15B17D9E}"/>
@@ -114,15 +155,35 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
-								<Reference Name="Effect0">
-									<Custom>
-										<Effect Name="Wwise Gain (Custom)" ID="{347D0C05-06C2-42EE-BE93-41FD6D9807B7}" ShortID="407121286" PluginName="Wwise Gain" CompanyID="0" PluginID="139" PluginType="3"/>
-									</Custom>
+								<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+									<ObjectRef Name="Music_Compressor" ID="{007A1718-70B8-4E68-97F5-16D7461BBAEF}" WorkUnitID="{2DDFC3BD-5CFB-40D8-8E00-207B47A18143}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<Bus Name="Mus_Oasis" ID="{C9C31AB9-C909-45F2-B166-BF4403D0119B}"/>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Underwater" ID="{4B647CB7-74BB-4A49-9A41-30F4BF0535D5}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="UnderWater_No" ID="{40BC0357-FFD5-4263-91AC-A82D2054EC9C}"/>
+										<CustomState Name="" ID="{24202ADD-26E8-4681-9B8B-EBCC885DD37C}" ShortID="371252102"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="UnderWater_Yes" ID="{32F6949A-42E2-4F29-8765-0F8F51E4211E}"/>
+										<CustomState Name="" ID="{FC0BEA8B-853A-489D-8124-A80E570FAD29}" ShortID="252751127">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-9"/>
+												<Property Name="Lowpass" Type="int16" Value="31"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</Bus>
 						<Bus Name="Character" ID="{85B077C5-D6F8-4AE9-93E4-7792314A3930}">
 							<PropertyList>
@@ -211,7 +272,25 @@
 												<Value>5</Value>
 											</ValueList>
 										</Property>
+										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+											<ObjectRef Name="Ambient_Compressor" ID="{A46D2BFC-C120-4A42-865E-2141F7CC3CC0}" WorkUnitID="{2DDFC3BD-5CFB-40D8-8E00-207B47A18143}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Bus Name="Palmeras" ID="{4A279B63-9FD0-4524-AFEE-3EFF5342A648}">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+										</Bus>
+										<Bus Name="Wind" ID="{2D251C7B-F69B-479D-BF24-BEA7A128C70B}">
+											<PropertyList>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+											</PropertyList>
+										</Bus>
+									</ChildrenList>
 								</Bus>
 								<Bus Name="Insects" ID="{EE82122E-2F99-4227-A8C5-0BEFBE589319}">
 									<PropertyList>
@@ -223,6 +302,37 @@
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 									</PropertyList>
 								</Bus>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Underwater" ID="{4B647CB7-74BB-4A49-9A41-30F4BF0535D5}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="UnderWater_No" ID="{40BC0357-FFD5-4263-91AC-A82D2054EC9C}"/>
+										<CustomState Name="" ID="{94B183C4-D633-4324-AD5E-35AD742A75E0}" ShortID="750019303"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="UnderWater_Yes" ID="{32F6949A-42E2-4F29-8765-0F8F51E4211E}"/>
+										<CustomState Name="" ID="{2BC4A28F-76CD-423F-8E27-0202F463DA4B}" ShortID="710556871">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-8"/>
+												<Property Name="Lowpass" Type="int16" Value="58"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+						</Bus>
+						<Bus Name="Environment_Sfx" ID="{01CD49A8-3BF8-42AF-97A3-9A9E9046E016}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="3"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="Water" ID="{456D2568-2E14-417A-8F50-40C6B83AACBB}"/>
 							</ChildrenList>
 						</Bus>
 					</ChildrenList>

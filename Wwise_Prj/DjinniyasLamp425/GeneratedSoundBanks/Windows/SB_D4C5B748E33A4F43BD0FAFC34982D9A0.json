@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
-   "SourceFilesRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
-   "SoundBanksRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
@@ -28,16 +28,46 @@
       "DurationType": "Infinite",
       "ExcludedMemoryFiles": [
        {
+        "Id": "86745989",
+        "Language": "SFX",
+        "ShortName": "Animals\\Environment\\Bee_Loop.wav",
+        "Path": "SFX\\Animals\\Environment\\Bee_Loop_0F5D66AE.wem"
+       },
+       {
         "Id": "134273198",
         "Language": "SFX",
         "ShortName": "Music\\Oasis\\ethnic-desert_161BPM3-4_EndReverse.wav",
         "Path": "SFX\\Music\\Oasis\\ethnic-desert_161BPM3-4_EndReverse_D79FB2B7.wem"
        },
        {
+        "Id": "303036354",
+        "Language": "SFX",
+        "ShortName": "Environment\\Desert_Silence.wav",
+        "Path": "SFX\\Environment\\Desert_Silence_D79FB2B7.wem"
+       },
+       {
+        "Id": "419246512",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Hechizo_End_BPM170_3-4_L31-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Hechizo_End_BPM170_3-4_L31-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "458142420",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Hechizo_End_BPM170_3-4_L16-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Hechizo_End_BPM170_3-4_L16-P0_D79FB2B7.wem"
+       },
+       {
         "Id": "530037478",
         "Language": "SFX",
         "ShortName": "Music\\Oasis\\eastern-sky_59BPM4-4.wav",
         "Path": "SFX\\Music\\Oasis\\eastern-sky_59BPM4-4_D79FB2B7.wem"
+       },
+       {
+        "Id": "572924580",
+        "Language": "SFX",
+        "ShortName": "Wind_Soft_Loop_01.WAV",
+        "Path": "SFX\\Wind_Soft_Loop_01_D79FB2B7.wem"
        },
        {
         "Id": "595116604",
@@ -50,6 +80,12 @@
         "Language": "SFX",
         "ShortName": "Music\\Oasis\\ethnic-desert_161BPM3-4.wav",
         "Path": "SFX\\Music\\Oasis\\ethnic-desert_161BPM3-4_D79FB2B7.wem"
+       },
+       {
+        "Id": "1022065363",
+        "Language": "SFX",
+        "ShortName": "Animals\\Environment\\Fly_Loop.wav",
+        "Path": "SFX\\Animals\\Environment\\Fly_Loop_619F4D67.wem"
        }
       ],
       "SwitchContainers": [
@@ -134,6 +170,20 @@
           "Id": "595116604"
          }
         ]
+       },
+       {
+        "SwitchValue": "{506F5B03-2AAF-448D-8D25-B734C2B96238}",
+        "Media": [
+         {
+          "Id": "595116604"
+         },
+         {
+          "Id": "458142420"
+         },
+         {
+          "Id": "419246512"
+         }
+        ]
        }
       ],
       "ActionSetState": [
@@ -195,6 +245,12 @@
         "Name": "Hechizo_05",
         "ObjectPath": "\\States\\Default Work Unit\\Music_State\\Hechizo_05",
         "GUID": "{FE328865-7CB8-41A9-A089-17AEAEB12B6B}"
+       },
+       {
+        "Id": "1460634452",
+        "Name": "OasisEnd_06",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\OasisEnd_06",
+        "GUID": "{506F5B03-2AAF-448D-8D25-B734C2B96238}"
        }
       ]
      }

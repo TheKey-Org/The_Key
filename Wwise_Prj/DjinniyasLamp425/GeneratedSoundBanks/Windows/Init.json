@@ -34,6 +34,34 @@
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\Bus_OnOff",
       "GUID": "{486C7C2B-C8D6-402D-865F-4052793C03E7}"
      }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2213237662",
+      "Name": "Underwater",
+      "ObjectPath": "\\States\\Environment\\Underwater",
+      "GUID": "{4B647CB7-74BB-4A49-9A41-30F4BF0535D5}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Environment\\Underwater\\None",
+        "GUID": "{0C4CAE12-ABA9-424D-9040-EC95B2696ED6}"
+       },
+       {
+        "Id": "2311510956",
+        "Name": "UnderWater_No",
+        "ObjectPath": "\\States\\Environment\\Underwater\\UnderWater_No",
+        "GUID": "{40BC0357-FFD5-4263-91AC-A82D2054EC9C}"
+       },
+       {
+        "Id": "2851086918",
+        "Name": "UnderWater_Yes",
+        "ObjectPath": "\\States\\Environment\\Underwater\\UnderWater_Yes",
+        "GUID": "{32F6949A-42E2-4F29-8765-0F8F51E4211E}"
+       }
+      ]
+     }
     ]
    }
   ]

@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1052025051",
+    "GUID": "{3EB4A0DB-A0DB-10DB-DBDB-DBDBDBDBDBDB}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_9477CA35B9D140BC88E6CBC550B8B29D",
+    "ShortName": "SB_9477CA35B9D140BC88E6CBC550B8B29D",
+    "Path": "SB_9477CA35B9D140BC88E6CBC550B8B29D.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2450987521",
+      "Name": "Play_Magic_GenioNoche_Spell_2",
+      "ObjectPath": "\\Events\\Character\\GenioNoche\\Spells\\Play_Magic_GenioNoche_Spell_2",
+      "GUID": "{9477CA35-B9D1-40BC-88E6-CBC550B8B29D}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.500000",
+      "DurationMax": "7.500000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "1041802213",
+        "Language": "SFX",
+        "ShortName": "Magic\\Magic_GenioNoche_Spell_2.wav",
+        "Path": "SFX\\Magic\\Magic_GenioNoche_Spell_2_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
