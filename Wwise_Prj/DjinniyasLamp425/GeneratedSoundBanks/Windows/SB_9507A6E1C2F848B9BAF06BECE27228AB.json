@@ -1,0 +1,37 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4117606833",
+    "GUID": "{F56DB1B1-B1B1-11B1-B1B1-B1B1B1B1B1B1}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_9507A6E1C2F848B9BAF06BECE27228AB",
+    "ShortName": "SB_9507A6E1C2F848B9BAF06BECE27228AB",
+    "Path": "SB_9507A6E1C2F848B9BAF06BECE27228AB.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3664580986",
+      "Name": "EV_Env_PalmerasViento_Stop",
+      "ObjectPath": "\\Events\\Environment\\Ambient\\EV_Env_PalmerasViento_Stop",
+      "GUID": "{9507A6E1-C2F8-48B9-BAF0-6BECE27228AB}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     }
+    ]
+   }
+  ]
+ }
+}

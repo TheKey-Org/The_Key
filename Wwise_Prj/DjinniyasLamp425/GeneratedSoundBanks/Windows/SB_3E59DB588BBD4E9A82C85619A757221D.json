@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2749976162",
+    "GUID": "{A3E94E62-4E62-1E62-6262-626262626262}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_3E59DB588BBD4E9A82C85619A757221D",
+    "ShortName": "SB_3E59DB588BBD4E9A82C85619A757221D",
+    "Path": "SB_3E59DB588BBD4E9A82C85619A757221D.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3336511825",
+      "Name": "Genio_Surprise_01",
+      "ObjectPath": "\\Events\\Character\\GenioNoche\\Voice\\Genio_Surprise_01",
+      "GUID": "{3E59DB58-8BBD-4E9A-82C8-5619A757221D}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.500000",
+      "DurationMax": "0.500000",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "697140696",
+        "Language": "SFX",
+        "ShortName": "Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_01.wav",
+        "Path": "SFX\\Character\\Prisioner\\Voice\\Grunt\\MaleGrunt_01_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

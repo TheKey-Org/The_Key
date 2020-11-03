@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	4097815294	Genio_Jump_01			\Character\GenioNoche\Voice\Genio_Jump_01	
+

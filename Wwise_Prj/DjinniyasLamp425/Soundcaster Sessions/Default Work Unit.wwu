@@ -394,6 +394,209 @@
 						<CurrentSwitchRef Name="Big" ID="{1ECAADDF-7F4B-41EA-9CC1-5564FB04912E}"/>
 					</CurrentSwitchList>
 				</SoundcasterSession>
+				<SoundcasterSession Name="Mastering Soundcaster Session" ID="{FFD6FE0D-602B-4739-B377-E1FDD9563073}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="EV_LevelOasis" ID="{D4C5B748-E33A-4F43-BD0F-AFC34982D9A0}" WorkUnitID="{C6996CF7-92DB-4410-B61E-A48A10628E95}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Oasis_Back" ID="{ACFEF940-C744-4786-9C25-012EA7401EBB}" WorkUnitID="{C6996CF7-92DB-4410-B61E-A48A10628E95}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Lamp_Oasis_Fly_On" ID="{98A32DEE-28AF-4513-A14E-14C104522336}" WorkUnitID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Lamp_Oasis_Fly_Stop" ID="{4DA594BE-449E-4946-922B-8845B2C9DB61}" WorkUnitID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Magic_Lamp_Loop" ID="{7B0F69C1-0279-4090-8333-571C3395BF1A}" WorkUnitID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Magic_Lamp_Loop_Stop" ID="{727CD33B-7159-4572-8569-2209F6ED043E}" WorkUnitID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_ConstelacionStartChimes" ID="{A8B2EF90-2EAE-4300-AA3B-B9EC472F17DF}" WorkUnitID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_ConstelacionFaceChimes" ID="{AFF7BB27-EDE9-42DA-ACC5-DF542207B068}" WorkUnitID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_It_Tablillas_In" ID="{0518A9E5-C95E-4E8B-9CA5-D82492986C74}" WorkUnitID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_It_Tablillas_Out" ID="{91FD4F4A-6789-4B35-9BDD-60619D0FEA46}" WorkUnitID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Pot_Crash" ID="{49C73B76-C438-4CA4-B2DE-39D961ACAF13}" WorkUnitID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Env_PalmerasViento_On" ID="{7ECF8DE2-227D-4C01-B36F-DA587653AF92}" WorkUnitID="{16310A29-DF1C-404A-93F3-D23310EC535B}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Env_PalmerasViento_Stop" ID="{9507A6E1-C2F8-48B9-BAF0-6BECE27228AB}" WorkUnitID="{16310A29-DF1C-404A-93F3-D23310EC535B}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Env_Wind_Fast_Scared" ID="{67D22E71-78D1-474B-BA15-655FE8CFBB3F}" WorkUnitID="{16310A29-DF1C-404A-93F3-D23310EC535B}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Env_Wind_Fast_Scared_Stop" ID="{5DFB46F9-66C8-4410-A587-34D66B9CAA84}" WorkUnitID="{16310A29-DF1C-404A-93F3-D23310EC535B}"/>
+							<Position X="3" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Amb_Fire" ID="{763DD85E-3EDB-40B9-A614-4A23DFA0362E}" WorkUnitID="{16310A29-DF1C-404A-93F3-D23310EC535B}"/>
+							<Position X="3" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Amb_Fire_Stop" ID="{2529065B-4CF2-45E5-A565-387B5B60FA61}" WorkUnitID="{16310A29-DF1C-404A-93F3-D23310EC535B}"/>
+							<Position X="3" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Isolation_spell_Intro" ID="{762AE417-D5C8-4543-817F-C4ADF992D919}" WorkUnitID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Isolation_spell_Outro" ID="{1F99839F-54A5-4CD7-A046-402F9BB416E8}" WorkUnitID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Magic_GenioNoche_Spell_2" ID="{9477CA35-B9D1-40BC-88E6-CBC550B8B29D}" WorkUnitID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Magic_GenioNoche_Spell_2_Out" ID="{EE049D2E-45F8-4D61-8744-12825630FE6A}" WorkUnitID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Magic_GenioNoche_Spell_Loop" ID="{CEE55D5A-B029-40AD-B344-FF9F837737D4}" WorkUnitID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}"/>
+							<Position X="4" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Magic_GenioNoche_Spell_Start" ID="{5C3219E8-A270-4689-8008-3010C258BCF8}" WorkUnitID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}"/>
+							<Position X="4" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Magic_GenioNoche_Spell_Out" ID="{FBB674AB-DDDD-42D6-841C-5F7C935E6C62}" WorkUnitID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}"/>
+							<Position X="4" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Camel_Angry" ID="{1FCA6A55-2E6C-4E84-9F60-EDA9215EC632}" WorkUnitID="{16B58919-71EF-412E-8157-887200C1F5FB}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Camel_Attack" ID="{816DCDA4-5512-457B-9333-6CBA0A98B4D4}" WorkUnitID="{16B58919-71EF-412E-8157-887200C1F5FB}"/>
+							<Position X="5" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Camel_Happy" ID="{D77DBB88-C511-49CB-966E-FC299BD730D3}" WorkUnitID="{16B58919-71EF-412E-8157-887200C1F5FB}"/>
+							<Position X="5" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Genius_Smile" ID="{51102D24-0ABD-4B63-8C23-0A81756DF299}" WorkUnitID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}"/>
+							<Position X="6" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Genio_Surprise_01" ID="{3E59DB58-8BBD-4E9A-82C8-5619A757221D}" WorkUnitID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}"/>
+							<Position X="6" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Genio_Surprise_Angry_Long_01" ID="{5A4570AE-5FDE-4029-8F98-D7A866BE2D9D}" WorkUnitID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}"/>
+							<Position X="6" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Genio_Surprise_Angry_Short_01" ID="{F3A53111-5130-41BF-9D84-E92F1C61C0EA}" WorkUnitID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}"/>
+							<Position X="6" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Underwater" ID="{676AE2FA-6D20-48C9-86B5-47B209B21E80}" WorkUnitID="{16310A29-DF1C-404A-93F3-D23310EC535B}"/>
+							<Position X="7" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Underwater_End" ID="{308BE443-E5D5-47A1-84F6-AF70E672A768}" WorkUnitID="{16310A29-DF1C-404A-93F3-D23310EC535B}"/>
+							<Position X="7" Y="1"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Bus_OnOff" ID="{486C7C2B-C8D6-402D-865F-4052793C03E7}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GP_Velocity" ID="{C3EABE06-E21E-4101-AE40-FE45AD5C64AC}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GP_Size" ID="{D420419F-6D1B-41BD-9390-745CCB6DFE8A}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GP_StoneSize" ID="{EF83E806-A76B-43C3-9187-85950092986A}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GP_Oasis_Amb" ID="{ABB113A9-8877-4454-897C-064B56D2094F}"/>
+							<Value>39.0575916230367</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GP_Insects" ID="{E00E954B-A8CC-45D9-ABD7-040DB78E5C6B}"/>
+							<Value>0.704188481675392</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GP_StoneIntoWater" ID="{9E09CF4E-B03F-4617-8B50-F193EB3DB05D}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GP_Wind" ID="{1E3C488C-976E-4788-A89E-D2A8A5EC2F8D}"/>
+							<Value>230.073</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GP_Object_Speed" ID="{DE7223A8-7826-48CB-9645-55A77AF1FC5D}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GP_Insects_Time" ID="{A6D26EE9-DD86-49C8-B975-1C77CBBB310B}"/>
+							<Value>9.81675392670157</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GP_Direction_Move" ID="{DF5FB27A-708D-49D8-A11E-C439CEC2CC0C}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GP_Character_Speed" ID="{A6A36AB7-5A95-4AE0-AB0D-5B569B1B4800}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GP_Intensity" ID="{A3452C9E-0E20-4B53-A903-074D27493768}"/>
+							<Value>16.8848167539267</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="GP_PotSize" ID="{97CFEF86-BA72-4EDA-A16D-EE312F1902A4}"/>
+							<Value>1</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="SplashIntro_01" ID="{CEE5CA46-8BEA-41C6-BBFF-664348303453}"/>
+						<CurrentStateRef Name="UnderWater_No" ID="{40BC0357-FFD5-4263-91AC-A82D2054EC9C}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="Phys_Concrete" ID="{FF2B32AE-D42E-49BD-BA21-73CAE860422D}"/>
+						<CurrentSwitchRef Name="Big" ID="{1ECAADDF-7F4B-41EA-9CC1-5564FB04912E}"/>
+						<CurrentSwitchRef Name="Break_No" ID="{1EA3335C-9711-45CD-B902-60D201CDDA5C}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundcasterSessions>

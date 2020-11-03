@@ -1,0 +1,43 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "306930661",
+    "GUID": "{124B63E5-63E5-13E5-E5E5-E5E5E5E5E5E5}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_7B0F69C1027940908333571C3395BF1A",
+    "ShortName": "SB_7B0F69C1027940908333571C3395BF1A",
+    "Path": "SB_7B0F69C1027940908333571C3395BF1A.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "4107439994",
+      "Name": "EV_Magic_Lamp_Loop",
+      "ObjectPath": "\\Events\\Items\\Lamps\\EV_Magic_Lamp_Loop",
+      "GUID": "{7B0F69C1-0279-4090-8333-571C3395BF1A}",
+      "MaxAttenuation": "3000.000000",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "684481614",
+        "Language": "SFX",
+        "ShortName": "Magic\\Magic_GenioNoche_Spell.wav",
+        "Path": "SFX\\Magic\\Magic_GenioNoche_Spell_48466C4A.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

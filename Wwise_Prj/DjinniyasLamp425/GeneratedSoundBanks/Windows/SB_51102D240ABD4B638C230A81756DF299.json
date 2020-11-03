@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "4191523082",
+    "GUID": "{F9D5910A-910A-110A-0A0A-0A0A0A0A0A0A}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_51102D240ABD4B638C230A81756DF299",
+    "ShortName": "SB_51102D240ABD4B638C230A81756DF299",
+    "Path": "SB_51102D240ABD4B638C230A81756DF299.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2940629373",
+      "Name": "EV_Genius_Smile",
+      "ObjectPath": "\\Events\\Character\\GenioNoche\\Voice\\EV_Genius_Smile",
+      "GUID": "{51102D24-0ABD-4B63-8C23-0A81756DF299}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.756285",
+      "DurationMax": "5.756285",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "549808537",
+        "Language": "SFX",
+        "ShortName": "Character\\GenioNoche\\Voice\\Genius_Smile.wav",
+        "Path": "SFX\\Character\\GenioNoche\\Voice\\Genius_Smile_1F955D75.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

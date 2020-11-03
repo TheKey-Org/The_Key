@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{69B334BA-C3AB-4B47-8530-A5CE67D77C01}" SchemaVersion="97">
+	<States>
+		<WorkUnit Name="Environment" ID="{69B334BA-C3AB-4B47-8530-A5CE67D77C01}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="18"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<StateGroup Name="Underwater" ID="{4B647CB7-74BB-4A49-9A41-30F4BF0535D5}">
+					<ChildrenList>
+						<State Name="None" ID="{0C4CAE12-ABA9-424D-9040-EC95B2696ED6}"/>
+						<State Name="UnderWater_No" ID="{40BC0357-FFD5-4263-91AC-A82D2054EC9C}"/>
+						<State Name="UnderWater_Yes" ID="{32F6949A-42E2-4F29-8765-0F8F51E4211E}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="UnderWater_No" ID="{40BC0357-FFD5-4263-91AC-A82D2054EC9C}"/>
+							<EndState Name="UnderWater_Yes" ID="{32F6949A-42E2-4F29-8765-0F8F51E4211E}"/>
+							<Time>3</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="UnderWater_Yes" ID="{32F6949A-42E2-4F29-8765-0F8F51E4211E}"/>
+							<EndState Name="UnderWater_No" ID="{40BC0357-FFD5-4263-91AC-A82D2054EC9C}"/>
+							<Time>3</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

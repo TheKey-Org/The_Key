@@ -1,0 +1,3 @@
+Event	ID	Name			Wwise Object Path	Notes
+	713215119	EV_Lamp_Oasis_Fly_On			\Items\Lamps\EV_Lamp_Oasis_Fly_On	
+

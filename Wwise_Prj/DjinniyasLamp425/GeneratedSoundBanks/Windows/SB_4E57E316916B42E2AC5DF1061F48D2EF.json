@@ -1,0 +1,57 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "680811708",
+    "GUID": "{28945CBC-5CBC-1CBC-BCBC-BCBCBCBCBCBC}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_4E57E316916B42E2AC5DF1061F48D2EF",
+    "ShortName": "SB_4E57E316916B42E2AC5DF1061F48D2EF",
+    "Path": "SB_4E57E316916B42E2AC5DF1061F48D2EF.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3961406287",
+      "Name": "EV_Djinniya_Voc_Jump_A",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\Voices\\EV_Djinniya_Voc_Jump_A",
+      "GUID": "{4E57E316-916B-42E2-AC5D-F1061F48D2EF}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.344813",
+      "DurationMax": "0.435625",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "193195434",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Jump\\voice_female_a_effort_jump_action_03.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Jump\\voice_female_a_effort_jump_action_03_10C4C929.wem"
+       },
+       {
+        "Id": "288465714",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Jump\\voice_female_a_effort_jump_action_10.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Jump\\voice_female_a_effort_jump_action_10_10C4C929.wem"
+       },
+       {
+        "Id": "947133664",
+        "Language": "SFX",
+        "ShortName": "Character\\Djinniya\\Voice\\Jump\\voice_female_a_effort_jump_action_07.WAV",
+        "Path": "SFX\\Character\\Djinniya\\Voice\\Jump\\voice_female_a_effort_jump_action_07_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
