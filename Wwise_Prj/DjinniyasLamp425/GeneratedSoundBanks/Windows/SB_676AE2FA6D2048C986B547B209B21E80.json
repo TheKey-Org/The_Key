@@ -1,0 +1,77 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1349211520",
+    "GUID": "{506B5580-5580-1580-8080-808080808080}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_676AE2FA6D2048C986B547B209B21E80",
+    "ShortName": "SB_676AE2FA6D2048C986B547B209B21E80",
+    "Path": "SB_676AE2FA6D2048C986B547B209B21E80.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1127512328",
+      "Name": "EV_Underwater",
+      "ObjectPath": "\\Events\\Environment\\Underwater\\EV_Underwater",
+      "GUID": "{676AE2FA-6D20-48C9-86B5-47B209B21E80}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "101000123",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\footstep_water_splash_med_wading_06.WAV",
+        "Path": "SFX\\Environment\\Water\\footstep_water_splash_med_wading_06_10C4C929.wem"
+       },
+       {
+        "Id": "315480188",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\footstep_water_splash_med_wading_01.WAV",
+        "Path": "SFX\\Environment\\Water\\footstep_water_splash_med_wading_01_10C4C929.wem"
+       },
+       {
+        "Id": "676387735",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\underwater_sea_diving_bubbles_loop_03.WAV",
+        "Path": "SFX\\Environment\\Water\\underwater_sea_diving_bubbles_loop_03_D79FB2B7.wem"
+       },
+       {
+        "Id": "923515958",
+        "Language": "SFX",
+        "ShortName": "Environment\\Water\\footstep_water_splash_med_wading_02.WAV",
+        "Path": "SFX\\Environment\\Water\\footstep_water_splash_med_wading_02_10C4C929.wem"
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "2851086918",
+        "Name": "UnderWater_Yes",
+        "ObjectPath": "\\States\\Environment\\Underwater\\UnderWater_Yes",
+        "GUID": "{32F6949A-42E2-4F29-8765-0F8F51E4211E}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2851086918",
+      "Name": "UnderWater_Yes",
+      "ObjectPath": "\\States\\Environment\\Underwater\\UnderWater_Yes",
+      "GUID": "{32F6949A-42E2-4F29-8765-0F8F51E4211E}",
+      "States": []
+     }
+    ]
+   }
+  ]
+ }
+}

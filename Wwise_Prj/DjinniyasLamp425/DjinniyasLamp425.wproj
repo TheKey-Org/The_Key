@@ -31,7 +31,19 @@
 						<Value Platform="Windows">256</Value>
 					</ValueList>
 				</Property>
-				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjgyMzIiIG1hc2s9Ik5QU0ExNTk3IiBlbmM9IjAiPjxsaWNl bnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDEw IiBleHBpcmVzPSIyMDIxLTAyLTAxIiAgLz48bGljZW5zZSBpZD0iMjEiIG5hbWU9 Ik1haW50ZW5hbmNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMTAiIGV4cGlyZXM9 IjIwMjEtMDItMDEiICAvPjxsaWNlbnNlIGlkPSIyMiIgbmFtZT0iTGV2ZWwgQSBM aWNlbnNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMTAiIGV4cGlyZXM9IjIwMjEt MDItMDEiICAvPjwvcHJvamVjdD4=|jdon/YmtF9hF0sfDsaOJ+eSajNpRmovUFcc rsho5oNcz2PI+d5UpK0ZpxOeO1vwkKymjlN/leczKMNoyc2iGn03QpWD2jl7B64M 95ZG9TJKcU/QLC4VVKn8zar0z2eoMv4n8dcaATnDGwYm+2H/OLLmomoqbnrMu5Vi s6rYnkH4sxU3u266SSBnoyu1f8jp6xDvBos74PVWa/RqUlzqNkVIfmw9eDMtuwnL m2JvCxvJVUODSWWpHhAW1wre0mSPZt5R0/lXfTKae9ckcZIh6NEctdMCXW1Cep1D IHWK/73in4wevwLGwk1d2JY5l75cgUsCj0pZSbBJpDgM2lYH8ig== "/>
+				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjgyMzIiIG1hc2s9Ik5QU0ExNTk3IiBlbmM9IjAiPjxsaWNl
+bnNlIGlkPSIxIiBuYW1lPSJXd2lzZSIgdHlwZT0iMyIgcGxhdGZvcm1zPSIyLDEw
+IiBleHBpcmVzPSIyMDIxLTAyLTAxIiAgLz48bGljZW5zZSBpZD0iMjEiIG5hbWU9
+Ik1haW50ZW5hbmNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMTAiIGV4cGlyZXM9
+IjIwMjEtMDItMDEiICAvPjxsaWNlbnNlIGlkPSIyMiIgbmFtZT0iTGV2ZWwgQSBM
+aWNlbnNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjIsMTAiIGV4cGlyZXM9IjIwMjEt
+MDItMDEiICAvPjwvcHJvamVjdD4=|jdon/YmtF9hF0sfDsaOJ+eSajNpRmovUFcc
+rsho5oNcz2PI+d5UpK0ZpxOeO1vwkKymjlN/leczKMNoyc2iGn03QpWD2jl7B64M
+95ZG9TJKcU/QLC4VVKn8zar0z2eoMv4n8dcaATnDGwYm+2H/OLLmomoqbnrMu5Vi
+s6rYnkH4sxU3u266SSBnoyu1f8jp6xDvBos74PVWa/RqUlzqNkVIfmw9eDMtuwnL
+m2JvCxvJVUODSWWpHhAW1wre0mSPZt5R0/lXfTKae9ckcZIh6NEctdMCXW1Cep1D
+IHWK/73in4wevwLGwk1d2JY5l75cgUsCj0pZSbBJpDgM2lYH8ig==
+"/>
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
 				<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool" Value="True"/>
 				<Property Name="SoundBankGeneratePrintGUID" Type="bool" Value="True"/>

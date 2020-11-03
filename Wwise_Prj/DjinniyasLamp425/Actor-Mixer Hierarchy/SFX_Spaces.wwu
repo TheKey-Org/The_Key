@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C452250F-8F16-4057-B1A9-02731D5A8468}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="SFX_Spaces" ID="{C452250F-8F16-4057-B1A9-02731D5A8468}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Underwater" ID="{49C20E93-0C2A-44A9-972E-23E70F51DAB4}" ShortID="730075006">
+					<ChildrenList>
+						<ActorMixer Name="Underwater" ID="{C6006385-9FE6-4CB6-95C8-02B771997C29}" ShortID="272864948">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="15"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Water" ID="{456D2568-2E14-417A-8F50-40C6B83AACBB}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="UnderWater_Splash" ID="{FE015763-7AC4-4AB1-892A-EFC135A88627}" ShortID="203541638">
+									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="footstep_water_splash_med_wading_01" ID="{6231E7C7-8E90-41FC-8D00-A2B5BAB0B5A9}" ShortID="586270041">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_water_splash_med_wading_01" ID="{EC955242-BA41-4BE1-996D-B86FF86A26DC}">
+													<Language>SFX</Language>
+													<AudioFile>Environment\Water\footstep_water_splash_med_wading_01.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="315480188"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_water_splash_med_wading_01" ID="{EC955242-BA41-4BE1-996D-B86FF86A26DC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="footstep_water_splash_med_wading_02" ID="{8DF82117-C5C9-473A-8F54-68164E81FA44}" ShortID="308301061">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_water_splash_med_wading_02" ID="{D3BDCAF0-E692-4983-9E88-58C7580C10E6}">
+													<Language>SFX</Language>
+													<AudioFile>Environment\Water\footstep_water_splash_med_wading_02.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="923515958"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_water_splash_med_wading_02" ID="{D3BDCAF0-E692-4983-9E88-58C7580C10E6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="footstep_water_splash_med_wading_06" ID="{658C5285-3B78-4FB3-8B4A-08E277AB5A58}" ShortID="432409059">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_water_splash_med_wading_06" ID="{F22FC1B8-EB67-431B-944A-A8C5F902CDB7}">
+													<Language>SFX</Language>
+													<AudioFile>Environment\Water\footstep_water_splash_med_wading_06.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="101000123"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_water_splash_med_wading_06" ID="{F22FC1B8-EB67-431B-944A-A8C5F902CDB7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="UnderWater_Splash_Out" ID="{BC30B89E-5BFC-4882-A90E-0B2615994197}" ShortID="878218450">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>35</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="footstep_water_splash_med_wading_01" ID="{0AB4018A-95E2-4856-A004-BB8CE7EC95C6}" ShortID="879474312">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_water_splash_med_wading_01" ID="{904028A3-4B0A-49A9-9616-931599CB9318}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.309978260869565"/>
+														<Property Name="FadeInShape" Type="int16" Value="7"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.222630434782609"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Environment\Water\footstep_water_splash_med_wading_01.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1009237850"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_water_splash_med_wading_01" ID="{904028A3-4B0A-49A9-9616-931599CB9318}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="footstep_water_splash_med_wading_02" ID="{727B661C-F629-4062-A74A-6A1723017F42}" ShortID="1051795250">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_water_splash_med_wading_02" ID="{A6B6604C-3F11-412E-A542-C9223F767516}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.270952717391304"/>
+														<Property Name="FadeInShape" Type="int16" Value="7"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.165458831521739"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Environment\Water\footstep_water_splash_med_wading_02.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="489896129"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_water_splash_med_wading_02" ID="{A6B6604C-3F11-412E-A542-C9223F767516}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="footstep_water_splash_med_wading_06" ID="{89B6D70B-C88B-4EDC-B4AD-F896DA24F0BD}" ShortID="735828950">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="footstep_water_splash_med_wading_06" ID="{F4DDE9A4-B4D7-4C9B-BA19-2D0EC5C914D6}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.258717798913043"/>
+														<Property Name="FadeInShape" Type="int16" Value="7"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.346865013586957"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Environment\Water\footstep_water_splash_med_wading_06.WAV</AudioFile>
+													<MediaIDList>
+														<MediaID ID="786185137"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="footstep_water_splash_med_wading_06" ID="{F4DDE9A4-B4D7-4C9B-BA19-2D0EC5C914D6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Underwater_diving_bubbles_loop" ID="{C1C2363B-22F5-424A-BDBC-84F691AD312A}" ShortID="257717609">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>22</Value>
+											</ValueList>
+										</Property>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ValueList>
+												<Value>-80</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-19</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="underwater_sea_diving_bubbles_loop_03" ID="{FBDFA649-7598-4471-A0C8-9BE2A4E22D86}">
+											<Language>SFX</Language>
+											<AudioFile>Environment\Water\underwater_sea_diving_bubbles_loop_03.WAV</AudioFile>
+											<MediaIDList>
+												<MediaID ID="676387735"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="underwater_sea_diving_bubbles_loop_03" ID="{FBDFA649-7598-4471-A0C8-9BE2A4E22D86}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</ActorMixer>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
