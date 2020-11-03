@@ -16,3 +16,4 @@ Plugins.zip
 *.xcodeproj
 *.xcworkspace
 *.lnk
+*.prof
