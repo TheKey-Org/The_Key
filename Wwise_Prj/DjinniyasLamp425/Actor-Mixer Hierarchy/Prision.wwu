@@ -5694,6 +5694,337 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Action" ID="{D9EDF170-09AE-4E3E-841C-A08450C4BC5F}" ShortID="880286770">
+							<ChildrenList>
+								<Sound Name="Prision_Metal_Door_Squeek" ID="{EB5EB5E6-B27C-494E-BC31-186A0553C1BE}" ShortID="982675466">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{15E69A82-EE6F-4139-B274-45E66D634B10}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-300"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Prision_Metal_Door_Squeek" ID="{D09E2635-AED4-4841-8922-5587559354FE}">
+											<Language>SFX</Language>
+											<AudioFile>Prision\Fxs\FX\Action\Prision_Metal_Door_Squeek.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="129663444"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Prision_Metal_Door_Squeek" ID="{D09E2635-AED4-4841-8922-5587559354FE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Prision_Metal_Door_Squeek_2" ID="{EF01F30A-3711-4129-9604-3FC59C634D64}" ShortID="1033358407">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{29709E2A-F170-4B29-9FAB-A3A10003AF2F}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Prision_Metal_Door_Squeek_2" ID="{2723E311-CA04-41A1-987B-48C41F7E6523}">
+											<Language>SFX</Language>
+											<AudioFile>Prision\Fxs\FX\Action\Prision_Metal_Door_Squeek_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="886525957"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Prision_Metal_Door_Squeek_2" ID="{2723E311-CA04-41A1-987B-48C41F7E6523}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Prision_Knockin_Wood" ID="{2CB98311-E6D7-4D94-B1FC-060499007315}" ShortID="806413407">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Prision_Wood_Knock_01" ID="{39C1CF16-940D-4A6E-86FA-7F1DB0B23B79}" ShortID="183749893">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Prision_Wood_Knock_01" ID="{A97C20FD-49AF-41E1-B593-7B7A3BDC7172}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Prision_Wood_Knock_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="250680883"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Prision_Wood_Knock_01" ID="{A97C20FD-49AF-41E1-B593-7B7A3BDC7172}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Prision_Wood_Knock_02" ID="{DF4920A1-4177-43BD-B5B7-5719AA9774BB}" ShortID="992194146">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Prision_Wood_Knock_02" ID="{B17C2269-A050-482E-8D52-BBC87C67BD68}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Prision_Wood_Knock_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="130226814"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Prision_Wood_Knock_02" ID="{B17C2269-A050-482E-8D52-BBC87C67BD68}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Prision_Wood_Knock_03" ID="{C29D635D-B281-414C-A23B-57B6BF022939}" ShortID="314913586">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Prision_Wood_Knock_03" ID="{635C5AB0-596F-4065-85FD-CD4100787E2E}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Prision_Wood_Knock_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="898785848"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Prision_Wood_Knock_03" ID="{635C5AB0-596F-4065-85FD-CD4100787E2E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Prision_Wood_Knock_04" ID="{C2EA91E8-4E4A-4326-98C5-475F50667ABC}" ShortID="273941688">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Prision_Wood_Knock_04" ID="{8261F2A8-31A4-4AB5-96E4-3388FC81F237}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Prision_Wood_Knock_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="578407391"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Prision_Wood_Knock_04" ID="{8261F2A8-31A4-4AB5-96E4-3388FC81F237}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Prision_Wood_Knock_05" ID="{A2494B11-0095-467A-ABC4-B8B71849938B}" ShortID="430557491">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Prision_Wood_Knock_05" ID="{3CB2F25B-331D-482B-B24A-72C2A783D33C}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Prision_Wood_Knock_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="76616133"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Prision_Wood_Knock_05" ID="{3CB2F25B-331D-482B-B24A-72C2A783D33C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Prision_Wood_Knock_06" ID="{10DE27C8-A11E-473F-B105-971AFF49EE8D}" ShortID="569075911">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Prision_Wood_Knock_06" ID="{D249241A-639D-474B-8433-B4DD6E92FC7B}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Prision_Wood_Knock_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="658578954"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Prision_Wood_Knock_06" ID="{D249241A-639D-474B-8433-B4DD6E92FC7B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Prision_Wood_Knock_07" ID="{BDA23570-067E-4DC3-BDA6-7CE5E1DE78A3}" ShortID="978706878">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Prision_Wood_Knock_07" ID="{857D9D9F-8C4B-4D14-A693-64DFDC0E72C5}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Prision_Wood_Knock_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="489339112"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Prision_Wood_Knock_07" ID="{857D9D9F-8C4B-4D14-A693-64DFDC0E72C5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Prision_Wood_Knock_08" ID="{45A2EE97-0D4D-48D5-84A6-7C31E8AC60F4}" ShortID="91658848">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Prision_Wood_Knock_08" ID="{843B1C1A-3FB3-46CE-AA48-8E810F86F150}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Prision_Wood_Knock_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="624816812"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Prision_Wood_Knock_08" ID="{843B1C1A-3FB3-46CE-AA48-8E810F86F150}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Prision_Wood_Knock_09" ID="{4444FF56-BE9C-4049-8177-0C55A1474299}" ShortID="206751449">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Prision_Wood_Knock_09" ID="{87676E7E-0119-467C-BB16-17F0277D9777}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Prision_Wood_Knock_09.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="311847339"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Prision_Wood_Knock_09" ID="{87676E7E-0119-467C-BB16-17F0277D9777}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Prision_Wood_Knock_10" ID="{D2072E21-34F2-45E6-B98F-1EB81523E8F3}" ShortID="62112088">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Prision_Wood_Knock_10" ID="{064AC2DC-9609-40CD-8D58-70A6A290DBAA}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Prision_Wood_Knock_10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="456065524"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Prision_Wood_Knock_10" ID="{064AC2DC-9609-40CD-8D58-70A6A290DBAA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Prision_Wood_Knock_11" ID="{7E3D2923-81CE-428C-B73D-57AE655A3576}" ShortID="953357166">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Prision_Wood_Knock_11" ID="{71D0DA12-879D-4813-BD3D-C4C443D02412}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Prision_Wood_Knock_11.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="971450321"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Prision_Wood_Knock_11" ID="{71D0DA12-879D-4813-BD3D-C4C443D02412}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
