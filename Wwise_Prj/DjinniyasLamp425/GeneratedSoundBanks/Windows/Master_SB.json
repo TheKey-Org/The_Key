@@ -3273,10 +3273,146 @@
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
+        "Id": "134273198",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\ethnic-desert_161BPM3-4_EndReverse.wav",
+        "Path": "SFX\\Music\\Oasis\\ethnic-desert_161BPM3-4_EndReverse_D79FB2B7.wem"
+       },
+       {
+        "Id": "419246512",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Hechizo_End_BPM170_3-4_L31-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Hechizo_End_BPM170_3-4_L31-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "458142420",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\Hechizo_End_BPM170_3-4_L16-P0.wav",
+        "Path": "SFX\\Music\\Oasis\\Hechizo_End_BPM170_3-4_L16-P0_D79FB2B7.wem"
+       },
+       {
+        "Id": "530037478",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\eastern-sky_59BPM4-4.wav",
+        "Path": "SFX\\Music\\Oasis\\eastern-sky_59BPM4-4_D79FB2B7.wem"
+       },
+       {
         "Id": "595116604",
         "Language": "SFX",
         "ShortName": "desert-illusion_70BPM4-4.wav",
         "Path": "SFX\\desert-illusion_70BPM4-4_D79FB2B7.wem"
+       },
+       {
+        "Id": "725070978",
+        "Language": "SFX",
+        "ShortName": "Music\\Oasis\\ethnic-desert_161BPM3-4.wav",
+        "Path": "SFX\\Music\\Oasis\\ethnic-desert_161BPM3-4_D79FB2B7.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{CEE5CA46-8BEA-41C6-BBFF-664348303453}",
+        "Media": [
+         {
+          "Id": "530037478"
+         },
+         {
+          "Id": "725070978"
+         },
+         {
+          "Id": "134273198"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{EB762B58-A88D-475B-A8BD-856F7CE36F23}",
+        "Media": [
+         {
+          "Id": "530037478"
+         },
+         {
+          "Id": "530037478"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{37ED6456-5FA2-4D7D-9FF9-14B4900A8719}",
+        "Media": [
+         {
+          "Id": "595116604"
+         },
+         {
+          "Id": "595116604"
+         },
+         {
+          "Id": "595116604"
+         },
+         {
+          "Id": "595116604"
+         },
+         {
+          "Id": "595116604"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{C6724A57-958B-415E-9423-321A4E9797DD}",
+        "Media": [
+         {
+          "Id": "595116604"
+         },
+         {
+          "Id": "595116604"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{FE328865-7CB8-41A9-A089-17AEAEB12B6B}",
+        "Media": [
+         {
+          "Id": "595116604"
+         },
+         {
+          "Id": "595116604"
+         },
+         {
+          "Id": "595116604"
+         },
+         {
+          "Id": "595116604"
+         },
+         {
+          "Id": "595116604"
+         },
+         {
+          "Id": "595116604"
+         },
+         {
+          "Id": "595116604"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{506F5B03-2AAF-448D-8D25-B734C2B96238}",
+        "Media": [
+         {
+          "Id": "595116604"
+         },
+         {
+          "Id": "458142420"
+         },
+         {
+          "Id": "419246512"
+         }
+        ]
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "2857410150",
+        "Name": "Explore_03",
+        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\Explore_03",
+        "GUID": "{37ED6456-5FA2-4D7D-9FF9-14B4900A8719}"
        }
       ]
      },
@@ -4504,6 +4640,117 @@
       ]
      },
      {
+      "Id": "1088624163",
+      "Name": "EV_Prision_Knockin_Wood",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_Prision_Knockin_Wood",
+      "GUID": "{77F94D9A-4D84-4135-A53A-625473BFF538}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.202494",
+      "DurationMax": "1.276825",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "76616133",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_05.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_05_10C4C929.wem"
+       },
+       {
+        "Id": "130226814",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_02.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_02_10C4C929.wem"
+       },
+       {
+        "Id": "250680883",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_01.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_01_10C4C929.wem"
+       },
+       {
+        "Id": "311847339",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_09.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_09_10C4C929.wem"
+       },
+       {
+        "Id": "456065524",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_10.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_10_10C4C929.wem"
+       },
+       {
+        "Id": "489339112",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_07.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_07_10C4C929.wem"
+       },
+       {
+        "Id": "578407391",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_04.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_04_10C4C929.wem"
+       },
+       {
+        "Id": "624816812",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_08.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_08_10C4C929.wem"
+       },
+       {
+        "Id": "658578954",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_06.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_06_10C4C929.wem"
+       },
+       {
+        "Id": "898785848",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_03.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_03_10C4C929.wem"
+       },
+       {
+        "Id": "971450321",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_11.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_11_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1371668172",
+      "Name": "EV_Prision_Lamp_Metal_Door_Close",
+      "ObjectPath": "\\Events\\Items\\Actions\\LampLuciernaga\\EV_Prision_Lamp_Metal_Door_Close",
+      "GUID": "{7B5A43C4-1FED-4D30-A8AA-47320D2DC6EE}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.132649",
+      "DurationMax": "1.271356",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "886525957",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Metal_Door_Squeek_2.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Metal_Door_Squeek_2_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1768333144",
+      "Name": "EV_Prision_Lamp_Metal_Door_Open",
+      "ObjectPath": "\\Events\\Items\\Actions\\LampLuciernaga\\EV_Prision_Lamp_Metal_Door_Open",
+      "GUID": "{7515D5D6-143C-447E-AD23-E20F8E5B698C}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.200000",
+      "DurationMax": "1.427049",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "129663444",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Metal_Door_Squeek.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Metal_Door_Squeek_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "620124299",
       "Name": "EV_Stone_Throwable",
       "ObjectPath": "\\Events\\Items\\Stone\\EV_Stone_Throwable",
@@ -5068,6 +5315,16 @@
         "Path": "SFX\\Hits\\Stones\\Foley_Wood_Stick_Large_Through_Water_Splash_C1CC09E3.wem"
        }
       ]
+     },
+     {
+      "Id": "2751955999",
+      "Name": "EV_Stop_All",
+      "ObjectPath": "\\Events\\Levels\\EV_Stop_All",
+      "GUID": "{92C5506F-CA9C-43E7-A51F-C42ECEC2EB36}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      },
      {
       "Id": "3449931884",
@@ -6394,6 +6651,81 @@
       ]
      },
      {
+      "Id": "152778496",
+      "Name": "Play_Prision_Resurrection",
+      "ObjectPath": "\\Events\\Music\\Prision\\Play_Prision_Resurrection",
+      "GUID": "{BE556917-081E-48B5-B803-E8CB7DFA2A64}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "33886820",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Rise_R_80BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Rise_R_80BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "67544249",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_SuperPercs_80BPM4-4_L16.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_SuperPercs_80BPM4-4_L16_D79FB2B7.wem"
+       },
+       {
+        "Id": "150887559",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_GuitarraSumisa_80BPM4-4_L24.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_GuitarraSumisa_80BPM4-4_L24_D79FB2B7.wem"
+       },
+       {
+        "Id": "216670743",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_MainGuitarDetails_80BPM4-4_L32.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_MainGuitarDetails_80BPM4-4_L32_D79FB2B7.wem"
+       },
+       {
+        "Id": "232677926",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Rise_ST_80BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Rise_ST_80BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "363250307",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_IndianToms_80BPM4-4_L14.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_IndianToms_80BPM4-4_L14_D79FB2B7.wem"
+       },
+       {
+        "Id": "724041576",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_OperaVoice_80BPM4-4_L24.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_OperaVoice_80BPM4-4_L24_D79FB2B7.wem"
+       },
+       {
+        "Id": "864376694",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Pad_ST_80BPM4-4_L42.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Pad_ST_80BPM4-4_L42_D79FB2B7.wem"
+       },
+       {
+        "Id": "875896574",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Pad_ST_Loop_80BPM4-4_L42.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Pad_ST_Loop_80BPM4-4_L42_D79FB2B7.wem"
+       },
+       {
+        "Id": "974438687",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_MainFemVoice_80BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_MainFemVoice_80BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "1025551829",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_VoiceHornFlute_80BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_VoiceHornFlute_80BPM4-4_L8_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
       "Id": "4181041693",
       "Name": "Prisioner_Jump",
       "ObjectPath": "\\Events\\Character\\Prisioner\\Voices\\Prisioner_Jump",
@@ -6641,6 +6973,13 @@
       "Name": "UnderWater_Yes",
       "ObjectPath": "\\States\\Environment\\Underwater\\UnderWater_Yes",
       "GUID": "{32F6949A-42E2-4F29-8765-0F8F51E4211E}",
+      "States": []
+     },
+     {
+      "Id": "2857410150",
+      "Name": "Explore_03",
+      "ObjectPath": "\\States\\Default Work Unit\\Music_State\\Explore_03",
+      "GUID": "{37ED6456-5FA2-4D7D-9FF9-14B4900A8719}",
       "States": []
      },
      {
