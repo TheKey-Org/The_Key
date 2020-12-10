@@ -7,13 +7,48 @@ Switch	ID	Name	Switch Group			Notes
 	2849147824	Medium	AssetSize			
 
 State Group	ID	Name			Wwise Object Path	Notes
+	203214140	Prision_Nocturne			\Prision\Music\Prision_Nocturne	
+	207703461	Prision_Intensity			\Prision\Music\Prision_Intensity	
+	416792974	Prision_04			\Prision\Music\Prision_04	
 	2213237662	Underwater			\Environment\Underwater	
+	2884304909	Prision_Choose			\Prision\Music\Prision_Choose	
+	2981278912	PrisionMusic_03			\Prision\Music\PrisionMusic_03	
+	2981278914	PrisionMusic_01			\Prision\Music\PrisionMusic_01	
 	3826569560	Music_State			\Default Work Unit\Music_State	
 
 State	ID	Name	State Group			Notes
+	670602561	Soft	Prision_Nocturne			
+	748895195	None	Prision_Nocturne			
+	2849147824	Medium	Prision_Nocturne			
+	4174463524	Danger	Prision_Nocturne			
+	4223512837	Intense	Prision_Nocturne			
+	670602561	Soft	Prision_Intensity			
+	748895195	None	Prision_Intensity			
+	2849147824	Medium	Prision_Intensity			
+	4174463524	Danger	Prision_Intensity			
+	4223512837	Intense	Prision_Intensity			
+	670602561	Soft	Prision_04			
+	748895195	None	Prision_04			
+	2849147824	Medium	Prision_04			
+	4174463524	Danger	Prision_04			
+	4223512837	Intense	Prision_04			
 	748895195	None	Underwater			
 	2311510956	UnderWater_No	Underwater			
 	2851086918	UnderWater_Yes	Underwater			
+	748895195	None	Prision_Choose			
+	3501665275	Prision_Menu	Prision_Choose			
+	3916411802	Prision_4	Prision_Choose			
+	3916411804	Prision_2	Prision_Choose			
+	3916411805	Prision_3	Prision_Choose			
+	3916411807	Prision_1	Prision_Choose			
+	670602561	Soft	PrisionMusic_03			
+	748895195	None	PrisionMusic_03			
+	2849147824	Medium	PrisionMusic_03			
+	4223512837	Intense	PrisionMusic_03			
+	670602561	Soft	PrisionMusic_01			
+	748895195	None	PrisionMusic_01			
+	2849147824	Medium	PrisionMusic_01			
+	4223512837	Intense	PrisionMusic_01			
 	475131587	Hechizo_05	Music_State			
 	748895195	None	Music_State			
 	1460634452	OasisEnd_06	Music_State			
@@ -40,6 +75,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	436743010	Character			\Default Work Unit\Master Audio Bus\Character	
 	477591328	TimeFX			\Default Work Unit\Master Audio Bus\SFX\TimeFX	
 	802911192	Pris_Voice			\Default Work Unit\Master Audio Bus\Character\Prisioner\Pris_Voice	
+	857902343	Prision			\Default Work Unit\Master Audio Bus\Music\Prision	
 	949388280	Animals			\Default Work Unit\Master Audio Bus\SFX\Animals	
 	1083137540	Fox			\Default Work Unit\Master Audio Bus\SFX\Animals\Fox	
 	1229948536	Environment			\Default Work Unit\Master Audio Bus\Environment	
