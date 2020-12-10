@@ -203,6 +203,49 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Actions" ID="{92179302-D56A-42FD-AF55-F35C2CF0EE5A}" ShortID="753166496"/>
+				<Folder Name="Act" ID="{0A299FE8-1659-4071-AE3E-07F09BF218C4}" ShortID="1004723916">
+					<ChildrenList>
+						<Event Name="EV_Prision_Knockin_Wood" ID="{77F94D9A-4D84-4135-A53A-625473BFF538}">
+							<ChildrenList>
+								<Action Name="" ID="{67E1FD52-4C4B-4D6D-93D9-E7741538B6FE}" ShortID="148029175">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Prision_Knockin_Wood" ID="{2CB98311-E6D7-4D94-B1FC-060499007315}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Folder Name="LampLuciernaga" ID="{14B941D3-341C-4AA8-9E21-A24206E96B71}" ShortID="103555272"/>
+						<Folder Name="Luciernaga" ID="{34C4ECAE-7A0D-4E7F-BFF8-9ED92994F6FB}" ShortID="770078372">
+							<ChildrenList>
+								<Event Name="EV_Prision_Lamp_Metal_Door_Close" ID="{7B5A43C4-1FED-4D30-A8AA-47320D2DC6EE}">
+									<ChildrenList>
+										<Action Name="" ID="{A2EB9F49-679F-45D0-9364-459DDDCF28F2}" ShortID="975604790">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Prision_Metal_Door_Squeek_2" ID="{EF01F30A-3711-4129-9604-3FC59C634D64}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="EV_Prision_Lamp_Metal_Door_Open" ID="{7515D5D6-143C-447E-AD23-E20F8E5B698C}">
+									<ChildrenList>
+										<Action Name="" ID="{0DCA4878-E3BA-4F95-B878-B3B7E743EF8D}" ShortID="547644527">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Prision_Metal_Door_Squeek" ID="{EB5EB5E6-B27C-494E-BC31-186A0553C1BE}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
