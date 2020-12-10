@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EFD253ED-B62A-4915-B9FD-3DB20E9F3F90}" SchemaVersion="97">
+	<States>
+		<WorkUnit Name="Prision" ID="{EFD253ED-B62A-4915-B9FD-3DB20E9F3F90}" PersistMode="Standalone">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Music" ID="{B219D15A-BC17-4A40-8775-9844574B32C6}" ShortID="7705607">
+					<ChildrenList>
+						<StateGroup Name="PrisionMusic_01" ID="{97A8F371-C297-45DF-BDB2-7A4F322A97E8}">
+							<ChildrenList>
+								<State Name="None" ID="{D21B6885-4D1D-4768-9D2B-12E0892B06BF}"/>
+								<State Name="Soft" ID="{5B2F7932-E38E-4FF1-843A-FC3BE8F6253A}"/>
+								<State Name="Medium" ID="{563D39AD-808B-464C-8B90-335D9381FA45}"/>
+								<State Name="Intense" ID="{D30C36E5-695D-4FC0-A547-3E4BFFE092E7}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="PrisionMusic_03" ID="{6FCC8C10-4DD1-42F0-93B6-A196D08D6EC4}">
+							<ChildrenList>
+								<State Name="None" ID="{F932E4BA-1EC0-4F0B-8A20-9647C23EB116}"/>
+								<State Name="Soft" ID="{EB7782EC-AB40-48AC-BC38-82A4BEE8D8B1}"/>
+								<State Name="Medium" ID="{F64C26BE-5870-43AA-A392-9961F8A9B694}"/>
+								<State Name="Intense" ID="{702C4922-58D5-47C7-8652-5EB40021798C}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="Prision_Choose" ID="{6836A661-9F35-4E8D-A55D-74DEB23BF38C}">
+							<ChildrenList>
+								<State Name="None" ID="{AE9657E8-FE19-4485-9DAE-83BC18005377}"/>
+								<State Name="Prision_1" ID="{2748F1F9-DBC4-411C-A4EC-9F613A54B280}"/>
+								<State Name="Prision_4" ID="{211E126D-1051-4746-838C-EB9E2F0CB24D}"/>
+								<State Name="Prision_2" ID="{CD7C3E36-A755-49D6-9ED9-B3589DB65681}"/>
+								<State Name="Prision_3" ID="{550A370E-2FBE-42B2-9EDB-2C75B31D3874}"/>
+								<State Name="Prision_Menu" ID="{EDA5A02B-EA48-4C52-9DBC-5262AC279946}"/>
+							</ChildrenList>
+						</StateGroup>
+						<StateGroup Name="Prision_Intensity" ID="{23A63B87-72E8-49D8-AC9C-9FE030FED47A}">
+							<ChildrenList>
+								<State Name="None" ID="{A1E9E143-BEF1-4A42-8323-30798013141A}"/>
+								<State Name="Danger" ID="{28F00606-41C1-4259-A33D-540531449989}"/>
+								<State Name="Soft" ID="{B1E84501-B35C-49D2-9C04-76C9BD253639}"/>
+								<State Name="Medium" ID="{BD85CEDF-A83A-4D9B-ADEE-373D054AE2DB}"/>
+								<State Name="Intense" ID="{3EBF920C-7D8B-4B63-BEEE-10956FF83D6D}"/>
+							</ChildrenList>
+						</StateGroup>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

@@ -22,6 +22,52 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Prision" ID="{DCF488CD-7E6B-448A-9456-3D433157A103}" ShortID="1036343956">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Event Name="Mus_Prision_Play" ID="{7EA2310B-D541-46FD-93EB-883F3BDEB2CB}">
+							<ChildrenList>
+								<Action Name="" ID="{43B33433-1219-43BA-8224-598AE69D4C83}" ShortID="246182225">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Prision_Full" ID="{4DF5E3B3-D983-4849-970D-1006060ADFF3}" WorkUnitID="{6A6CB9AD-0158-4CCD-A33C-A4185F898430}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Mus_Prision_Stop" ID="{12B3894E-C7B7-4088-81AF-4BFEF5052DBF}">
+							<ChildrenList>
+								<Action Name="" ID="{B6C88EBE-854B-4BDC-B822-CCD5B0BE80FE}" ShortID="619082925">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Prision_Full" ID="{4DF5E3B3-D983-4849-970D-1006060ADFF3}" WorkUnitID="{6A6CB9AD-0158-4CCD-A33C-A4185F898430}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Prision_Resurrection" ID="{BE556917-081E-48B5-B803-E8CB7DFA2A64}">
+							<ChildrenList>
+								<Action Name="" ID="{984E140A-A28D-4B5D-8158-F0488DE1A368}" ShortID="813510260">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Prision_Resurrection" ID="{E8BD22BB-5927-490F-BFE0-96AB0C3E339F}" WorkUnitID="{6A6CB9AD-0158-4CCD-A33C-A4185F898430}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
