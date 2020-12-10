@@ -50,12 +50,6 @@
 						</Curve>
 					</SwitchOnRTPC>
 				</SwitchGroup>
-				<SwitchGroup Name="Breakable" ID="{A7BE7D0C-9067-4E1D-891B-4DA4938081DE}">
-					<ChildrenList>
-						<Switch Name="Break_Si" ID="{2F5B781A-759B-4E03-A70E-7FB173B9289A}"/>
-						<Switch Name="Break_No" ID="{1EA3335C-9711-45CD-B902-60D201CDDA5C}"/>
-					</ChildrenList>
-				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

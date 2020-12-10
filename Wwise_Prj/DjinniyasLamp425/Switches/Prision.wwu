@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AC5887F1-CB8B-4846-BC15-98B466CB1998}" SchemaVersion="97">
+	<Switches>
+		<WorkUnit Name="Prision" ID="{AC5887F1-CB8B-4846-BC15-98B466CB1998}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Music" ID="{7762993F-36A3-4B1D-B393-31465534A1A3}" ShortID="585527680"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
