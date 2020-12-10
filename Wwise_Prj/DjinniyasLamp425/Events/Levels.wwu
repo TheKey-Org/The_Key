@@ -56,10 +56,23 @@
 							</PropertyList>
 							<ReferenceList/>
 						</Action>
-						<Action Name="" ID="{DA997D69-8A15-436F-8730-D8DCE9DF4801}" ShortID="1040637411">
+						<Action Name="" ID="{5E3553AE-32B4-4EEA-ABCF-A1DA6E17E076}" ShortID="246027039">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="03_Explore" ID="{6A96FE69-1C42-4E6C-82D9-28437C6AA6D0}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
+									<ObjectRef Name="Mus_Oasis_Lvl" ID="{FB2385EE-077A-4171-8A63-C8DAFB40818F}" WorkUnitID="{531724EE-4C44-449A-9ACF-2683394119A2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C695FCFB-872E-4B73-9422-8DC7ADB02B18}" ShortID="1059048326">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explore_03" ID="{37ED6456-5FA2-4D7D-9FF9-14B4900A8719}" WorkUnitID="{B1FC0A8F-5EAB-4741-9D9A-EBD323C76449}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -93,6 +106,56 @@
 									<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
 								</Reference>
 							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_LevelPrision" ID="{614BC386-01C2-4289-A769-8FA9C6DB5C2C}">
+					<ChildrenList>
+						<Action Name="" ID="{493A97B8-F5AD-4416-8753-20C36D48FB86}" ShortID="99875481">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{46136D28-20CD-488F-9A02-30527F4EC5B4}" ShortID="16061763">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Prision_Full" ID="{4DF5E3B3-D983-4849-970D-1006060ADFF3}" WorkUnitID="{6A6CB9AD-0158-4CCD-A33C-A4185F898430}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9C335930-6AC6-42AB-BBB2-1270C56875B4}" ShortID="115764661">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Prision_Menu" ID="{EDA5A02B-EA48-4C52-9DBC-5262AC279946}" WorkUnitID="{EFD253ED-B62A-4915-B9FD-3DB20E9F3F90}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{69168CEE-87C4-4D5C-9754-50B9E11AC6F0}" ShortID="453113948">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Soft" ID="{B1E84501-B35C-49D2-9C04-76C9BD253639}" WorkUnitID="{EFD253ED-B62A-4915-B9FD-3DB20E9F3F90}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_Stop_All" ID="{92C5506F-CA9C-43E7-A51F-C42ECEC2EB36}">
+					<ChildrenList>
+						<Action Name="" ID="{A0048AF8-80E2-4037-B458-E8B0B16D7029}" ShortID="84424252">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
 						</Action>
 					</ChildrenList>
 				</Event>

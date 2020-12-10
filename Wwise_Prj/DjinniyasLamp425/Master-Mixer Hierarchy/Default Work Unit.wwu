@@ -161,6 +161,7 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Bus Name="Mus_Oasis" ID="{C9C31AB9-C909-45F2-B166-BF4403D0119B}"/>
+								<Bus Name="Prision" ID="{594775F2-E762-452C-82B2-941AF36F2947}"/>
 							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
