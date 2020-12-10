@@ -498,8 +498,12 @@
 							<Position X="7" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Prision_Full" ID="{4DF5E3B3-D983-4849-970D-1006060ADFF3}" WorkUnitID="{6A6CB9AD-0158-4CCD-A33C-A4185F898430}"/>
+							<ObjectRef Name="EV_Prision_Lamp_Metal_Door_Close" ID="{7B5A43C4-1FED-4D30-A8AA-47320D2DC6EE}" WorkUnitID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}"/>
 							<Position X="7" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Prision_Lamp_Metal_Door_Open" ID="{7515D5D6-143C-447E-AD23-E20F8E5B698C}" WorkUnitID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}"/>
+							<Position X="7" Y="3"/>
 						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
