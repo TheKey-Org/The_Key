@@ -1792,6 +1792,28 @@
       ]
      },
      {
+      "Id": "2999565711",
+      "Name": "EV_FireTorch",
+      "ObjectPath": "\\Events\\Items\\EV_FireTorch",
+      "GUID": "{355ACBF9-8BFB-4642-854E-2B7A35BDC34D}",
+      "MaxAttenuation": "5000.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "658244357",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Amb\\FireTorch_02.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\FireTorch_02_10C4C929.wem"
+       },
+       {
+        "Id": "1046156412",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Amb\\FireTorch_01.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\FireTorch_01_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "2940629373",
       "Name": "EV_Genius_Smile",
       "ObjectPath": "\\Events\\Character\\GenioNoche\\Voice\\EV_Genius_Smile",
@@ -4642,7 +4664,7 @@
      {
       "Id": "1088624163",
       "Name": "EV_Prision_Knockin_Wood",
-      "ObjectPath": "\\Events\\Items\\Actions\\EV_Prision_Knockin_Wood",
+      "ObjectPath": "\\Events\\Items\\Act\\EV_Prision_Knockin_Wood",
       "GUID": "{77F94D9A-4D84-4135-A53A-625473BFF538}",
       "DurationType": "OneShot",
       "DurationMin": "1.202494",
@@ -4719,7 +4741,7 @@
      {
       "Id": "1371668172",
       "Name": "EV_Prision_Lamp_Metal_Door_Close",
-      "ObjectPath": "\\Events\\Items\\Actions\\LampLuciernaga\\EV_Prision_Lamp_Metal_Door_Close",
+      "ObjectPath": "\\Events\\Items\\Act\\Luciernaga\\EV_Prision_Lamp_Metal_Door_Close",
       "GUID": "{7B5A43C4-1FED-4D30-A8AA-47320D2DC6EE}",
       "DurationType": "OneShot",
       "DurationMin": "1.132649",
@@ -4736,7 +4758,7 @@
      {
       "Id": "1768333144",
       "Name": "EV_Prision_Lamp_Metal_Door_Open",
-      "ObjectPath": "\\Events\\Items\\Actions\\LampLuciernaga\\EV_Prision_Lamp_Metal_Door_Open",
+      "ObjectPath": "\\Events\\Items\\Act\\Luciernaga\\EV_Prision_Lamp_Metal_Door_Open",
       "GUID": "{7515D5D6-143C-447E-AD23-E20F8E5B698C}",
       "DurationType": "OneShot",
       "DurationMin": "1.200000",
