@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
-   "SourceFilesRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
-   "SoundBanksRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
@@ -1788,28 +1788,6 @@
         "Language": "SFX",
         "ShortName": "Environment\\Desert_Silence.wav",
         "Path": "SFX\\Environment\\Desert_Silence_D79FB2B7.wem"
-       }
-      ]
-     },
-     {
-      "Id": "2999565711",
-      "Name": "EV_FireTorch",
-      "ObjectPath": "\\Events\\Items\\EV_FireTorch",
-      "GUID": "{355ACBF9-8BFB-4642-854E-2B7A35BDC34D}",
-      "MaxAttenuation": "5000.000000",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "658244357",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Amb\\FireTorch_02.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\FireTorch_02_10C4C929.wem"
-       },
-       {
-        "Id": "1046156412",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Amb\\FireTorch_01.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\FireTorch_01_10C4C929.wem"
        }
       ]
      },
@@ -4664,7 +4642,7 @@
      {
       "Id": "1088624163",
       "Name": "EV_Prision_Knockin_Wood",
-      "ObjectPath": "\\Events\\Items\\Act\\EV_Prision_Knockin_Wood",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_Prision_Knockin_Wood",
       "GUID": "{77F94D9A-4D84-4135-A53A-625473BFF538}",
       "DurationType": "OneShot",
       "DurationMin": "1.202494",
@@ -4741,7 +4719,7 @@
      {
       "Id": "1371668172",
       "Name": "EV_Prision_Lamp_Metal_Door_Close",
-      "ObjectPath": "\\Events\\Items\\Act\\Luciernaga\\EV_Prision_Lamp_Metal_Door_Close",
+      "ObjectPath": "\\Events\\Items\\Actions\\LampLuciernaga\\EV_Prision_Lamp_Metal_Door_Close",
       "GUID": "{7B5A43C4-1FED-4D30-A8AA-47320D2DC6EE}",
       "DurationType": "OneShot",
       "DurationMin": "1.132649",
@@ -4758,7 +4736,7 @@
      {
       "Id": "1768333144",
       "Name": "EV_Prision_Lamp_Metal_Door_Open",
-      "ObjectPath": "\\Events\\Items\\Act\\Luciernaga\\EV_Prision_Lamp_Metal_Door_Open",
+      "ObjectPath": "\\Events\\Items\\Actions\\LampLuciernaga\\EV_Prision_Lamp_Metal_Door_Open",
       "GUID": "{7515D5D6-143C-447E-AD23-E20F8E5B698C}",
       "DurationType": "OneShot",
       "DurationMin": "1.200000",

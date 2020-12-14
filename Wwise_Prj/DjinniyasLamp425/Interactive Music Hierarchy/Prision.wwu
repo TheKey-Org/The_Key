@@ -40203,19 +40203,19 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>-96.3</YPos>
+																				<YPos>0</YPos>
 																				<Flags>5</Flags>
 																				<SegmentShape>SCurve</SegmentShape>
 																			</Point>
 																			<Point>
-																				<XPos>46.16494</XPos>
-																				<YPos>-2.69401</YPos>
+																				<XPos>45.33073</XPos>
+																				<YPos>-53.36372</YPos>
 																				<Flags>0</Flags>
 																				<SegmentShape>Log3</SegmentShape>
 																			</Point>
 																			<Point>
 																				<XPos>90.35294</XPos>
-																				<YPos>-96.3</YPos>
+																				<YPos>0</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -41473,8 +41473,8 @@
 																	<MusicFade Name="Source Fade-out" ID="{4A6E07E5-6C1E-4197-A9A4-638C9C55E06D}">
 																		<PropertyList>
 																			<Property Name="FadeCurve" Type="int16" Value="2"/>
-																			<Property Name="FadeOffset" Type="Real64" Value="3"/>
-																			<Property Name="FadeTime" Type="Real64" Value="3"/>
+																			<Property Name="FadeOffset" Type="Real64" Value="2"/>
+																			<Property Name="FadeTime" Type="Real64" Value="2"/>
 																			<Property Name="FadeType" Type="int16" Value="1"/>
 																		</PropertyList>
 																	</MusicFade>
@@ -41483,8 +41483,8 @@
 																	<MusicFade Name="Destination Fade-in" ID="{2FA3879B-E490-43FA-A3FF-A8EFF24B8BC9}">
 																		<PropertyList>
 																			<Property Name="FadeCurve" Type="int16" Value="6"/>
-																			<Property Name="FadeOffset" Type="Real64" Value="-3"/>
-																			<Property Name="FadeTime" Type="Real64" Value="3"/>
+																			<Property Name="FadeOffset" Type="Real64" Value="-2"/>
+																			<Property Name="FadeTime" Type="Real64" Value="2"/>
 																		</PropertyList>
 																	</MusicFade>
 																</DestinationFadeIn>
@@ -42399,11 +42399,6 @@
 							<PropertyList>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 								<Property Name="Tempo" Type="Real64" Value="100"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>6</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -60709,7 +60704,6 @@
 																<Property Name="EndTrimOffset" Type="Real64" Value="53647.052154195"/>
 																<Property Name="FadeInDuration" Type="Real64" Value="6356.41313364121"/>
 																<Property Name="FadeOutMode" Type="int16" Value="0"/>
-																<Property Name="PlayAt" Type="Real64" Value="-11294.1176470588"/>
 															</PropertyList>
 															<AudioSourceRef Name="Prision_4_ ArabDessertFlute_85BPM4-4_L16" ID="{4AC4EA32-6956-46AB-BCB8-4992B388B48E}"/>
 															<PropertyCurveList>
@@ -64380,19 +64374,19 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>-0</YPos>
+																				<YPos>-30.72285</YPos>
 																				<Flags>5</Flags>
 																				<SegmentShape>Exp2</SegmentShape>
 																			</Point>
 																			<Point>
-																				<XPos>68.6294</XPos>
-																				<YPos>-25.39026</YPos>
+																				<XPos>67.905096403289</XPos>
+																				<YPos>0</YPos>
 																				<Flags>0</Flags>
 																				<SegmentShape>Exp2</SegmentShape>
 																			</Point>
 																			<Point>
 																				<XPos>135.52941</XPos>
-																				<YPos>-0</YPos>
+																				<YPos>-6.57584</YPos>
 																				<Flags>37</Flags>
 																			</Point>
 																		</PointList>
@@ -64499,19 +64493,19 @@
 																		<PointList>
 																			<Point>
 																				<XPos>0</XPos>
-																				<YPos>-5.56574</YPos>
+																				<YPos>-96.3</YPos>
 																				<Flags>5</Flags>
 																				<SegmentShape>Exp2</SegmentShape>
 																			</Point>
 																			<Point>
-																				<XPos>62.78363</XPos>
-																				<YPos>-96.28169</YPos>
+																				<XPos>62.92849</XPos>
+																				<YPos>-5.34199</YPos>
 																				<Flags>0</Flags>
 																				<SegmentShape>Exp1</SegmentShape>
 																			</Point>
 																			<Point>
-																				<XPos>135.86736</XPos>
-																				<YPos>-5.04959</YPos>
+																				<XPos>135.57764</XPos>
+																				<YPos>-96.3</YPos>
 																				<Flags>0</Flags>
 																			</Point>
 																			<Point>
@@ -68047,44 +68041,6 @@
 										</SourceFadeOut>
 										<DestinationFadeIn>
 											<MusicFade Name="Destination Fade-in" ID="{79EB83B0-E90C-48CC-BF9F-02247119D3B8}">
-												<PropertyList>
-													<Property Name="FadeCurve" Type="int16" Value="6"/>
-													<Property Name="FadeOffset" Type="Real64" Value="-3"/>
-													<Property Name="FadeTime" Type="Real64" Value="3"/>
-												</PropertyList>
-											</MusicFade>
-										</DestinationFadeIn>
-									</TransitionInfo>
-								</MusicTransition>
-								<MusicTransition Name="Transition" ID="{3303D342-2D6C-4E85-872F-4766B1A8B316}">
-									<PropertyList>
-										<Property Name="DestinationContextType" Type="int16" Value="2"/>
-										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
-										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
-										<Property Name="SourceContextType" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="DestinationContextObject">
-											<ObjectRef Name="Prision_01_FullComp" ID="{44F71837-05C2-44EF-85FC-B184D18A5903}" WorkUnitID="{6A6CB9AD-0158-4CCD-A33C-A4185F898430}"/>
-										</Reference>
-										<Reference Name="SourceContextObject">
-											<ObjectRef Name="Prision_Resurrection" ID="{E8BD22BB-5927-490F-BFE0-96AB0C3E339F}" WorkUnitID="{6A6CB9AD-0158-4CCD-A33C-A4185F898430}"/>
-										</Reference>
-									</ReferenceList>
-									<TransitionInfo>
-										<SourceFadeOut>
-											<MusicFade Name="Source Fade-out" ID="{125BC9B7-FE41-475F-8B34-901050459390}">
-												<PropertyList>
-													<Property Name="FadeCurve" Type="int16" Value="1"/>
-													<Property Name="FadeOffset" Type="Real64" Value="3"/>
-													<Property Name="FadeTime" Type="Real64" Value="3"/>
-													<Property Name="FadeType" Type="int16" Value="1"/>
-												</PropertyList>
-											</MusicFade>
-										</SourceFadeOut>
-										<DestinationFadeIn>
-											<MusicFade Name="Destination Fade-in" ID="{82A12C5E-E0A3-4888-A57D-CB194AB9EC8C}">
 												<PropertyList>
 													<Property Name="FadeCurve" Type="int16" Value="6"/>
 													<Property Name="FadeOffset" Type="Real64" Value="-3"/>

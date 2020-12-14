@@ -92,7 +92,6 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	4017077586	Prisioner			\Default Work Unit\Master Audio Bus\Character\Prisioner	
 	4160437992	Spells			\Default Work Unit\Master Audio Bus\SFX\Magic\Spells	
 	4235322293	Camel			\Default Work Unit\Master Audio Bus\SFX\Animals\Camel	
-	4253688003	Machinery			\Default Work Unit\Master Audio Bus\Environment_Sfx\Machinery	
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	1646940361	Fx_Rev_Outside			\Default Work Unit\Master Audio Bus\Reverb\Fx_Rev_Outside	

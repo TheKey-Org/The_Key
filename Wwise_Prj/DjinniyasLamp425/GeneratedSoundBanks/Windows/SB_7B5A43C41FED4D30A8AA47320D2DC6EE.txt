@@ -1,3 +1,0 @@
-Event	ID	Name			Wwise Object Path	Notes
-	1371668172	EV_Prision_Lamp_Metal_Door_Close			\Items\Act\Luciernaga\EV_Prision_Lamp_Metal_Door_Close	
-

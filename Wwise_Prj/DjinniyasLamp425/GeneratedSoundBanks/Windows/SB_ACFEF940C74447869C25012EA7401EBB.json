@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
-   "SourceFilesRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
-   "SoundBanksRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "G:\\Unreal\\Djinniya\\Unreal\\425\\Demo\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
@@ -28,205 +28,10 @@
       "DurationType": "Infinite",
       "ExcludedMemoryFiles": [
        {
-        "Id": "134273198",
-        "Language": "SFX",
-        "ShortName": "Music\\Oasis\\ethnic-desert_161BPM3-4_EndReverse.wav",
-        "Path": "SFX\\Music\\Oasis\\ethnic-desert_161BPM3-4_EndReverse_D79FB2B7.wem"
-       },
-       {
-        "Id": "419246512",
-        "Language": "SFX",
-        "ShortName": "Music\\Oasis\\Hechizo_End_BPM170_3-4_L31-P0.wav",
-        "Path": "SFX\\Music\\Oasis\\Hechizo_End_BPM170_3-4_L31-P0_D79FB2B7.wem"
-       },
-       {
-        "Id": "458142420",
-        "Language": "SFX",
-        "ShortName": "Music\\Oasis\\Hechizo_End_BPM170_3-4_L16-P0.wav",
-        "Path": "SFX\\Music\\Oasis\\Hechizo_End_BPM170_3-4_L16-P0_D79FB2B7.wem"
-       },
-       {
-        "Id": "530037478",
-        "Language": "SFX",
-        "ShortName": "Music\\Oasis\\eastern-sky_59BPM4-4.wav",
-        "Path": "SFX\\Music\\Oasis\\eastern-sky_59BPM4-4_D79FB2B7.wem"
-       },
-       {
         "Id": "595116604",
         "Language": "SFX",
         "ShortName": "desert-illusion_70BPM4-4.wav",
         "Path": "SFX\\desert-illusion_70BPM4-4_D79FB2B7.wem"
-       },
-       {
-        "Id": "725070978",
-        "Language": "SFX",
-        "ShortName": "Music\\Oasis\\ethnic-desert_161BPM3-4.wav",
-        "Path": "SFX\\Music\\Oasis\\ethnic-desert_161BPM3-4_D79FB2B7.wem"
-       }
-      ],
-      "SwitchContainers": [
-       {
-        "SwitchValue": "{CEE5CA46-8BEA-41C6-BBFF-664348303453}",
-        "Media": [
-         {
-          "Id": "530037478"
-         },
-         {
-          "Id": "725070978"
-         },
-         {
-          "Id": "134273198"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{EB762B58-A88D-475B-A8BD-856F7CE36F23}",
-        "Media": [
-         {
-          "Id": "530037478"
-         },
-         {
-          "Id": "530037478"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{37ED6456-5FA2-4D7D-9FF9-14B4900A8719}",
-        "Media": [
-         {
-          "Id": "595116604"
-         },
-         {
-          "Id": "595116604"
-         },
-         {
-          "Id": "595116604"
-         },
-         {
-          "Id": "595116604"
-         },
-         {
-          "Id": "595116604"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{C6724A57-958B-415E-9423-321A4E9797DD}",
-        "Media": [
-         {
-          "Id": "595116604"
-         },
-         {
-          "Id": "595116604"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{FE328865-7CB8-41A9-A089-17AEAEB12B6B}",
-        "Media": [
-         {
-          "Id": "595116604"
-         },
-         {
-          "Id": "595116604"
-         },
-         {
-          "Id": "595116604"
-         },
-         {
-          "Id": "595116604"
-         },
-         {
-          "Id": "595116604"
-         },
-         {
-          "Id": "595116604"
-         },
-         {
-          "Id": "595116604"
-         }
-        ]
-       },
-       {
-        "SwitchValue": "{506F5B03-2AAF-448D-8D25-B734C2B96238}",
-        "Media": [
-         {
-          "Id": "595116604"
-         },
-         {
-          "Id": "458142420"
-         },
-         {
-          "Id": "419246512"
-         }
-        ]
-       }
-      ],
-      "ActionSetState": [
-       {
-        "Id": "2857410150",
-        "Name": "Explore_03",
-        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\Explore_03",
-        "GUID": "{37ED6456-5FA2-4D7D-9FF9-14B4900A8719}"
-       }
-      ]
-     }
-    ],
-    "StateGroups": [
-     {
-      "Id": "2857410150",
-      "Name": "Explore_03",
-      "ObjectPath": "\\States\\Default Work Unit\\Music_State\\Explore_03",
-      "GUID": "{37ED6456-5FA2-4D7D-9FF9-14B4900A8719}",
-      "States": []
-     },
-     {
-      "Id": "3826569560",
-      "Name": "Music_State",
-      "ObjectPath": "\\States\\Default Work Unit\\Music_State",
-      "GUID": "{809472B9-5C4C-456E-B088-CC1BF06DF904}",
-      "States": [
-       {
-        "Id": "748895195",
-        "Name": "None",
-        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\None",
-        "GUID": "{1D2BD15D-E1C0-432E-A24D-E985571BC198}"
-       },
-       {
-        "Id": "2209150908",
-        "Name": "SplashIntro_01",
-        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\SplashIntro_01",
-        "GUID": "{CEE5CA46-8BEA-41C6-BBFF-664348303453}"
-       },
-       {
-        "Id": "3466561645",
-        "Name": "LampFall_02",
-        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\LampFall_02",
-        "GUID": "{EB762B58-A88D-475B-A8BD-856F7CE36F23}"
-       },
-       {
-        "Id": "2857410150",
-        "Name": "Explore_03",
-        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\Explore_03",
-        "GUID": "{37ED6456-5FA2-4D7D-9FF9-14B4900A8719}"
-       },
-       {
-        "Id": "1842894781",
-        "Name": "GeniusStart_04",
-        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\GeniusStart_04",
-        "GUID": "{C6724A57-958B-415E-9423-321A4E9797DD}"
-       },
-       {
-        "Id": "475131587",
-        "Name": "Hechizo_05",
-        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\Hechizo_05",
-        "GUID": "{FE328865-7CB8-41A9-A089-17AEAEB12B6B}"
-       },
-       {
-        "Id": "1460634452",
-        "Name": "OasisEnd_06",
-        "ObjectPath": "\\States\\Default Work Unit\\Music_State\\OasisEnd_06",
-        "GUID": "{506F5B03-2AAF-448D-8D25-B734C2B96238}"
        }
       ]
      }
