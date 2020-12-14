@@ -1,0 +1,102 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "2099536164",
+    "GUID": "{7D246124-6124-1124-2424-242424242424}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_BE556917081E48B5B803E8CB7DFA2A64",
+    "ShortName": "SB_BE556917081E48B5B803E8CB7DFA2A64",
+    "Path": "SB_BE556917081E48B5B803E8CB7DFA2A64.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "152778496",
+      "Name": "Play_Prision_Resurrection",
+      "ObjectPath": "\\Events\\Music\\Prision\\Play_Prision_Resurrection",
+      "GUID": "{BE556917-081E-48B5-B803-E8CB7DFA2A64}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "33886820",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Rise_R_80BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Rise_R_80BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "67544249",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_SuperPercs_80BPM4-4_L16.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_SuperPercs_80BPM4-4_L16_D79FB2B7.wem"
+       },
+       {
+        "Id": "150887559",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_GuitarraSumisa_80BPM4-4_L24.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_GuitarraSumisa_80BPM4-4_L24_D79FB2B7.wem"
+       },
+       {
+        "Id": "216670743",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_MainGuitarDetails_80BPM4-4_L32.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_MainGuitarDetails_80BPM4-4_L32_D79FB2B7.wem"
+       },
+       {
+        "Id": "232677926",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Rise_ST_80BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Rise_ST_80BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "363250307",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_IndianToms_80BPM4-4_L14.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_IndianToms_80BPM4-4_L14_D79FB2B7.wem"
+       },
+       {
+        "Id": "724041576",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_OperaVoice_80BPM4-4_L24.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_OperaVoice_80BPM4-4_L24_D79FB2B7.wem"
+       },
+       {
+        "Id": "864376694",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Pad_ST_80BPM4-4_L42.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Pad_ST_80BPM4-4_L42_D79FB2B7.wem"
+       },
+       {
+        "Id": "875896574",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Pad_ST_Loop_80BPM4-4_L42.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Pad_ST_Loop_80BPM4-4_L42_D79FB2B7.wem"
+       },
+       {
+        "Id": "974438687",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_MainFemVoice_80BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_MainFemVoice_80BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "1025551829",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_VoiceHornFlute_80BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_VoiceHornFlute_80BPM4-4_L8_D79FB2B7.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

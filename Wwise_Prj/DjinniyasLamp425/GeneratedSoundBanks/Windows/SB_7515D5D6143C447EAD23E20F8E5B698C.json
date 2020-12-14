@@ -1,0 +1,44 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3741232692",
+    "GUID": "{DEFEAE34-AE34-1E34-3434-343434343434}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_7515D5D6143C447EAD23E20F8E5B698C",
+    "ShortName": "SB_7515D5D6143C447EAD23E20F8E5B698C",
+    "Path": "SB_7515D5D6143C447EAD23E20F8E5B698C.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1768333144",
+      "Name": "EV_Prision_Lamp_Metal_Door_Open",
+      "ObjectPath": "\\Events\\Items\\Act\\Luciernaga\\EV_Prision_Lamp_Metal_Door_Open",
+      "GUID": "{7515D5D6-143C-447E-AD23-E20F8E5B698C}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.200000",
+      "DurationMax": "1.427049",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "129663444",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Metal_Door_Squeek.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Metal_Door_Squeek_10C4C929.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

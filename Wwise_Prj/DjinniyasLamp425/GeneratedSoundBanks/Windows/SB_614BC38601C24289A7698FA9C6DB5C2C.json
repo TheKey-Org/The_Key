@@ -1,0 +1,1075 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "135",
+  "RootPaths": {
+   "ProjectRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\",
+   "SourceFilesRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\.cache\\Windows\\",
+   "SoundBanksRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "A:\\Unreal projects\\The_Key\\Wwise_Prj\\DjinniyasLamp425\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3049962062",
+    "GUID": "{B5CABA4E-BA4E-1A4E-4E4E-4E4E4E4E4E4E}",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_614BC38601C24289A7698FA9C6DB5C2C",
+    "ShortName": "SB_614BC38601C24289A7698FA9C6DB5C2C",
+    "Path": "SB_614BC38601C24289A7698FA9C6DB5C2C.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "1131073597",
+      "Name": "EV_LevelPrision",
+      "ObjectPath": "\\Events\\Levels\\EV_LevelPrision",
+      "GUID": "{614BC386-01C2-4289-A769-8FA9C6DB5C2C}",
+      "DurationType": "Infinite",
+      "ExcludedMemoryFiles": [
+       {
+        "Id": "8698702",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_03_Loops\\LoopString\\Prision_03_String_A_100BPM4-4_L20.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_03_Loops\\LoopString\\Prision_03_String_A_100BPM4-4_L20_D79FB2B7.wem"
+       },
+       {
+        "Id": "18715056",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_AfricanPercs_86BPM4-4_L25.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_AfricanPercs_86BPM4-4_L25_D79FB2B7.wem"
+       },
+       {
+        "Id": "33886820",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Rise_R_80BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Rise_R_80BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "35053112",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04\\Prision_4_ ArabDessertWindSpace2_85BPM4-4_L16.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04\\Prision_4_ ArabDessertWindSpace2_85BPM4-4_L16_D79FB2B7.wem"
+       },
+       {
+        "Id": "67544249",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_SuperPercs_80BPM4-4_L16.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_SuperPercs_80BPM4-4_L16_D79FB2B7.wem"
+       },
+       {
+        "Id": "67684746",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_03_Loops\\LoopFlute\\Prision_03_Flute_A_100BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_03_Loops\\LoopFlute\\Prision_03_Flute_A_100BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "117620441",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_01_Loops\\Prision_01_Sitar_85BPM4-4_L16.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_01_Loops\\Prision_01_Sitar_85BPM4-4_L16_D79FB2B7.wem"
+       },
+       {
+        "Id": "141415798",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_IndianPercs_86BPM4-4_L34.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_IndianPercs_86BPM4-4_L34_D79FB2B7.wem"
+       },
+       {
+        "Id": "150887559",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_GuitarraSumisa_80BPM4-4_L24.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_GuitarraSumisa_80BPM4-4_L24_D79FB2B7.wem"
+       },
+       {
+        "Id": "161119617",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_01_Loops\\Prision_01_SoftBox_B_85BPM4-4_L16_PO2.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_01_Loops\\Prision_01_SoftBox_B_85BPM4-4_L16_PO2_D79FB2B7.wem"
+       },
+       {
+        "Id": "205053562",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_03_Loops\\LoopDrum\\Prision_03_Drum_C_100BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_03_Loops\\LoopDrum\\Prision_03_Drum_C_100BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "216670743",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_MainGuitarDetails_80BPM4-4_L32.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_MainGuitarDetails_80BPM4-4_L32_D79FB2B7.wem"
+       },
+       {
+        "Id": "225443706",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Beds\\Prision_UltraDeep_E2_E2.wav",
+        "Path": "SFX\\Prision\\Musica\\Beds\\Prision_UltraDeep_E2_E2_D79FB2B7.wem"
+       },
+       {
+        "Id": "232547273",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Beds\\Prision_UltraDeep_F2_F2.wav",
+        "Path": "SFX\\Prision\\Musica\\Beds\\Prision_UltraDeep_F2_F2_D79FB2B7.wem"
+       },
+       {
+        "Id": "232677926",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Rise_ST_80BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Rise_ST_80BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "238130119",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_HHOpenedPercs_86BPM4-4_L16.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_HHOpenedPercs_86BPM4-4_L16_D79FB2B7.wem"
+       },
+       {
+        "Id": "243675810",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_03_Loops\\LoopFlute\\Prision_03_Flute_B_100BPM4-4_L12.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_03_Loops\\LoopFlute\\Prision_03_Flute_B_100BPM4-4_L12_D79FB2B7.wem"
+       },
+       {
+        "Id": "251766642",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04\\Prision_4_ MainDerbuka_85BPM4-4_L4.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04\\Prision_4_ MainDerbuka_85BPM4-4_L4_D79FB2B7.wem"
+       },
+       {
+        "Id": "260450045",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_03_Loops\\LoopDrum\\Prision_03_Drum_B_100BPM4-4_L8_P1_PO2.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_03_Loops\\LoopDrum\\Prision_03_Drum_B_100BPM4-4_L8_P1_PO2_D79FB2B7.wem"
+       },
+       {
+        "Id": "280632682",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_03_Loops\\LoopDrum\\Prision_03_Drum_H_100BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_03_Loops\\LoopDrum\\Prision_03_Drum_H_100BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "281357878",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_03_Loops\\LoopString\\Prision_03_String_B_100BPM4-4_L20.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_03_Loops\\LoopString\\Prision_03_String_B_100BPM4-4_L20_D79FB2B7.wem"
+       },
+       {
+        "Id": "283977376",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_01_Loops\\Prision_01_DrumSoft_85BPM4-4_L16.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_01_Loops\\Prision_01_DrumSoft_85BPM4-4_L16_D79FB2B7.wem"
+       },
+       {
+        "Id": "286572030",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_03_Loops\\LoopDrum\\Prision_03_Drum_F_100BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_03_Loops\\LoopDrum\\Prision_03_Drum_F_100BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "294943417",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_03_Loops\\LoopDrum\\Prision_03_Drum_I_100BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_03_Loops\\LoopDrum\\Prision_03_Drum_I_100BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "313522970",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04\\Prision_4_ ArabDessertWindSpace_85BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04\\Prision_4_ ArabDessertWindSpace_85BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "326006763",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04\\Prision_4_ ArabDessertFlute_85BPM4-4_L16.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04\\Prision_4_ ArabDessertFlute_85BPM4-4_L16_D79FB2B7.wem"
+       },
+       {
+        "Id": "337068145",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_03_Loops\\LoopFlute\\Prision_03_Flute_C_100BPM4-4_L12.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_03_Loops\\LoopFlute\\Prision_03_Flute_C_100BPM4-4_L12_D79FB2B7.wem"
+       },
+       {
+        "Id": "363250307",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_IndianToms_80BPM4-4_L14.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_IndianToms_80BPM4-4_L14_D79FB2B7.wem"
+       },
+       {
+        "Id": "365035665",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_StringsSymphony_86BPM4-4_L16.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_StringsSymphony_86BPM4-4_L16_D79FB2B7.wem"
+       },
+       {
+        "Id": "374004774",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Beds\\Prision_UltraDeep_B3_B3.wav",
+        "Path": "SFX\\Prision\\Musica\\Beds\\Prision_UltraDeep_B3_B3_D79FB2B7.wem"
+       },
+       {
+        "Id": "393512600",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_01_Loops\\Prision_01_DrumBase_85BPM4-4_L16.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_01_Loops\\Prision_01_DrumBase_85BPM4-4_L16_D79FB2B7.wem"
+       },
+       {
+        "Id": "424710085",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_Gongs&PercsMain_86BPM4-4_L24.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_Gongs&PercsMain_86BPM4-4_L24_D79FB2B7.wem"
+       },
+       {
+        "Id": "447637305",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_03_Loops\\LoopDrum\\Prision_03_Drum_G_100BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_03_Loops\\LoopDrum\\Prision_03_Drum_G_100BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "470946217",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_FxIntrigued_86BPM4-4_L4P1.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_FxIntrigued_86BPM4-4_L4P1_D79FB2B7.wem"
+       },
+       {
+        "Id": "493551359",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04\\Prision_4_ SecondDerbuka_85BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04\\Prision_4_ SecondDerbuka_85BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "543846079",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_01_Loops\\Prision_01_Flute_B_85BPM4-4_L32.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_01_Loops\\Prision_01_Flute_B_85BPM4-4_L32_D79FB2B7.wem"
+       },
+       {
+        "Id": "561155651",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_GuitarVibesRised_86BPM4-4_L14P1.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_GuitarVibesRised_86BPM4-4_L14P1_D79FB2B7.wem"
+       },
+       {
+        "Id": "594602382",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_03_Loops\\LoopSitar\\Prision_03_Sitar_A_100BPM4-4_L16.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_03_Loops\\LoopSitar\\Prision_03_Sitar_A_100BPM4-4_L16_D79FB2B7.wem"
+       },
+       {
+        "Id": "619346724",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_Chimes_86BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_Chimes_86BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "652470654",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04\\Prision_4_ ViolinSustain_End_85BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04\\Prision_4_ ViolinSustain_End_85BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "724041576",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_OperaVoice_80BPM4-4_L24.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_OperaVoice_80BPM4-4_L24_D79FB2B7.wem"
+       },
+       {
+        "Id": "724786144",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Beds\\Prision_UltraDeep_A3_A3.wav",
+        "Path": "SFX\\Prision\\Musica\\Beds\\Prision_UltraDeep_A3_A3_D79FB2B7.wem"
+       },
+       {
+        "Id": "725898024",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_01_Loops\\Prision_01_Flute_A_85BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_01_Loops\\Prision_01_Flute_A_85BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "733942838",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_01_Loops\\Prision_01_FXS_B_85BPM4-4_L32_P2.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_01_Loops\\Prision_01_FXS_B_85BPM4-4_L32_P2_D79FB2B7.wem"
+       },
+       {
+        "Id": "743901477",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_03_Loops\\LoopDrum\\Prision_03_Drum_E_100BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_03_Loops\\LoopDrum\\Prision_03_Drum_E_100BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "781031490",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_01_Loops\\Prision_01_SoftBox_A_85BPM4-4_L16.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_01_Loops\\Prision_01_SoftBox_A_85BPM4-4_L16_D79FB2B7.wem"
+       },
+       {
+        "Id": "783526230",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_FirstDerbuka_86BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_FirstDerbuka_86BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "788585541",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_ArabLead_86BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_ArabLead_86BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "823251007",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_03_Loops\\LoopDrum\\Prision_03_Drum_A_100BPM4-4_L4.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_03_Loops\\LoopDrum\\Prision_03_Drum_A_100BPM4-4_L4_D79FB2B7.wem"
+       },
+       {
+        "Id": "842986219",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_03_Loops\\LoopString\\Prision_03_String_C_100BPM4-4_L8_P1.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_03_Loops\\LoopString\\Prision_03_String_C_100BPM4-4_L8_P1_D79FB2B7.wem"
+       },
+       {
+        "Id": "845643030",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_SitarWeird_86BPM4-4_L8P1.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_SitarWeird_86BPM4-4_L8P1_D79FB2B7.wem"
+       },
+       {
+        "Id": "864376694",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Pad_ST_80BPM4-4_L42.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Pad_ST_80BPM4-4_L42_D79FB2B7.wem"
+       },
+       {
+        "Id": "864622152",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_01_Loops\\Prision_01_Shakes_85BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_01_Loops\\Prision_01_Shakes_85BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "865427504",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_BassPadRise_86BPM4-4_L4P4.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_BassPadRise_86BPM4-4_L4P4_D79FB2B7.wem"
+       },
+       {
+        "Id": "869541023",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_BassPadRise2_86BPM4-4_L4P4.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_BassPadRise2_86BPM4-4_L4P4_D79FB2B7.wem"
+       },
+       {
+        "Id": "875896574",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Pad_ST_Loop_80BPM4-4_L42.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_Pad_ST_Loop_80BPM4-4_L42_D79FB2B7.wem"
+       },
+       {
+        "Id": "877698409",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_BassAtmosphere_86BPM4-4_L48.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_BassAtmosphere_86BPM4-4_L48_D79FB2B7.wem"
+       },
+       {
+        "Id": "896134963",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Beds\\Prision_UltraDeep_G2_G2.wav",
+        "Path": "SFX\\Prision\\Musica\\Beds\\Prision_UltraDeep_G2_G2_D79FB2B7.wem"
+       },
+       {
+        "Id": "905177752",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_03_Loops\\LoopFlute\\Prision_03_Flute_E_100BPM4-4_L16.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_03_Loops\\LoopFlute\\Prision_03_Flute_E_100BPM4-4_L16_D79FB2B7.wem"
+       },
+       {
+        "Id": "928400341",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_01_Loops\\Prision_01_FXS_A_85BPM4-4_L32_P2.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_01_Loops\\Prision_01_FXS_A_85BPM4-4_L32_P2_D79FB2B7.wem"
+       },
+       {
+        "Id": "944732471",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04\\Prision_4_ LittleFlute_85BPM4-4_L4.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04\\Prision_4_ LittleFlute_85BPM4-4_L4_D79FB2B7.wem"
+       },
+       {
+        "Id": "974438687",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_MainFemVoice_80BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_MainFemVoice_80BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "983263840",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04\\Prision_4_ ArabStrings_85BPM4-4_L16.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04\\Prision_4_ ArabStrings_85BPM4-4_L16_D79FB2B7.wem"
+       },
+       {
+        "Id": "990473838",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04\\Prision_4_ MusicBox_85BPM4-4_L16.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04\\Prision_4_ MusicBox_85BPM4-4_L16_D79FB2B7.wem"
+       },
+       {
+        "Id": "996173942",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04\\Prision_4_ MainLead_85BPM4-4_L48.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04\\Prision_4_ MainLead_85BPM4-4_L48_D79FB2B7.wem"
+       },
+       {
+        "Id": "1017876024",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_ArabStrings_86BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_4_Nocturne\\Prision_4_Nocturne_ArabStrings_86BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "1025551829",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_VoiceHornFlute_80BPM4-4_L8.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04_Resurrection\\Prision_4_Resurrection_VoiceHornFlute_80BPM4-4_L8_D79FB2B7.wem"
+       },
+       {
+        "Id": "1027145030",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_Loops_FXS\\Prision_Genius_Breath_Amb_A.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_Loops_FXS\\Prision_Genius_Breath_Amb_A_D79FB2B7.wem"
+       },
+       {
+        "Id": "1051806494",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_03_Loops\\LoopFlute\\Prision_03_Flute_D_100BPM4-4_L16.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_03_Loops\\LoopFlute\\Prision_03_Flute_D_100BPM4-4_L16_D79FB2B7.wem"
+       },
+       {
+        "Id": "1059690617",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_04\\Prision_4_ HugeFlute_85BPM4-4_L16.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_04\\Prision_4_ HugeFlute_85BPM4-4_L16_D79FB2B7.wem"
+       },
+       {
+        "Id": "1066511111",
+        "Language": "SFX",
+        "ShortName": "Prision\\Musica\\Prision_01_Loops\\Prision_01_Flute_C_85BPM4-4_L32.wav",
+        "Path": "SFX\\Prision\\Musica\\Prision_01_Loops\\Prision_01_Flute_C_85BPM4-4_L32_D79FB2B7.wem"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": "{2748F1F9-DBC4-411C-A4EC-9F613A54B280}",
+        "Media": [
+         {
+          "Id": "393512600"
+         },
+         {
+          "Id": "283977376"
+         },
+         {
+          "Id": "864622152"
+         },
+         {
+          "Id": "725898024"
+         },
+         {
+          "Id": "725898024"
+         },
+         {
+          "Id": "725898024"
+         },
+         {
+          "Id": "725898024"
+         },
+         {
+          "Id": "1066511111"
+         },
+         {
+          "Id": "543846079"
+         },
+         {
+          "Id": "928400341"
+         },
+         {
+          "Id": "733942838"
+         },
+         {
+          "Id": "928400341"
+         },
+         {
+          "Id": "117620441"
+         },
+         {
+          "Id": "781031490"
+         },
+         {
+          "Id": "161119617"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{CD7C3E36-A755-49D6-9ED9-B3589DB65681}",
+        "Media": [
+         {
+          "Id": "877698409"
+         },
+         {
+          "Id": "869541023"
+         },
+         {
+          "Id": "865427504"
+         },
+         {
+          "Id": "619346724"
+         },
+         {
+          "Id": "424710085"
+         },
+         {
+          "Id": "788585541"
+         },
+         {
+          "Id": "470946217"
+         },
+         {
+          "Id": "561155651"
+         },
+         {
+          "Id": "238130119"
+         },
+         {
+          "Id": "845643030"
+         },
+         {
+          "Id": "1017876024"
+         },
+         {
+          "Id": "783526230"
+         },
+         {
+          "Id": "18715056"
+         },
+         {
+          "Id": "141415798"
+         },
+         {
+          "Id": "365035665"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{550A370E-2FBE-42B2-9EDB-2C75B31D3874}",
+        "Children": [
+         {
+          "SwitchValue": "{B1E84501-B35C-49D2-9C04-76C9BD253639}",
+          "Media": [
+           {
+            "Id": "823251007"
+           },
+           {
+            "Id": "823251007"
+           },
+           {
+            "Id": "823251007"
+           },
+           {
+            "Id": "823251007"
+           },
+           {
+            "Id": "823251007"
+           },
+           {
+            "Id": "337068145"
+           },
+           {
+            "Id": "337068145"
+           },
+           {
+            "Id": "337068145"
+           },
+           {
+            "Id": "337068145"
+           },
+           {
+            "Id": "225443706"
+           },
+           {
+            "Id": "896134963"
+           },
+           {
+            "Id": "823251007"
+           },
+           {
+            "Id": "823251007"
+           },
+           {
+            "Id": "823251007"
+           },
+           {
+            "Id": "337068145"
+           },
+           {
+            "Id": "337068145"
+           },
+           {
+            "Id": "232547273"
+           },
+           {
+            "Id": "225443706"
+           },
+           {
+            "Id": "896134963"
+           },
+           {
+            "Id": "823251007"
+           },
+           {
+            "Id": "337068145"
+           },
+           {
+            "Id": "337068145"
+           },
+           {
+            "Id": "337068145"
+           },
+           {
+            "Id": "232547273"
+           },
+           {
+            "Id": "225443706"
+           },
+           {
+            "Id": "896134963"
+           },
+           {
+            "Id": "823251007"
+           },
+           {
+            "Id": "225443706"
+           },
+           {
+            "Id": "896134963"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{BD85CEDF-A83A-4D9B-ADEE-373D054AE2DB}",
+          "Media": [
+           {
+            "Id": "823251007"
+           },
+           {
+            "Id": "260450045"
+           },
+           {
+            "Id": "67684746"
+           },
+           {
+            "Id": "243675810"
+           },
+           {
+            "Id": "896134963"
+           },
+           {
+            "Id": "225443706"
+           },
+           {
+            "Id": "232547273"
+           },
+           {
+            "Id": "823251007"
+           },
+           {
+            "Id": "260450045"
+           },
+           {
+            "Id": "594602382"
+           },
+           {
+            "Id": "232547273"
+           },
+           {
+            "Id": "225443706"
+           },
+           {
+            "Id": "896134963"
+           },
+           {
+            "Id": "823251007"
+           },
+           {
+            "Id": "260450045"
+           },
+           {
+            "Id": "842986219"
+           },
+           {
+            "Id": "281357878"
+           },
+           {
+            "Id": "8698702"
+           },
+           {
+            "Id": "232547273"
+           },
+           {
+            "Id": "225443706"
+           },
+           {
+            "Id": "896134963"
+           }
+          ]
+         },
+         {
+          "SwitchValue": "{3EBF920C-7D8B-4B63-BEEE-10956FF83D6D}",
+          "Media": [
+           {
+            "Id": "205053562"
+           },
+           {
+            "Id": "286572030"
+           },
+           {
+            "Id": "280632682"
+           },
+           {
+            "Id": "743901477"
+           },
+           {
+            "Id": "447637305"
+           },
+           {
+            "Id": "294943417"
+           },
+           {
+            "Id": "905177752"
+           },
+           {
+            "Id": "1051806494"
+           },
+           {
+            "Id": "1027145030"
+           },
+           {
+            "Id": "724786144"
+           },
+           {
+            "Id": "374004774"
+           }
+          ]
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{211E126D-1051-4746-838C-EB9E2F0CB24D}",
+        "Media": [
+         {
+          "Id": "326006763"
+         },
+         {
+          "Id": "326006763"
+         },
+         {
+          "Id": "326006763"
+         },
+         {
+          "Id": "326006763"
+         },
+         {
+          "Id": "35053112"
+         },
+         {
+          "Id": "313522970"
+         },
+         {
+          "Id": "652470654"
+         },
+         {
+          "Id": "313522970"
+         },
+         {
+          "Id": "983263840"
+         },
+         {
+          "Id": "1059690617"
+         },
+         {
+          "Id": "944732471"
+         },
+         {
+          "Id": "251766642"
+         },
+         {
+          "Id": "990473838"
+         },
+         {
+          "Id": "996173942"
+         },
+         {
+          "Id": "493551359"
+         }
+        ]
+       },
+       {
+        "SwitchValue": "{EDA5A02B-EA48-4C52-9DBC-5262AC279946}",
+        "Media": [
+         {
+          "Id": "150887559"
+         },
+         {
+          "Id": "363250307"
+         },
+         {
+          "Id": "974438687"
+         },
+         {
+          "Id": "216670743"
+         },
+         {
+          "Id": "724041576"
+         },
+         {
+          "Id": "232677926"
+         },
+         {
+          "Id": "864376694"
+         },
+         {
+          "Id": "864376694"
+         },
+         {
+          "Id": "150887559"
+         },
+         {
+          "Id": "363250307"
+         },
+         {
+          "Id": "974438687"
+         },
+         {
+          "Id": "216670743"
+         },
+         {
+          "Id": "724041576"
+         },
+         {
+          "Id": "232677926"
+         },
+         {
+          "Id": "67544249"
+         },
+         {
+          "Id": "1025551829"
+         },
+         {
+          "Id": "33886820"
+         },
+         {
+          "Id": "875896574"
+         },
+         {
+          "Id": "864376694"
+         },
+         {
+          "Id": "864376694"
+         },
+         {
+          "Id": "150887559"
+         },
+         {
+          "Id": "363250307"
+         },
+         {
+          "Id": "974438687"
+         },
+         {
+          "Id": "216670743"
+         },
+         {
+          "Id": "724041576"
+         },
+         {
+          "Id": "232677926"
+         },
+         {
+          "Id": "67544249"
+         },
+         {
+          "Id": "1025551829"
+         },
+         {
+          "Id": "33886820"
+         },
+         {
+          "Id": "875896574"
+         },
+         {
+          "Id": "150887559"
+         },
+         {
+          "Id": "363250307"
+         },
+         {
+          "Id": "216670743"
+         },
+         {
+          "Id": "232677926"
+         },
+         {
+          "Id": "67544249"
+         },
+         {
+          "Id": "1025551829"
+         },
+         {
+          "Id": "33886820"
+         },
+         {
+          "Id": "864376694"
+         },
+         {
+          "Id": "864376694"
+         },
+         {
+          "Id": "864376694"
+         },
+         {
+          "Id": "864376694"
+         },
+         {
+          "Id": "150887559"
+         },
+         {
+          "Id": "216670743"
+         },
+         {
+          "Id": "232677926"
+         },
+         {
+          "Id": "1025551829"
+         },
+         {
+          "Id": "33886820"
+         },
+         {
+          "Id": "875896574"
+         }
+        ]
+       }
+      ],
+      "ActionSetState": [
+       {
+        "Id": "670602561",
+        "Name": "Soft",
+        "ObjectPath": "\\States\\Prision\\Music\\Prision_Intensity\\Soft",
+        "GUID": "{B1E84501-B35C-49D2-9C04-76C9BD253639}"
+       },
+       {
+        "Id": "3501665275",
+        "Name": "Prision_Menu",
+        "ObjectPath": "\\States\\Prision\\Music\\Prision_Choose\\Prision_Menu",
+        "GUID": "{EDA5A02B-EA48-4C52-9DBC-5262AC279946}"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "207703461",
+      "Name": "Prision_Intensity",
+      "ObjectPath": "\\States\\Prision\\Music\\Prision_Intensity",
+      "GUID": "{23A63B87-72E8-49D8-AC9C-9FE030FED47A}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Prision\\Music\\Prision_Intensity\\None",
+        "GUID": "{A1E9E143-BEF1-4A42-8323-30798013141A}"
+       },
+       {
+        "Id": "4174463524",
+        "Name": "Danger",
+        "ObjectPath": "\\States\\Prision\\Music\\Prision_Intensity\\Danger",
+        "GUID": "{28F00606-41C1-4259-A33D-540531449989}"
+       },
+       {
+        "Id": "670602561",
+        "Name": "Soft",
+        "ObjectPath": "\\States\\Prision\\Music\\Prision_Intensity\\Soft",
+        "GUID": "{B1E84501-B35C-49D2-9C04-76C9BD253639}"
+       },
+       {
+        "Id": "2849147824",
+        "Name": "Medium",
+        "ObjectPath": "\\States\\Prision\\Music\\Prision_Intensity\\Medium",
+        "GUID": "{BD85CEDF-A83A-4D9B-ADEE-373D054AE2DB}"
+       },
+       {
+        "Id": "4223512837",
+        "Name": "Intense",
+        "ObjectPath": "\\States\\Prision\\Music\\Prision_Intensity\\Intense",
+        "GUID": "{3EBF920C-7D8B-4B63-BEEE-10956FF83D6D}"
+       }
+      ]
+     },
+     {
+      "Id": "670602561",
+      "Name": "Soft",
+      "ObjectPath": "\\States\\Prision\\Music\\Prision_Intensity\\Soft",
+      "GUID": "{B1E84501-B35C-49D2-9C04-76C9BD253639}",
+      "States": []
+     },
+     {
+      "Id": "2884304909",
+      "Name": "Prision_Choose",
+      "ObjectPath": "\\States\\Prision\\Music\\Prision_Choose",
+      "GUID": "{6836A661-9F35-4E8D-A55D-74DEB23BF38C}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Prision\\Music\\Prision_Choose\\None",
+        "GUID": "{AE9657E8-FE19-4485-9DAE-83BC18005377}"
+       },
+       {
+        "Id": "3916411807",
+        "Name": "Prision_1",
+        "ObjectPath": "\\States\\Prision\\Music\\Prision_Choose\\Prision_1",
+        "GUID": "{2748F1F9-DBC4-411C-A4EC-9F613A54B280}"
+       },
+       {
+        "Id": "3916411802",
+        "Name": "Prision_4",
+        "ObjectPath": "\\States\\Prision\\Music\\Prision_Choose\\Prision_4",
+        "GUID": "{211E126D-1051-4746-838C-EB9E2F0CB24D}"
+       },
+       {
+        "Id": "3916411804",
+        "Name": "Prision_2",
+        "ObjectPath": "\\States\\Prision\\Music\\Prision_Choose\\Prision_2",
+        "GUID": "{CD7C3E36-A755-49D6-9ED9-B3589DB65681}"
+       },
+       {
+        "Id": "3916411805",
+        "Name": "Prision_3",
+        "ObjectPath": "\\States\\Prision\\Music\\Prision_Choose\\Prision_3",
+        "GUID": "{550A370E-2FBE-42B2-9EDB-2C75B31D3874}"
+       },
+       {
+        "Id": "3501665275",
+        "Name": "Prision_Menu",
+        "ObjectPath": "\\States\\Prision\\Music\\Prision_Choose\\Prision_Menu",
+        "GUID": "{EDA5A02B-EA48-4C52-9DBC-5262AC279946}"
+       }
+      ]
+     },
+     {
+      "Id": "3501665275",
+      "Name": "Prision_Menu",
+      "ObjectPath": "\\States\\Prision\\Music\\Prision_Choose\\Prision_Menu",
+      "GUID": "{EDA5A02B-EA48-4C52-9DBC-5262AC279946}",
+      "States": []
+     }
+    ]
+   }
+  ]
+ }
+}
