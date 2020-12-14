@@ -334,6 +334,7 @@
 							</PropertyList>
 							<ChildrenList>
 								<Bus Name="Water" ID="{456D2568-2E14-417A-8F50-40C6B83AACBB}"/>
+								<Bus Name="Machinery" ID="{3CC4F927-EF81-4489-B64F-6B6D83D5FA6B}"/>
 							</ChildrenList>
 						</Bus>
 					</ChildrenList>
