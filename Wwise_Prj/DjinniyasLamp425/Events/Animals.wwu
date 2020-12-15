@@ -236,6 +236,21 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Snake" ID="{00F6A35D-6143-43F4-ADAD-3910DD41A036}" ShortID="194448217">
+					<ChildrenList>
+						<Event Name="EV_Snake_01" ID="{96AAA7F9-61D1-45CC-964F-6F1E1E0F5D19}">
+							<ChildrenList>
+								<Action Name="" ID="{38478803-D53F-4C8F-9FB4-658862020C95}" ShortID="359509406">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Snake_01" ID="{021C63D7-3253-447F-BBF4-80F6D3E0F0C0}" WorkUnitID="{91ADC59C-E7EB-4D2D-96F5-DE0D347F6093}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

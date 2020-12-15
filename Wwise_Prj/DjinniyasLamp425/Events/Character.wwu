@@ -175,6 +175,66 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Whistles" ID="{54D4F670-1476-4041-AB63-F2B6B60F7F14}" ShortID="1068269638"/>
+						<Folder Name="Silbido" ID="{85A01A5B-8787-4F56-81E0-866CD48217C7}" ShortID="851244949">
+							<ChildrenList>
+								<Event Name="EV_Solomon_Whistle_Call" ID="{19D4C8BA-C76F-4D3C-B196-2A0AA46AD7E7}">
+									<ChildrenList>
+										<Action Name="" ID="{663F6DCD-EFA3-4400-882E-EEA2735DC961}" ShortID="682066604">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Solomon_Call" ID="{C50C2745-8D75-4B3F-8097-2E2BF54810C2}" WorkUnitID="{A93E259D-E41F-4314-93C4-23633DB5187A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="EV_Solomon_Whistle_Call_2" ID="{CEB139C6-03DB-4808-BD67-FF1409913DD8}">
+									<ChildrenList>
+										<Action Name="" ID="{93A1AD07-890C-4735-9196-8DF2C8791129}" ShortID="483112375">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Solomon_Call_2" ID="{6206DEB6-5E95-4088-B898-032A3F39774B}" WorkUnitID="{A93E259D-E41F-4314-93C4-23633DB5187A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="EV_Solomon_Whistle_Show" ID="{1F7795DF-CB19-4302-B372-C04C3E333058}">
+									<ChildrenList>
+										<Action Name="" ID="{8FC5BF65-B965-433D-90BE-343A835B3119}" ShortID="344987818">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Solomon_Show" ID="{7109A26C-35AB-4991-BD0E-37E668117B5B}" WorkUnitID="{A93E259D-E41F-4314-93C4-23633DB5187A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="EV_Solomon_Whistle_ShortCall" ID="{1199B4F5-25D3-4B5F-8988-FEC5DCF3F155}">
+									<ChildrenList>
+										<Action Name="" ID="{2B33289C-9088-4703-AE15-B76A5F7C567F}" ShortID="626084013">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Solomon_ShortCall" ID="{91335931-8077-4751-9494-93D9FFFE020D}" WorkUnitID="{A93E259D-E41F-4314-93C4-23633DB5187A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="EV_Solomon_Whistle_Fail" ID="{C1F05685-6D36-420E-B2D5-D561168D1FC5}">
+									<ChildrenList>
+										<Action Name="" ID="{0CB038D4-516C-4BE5-87CC-A0EF195E330E}" ShortID="646260954">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Solomon_Fail" ID="{6E30939E-B713-470B-9F8E-47167B8B5E18}" WorkUnitID="{A93E259D-E41F-4314-93C4-23633DB5187A}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="GenioNoche" ID="{B6D1E232-8392-4133-9134-E3E4DB52606C}" ShortID="245709376">

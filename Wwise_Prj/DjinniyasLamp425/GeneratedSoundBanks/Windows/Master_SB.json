@@ -1842,39 +1842,49 @@
         "Id": "106650129",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Amb\\Gas_Pipes_03.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Gas_Pipes_03_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Gas_Pipes_03_1C768395.wem"
        },
        {
         "Id": "149555599",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Amb\\Gas_Pipes_04.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Gas_Pipes_04_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Gas_Pipes_04_1C768395.wem"
        },
        {
         "Id": "404006893",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Amb\\Gas_Pipes_02.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Gas_Pipes_02_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Gas_Pipes_02_1C768395.wem"
        },
        {
         "Id": "454882270",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Amb\\Gas_Pipes_05.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Gas_Pipes_05_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Gas_Pipes_05_1C768395.wem"
        },
        {
         "Id": "635635791",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Amb\\Gas_Pipes_01.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Gas_Pipes_01_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Gas_Pipes_01_1C768395.wem"
        },
        {
         "Id": "646525713",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Amb\\Gas_Pipes_06.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Gas_Pipes_06_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Gas_Pipes_06_1C768395.wem"
        }
       ]
+     },
+     {
+      "Id": "646553159",
+      "Name": "EV_Gas_Pipes_Stop",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_Gas_Pipes_Stop",
+      "GUID": "{272C586A-91A2-4F6A-ADC1-E1FDCE05AD1E}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      },
      {
       "Id": "2940629373",
@@ -3193,13 +3203,13 @@
         "Id": "33749972",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Amb\\Machine\\Prision_MachineMethodical_Amb_A.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Machine\\Prision_MachineMethodical_Amb_A_F984CC16.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Machine\\Prision_MachineMethodical_Amb_A_1598ED62.wem"
        },
        {
         "Id": "565871465",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Amb\\Machine\\Prision_MachineMethodical_Amb_B.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Machine\\Prision_MachineMethodical_Amb_B_2193E137.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Machine\\Prision_MachineMethodical_Amb_B_8451769F.wem"
        }
       ]
      },
@@ -3546,193 +3556,193 @@
         "Id": "51590111",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_01.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_01_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_01_1C768395.wem"
        },
        {
         "Id": "57420891",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_10.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_10_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_10_1C768395.wem"
        },
        {
         "Id": "84273992",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_18.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_18_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_18_1C768395.wem"
        },
        {
         "Id": "104018669",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_06.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_06_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_06_1C768395.wem"
        },
        {
         "Id": "182952725",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_03.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_03_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_03_1C768395.wem"
        },
        {
         "Id": "189209852",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_32.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_32_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_32_1C768395.wem"
        },
        {
         "Id": "262862090",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_09.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_09_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_09_1C768395.wem"
        },
        {
         "Id": "265530662",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_11.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_11_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_11_1C768395.wem"
        },
        {
         "Id": "331754139",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_04.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_04_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_04_1C768395.wem"
        },
        {
         "Id": "344745827",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_14.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_14_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_14_1C768395.wem"
        },
        {
         "Id": "387885745",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_22.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_22_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_22_1C768395.wem"
        },
        {
         "Id": "493059553",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_25.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_25_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_25_1C768395.wem"
        },
        {
         "Id": "496841570",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_29.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_29_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_29_1C768395.wem"
        },
        {
         "Id": "529961442",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_28.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_28_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_28_1C768395.wem"
        },
        {
         "Id": "563381973",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_26.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_26_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_26_1C768395.wem"
        },
        {
         "Id": "569180011",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_05.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_05_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_05_1C768395.wem"
        },
        {
         "Id": "585030790",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_07.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_07_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_07_1C768395.wem"
        },
        {
         "Id": "617612570",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_13.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_13_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_13_1C768395.wem"
        },
        {
         "Id": "739417211",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_02.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_02_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_02_1C768395.wem"
        },
        {
         "Id": "757428530",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_30.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_30_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_30_1C768395.wem"
        },
        {
         "Id": "812485635",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_15.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_15_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_15_1C768395.wem"
        },
        {
         "Id": "832983576",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_21.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_21_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_21_1C768395.wem"
        },
        {
         "Id": "843451826",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_16.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_16_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_16_1C768395.wem"
        },
        {
         "Id": "894782424",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_17.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_17_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_17_1C768395.wem"
        },
        {
         "Id": "898723298",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_24.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_24_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_24_1C768395.wem"
        },
        {
         "Id": "928833342",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_31.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_31_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_31_1C768395.wem"
        },
        {
         "Id": "993035856",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_23.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_23_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_23_1C768395.wem"
        },
        {
         "Id": "1002619492",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_12.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_12_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_12_1C768395.wem"
        },
        {
         "Id": "1008029568",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_19.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_19_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_19_1C768395.wem"
        },
        {
         "Id": "1027623144",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_27.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_27_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_27_1C768395.wem"
        },
        {
         "Id": "1029617203",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_08.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_08_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_08_1C768395.wem"
        },
        {
         "Id": "1049345407",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Pipes_Hit_20.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_20_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Pipes_Hit_20_1C768395.wem"
        }
       ]
      },
@@ -5067,6 +5077,475 @@
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Metal_Door_Squeek.wav",
         "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Metal_Door_Squeek_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3106414261",
+      "Name": "EV_Snake_01",
+      "ObjectPath": "\\Events\\Animals\\Snake\\EV_Snake_01",
+      "GUID": "{96AAA7F9-61D1-45CC-964F-6F1E1E0F5D19}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.200000",
+      "DurationMax": "1.200000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "760186999",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Snake_01.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Snake_01_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "477939435",
+      "Name": "EV_Solomon_Call",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\Actions\\EV_Solomon_Call",
+      "GUID": "{9FF7179E-F71F-4C32-B9A7-169428D4493D}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "150360648",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_01.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_01_10C4C929.wem"
+       },
+       {
+        "Id": "201342989",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_13.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_13_10C4C929.wem"
+       },
+       {
+        "Id": "415405729",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_02.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_02_10C4C929.wem"
+       },
+       {
+        "Id": "587393575",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_04.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_04_10C4C929.wem"
+       },
+       {
+        "Id": "805896280",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_03.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_03_10C4C929.wem"
+       },
+       {
+        "Id": "971952838",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_05.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_05_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1389308632",
+      "Name": "EV_Solomon_Call_2",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\Actions\\EV_Solomon_Call_2",
+      "GUID": "{CC75737C-430B-475D-B2AC-581A3DF42A1E}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.272993",
+      "DurationMax": "2.800000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "456124839",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_12.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_12_10C4C929.wem"
+       },
+       {
+        "Id": "903645078",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_20.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_20_10C4C929.wem"
+       },
+       {
+        "Id": "1046388213",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_22.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_22_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3756643253",
+      "Name": "EV_Solomon_Calling",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\EV_Solomon_Calling",
+      "GUID": "{D957DDF8-EE31-4179-95B4-AC331DDD1C93}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "150360648",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_01.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_01_10C4C929.wem"
+       },
+       {
+        "Id": "201342989",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_13.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_13_10C4C929.wem"
+       },
+       {
+        "Id": "415405729",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_02.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_02_10C4C929.wem"
+       },
+       {
+        "Id": "587393575",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_04.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_04_10C4C929.wem"
+       },
+       {
+        "Id": "805896280",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_03.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_03_10C4C929.wem"
+       },
+       {
+        "Id": "971952838",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_05.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_05_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3523248823",
+      "Name": "EV_Solomon_Fail",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\Actions\\EV_Solomon_Fail",
+      "GUID": "{9C4F96D9-7203-404D-937D-E14EE5A1F358}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.200000",
+      "DurationMax": "2.800000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "107727891",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_06.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_06_10C4C929.wem"
+       },
+       {
+        "Id": "251217555",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_08.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_08_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1198997963",
+      "Name": "EV_Solomon_ShortCall",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\Actions\\EV_Solomon_ShortCall",
+      "GUID": "{BA1D601C-D818-47CF-84C3-6AC5DA061B15}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.600000",
+      "DurationMax": "2.200000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "34042384",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_21.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_21_10C4C929.wem"
+       },
+       {
+        "Id": "223854456",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_16.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_16_10C4C929.wem"
+       },
+       {
+        "Id": "249752238",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_17.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_17_10C4C929.wem"
+       },
+       {
+        "Id": "456590388",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_24.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_24_10C4C929.wem"
+       },
+       {
+        "Id": "460998863",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_14.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_14_10C4C929.wem"
+       },
+       {
+        "Id": "653903449",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_15.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_15_10C4C929.wem"
+       },
+       {
+        "Id": "767575122",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_10.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_10_10C4C929.wem"
+       },
+       {
+        "Id": "790332754",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_09.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_09_10C4C929.wem"
+       },
+       {
+        "Id": "936528802",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_18.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_18_10C4C929.wem"
+       },
+       {
+        "Id": "999400301",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_11.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_11_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3987540268",
+      "Name": "EV_Solomon_Show",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\Actions\\EV_Solomon_Show",
+      "GUID": "{274EC5EB-EA74-40EF-92FD-0C7BBEEFECDA}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.600000",
+      "DurationMax": "1.869093",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "896693223",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_23.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_23_10C4C929.wem"
+       },
+       {
+        "Id": "992182586",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_07.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_07_10C4C929.wem"
+       },
+       {
+        "Id": "1033779090",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_19.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_19_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3027590730",
+      "Name": "EV_Solomon_Whistle_Call",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\Silbido\\EV_Solomon_Whistle_Call",
+      "GUID": "{19D4C8BA-C76F-4D3C-B196-2A0AA46AD7E7}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.600000",
+      "DurationMax": "3.400000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "150360648",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_01.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_01_10C4C929.wem"
+       },
+       {
+        "Id": "201342989",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_13.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_13_10C4C929.wem"
+       },
+       {
+        "Id": "415405729",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_02.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_02_10C4C929.wem"
+       },
+       {
+        "Id": "587393575",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_04.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_04_10C4C929.wem"
+       },
+       {
+        "Id": "805896280",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_03.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_03_10C4C929.wem"
+       },
+       {
+        "Id": "971952838",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_05.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_05_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1319525825",
+      "Name": "EV_Solomon_Whistle_Call_2",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\Silbido\\EV_Solomon_Whistle_Call_2",
+      "GUID": "{CEB139C6-03DB-4808-BD67-FF1409913DD8}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.272993",
+      "DurationMax": "2.800000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "456124839",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_12.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_12_10C4C929.wem"
+       },
+       {
+        "Id": "903645078",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_20.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_20_10C4C929.wem"
+       },
+       {
+        "Id": "1046388213",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_22.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_22_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "23857854",
+      "Name": "EV_Solomon_Whistle_Fail",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\Silbido\\EV_Solomon_Whistle_Fail",
+      "GUID": "{C1F05685-6D36-420E-B2D5-D561168D1FC5}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "2.200000",
+      "DurationMax": "2.800000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "107727891",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_06.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_06_10C4C929.wem"
+       },
+       {
+        "Id": "251217555",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_08.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_08_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2107039460",
+      "Name": "EV_Solomon_Whistle_ShortCall",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\Silbido\\EV_Solomon_Whistle_ShortCall",
+      "GUID": "{1199B4F5-25D3-4B5F-8988-FEC5DCF3F155}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.600000",
+      "DurationMax": "2.200000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "34042384",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_21.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_21_10C4C929.wem"
+       },
+       {
+        "Id": "223854456",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_16.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_16_10C4C929.wem"
+       },
+       {
+        "Id": "249752238",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_17.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_17_10C4C929.wem"
+       },
+       {
+        "Id": "456590388",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_24.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_24_10C4C929.wem"
+       },
+       {
+        "Id": "460998863",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_14.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_14_10C4C929.wem"
+       },
+       {
+        "Id": "653903449",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_15.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_15_10C4C929.wem"
+       },
+       {
+        "Id": "767575122",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_10.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_10_10C4C929.wem"
+       },
+       {
+        "Id": "790332754",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_09.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_09_10C4C929.wem"
+       },
+       {
+        "Id": "936528802",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_18.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_18_10C4C929.wem"
+       },
+       {
+        "Id": "999400301",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_11.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_11_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "93890357",
+      "Name": "EV_Solomon_Whistle_Show",
+      "ObjectPath": "\\Events\\Character\\Djinniya\\Silbido\\EV_Solomon_Whistle_Show",
+      "GUID": "{1F7795DF-CB19-4302-B372-C04C3E333058}",
+      "MaxAttenuation": "2000.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "1.600000",
+      "DurationMax": "1.869093",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "896693223",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_23.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_23_10C4C929.wem"
+       },
+       {
+        "Id": "992182586",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_07.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_07_10C4C929.wem"
+       },
+       {
+        "Id": "1033779090",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_19.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_19_10C4C929.wem"
        }
       ]
      },
