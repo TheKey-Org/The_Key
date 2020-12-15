@@ -390,6 +390,26 @@
 							<Position X="1" Y="3"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="EV_Solomon_Whistle_Call" ID="{19D4C8BA-C76F-4D3C-B196-2A0AA46AD7E7}" WorkUnitID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}"/>
+							<Position X="1" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Solomon_Whistle_Call_2" ID="{CEB139C6-03DB-4808-BD67-FF1409913DD8}" WorkUnitID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}"/>
+							<Position X="1" Y="5"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Solomon_Whistle_Fail" ID="{C1F05685-6D36-420E-B2D5-D561168D1FC5}" WorkUnitID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}"/>
+							<Position X="1" Y="6"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Solomon_Whistle_ShortCall" ID="{1199B4F5-25D3-4B5F-8988-FEC5DCF3F155}" WorkUnitID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}"/>
+							<Position X="1" Y="7"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EV_Solomon_Whistle_Show" ID="{1F7795DF-CB19-4302-B372-C04C3E333058}" WorkUnitID="{496FC86E-1199-41B5-8A4A-7962750EF2BA}"/>
+							<Position X="1" Y="8"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="EV_ConstelacionStartChimes" ID="{A8B2EF90-2EAE-4300-AA3B-B9EC472F17DF}" WorkUnitID="{F49F0905-42A5-4868-B8E8-D29F43EFC0EA}"/>
 							<Position X="2" Y="0"/>
 						</Module>
@@ -554,9 +574,9 @@
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Explore_03" ID="{37ED6456-5FA2-4D7D-9FF9-14B4900A8719}"/>
-						<CurrentStateRef Name="Soft" ID="{B1E84501-B35C-49D2-9C04-76C9BD253639}"/>
+						<CurrentStateRef Name="Intense" ID="{3EBF920C-7D8B-4B63-BEEE-10956FF83D6D}"/>
 						<CurrentStateRef Name="UnderWater_No" ID="{40BC0357-FFD5-4263-91AC-A82D2054EC9C}"/>
-						<CurrentStateRef Name="Prision_4" ID="{211E126D-1051-4746-838C-EB9E2F0CB24D}"/>
+						<CurrentStateRef Name="Prision_3" ID="{550A370E-2FBE-42B2-9EDB-2C75B31D3874}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
 						<CurrentSwitchRef Name="Phys_Concrete" ID="{FF2B32AE-D42E-49BD-BA21-73CAE860422D}"/>

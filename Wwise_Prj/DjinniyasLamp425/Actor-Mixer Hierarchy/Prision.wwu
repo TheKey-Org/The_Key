@@ -595,7 +595,7 @@
 											<ObjectRef Name="Gas Attenuation" ID="{B5F14D85-7C0B-418D-9D41-7C6A72D17D85}" WorkUnitID="{1F1D049E-E2DC-4F15-BF43-BC6B857A06AD}"/>
 										</Reference>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -6372,7 +6372,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Hits" ID="{67F58A6E-D132-43FD-9075-986399503CEB}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -7107,6 +7107,617 @@
 										<ActiveSource Name="Desintegration_Wood" ID="{BC4C0C2E-C5F1-406D-A0E9-242EDFF73F5A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<ActorMixer Name="Whistle" ID="{1F3B8675-17C8-4785-91F7-5381518048BC}" ShortID="110600668">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_CHA_Generic" ID="{8B94C7BA-80D7-419E-AE2F-199897BAB647}" WorkUnitID="{6D48CC01-6253-4DE8-A355-72C130272A21}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Solomon_Call" ID="{BE34EDDF-6F34-48F2-9E30-7CFEA7F86414}" ShortID="721481379">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Whistle_01" ID="{3082E94F-12D2-4345-B4D8-AA4A0A637CDD}" ShortID="556686714">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_01" ID="{A982431A-768E-4A76-83D8-98159474A04D}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="150360648"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_01" ID="{A982431A-768E-4A76-83D8-98159474A04D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_02" ID="{6A2AB4E3-3324-4786-B50E-D196B9405C74}" ShortID="1040461519">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_02" ID="{410D593D-3A94-40C9-B690-4165D603D3D5}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="415405729"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_02" ID="{410D593D-3A94-40C9-B690-4165D603D3D5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_03" ID="{C3599D96-02C9-47F0-9704-46A300C2F1BC}" ShortID="172679149">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_03" ID="{FE402438-95D7-4F6F-A5DF-5C8AF0074BF9}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="805896280"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_03" ID="{FE402438-95D7-4F6F-A5DF-5C8AF0074BF9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_04" ID="{00958545-32D3-4ECC-AF2B-B3897905C40D}" ShortID="801294177">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_04" ID="{D346E4B3-E2A3-4E4E-9DB6-0727338355F7}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="587393575"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_04" ID="{D346E4B3-E2A3-4E4E-9DB6-0727338355F7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_05" ID="{020B7714-8B4D-4A7B-9B4C-7508E102AD04}" ShortID="376446651">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_05" ID="{FB25213B-E6D6-4368-B032-3EE7A24CAE2F}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="971952838"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_05" ID="{FB25213B-E6D6-4368-B032-3EE7A24CAE2F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_13" ID="{7E228524-22A1-4FBB-AC7E-038CF86CCC09}" ShortID="582533125">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_13" ID="{017E9D26-F62C-4FEA-9110-7529682181BF}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_13.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="201342989"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_13" ID="{017E9D26-F62C-4FEA-9110-7529682181BF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Solomon_Fail" ID="{AA0BAA16-8625-4DFD-BC17-DD7B2CA8AFAC}" ShortID="629714215">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Whistle_06" ID="{D5C3DF23-9461-4097-BEEF-57B6A638E528}" ShortID="582633223">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_06" ID="{91ED893C-B31F-4C69-8E0C-C55CE90E6693}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_06.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="107727891"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_06" ID="{91ED893C-B31F-4C69-8E0C-C55CE90E6693}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_08" ID="{BB226065-14BE-4A34-AE04-3BFCFA2AD93B}" ShortID="442531807">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_08" ID="{FEE2FFF5-E031-4670-8C6A-1C6E370F5BC6}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_08.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="251217555"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_08" ID="{FEE2FFF5-E031-4670-8C6A-1C6E370F5BC6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Solomon_Show" ID="{53A35019-3BC0-4F5E-945A-5996274BA930}" ShortID="246874489">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Whistle_07" ID="{F4FE310F-6BD2-4575-A6E8-A4E6993009C4}" ShortID="422180920">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_07" ID="{DC1EA96A-ED69-46C4-9C09-2F5E6D474B7A}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_07.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="992182586"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_07" ID="{DC1EA96A-ED69-46C4-9C09-2F5E6D474B7A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_19" ID="{A1FD7308-EF9E-441B-A618-B58DE5624B76}" ShortID="1038635041">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_19" ID="{4FA25DF8-DE52-4D28-912D-78526B598A19}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_19.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1033779090"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_19" ID="{4FA25DF8-DE52-4D28-912D-78526B598A19}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_23" ID="{EB24BDCC-E79F-4D97-9F4E-68DE1DBE5303}" ShortID="671435089">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_23" ID="{5C33B35A-3449-4542-B4E3-BDF2842FF7ED}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_23.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="896693223"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_23" ID="{5C33B35A-3449-4542-B4E3-BDF2842FF7ED}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Solomon_ShortCall" ID="{520007A5-202D-4FB4-81BE-98F6CD3646EF}" ShortID="737849173">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Whistle_09" ID="{79536DC8-FC85-4AC5-906D-8EE26746F3EE}" ShortID="186958255">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_09" ID="{A7E37A66-D5CF-481B-BFE9-40E46D5A0B17}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_09.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="790332754"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_09" ID="{A7E37A66-D5CF-481B-BFE9-40E46D5A0B17}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_10" ID="{514A1C5F-5C5F-4FA0-98D3-797F413FAD5B}" ShortID="632003259">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_10" ID="{3B0A0FC0-6793-4DD6-8692-284495E2B3ED}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_10.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="767575122"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_10" ID="{3B0A0FC0-6793-4DD6-8692-284495E2B3ED}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_11" ID="{6D44DE73-FD02-4FF8-9C4E-38FAFC6CC268}" ShortID="656202280">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_11" ID="{038CC9C2-9AB1-4FB8-B783-BE60495F0A4F}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_11.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="999400301"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_11" ID="{038CC9C2-9AB1-4FB8-B783-BE60495F0A4F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_14" ID="{88DBB76A-9795-45A5-9619-2575459136D0}" ShortID="173323535">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_14" ID="{452AB0ED-66E6-40C8-B9B3-52FE4169ACB8}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_14.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="460998863"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_14" ID="{452AB0ED-66E6-40C8-B9B3-52FE4169ACB8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_15" ID="{CE80C7D8-858D-4812-B54B-EFC4D24DFCD6}" ShortID="381951979">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_15" ID="{DD8DD4BB-EF37-468D-87CB-92F8E0D9CDEF}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_15.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="653903449"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_15" ID="{DD8DD4BB-EF37-468D-87CB-92F8E0D9CDEF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_16" ID="{333126A8-D5AB-4691-A051-9F0A377E2DDB}" ShortID="5814424">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_16" ID="{D8EA3E77-4833-40B6-AFB9-421D6DB2AE4A}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_16.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="223854456"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_16" ID="{D8EA3E77-4833-40B6-AFB9-421D6DB2AE4A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_17" ID="{AC4C29EE-2071-4838-A316-15EFBF8D0EC5}" ShortID="352258454">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_17" ID="{4C94BE77-2182-4657-9232-23FEB667E91A}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_17.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="249752238"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_17" ID="{4C94BE77-2182-4657-9232-23FEB667E91A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_18" ID="{1CF37E6E-B257-44C6-9BFB-0206295498F6}" ShortID="117856368">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_18" ID="{DD017A41-015D-4104-B0D5-33BA4E9545AB}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_18.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="936528802"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_18" ID="{DD017A41-015D-4104-B0D5-33BA4E9545AB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_21" ID="{0405B94E-2AC2-4178-8DEB-A40E40D8FC00}" ShortID="262636901">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_21" ID="{EF1B17AD-F64C-4B6B-A835-9E31B9FE881A}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_21.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="34042384"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_21" ID="{EF1B17AD-F64C-4B6B-A835-9E31B9FE881A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_24" ID="{73B5C49F-EAB3-40CD-AF2E-2723331AC4A1}" ShortID="317330601">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_24" ID="{B2837BEE-CDC5-4BAF-898C-7367D4344E80}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_24.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="456590388"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_24" ID="{B2837BEE-CDC5-4BAF-898C-7367D4344E80}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Solomon_Call_2" ID="{95E99270-9F6F-43B7-BA4D-8CCCACF214EF}" ShortID="498849106">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Whistle_12" ID="{B03A6C97-3D85-47A7-9CF9-C56891EFED37}" ShortID="777547443">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_12" ID="{5587DF88-EAF6-4669-8847-FA4A75DC0F21}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_12.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="456124839"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_12" ID="{5587DF88-EAF6-4669-8847-FA4A75DC0F21}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_20" ID="{A069EBD1-9854-4DE0-9059-6DA5833867E6}" ShortID="122513802">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_20" ID="{C8D46EF8-D31C-4833-8572-647E4DFC4252}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_20.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="903645078"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_20" ID="{C8D46EF8-D31C-4833-8572-647E4DFC4252}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_22" ID="{66E6BAC7-A265-4D3B-AD70-41A15B796350}" ShortID="832765970">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_22" ID="{E0CAA010-0315-4844-A00D-78715352D8E1}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_22.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1046388213"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_22" ID="{E0CAA010-0315-4844-A00D-78715352D8E1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</ActorMixer>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
