@@ -203,7 +203,86 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Actions" ID="{92179302-D56A-42FD-AF55-F35C2CF0EE5A}" ShortID="753166496"/>
+				<Folder Name="Actions" ID="{92179302-D56A-42FD-AF55-F35C2CF0EE5A}" ShortID="753166496">
+					<ChildrenList>
+						<Event Name="EV_Desintegration_Wood" ID="{3E898690-0CE1-4338-90A8-A742545B86E8}">
+							<ChildrenList>
+								<Action Name="" ID="{226B5BB0-1574-42A2-B331-5BF060778B70}" ShortID="209162988">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Desintegration_Wood" ID="{FA4CE68F-713E-4E2F-820E-CA87C8D2B00C}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Pipes_Hit" ID="{FB5A6C4A-948C-433E-96C8-C2117B2A28D8}">
+							<ChildrenList>
+								<Action Name="" ID="{1C02A939-1F09-4852-9531-E8CB1ADD4D03}" ShortID="298212489">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pipes_Hit" ID="{614DDBA3-2044-4FF4-B572-E77A13AF175D}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Gas_Pipes" ID="{46F1A8BE-7269-4273-8D3C-2E2C80B2B896}">
+							<ChildrenList>
+								<Action Name="" ID="{FE235C01-0E00-4283-9569-C22B8001724F}" ShortID="485154903">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gas_Pipes" ID="{6ADD0E3A-ED8F-4A37-99F0-8D824F21F6B0}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Machine" ID="{DD00045D-F7CF-44A0-8F03-F8BF596DFB32}">
+							<ChildrenList>
+								<Action Name="" ID="{D786EE2F-A1AD-49BA-A4A6-5684F5F6349F}" ShortID="973128116">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Machine" ID="{588B843C-C9B4-4895-9A88-807CE84BAA33}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Machine_Stop" ID="{01F841F3-AB8C-405E-8155-23281C415E8C}">
+							<ChildrenList>
+								<Action Name="" ID="{28BE3DD3-22C6-483B-86AD-2D54A89D7EEC}" ShortID="285242915">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Machine" ID="{588B843C-C9B4-4895-9A88-807CE84BAA33}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Gas_Pipes_Stop" ID="{272C586A-91A2-4F6A-ADC1-E1FDCE05AD1E}">
+							<ChildrenList>
+								<Action Name="" ID="{4E19B9B9-2CC9-40FE-8770-476FDF6478DE}" ShortID="39603274">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Gas_Pipes" ID="{6ADD0E3A-ED8F-4A37-99F0-8D824F21F6B0}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 				<Folder Name="Act" ID="{0A299FE8-1659-4071-AE3E-07F09BF218C4}" ShortID="1004723916">
 					<ChildrenList>
 						<Event Name="EV_Prision_Knockin_Wood" ID="{77F94D9A-4D84-4135-A53A-625473BFF538}">
