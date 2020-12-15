@@ -369,6 +369,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="EV_FireTorch" ID="{1E94B649-69D1-4E2F-9CD3-6D0D02BBF664}">
+					<ChildrenList>
+						<Action Name="" ID="{1318F4DE-DA95-41B7-A013-23E0B8481A66}" ShortID="525845911">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="FireTorch" ID="{BF574350-8973-4E0B-BCD4-C199FCAC7E21}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
