@@ -1,0 +1,14 @@
+Event	ID	Name			Wwise Object Path	Notes
+	152778496	Play_Prision_Resurrection			\Music\Prision\Play_Prision_Resurrection	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2884304909	Prision_Choose			\Prision\Music\Prision_Choose	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Prision_Choose			
+	3501665275	Prision_Menu	Prision_Choose			
+	3916411802	Prision_4	Prision_Choose			
+	3916411804	Prision_2	Prision_Choose			
+	3916411805	Prision_3	Prision_Choose			
+	3916411807	Prision_1	Prision_Choose			
+
