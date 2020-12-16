@@ -110,6 +110,7 @@
 								</Bus>
 								<Bus Name="TimeFX" ID="{68750E96-2C34-4601-B174-56C833FA6493}"/>
 								<Bus Name="Silbidos" ID="{4721BE78-ABB8-464A-8C7E-F467CF20FE4B}"/>
+								<Bus Name="Machine" ID="{ED09D089-B6FF-4EC7-A97D-360B5B7CA132}"/>
 							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
