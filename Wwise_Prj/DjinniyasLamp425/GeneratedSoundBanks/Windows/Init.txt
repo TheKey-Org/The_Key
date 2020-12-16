@@ -82,6 +82,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	2956342541	Sol_Actions_01			\Default Work Unit\Master Audio Bus\Character\Solomon\Sol_Actions_01	
 	2958148671	Pris_Actions			\Default Work Unit\Master Audio Bus\Character\Prisioner\Pris_Actions	
 	2982239036	Palmeras			\Default Work Unit\Master Audio Bus\Environment\Ambient\Palmeras	
+	3133364186	Silbidos			\Default Work Unit\Master Audio Bus\SFX\Silbidos	
 	3232033907	Hits			\Default Work Unit\Master Audio Bus\SFX\Hits	
 	3308581358	Solomon			\Default Work Unit\Master Audio Bus\Character\Solomon	
 	3322216404	Sol_Voice_01			\Default Work Unit\Master Audio Bus\Character\Solomon\Sol_Voice_01	
@@ -90,6 +91,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3833343604	Insects			\Default Work Unit\Master Audio Bus\Environment\Insects	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 	4017077586	Prisioner			\Default Work Unit\Master Audio Bus\Character\Prisioner	
+	4033398032	Whistling			\Default Work Unit\Master Audio Bus\Character\Djinnya\Whistling	
 	4160437992	Spells			\Default Work Unit\Master Audio Bus\SFX\Magic\Spells	
 	4235322293	Camel			\Default Work Unit\Master Audio Bus\SFX\Animals\Camel	
 

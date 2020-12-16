@@ -13,8 +13,17 @@
 							<ChildrenList>
 								<Folder Name="Machine" ID="{F9962858-E478-4F84-A44C-AC11974B0328}" ShortID="76254555">
 									<ChildrenList>
-										<Sound Name="Prision_MachineMethodical_Amb_A" ID="{364522DD-D6D8-47CD-BB1A-D5E65CCB9519}" ShortID="176213617">
+										<RandomSequenceContainer Name="Machine" ID="{588B843C-C9B4-4895-9A88-807CE84BAA33}" ShortID="140644506">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
 											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Gas Attenuation" ID="{B5F14D85-7C0B-418D-9D41-7C6A72D17D85}" WorkUnitID="{1F1D049E-E2DC-4F15-BF43-BC6B857A06AD}"/>
+												</Reference>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 												</Reference>
@@ -23,40 +32,62 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Prision_MachineMethodical_Amb_A" ID="{7E3AA996-6DC7-41E7-9E12-C4EF1EF50DEB}">
-													<Language>SFX</Language>
-													<AudioFile>Prision\Fxs\FX\Amb\Machine\Prision_MachineMethodical_Amb_A.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="33749972"/>
-													</MediaIDList>
-												</AudioFileSource>
+												<Sound Name="Prision_MachineMethodical_Amb_A" ID="{364522DD-D6D8-47CD-BB1A-D5E65CCB9519}" ShortID="176213617">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Prision_MachineMethodical_Amb_A" ID="{7E3AA996-6DC7-41E7-9E12-C4EF1EF50DEB}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0806855636123931"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="5.04047462096243"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Amb\Machine\Prision_MachineMethodical_Amb_A.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="33749972"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Prision_MachineMethodical_Amb_A" ID="{7E3AA996-6DC7-41E7-9E12-C4EF1EF50DEB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Prision_MachineMethodical_Amb_B" ID="{A24F766A-44D8-4003-8432-D4814214F918}" ShortID="246391579">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Prision_MachineMethodical_Amb_B" ID="{77FA7B1B-E1EC-4528-A077-6F0A7F60B654}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0854317732366514"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="5.0547132498352"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Amb\Machine\Prision_MachineMethodical_Amb_B.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="565871465"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Prision_MachineMethodical_Amb_B" ID="{77FA7B1B-E1EC-4528-A077-6F0A7F60B654}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Prision_MachineMethodical_Amb_A" ID="{7E3AA996-6DC7-41E7-9E12-C4EF1EF50DEB}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Prision_MachineMethodical_Amb_B" ID="{A24F766A-44D8-4003-8432-D4814214F918}" ShortID="246391579">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Prision_MachineMethodical_Amb_B" ID="{77FA7B1B-E1EC-4528-A077-6F0A7F60B654}">
-													<Language>SFX</Language>
-													<AudioFile>Prision\Fxs\FX\Amb\Machine\Prision_MachineMethodical_Amb_B.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="565871465"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Prision_MachineMethodical_Amb_B" ID="{77FA7B1B-E1EC-4528-A077-6F0A7F60B654}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</Folder>
 								<Sound Name="Prision_DarkMallet_Amb_A" ID="{8F14ADF9-1F29-4EAC-9300-B8BF5B996F7C}" ShortID="6449106">
@@ -526,6 +557,314 @@
 										</Sound>
 									</ChildrenList>
 								</BlendContainer>
+								<RandomSequenceContainer Name="Gas_Pipes" ID="{6ADD0E3A-ED8F-4A37-99F0-8D824F21F6B0}" ShortID="8481024">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3D74CD8C-0852-4402-9317-F80930D1A907}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-300"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A2BE3A6E-47A7-4141-A7F4-B7C73610BF6F}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Gas Attenuation" ID="{B5F14D85-7C0B-418D-9D41-7C6A72D17D85}" WorkUnitID="{1F1D049E-E2DC-4F15-BF43-BC6B857A06AD}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Gas_Pipes_01" ID="{84917BDA-A00E-4E9D-BADE-2146911B5FCB}" ShortID="975397284">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gas_Pipes_01" ID="{0629B00F-A119-43EB-8192-DA5813F36314}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Amb\Gas_Pipes_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="635635791"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gas_Pipes_01" ID="{0629B00F-A119-43EB-8192-DA5813F36314}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gas_Pipes_02" ID="{D87C5CF2-6759-46A6-8E4D-B948C03E14F7}" ShortID="265982767">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gas_Pipes_02" ID="{440B338D-A6C1-4CD2-B525-B5E3A8C9DB14}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Amb\Gas_Pipes_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="404006893"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gas_Pipes_02" ID="{440B338D-A6C1-4CD2-B525-B5E3A8C9DB14}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gas_Pipes_03" ID="{5E23E651-CAAF-476E-9E4B-EB8B803C700C}" ShortID="146812634">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gas_Pipes_03" ID="{ACE24E13-91C0-4CD8-BA2B-D992CE4305A5}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Amb\Gas_Pipes_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="106650129"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gas_Pipes_03" ID="{ACE24E13-91C0-4CD8-BA2B-D992CE4305A5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gas_Pipes_04" ID="{70C132E9-BB60-47BB-BC28-7212538350AF}" ShortID="601254519">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gas_Pipes_04" ID="{9A3A707D-0A14-4AA2-96CD-001770B1EE80}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Amb\Gas_Pipes_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="149555599"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gas_Pipes_04" ID="{9A3A707D-0A14-4AA2-96CD-001770B1EE80}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gas_Pipes_05" ID="{C78359EB-0893-4F16-962B-E579DD50712B}" ShortID="15139226">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gas_Pipes_05" ID="{CA4D2970-8C3E-4E1C-A4F7-3252FE98B059}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Amb\Gas_Pipes_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="454882270"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gas_Pipes_05" ID="{CA4D2970-8C3E-4E1C-A4F7-3252FE98B059}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Gas_Pipes_06" ID="{E7B23F24-0376-4869-AC60-3DFA85150F9D}" ShortID="333292708">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Gas_Pipes_06" ID="{9D9B999A-2009-4F68-AB25-52B7C0B53EE1}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Amb\Gas_Pipes_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="646525713"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Gas_Pipes_06" ID="{9D9B999A-2009-4F68-AB25-52B7C0B53EE1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="Gas_Pipes_01" ID="{84917BDA-A00E-4E9D-BADE-2146911B5FCB}"/>
+										<ItemRef Name="Gas_Pipes_02" ID="{D87C5CF2-6759-46A6-8E4D-B948C03E14F7}"/>
+										<ItemRef Name="Gas_Pipes_03" ID="{5E23E651-CAAF-476E-9E4B-EB8B803C700C}"/>
+										<ItemRef Name="Gas_Pipes_04" ID="{70C132E9-BB60-47BB-BC28-7212538350AF}"/>
+										<ItemRef Name="Gas_Pipes_05" ID="{C78359EB-0893-4F16-962B-E579DD50712B}"/>
+										<ItemRef Name="Gas_Pipes_06" ID="{E7B23F24-0376-4869-AC60-3DFA85150F9D}"/>
+									</Playlist>
+								</RandomSequenceContainer>
+								<ActorMixer Name="Fire" ID="{DDCBB21C-4F49-4B48-8D7F-DD27266959CA}" ShortID="405844629">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Start_Fire_Torch" ID="{6BD08AAD-E0C6-471E-8831-B82C08F0F8E8}" ShortID="628629894">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Start_Fire_Torch" ID="{04439F37-739D-48D9-9E03-408297542927}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Amb\Start_Fire_Torch.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1051535983"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Start_Fire_Torch" ID="{04439F37-739D-48D9-9E03-408297542927}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="FireTorch" ID="{BF574350-8973-4E0B-BCD4-C199FCAC7E21}" ShortID="728703435">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Gas Attenuation" ID="{B5F14D85-7C0B-418D-9D41-7C6A72D17D85}" WorkUnitID="{1F1D049E-E2DC-4F15-BF43-BC6B857A06AD}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="FireTorch_01" ID="{16FD9F37-CB57-453F-BDB2-EE7CF3B00654}" ShortID="77121323">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FireTorch_01" ID="{85047830-E8EE-41FA-9EAC-E905E1F828E2}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Amb\FireTorch_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="6233169"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FireTorch_01" ID="{85047830-E8EE-41FA-9EAC-E905E1F828E2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="FireTorch_02" ID="{52FB8C16-2E43-41EC-8415-5CEFDE95755D}" ShortID="98337959">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="FireTorch_02" ID="{C8D6CFA5-BC56-4949-9DBD-A86CAB0394B7}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Amb\FireTorch_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="62610189"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="FireTorch_02" ID="{C8D6CFA5-BC56-4949-9DBD-A86CAB0394B7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</ActorMixer>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Hits" ID="{3D124B5F-D3C5-4ABA-B0BF-F198F5890B27}" ShortID="122151279">
@@ -6023,6 +6362,1362 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Pipes_Hit" ID="{614DDBA3-2044-4FF4-B572-E77A13AF175D}" ShortID="23110062">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Hits" ID="{67F58A6E-D132-43FD-9075-986399503CEB}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Pipes_Hit_01" ID="{25440A5B-BE03-4DCE-8784-4B2543F2FBDE}" ShortID="581481735">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_01" ID="{A5853A30-3DFF-4DE3-9640-ECC9577E9675}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="51590111"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_01" ID="{A5853A30-3DFF-4DE3-9640-ECC9577E9675}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_02" ID="{05A381BE-DCAD-449F-9D01-EB9982F9BEE5}" ShortID="1039764290">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_02" ID="{2850EC11-EBDB-4FAF-B692-3842BEF264EE}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="739417211"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_02" ID="{2850EC11-EBDB-4FAF-B692-3842BEF264EE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_03" ID="{982BB767-256F-4766-9458-2F0ECAD4A859}" ShortID="653260795">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_03" ID="{19187E95-2413-4586-99BE-B045F7062E69}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="182952725"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_03" ID="{19187E95-2413-4586-99BE-B045F7062E69}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_04" ID="{D6741186-C745-4F81-B8BA-8DF61A6E62A7}" ShortID="650229491">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_04" ID="{FB4B4FB6-A912-4FE8-A23E-7BFB621C55B8}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="331754139"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_04" ID="{FB4B4FB6-A912-4FE8-A23E-7BFB621C55B8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_05" ID="{2C5F8B67-8759-44EA-AF66-AB2FF9DDFCC1}" ShortID="708802024">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_05" ID="{49D0D990-1C72-4DE9-8D41-B0E738FF727F}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="569180011"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_05" ID="{49D0D990-1C72-4DE9-8D41-B0E738FF727F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_06" ID="{B08CD5EC-6A05-4D1E-97DF-A13F182D6B2B}" ShortID="940189736">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_06" ID="{1D2F188E-FB2A-4F40-ACFB-CCFE87C71F42}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="104018669"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_06" ID="{1D2F188E-FB2A-4F40-ACFB-CCFE87C71F42}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_07" ID="{594426F4-116F-4E2B-9883-B9F6A03E5B41}" ShortID="136300493">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_07" ID="{70732824-D189-46B0-8B59-CF49FE0D5646}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_07.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="585030790"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_07" ID="{70732824-D189-46B0-8B59-CF49FE0D5646}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_08" ID="{EF8A8504-446D-41C7-AB15-CC73849E7214}" ShortID="281961448">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_08" ID="{392820E1-0909-4A1A-B8CE-3E8767E90F9F}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1029617203"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_08" ID="{392820E1-0909-4A1A-B8CE-3E8767E90F9F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_09" ID="{0902EE36-6048-4BC0-967A-BC7C1851B14F}" ShortID="1025350726">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_09" ID="{E4663002-45F7-4712-9F44-77FD9AB10019}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_09.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="262862090"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_09" ID="{E4663002-45F7-4712-9F44-77FD9AB10019}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_10" ID="{70484139-225D-424D-B65A-164415F1A547}" ShortID="643938392">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_10" ID="{570E9680-40F1-4449-AB97-947B6A1BA19C}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="57420891"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_10" ID="{570E9680-40F1-4449-AB97-947B6A1BA19C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_11" ID="{1DF572C9-0405-476D-B12E-775978E73EAE}" ShortID="384902794">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_11" ID="{C72538C1-749F-4391-809D-D3A5C8212929}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_11.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="265530662"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_11" ID="{C72538C1-749F-4391-809D-D3A5C8212929}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_12" ID="{634145B6-4563-44F4-833B-1C28FF17653A}" ShortID="579895946">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_12" ID="{AB5E1D25-C994-4623-9CDB-319EC5DDF4BE}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_12.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1002619492"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_12" ID="{AB5E1D25-C994-4623-9CDB-319EC5DDF4BE}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_13" ID="{1F8B664A-D5EC-4574-A23B-CB0FA9293B1B}" ShortID="1007350232">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_13" ID="{8655E61D-E506-485A-91F2-D4CE1F3FD42C}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_13.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="617612570"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_13" ID="{8655E61D-E506-485A-91F2-D4CE1F3FD42C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_14" ID="{5CD83AAC-023E-4D16-9D9F-C881AF3AA4CD}" ShortID="872596557">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_14" ID="{551A42C2-7BF5-4062-97EB-4ACC2F381CB9}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_14.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="344745827"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_14" ID="{551A42C2-7BF5-4062-97EB-4ACC2F381CB9}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_15" ID="{6393C5F9-5E65-41A3-A6A1-28127F7635F3}" ShortID="634584925">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_15" ID="{774C9FC3-0FD9-4B2C-BFA7-EC5DFE916A35}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_15.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="812485635"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_15" ID="{774C9FC3-0FD9-4B2C-BFA7-EC5DFE916A35}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_16" ID="{A2DE249D-C814-43B7-BCF1-79E4A0F899A6}" ShortID="110460995">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_16" ID="{FABC9D98-BA8B-4283-9B25-676E7F965D44}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_16.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="843451826"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_16" ID="{FABC9D98-BA8B-4283-9B25-676E7F965D44}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_17" ID="{FB507C7A-BB91-4B09-976C-B49299A3AA9C}" ShortID="80793011">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_17" ID="{6688F787-C40B-4639-AF23-F2E21A35D6A8}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_17.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="894782424"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_17" ID="{6688F787-C40B-4639-AF23-F2E21A35D6A8}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_18" ID="{A3A8F164-0322-4CBA-A0C4-24D05A0702F3}" ShortID="179466353">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_18" ID="{DF47BB56-E66D-48A5-AE94-269309FA9DAF}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_18.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="84273992"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_18" ID="{DF47BB56-E66D-48A5-AE94-269309FA9DAF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_19" ID="{20B7ACB2-7383-414C-A544-2CD5CA4CB3E0}" ShortID="1037958498">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_19" ID="{A3564517-AABF-4864-BDC1-84CB3A029C31}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_19.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1008029568"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_19" ID="{A3564517-AABF-4864-BDC1-84CB3A029C31}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_20" ID="{E9CCF36E-627F-4ED9-8D10-F7D64529900B}" ShortID="15109019">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_20" ID="{E991BC40-C766-4445-8F4D-DF11B62F4E00}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_20.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1049345407"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_20" ID="{E991BC40-C766-4445-8F4D-DF11B62F4E00}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_21" ID="{E30F9A3B-A922-424E-B8F9-A8F646C9460E}" ShortID="594974731">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_21" ID="{9FB8ED28-A926-4196-828C-1B0B300AB046}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_21.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="832983576"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_21" ID="{9FB8ED28-A926-4196-828C-1B0B300AB046}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_22" ID="{C8FEC580-45E9-430E-9003-D043DBA07264}" ShortID="525789289">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_22" ID="{13BACC8E-7118-4CD5-BDB0-29D652E10883}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_22.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="387885745"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_22" ID="{13BACC8E-7118-4CD5-BDB0-29D652E10883}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_23" ID="{0DFB52E6-7BFE-4D35-981D-4A672FAACB32}" ShortID="169483521">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_23" ID="{4D03925A-AF46-413F-8850-7B8C082FD383}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_23.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="993035856"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_23" ID="{4D03925A-AF46-413F-8850-7B8C082FD383}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_24" ID="{8C6BD5C2-AF42-4906-A418-AFDE5AD1537C}" ShortID="60362123">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_24" ID="{EF9C5810-162F-4141-9E1C-8E9BA50C73CC}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_24.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="898723298"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_24" ID="{EF9C5810-162F-4141-9E1C-8E9BA50C73CC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_25" ID="{E62EEFE1-ED85-4FF9-B13F-012F6F52D6C0}" ShortID="139986847">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_25" ID="{D51D3EEA-4ED9-45B0-8F41-FC774A153207}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_25.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="493059553"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_25" ID="{D51D3EEA-4ED9-45B0-8F41-FC774A153207}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_26" ID="{5C92ED43-03E2-4030-A28E-10B2705FA568}" ShortID="130098126">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_26" ID="{D0F5EEA8-A3BB-49F6-8DDE-5598B720E0A2}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_26.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="563381973"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_26" ID="{D0F5EEA8-A3BB-49F6-8DDE-5598B720E0A2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_27" ID="{D0125CCF-ED14-4833-A5EF-04B0E2116AA0}" ShortID="229173499">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_27" ID="{36CBA144-2E64-4977-BBAB-A5729F8BAB0C}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_27.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1027623144"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_27" ID="{36CBA144-2E64-4977-BBAB-A5729F8BAB0C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_28" ID="{ECA2E129-6695-43DB-BF0C-15D6336F6831}" ShortID="94014580">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_28" ID="{62864EF1-C034-460A-BCCA-36819115CD89}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_28.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="529961442"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_28" ID="{62864EF1-C034-460A-BCCA-36819115CD89}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_29" ID="{D65C2CA3-85E4-44B7-8C29-B7AE06EC1F2B}" ShortID="197529760">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_29" ID="{1AE9ABE0-E934-4B02-9DBA-0AEDB6598500}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_29.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="496841570"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_29" ID="{1AE9ABE0-E934-4B02-9DBA-0AEDB6598500}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_30" ID="{6CC36E06-058A-4F04-A056-B1D9E08533E0}" ShortID="717863583">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_30" ID="{E7EB797B-3415-458D-802D-9BDD0C906315}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_30.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="757428530"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_30" ID="{E7EB797B-3415-458D-802D-9BDD0C906315}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_31" ID="{75F8F5F9-B5C8-4E77-922F-864F3AD120BD}" ShortID="866012674">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_31" ID="{A5A38AEA-107C-42F7-B485-2B236DDD6E81}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_31.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="928833342"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_31" ID="{A5A38AEA-107C-42F7-B485-2B236DDD6E81}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Pipes_Hit_32" ID="{74DB2AEF-30FA-4D40-848B-678DF2E7D03E}" ShortID="253641822">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Pipes_Hit_32" ID="{32E37E10-94BE-4503-A925-91A1DCC7A24D}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Pipes_Hit_32.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="189209852"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Pipes_Hit_32" ID="{32E37E10-94BE-4503-A925-91A1DCC7A24D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Desintegration_Wood" ID="{FA4CE68F-713E-4E2F-820E-CA87C8D2B00C}" ShortID="984625138">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Desintegration_Wood" ID="{BC4C0C2E-C5F1-406D-A0E9-242EDFF73F5A}">
+											<Language>SFX</Language>
+											<AudioFile>Prision\Fxs\FX\Action\Desintegration_Wood.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="469995747"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Desintegration_Wood" ID="{BC4C0C2E-C5F1-406D-A0E9-242EDFF73F5A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<ActorMixer Name="Whistle" ID="{1F3B8675-17C8-4785-91F7-5381518048BC}" ShortID="110600668">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ATT_CHA_Generic" ID="{8B94C7BA-80D7-419E-AE2F-199897BAB647}" WorkUnitID="{6D48CC01-6253-4DE8-A355-72C130272A21}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Solomon_Call" ID="{BE34EDDF-6F34-48F2-9E30-7CFEA7F86414}" ShortID="721481379">
+											<PropertyList>
+												<Property Name="OverrideOutput" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Whistle_01" ID="{3082E94F-12D2-4345-B4D8-AA4A0A637CDD}" ShortID="556686714">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_01" ID="{A982431A-768E-4A76-83D8-98159474A04D}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_01.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="150360648"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_01" ID="{A982431A-768E-4A76-83D8-98159474A04D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_02" ID="{6A2AB4E3-3324-4786-B50E-D196B9405C74}" ShortID="1040461519">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_02" ID="{410D593D-3A94-40C9-B690-4165D603D3D5}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_02.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="415405729"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_02" ID="{410D593D-3A94-40C9-B690-4165D603D3D5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_03" ID="{C3599D96-02C9-47F0-9704-46A300C2F1BC}" ShortID="172679149">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_03" ID="{FE402438-95D7-4F6F-A5DF-5C8AF0074BF9}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_03.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="805896280"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_03" ID="{FE402438-95D7-4F6F-A5DF-5C8AF0074BF9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_04" ID="{00958545-32D3-4ECC-AF2B-B3897905C40D}" ShortID="801294177">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_04" ID="{D346E4B3-E2A3-4E4E-9DB6-0727338355F7}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_04.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="587393575"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_04" ID="{D346E4B3-E2A3-4E4E-9DB6-0727338355F7}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_05" ID="{020B7714-8B4D-4A7B-9B4C-7508E102AD04}" ShortID="376446651">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_05" ID="{FB25213B-E6D6-4368-B032-3EE7A24CAE2F}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_05.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="971952838"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_05" ID="{FB25213B-E6D6-4368-B032-3EE7A24CAE2F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_13" ID="{7E228524-22A1-4FBB-AC7E-038CF86CCC09}" ShortID="582533125">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_13" ID="{017E9D26-F62C-4FEA-9110-7529682181BF}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_13.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="201342989"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_13" ID="{017E9D26-F62C-4FEA-9110-7529682181BF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Solomon_Fail" ID="{AA0BAA16-8625-4DFD-BC17-DD7B2CA8AFAC}" ShortID="629714215">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Whistle_06" ID="{D5C3DF23-9461-4097-BEEF-57B6A638E528}" ShortID="582633223">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_06" ID="{91ED893C-B31F-4C69-8E0C-C55CE90E6693}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_06.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="107727891"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_06" ID="{91ED893C-B31F-4C69-8E0C-C55CE90E6693}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_08" ID="{BB226065-14BE-4A34-AE04-3BFCFA2AD93B}" ShortID="442531807">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_08" ID="{FEE2FFF5-E031-4670-8C6A-1C6E370F5BC6}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_08.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="251217555"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_08" ID="{FEE2FFF5-E031-4670-8C6A-1C6E370F5BC6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Solomon_Show" ID="{53A35019-3BC0-4F5E-945A-5996274BA930}" ShortID="246874489">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Whistle_07" ID="{F4FE310F-6BD2-4575-A6E8-A4E6993009C4}" ShortID="422180920">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_07" ID="{DC1EA96A-ED69-46C4-9C09-2F5E6D474B7A}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_07.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="992182586"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_07" ID="{DC1EA96A-ED69-46C4-9C09-2F5E6D474B7A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_19" ID="{A1FD7308-EF9E-441B-A618-B58DE5624B76}" ShortID="1038635041">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_19" ID="{4FA25DF8-DE52-4D28-912D-78526B598A19}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_19.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1033779090"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_19" ID="{4FA25DF8-DE52-4D28-912D-78526B598A19}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_23" ID="{EB24BDCC-E79F-4D97-9F4E-68DE1DBE5303}" ShortID="671435089">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_23" ID="{5C33B35A-3449-4542-B4E3-BDF2842FF7ED}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_23.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="896693223"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_23" ID="{5C33B35A-3449-4542-B4E3-BDF2842FF7ED}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Solomon_ShortCall" ID="{520007A5-202D-4FB4-81BE-98F6CD3646EF}" ShortID="737849173">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Whistle_09" ID="{79536DC8-FC85-4AC5-906D-8EE26746F3EE}" ShortID="186958255">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_09" ID="{A7E37A66-D5CF-481B-BFE9-40E46D5A0B17}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_09.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="790332754"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_09" ID="{A7E37A66-D5CF-481B-BFE9-40E46D5A0B17}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_10" ID="{514A1C5F-5C5F-4FA0-98D3-797F413FAD5B}" ShortID="632003259">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_10" ID="{3B0A0FC0-6793-4DD6-8692-284495E2B3ED}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_10.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="767575122"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_10" ID="{3B0A0FC0-6793-4DD6-8692-284495E2B3ED}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_11" ID="{6D44DE73-FD02-4FF8-9C4E-38FAFC6CC268}" ShortID="656202280">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_11" ID="{038CC9C2-9AB1-4FB8-B783-BE60495F0A4F}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_11.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="999400301"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_11" ID="{038CC9C2-9AB1-4FB8-B783-BE60495F0A4F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_14" ID="{88DBB76A-9795-45A5-9619-2575459136D0}" ShortID="173323535">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_14" ID="{452AB0ED-66E6-40C8-B9B3-52FE4169ACB8}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_14.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="460998863"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_14" ID="{452AB0ED-66E6-40C8-B9B3-52FE4169ACB8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_15" ID="{CE80C7D8-858D-4812-B54B-EFC4D24DFCD6}" ShortID="381951979">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_15" ID="{DD8DD4BB-EF37-468D-87CB-92F8E0D9CDEF}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_15.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="653903449"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_15" ID="{DD8DD4BB-EF37-468D-87CB-92F8E0D9CDEF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_16" ID="{333126A8-D5AB-4691-A051-9F0A377E2DDB}" ShortID="5814424">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_16" ID="{D8EA3E77-4833-40B6-AFB9-421D6DB2AE4A}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_16.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="223854456"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_16" ID="{D8EA3E77-4833-40B6-AFB9-421D6DB2AE4A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_17" ID="{AC4C29EE-2071-4838-A316-15EFBF8D0EC5}" ShortID="352258454">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_17" ID="{4C94BE77-2182-4657-9232-23FEB667E91A}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_17.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="249752238"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_17" ID="{4C94BE77-2182-4657-9232-23FEB667E91A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_18" ID="{1CF37E6E-B257-44C6-9BFB-0206295498F6}" ShortID="117856368">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_18" ID="{DD017A41-015D-4104-B0D5-33BA4E9545AB}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_18.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="936528802"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_18" ID="{DD017A41-015D-4104-B0D5-33BA4E9545AB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_21" ID="{0405B94E-2AC2-4178-8DEB-A40E40D8FC00}" ShortID="262636901">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_21" ID="{EF1B17AD-F64C-4B6B-A835-9E31B9FE881A}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_21.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="34042384"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_21" ID="{EF1B17AD-F64C-4B6B-A835-9E31B9FE881A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_24" ID="{73B5C49F-EAB3-40CD-AF2E-2723331AC4A1}" ShortID="317330601">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_24" ID="{B2837BEE-CDC5-4BAF-898C-7367D4344E80}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_24.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="456590388"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_24" ID="{B2837BEE-CDC5-4BAF-898C-7367D4344E80}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Solomon_Call_2" ID="{95E99270-9F6F-43B7-BA4D-8CCCACF214EF}" ShortID="498849106">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Whistle_12" ID="{B03A6C97-3D85-47A7-9CF9-C56891EFED37}" ShortID="777547443">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_12" ID="{5587DF88-EAF6-4669-8847-FA4A75DC0F21}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_12.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="456124839"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_12" ID="{5587DF88-EAF6-4669-8847-FA4A75DC0F21}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_20" ID="{A069EBD1-9854-4DE0-9059-6DA5833867E6}" ShortID="122513802">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_20" ID="{C8D46EF8-D31C-4833-8572-647E4DFC4252}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_20.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="903645078"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_20" ID="{C8D46EF8-D31C-4833-8572-647E4DFC4252}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Whistle_22" ID="{66E6BAC7-A265-4D3B-AD70-41A15B796350}" ShortID="832765970">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Whistle_22" ID="{E0CAA010-0315-4844-A00D-78715352D8E1}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\Whistle_22.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1046388213"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Whistle_22" ID="{E0CAA010-0315-4844-A00D-78715352D8E1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</ActorMixer>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
