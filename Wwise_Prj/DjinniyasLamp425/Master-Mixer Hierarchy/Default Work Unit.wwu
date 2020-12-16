@@ -109,6 +109,7 @@
 									</PropertyList>
 								</Bus>
 								<Bus Name="TimeFX" ID="{68750E96-2C34-4601-B174-56C833FA6493}"/>
+								<Bus Name="Silbidos" ID="{4721BE78-ABB8-464A-8C7E-F467CF20FE4B}"/>
 							</ChildrenList>
 							<StateInfo>
 								<StateGroupList>
@@ -212,6 +213,7 @@
 											</DuckingList>
 										</Bus>
 										<Bus Name="Djin_Actions_01" ID="{855FBFE4-DEF1-4F97-BBAD-10BE11232F24}"/>
+										<Bus Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}"/>
 									</ChildrenList>
 								</Bus>
 								<Bus Name="Solomon" ID="{0765EFFF-64B6-40F8-88C3-07A511A7F221}">
