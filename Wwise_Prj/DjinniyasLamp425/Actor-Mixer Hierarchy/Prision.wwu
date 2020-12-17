@@ -18,17 +18,23 @@
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-12</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Attenuation">
 													<ObjectRef Name="Gas Attenuation" ID="{B5F14D85-7C0B-418D-9D41-7C6A72D17D85}" WorkUnitID="{1F1D049E-E2DC-4F15-BF43-BC6B857A06AD}"/>
 												</Reference>
 												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+													<ObjectRef Name="Machine" ID="{ED09D089-B6FF-4EC7-A97D-360B5B7CA132}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -86,6 +92,111 @@
 														<ActiveSource Name="Prision_MachineMethodical_Amb_B" ID="{77FA7B1B-E1EC-4528-A077-6F0A7F60B654}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<Sound Name="Engines_fastairpuff_chuff_airpipe_compressed" ID="{7D6B4196-1539-4312-8D70-76E3AAF0E65C}" ShortID="163437135">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Machine" ID="{ED09D089-B6FF-4EC7-A97D-360B5B7CA132}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="EGEngines_johndeeretypeE_fastairpuff_chuff_airpipe_compressed" ID="{25983399-06ED-405D-95EA-8B26D8EDBDB5}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="8.64325906394199"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Originals\EGEngines_johndeeretypeE_fastairpuff_chuff_airpipe_compressed.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="155446447"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="EGEngines_johndeeretypeE_fastairpuff_chuff_airpipe_compressed" ID="{25983399-06ED-405D-95EA-8B26D8EDBDB5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<RandomSequenceContainer Name="Gas_Leak" ID="{837217D3-A6F8-46E8-A365-158ED8B01709}" ShortID="745262117">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="gas_leak_02_loop" ID="{BED0AF8C-9231-4DD0-9AE1-597DB42FD9FE}" ShortID="609239286">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="gas_leak_02_loop" ID="{03AE0F1E-251A-462F-897F-49F4385D200C}">
+																	<Language>SFX</Language>
+																	<AudioFile>Prision\Fxs\FX\Originals\gas_leak_02_loop.WAV</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="808642741"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="gas_leak_02_loop" ID="{03AE0F1E-251A-462F-897F-49F4385D200C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="gas_leak_03_loop" ID="{6279D6A5-60C7-4F61-954F-8940F2F627C0}" ShortID="910005933">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="gas_leak_03_loop" ID="{E7851698-B125-4EE7-AE91-229C7322136D}">
+																	<Language>SFX</Language>
+																	<AudioFile>Prision\Fxs\FX\Originals\gas_leak_03_loop.WAV</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1016688561"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="gas_leak_03_loop" ID="{E7851698-B125-4EE7-AE91-229C7322136D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="gas_leak_04_loop" ID="{3633EE5F-92C5-4649-BC2D-805260161E5A}" ShortID="290038311">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="gas_leak_04_loop" ID="{DF5EB5F9-10C5-4ED3-A781-5BFDB321000C}">
+																	<Language>SFX</Language>
+																	<AudioFile>Prision\Fxs\FX\Originals\gas_leak_04_loop.WAV</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="224429626"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="gas_leak_04_loop" ID="{DF5EB5F9-10C5-4ED3-A781-5BFDB321000C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
 											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
@@ -93,7 +204,7 @@
 								<Sound Name="Prision_DarkMallet_Amb_A" ID="{8F14ADF9-1F29-4EAC-9300-B8BF5B996F7C}" ShortID="6449106">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -115,7 +226,7 @@
 								<Sound Name="Prision_DarkMallet_Amb_B" ID="{BFC71384-D9DA-4F81-B810-1DEE6CFF67BB}" ShortID="615084755">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -137,7 +248,7 @@
 								<Sound Name="Prision_DarkMetal_Amb_A" ID="{817D417C-A1BB-4429-B52A-17BF70B1FF28}" ShortID="477750385">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -159,7 +270,7 @@
 								<Sound Name="Prision_DarkMetal_Amb_B" ID="{A0783F7B-02D9-4FBD-9B7E-E1BF742C5B27}" ShortID="233438584">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -181,7 +292,7 @@
 								<Sound Name="Prision_DevilSlowDrone_Amb_A" ID="{9A8233D7-1973-410B-914E-EF2444BBF0EC}" ShortID="747974728">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -203,7 +314,7 @@
 								<Sound Name="Prision_DevilSlowDrone_Amb_B" ID="{B06762F7-3E08-4326-B70F-D61220FFDBCF}" ShortID="183818233">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -225,7 +336,7 @@
 								<Sound Name="Prision_Muffled_Impact_C" ID="{312A4DD2-9F45-48F7-A9D0-D4F5D4AF2314}" ShortID="488278282">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -247,7 +358,7 @@
 								<Sound Name="Prision_Muffled_Impact_D" ID="{C8F05CF5-CF91-48C9-883C-6739AC060493}" ShortID="832107251">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -269,7 +380,7 @@
 								<Sound Name="Prision_SeismicRumble_Amb_A" ID="{B62DE1B2-D9E1-4A78-AF4A-4E750F76ADB8}" ShortID="167681508">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -291,7 +402,7 @@
 								<Sound Name="Prision_SeismicRumble_Amb_B" ID="{C3354EC8-2352-4C49-9E9B-E20D117C5DCB}" ShortID="125059611">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -768,7 +879,7 @@
 								<ActorMixer Name="Fire" ID="{DDCBB21C-4F49-4B48-8D7F-DD27266959CA}" ShortID="405844629">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Environment" ID="{FC7A00A4-D1E2-44A9-A3C7-B73DA6C9CBD9}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -865,6 +976,179 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</ActorMixer>
+								<RandomSequenceContainer Name="PaperSound222" ID="{874DAAC8-AC89-4CAA-9B7D-B3247C23FC67}" ShortID="1008508277">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>39</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverrideConversion" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{2DA31FCA-A90C-4807-8D7F-3D8E441D5339}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-300"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{79FF6075-FB17-4989-A123-80A342CE74E1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+															<Property Name="Min" Type="Real64" Value="-5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Paper_Handling_Turning_01" ID="{AE0A6BCF-104E-405D-8C55-CC3745C7E6C8}" ShortID="637178611">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Paper_Handling_Turning_01" ID="{D0278196-1FB7-473C-93A2-64E901FDD547}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Amb\Paper_Handling_Turning_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="751975773"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Paper_Handling_Turning_01" ID="{D0278196-1FB7-473C-93A2-64E901FDD547}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Paper_Handling_Turning_02" ID="{63CDE6C7-1666-4AFB-A0F4-00F56AE40B4C}" ShortID="635661316">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Paper_Handling_Turning_02" ID="{29657F2E-DA57-4A39-A26D-315F58813E52}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Amb\Paper_Handling_Turning_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="855626187"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Paper_Handling_Turning_02" ID="{29657F2E-DA57-4A39-A26D-315F58813E52}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Paper_Handling_Turning_03" ID="{B4878817-D8EC-45DF-A7DD-2FC4890D4646}" ShortID="191698694">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Paper_Handling_Turning_03" ID="{458ADAE7-B84C-4ADD-A2C4-F26D58ED0FA3}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Amb\Paper_Handling_Turning_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="752805694"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Paper_Handling_Turning_03" ID="{458ADAE7-B84C-4ADD-A2C4-F26D58ED0FA3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Paper_Handling_Turning_04" ID="{38F9E74E-8DE0-4D30-82F2-E541BACC2C4B}" ShortID="596569816">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Paper_Handling_Turning_04" ID="{FBBB683D-DD58-4099-8486-28C82549B5CF}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Amb\Paper_Handling_Turning_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="58347696"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Paper_Handling_Turning_04" ID="{FBBB683D-DD58-4099-8486-28C82549B5CF}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Paper_Handling_Turning_05" ID="{8CA855BF-B9AB-4491-8B4A-A5C7ECB0A919}" ShortID="448072346">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambient" ID="{614E5E8C-76C8-4744-A228-41B3D3A53136}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Paper_Handling_Turning_05" ID="{D54DF5F1-EBA6-40CC-BBCE-C9E1668ED675}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Amb\Paper_Handling_Turning_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="510603923"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Paper_Handling_Turning_05" ID="{D54DF5F1-EBA6-40CC-BBCE-C9E1668ED675}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<Playlist>
+										<ItemRef Name="Paper_Handling_Turning_01" ID="{AE0A6BCF-104E-405D-8C55-CC3745C7E6C8}"/>
+										<ItemRef Name="Paper_Handling_Turning_02" ID="{63CDE6C7-1666-4AFB-A0F4-00F56AE40B4C}"/>
+										<ItemRef Name="Paper_Handling_Turning_01" ID="{AE0A6BCF-104E-405D-8C55-CC3745C7E6C8}"/>
+										<ItemRef Name="Paper_Handling_Turning_03" ID="{B4878817-D8EC-45DF-A7DD-2FC4890D4646}"/>
+										<ItemRef Name="Paper_Handling_Turning_04" ID="{38F9E74E-8DE0-4D30-82F2-E541BACC2C4B}"/>
+										<ItemRef Name="Paper_Handling_Turning_05" ID="{8CA855BF-B9AB-4491-8B4A-A5C7ECB0A919}"/>
+										<ItemRef Name="Paper_Handling_Turning_02" ID="{63CDE6C7-1666-4AFB-A0F4-00F56AE40B4C}"/>
+										<ItemRef Name="Paper_Handling_Turning_03" ID="{B4878817-D8EC-45DF-A7DD-2FC4890D4646}"/>
+										<ItemRef Name="Paper_Handling_Turning_04" ID="{38F9E74E-8DE0-4D30-82F2-E541BACC2C4B}"/>
+										<ItemRef Name="Paper_Handling_Turning_03" ID="{B4878817-D8EC-45DF-A7DD-2FC4890D4646}"/>
+									</Playlist>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Hits" ID="{3D124B5F-D3C5-4ABA-B0BF-F198F5890B27}" ShortID="122151279">
@@ -1639,6 +1923,77 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<Sound Name="Prision_Lemming_Out" ID="{9DFF0C42-A584-4734-B0E3-1952AE0978EC}" ShortID="485573952">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Hits" ID="{67F58A6E-D132-43FD-9075-986399503CEB}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Prision_Dulci_Pizz_C2_C2" ID="{31D69686-4B40-487D-ABB8-282DEFA1FA33}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="2.52498352010548"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.14515491100857"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Prision\Fxs\FX\Hits\Prision_Dulci_Pizz_C2_C2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="329710038"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Prision_Dulci_Pizz_C2_C2" ID="{31D69686-4B40-487D-ABB8-282DEFA1FA33}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Prision_Lemming_In" ID="{F11ED57B-762C-4AB2-93F5-623860EC4686}" ShortID="949520875">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Hits" ID="{67F58A6E-D132-43FD-9075-986399503CEB}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Prision_Dulci_Pizz_C3_C3" ID="{722D9B13-34D8-468B-AF03-B27CD439EEBD}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.094924192485168"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.942913645352669"/>
+												<Property Name="FadeOutShape" Type="int16" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.13276203032301"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Prision\Fxs\FX\Hits\Prision_Dulci_Pizz_C3_C3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="600876517"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Prision_Dulci_Pizz_C3_C3" ID="{722D9B13-34D8-468B-AF03-B27CD439EEBD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Originals" ID="{560530AC-81FF-497F-ACC6-556A8E3F4803}" ShortID="914420702">
@@ -1737,7 +2092,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+											<ObjectRef Name="Machine" ID="{ED09D089-B6FF-4EC7-A97D-360B5B7CA132}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -2059,7 +2414,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+											<ObjectRef Name="Machine" ID="{ED09D089-B6FF-4EC7-A97D-360B5B7CA132}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -2275,7 +2630,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+											<ObjectRef Name="Magic" ID="{82C41B8E-08BB-4843-A77E-AEA850E7DB5A}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -3286,6 +3641,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Prision_WhisperedDreams_OddBreath_G2_G2" ID="{5BA08C94-E796-4292-9D30-DF5A502D8A4A}">
+											<PropertyList>
+												<Property Name="LoopBegin" Type="Real64" Value="1.2403427818062"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Prision\Fxs\FX\Vocal\Prision_WhisperedDreams_OddBreath_G2_G2.wav</AudioFile>
 											<MediaIDList>
@@ -6052,7 +6411,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -6089,7 +6448,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -6111,7 +6470,7 @@
 								<RandomSequenceContainer Name="Prision_Knockin_Wood" ID="{2CB98311-E6D7-4D94-B1FC-060499007315}" ShortID="806413407">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -7088,7 +7447,7 @@
 								<Sound Name="Desintegration_Wood" ID="{FA4CE68F-713E-4E2F-820E-CA87C8D2B00C}" ShortID="984625138">
 									<ReferenceList>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -7116,7 +7475,7 @@
 											<ObjectRef Name="ATT_CHA_Generic" ID="{8B94C7BA-80D7-419E-AE2F-199897BAB647}" WorkUnitID="{6D48CC01-6253-4DE8-A355-72C130272A21}"/>
 										</Reference>
 										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Whistling" ID="{7E73062F-68BB-4B11-B25A-B451209D4268}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
@@ -7152,7 +7511,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_01.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="150360648"/>
+																<MediaID ID="462169545"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7174,7 +7533,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_02.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="415405729"/>
+																<MediaID ID="552797024"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7196,7 +7555,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_03.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="805896280"/>
+																<MediaID ID="23741741"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7218,7 +7577,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_04.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="587393575"/>
+																<MediaID ID="290112056"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7240,7 +7599,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_05.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="971952838"/>
+																<MediaID ID="309372297"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7262,7 +7621,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_13.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="201342989"/>
+																<MediaID ID="234343919"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7296,7 +7655,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_06.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="107727891"/>
+																<MediaID ID="635928349"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7318,7 +7677,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_08.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="251217555"/>
+																<MediaID ID="767079856"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7352,7 +7711,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_07.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="992182586"/>
+																<MediaID ID="435907124"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7374,7 +7733,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_19.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="1033779090"/>
+																<MediaID ID="556200513"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7396,7 +7755,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_23.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="896693223"/>
+																<MediaID ID="558216904"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7430,7 +7789,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_09.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="790332754"/>
+																<MediaID ID="562868718"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7452,7 +7811,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_10.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="767575122"/>
+																<MediaID ID="366693265"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7474,7 +7833,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_11.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="999400301"/>
+																<MediaID ID="917927553"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7496,7 +7855,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_14.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="460998863"/>
+																<MediaID ID="642917353"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7518,7 +7877,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_15.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="653903449"/>
+																<MediaID ID="291459656"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7540,7 +7899,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_16.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="223854456"/>
+																<MediaID ID="708623809"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7562,7 +7921,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_17.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="249752238"/>
+																<MediaID ID="460141073"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7584,7 +7943,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_18.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="936528802"/>
+																<MediaID ID="414409384"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7606,7 +7965,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_21.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="34042384"/>
+																<MediaID ID="608200902"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7628,7 +7987,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_24.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="456590388"/>
+																<MediaID ID="959417640"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7662,7 +8021,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_12.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="456124839"/>
+																<MediaID ID="403970128"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7684,7 +8043,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_20.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="903645078"/>
+																<MediaID ID="400402950"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7706,7 +8065,7 @@
 															<Language>SFX</Language>
 															<AudioFile>Prision\Fxs\FX\Action\Whistle_22.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="1046388213"/>
+																<MediaID ID="428332735"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
@@ -7718,6 +8077,2733 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</ActorMixer>
+								<ActorMixer Name="Coins" ID="{D4FC8BA9-D180-4DAC-A2D0-6C4E9D48B788}" ShortID="103104025">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Coins_Pouch_Leather_Drop_Into_Takes_3" ID="{CC6C467A-3681-4B60-94B4-E3607F92A061}" ShortID="955728309">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Coins_Pouch_Leather_Drop_Into_Takes_3" ID="{510090FE-89AB-4A45-807C-F233562E3B9C}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Coins_Pouch_Leather_Drop_Into_Takes_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="674209639"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Coins_Pouch_Leather_Drop_Into_Takes_3" ID="{510090FE-89AB-4A45-807C-F233562E3B9C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Coins_Wood_Slide_Gather_Takes_10" ID="{2512D6E5-FA01-428B-9B65-4B9008146872}" ShortID="108686668">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Coins_Wood_Slide_Gather_Takes_10" ID="{30596063-BEBA-44F2-923E-2CE536C7C02B}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Coins_Wood_Slide_Gather_Takes_10.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1040869213"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Coins_Wood_Slide_Gather_Takes_10" ID="{30596063-BEBA-44F2-923E-2CE536C7C02B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Money,Coins,Handle" ID="{2F8C0FA5-9B7F-4029-AC48-7862B49C99A0}" ShortID="69595074">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Money,Coins,Handle" ID="{7EB2F60C-512F-4146-8319-99C513F4BF0B}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.136415087343441"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.116489288068556"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.10204997528016"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Money,Coins,Handle.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="449471873"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Money,Coins,Handle" ID="{7EB2F60C-512F-4146-8319-99C513F4BF0B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="CoinsSound_Tesoro" ID="{D2C74A58-2736-4C1C-B39F-24B789DF4BA8}" ShortID="45243713">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="1"/>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{0CAA704D-F0B8-4610-A5C1-4B4204EE0ED2}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="5"/>
+																	<Property Name="Min" Type="Real64" Value="-8"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="coin_bag_ring_gemstone_item_01" ID="{FF29964A-3760-41B7-9E0F-C06CA5842F39}" ShortID="664674480">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_01" ID="{A4408A23-82D4-49C8-A2A8-577428EB1CE0}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_01.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="520917775"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_01" ID="{A4408A23-82D4-49C8-A2A8-577428EB1CE0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_02" ID="{55CF573E-EB01-46EC-BEA2-EDFC767986CD}" ShortID="962149105">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_02" ID="{9AD64454-F5E1-47D6-BC88-4BCF31DD4C6E}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_02.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="925301505"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_02" ID="{9AD64454-F5E1-47D6-BC88-4BCF31DD4C6E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_03" ID="{F64E59E3-79AB-4F2B-A71F-D6D063FB91C3}" ShortID="148979992">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_03" ID="{7B07C161-3070-4A8D-B683-A42A6C67D811}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_03.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="508197118"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_03" ID="{7B07C161-3070-4A8D-B683-A42A6C67D811}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_04" ID="{5907A172-5550-4365-9E99-1C7DE986E2A9}" ShortID="505421767">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_04" ID="{F00C9D13-563B-4A2E-A023-4B72C4F14D0E}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_04.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="849310279"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_04" ID="{F00C9D13-563B-4A2E-A023-4B72C4F14D0E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_05" ID="{7A36327F-F7B4-4507-BDE2-7634541DC6EC}" ShortID="385572213">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_05" ID="{D3CE30BA-87E1-4E91-AF2F-27EACF3AC934}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_05.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="83995504"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_05" ID="{D3CE30BA-87E1-4E91-AF2F-27EACF3AC934}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_06" ID="{BD8E31CA-BCBA-4772-90E2-7DBEE56DA814}" ShortID="512185459">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_06" ID="{DA38FCC8-AC2D-405A-8913-6C3831790843}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_06.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1021088609"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_06" ID="{DA38FCC8-AC2D-405A-8913-6C3831790843}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_07" ID="{471A168B-53D8-4A5F-877B-1E8B71160A7D}" ShortID="438670555">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_07" ID="{B00D25CC-E18D-4FA2-9776-02D653CBE503}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_07.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="578072848"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_07" ID="{B00D25CC-E18D-4FA2-9776-02D653CBE503}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_08" ID="{6CDAF899-632A-4F20-87C0-2303D68AD509}" ShortID="879150744">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_08" ID="{1191ED9C-FA02-482C-BC9D-6883FB67C134}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_08.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="381380696"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_08" ID="{1191ED9C-FA02-482C-BC9D-6883FB67C134}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_09" ID="{DE2DBB92-70ED-45CE-BAA2-00E0812148FC}" ShortID="1068724459">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_09" ID="{3FD393CA-40EB-4967-8547-DA9267FC9843}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_09.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="155963178"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_09" ID="{3FD393CA-40EB-4967-8547-DA9267FC9843}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_10" ID="{85BB9EBF-E215-444D-8F81-D512AB3E5F75}" ShortID="712540102">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_10" ID="{B9384A07-E72B-4C14-8CA7-7E626F12461E}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_10.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="925146450"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_10" ID="{B9384A07-E72B-4C14-8CA7-7E626F12461E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_11" ID="{4CDF6E8F-52B5-4AB2-A8A8-B99EE224785A}" ShortID="502667349">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_11" ID="{23175623-ABBF-44A9-B111-E8E5BDF11E27}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_11.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="923671474"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_11" ID="{23175623-ABBF-44A9-B111-E8E5BDF11E27}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_12" ID="{D7C57BD0-8342-4F1C-95CC-21FE8A2D7A7D}" ShortID="287009108">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_12" ID="{139EC49D-3584-4DE6-9D7E-3CC74C3AE9F3}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_12.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="685360298"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_12" ID="{139EC49D-3584-4DE6-9D7E-3CC74C3AE9F3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_13" ID="{586DB487-A8AA-4B4C-A4BC-A27D865DB4CB}" ShortID="901793131">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_13" ID="{5B058F3F-5EE7-48DD-9FFB-FB4A5A48A127}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_13.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1020830842"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_13" ID="{5B058F3F-5EE7-48DD-9FFB-FB4A5A48A127}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_14" ID="{8D5402F3-04F9-4E87-9FB6-BEF97B82BA3E}" ShortID="1002001298">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_14" ID="{0542352E-6595-49ED-A34E-00AF6030476B}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_14.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="312740963"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_14" ID="{0542352E-6595-49ED-A34E-00AF6030476B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_15" ID="{A4B7D5CB-EE63-45A0-A14E-7C791DF378E4}" ShortID="175539841">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_15" ID="{41DCC9C6-22A4-419F-8CE3-CBE1E8E197E5}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_15.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="846650587"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_15" ID="{41DCC9C6-22A4-419F-8CE3-CBE1E8E197E5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_ring_gemstone_item_01" ID="{E6A4EEE5-65B3-43DF-AC58-53D289518FA8}" ShortID="956756752">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_ring_gemstone_item_01" ID="{BF21F901-8E61-4726-BF4A-3483D81D494C}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_ring_gemstone_item_01.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="327001615"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_ring_gemstone_item_01" ID="{BF21F901-8E61-4726-BF4A-3483D81D494C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_ring_gemstone_item_02" ID="{41EF0C24-1041-4926-BFC1-1A7D2EADCEFB}" ShortID="837741917">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_ring_gemstone_item_02" ID="{853E2F1E-DBAC-4FF3-997C-060074AF5012}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_ring_gemstone_item_02.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1038718366"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_ring_gemstone_item_02" ID="{853E2F1E-DBAC-4FF3-997C-060074AF5012}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{3E2D730C-9805-4EB9-BCAC-FAAD6BE1F02D}">
+													<PropertyList>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="CoinsSound_Path" ID="{4EE85A7E-A984-4423-B85D-7B97F1C05F13}">
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="CoinsSound_Path_01" ID="{29F42AD9-F6E0-46AA-B26F-7EE53B3F5F03}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="3000"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="CoinsSound_Path_02" ID="{A872B55E-F877-4692-B5B9-6F3D8DA46AD2}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="3000"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>58.22785</XPos>
+																	<YPos>14.33121</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="CoinsSound_Path_03" ID="{5EE2F423-DF9D-4584-96E7-D79779437101}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="3000"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-11.39241</XPos>
+																	<YPos>-68.47134</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="CoinsSound_Path_04" ID="{D0F18669-1C39-48E1-93F1-211CACEB7DAC}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="3000"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-74.68354</XPos>
+																	<YPos>2.86624</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="CoinsSound_Path_05" ID="{D5F31DC0-29E2-43E9-8808-A72F416FC51D}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="3000"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>63.29114</XPos>
+																	<YPos>-36.6242</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="CoinsSound_Path_06" ID="{CD680CC4-19F8-46B5-A244-A84053FA74A5}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="3000"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-43.03797</XPos>
+																	<YPos>88.8535</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="CoinsSound_Path_07" ID="{436D1D75-A169-4210-B723-887485C04423}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="3000"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>63.29114</XPos>
+																	<YPos>34.71338</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="CoinsSound_Path_08" ID="{1955FA5F-35EA-4178-B3F5-9B940CBEAD02}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="3000"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-21.51899</XPos>
+																	<YPos>-41.71975</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="CoinsSound_Path_09" ID="{C2CD1E07-D1A0-452C-8EBE-0AA2B994EBB8}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="3000"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>13.29114</XPos>
+																	<YPos>-20.70064</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="CoinsSound_Path_10" ID="{BC11B733-83B4-4786-A96D-4058E357119C}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="3000"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-93.67089</XPos>
+																	<YPos>78.02548</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+										<Sound Name="InsertCoin" ID="{3E561B64-79B2-4186-83EC-F1DA4DE92658}" ShortID="750563806">
+											<PropertyList>
+												<Property Name="Highpass" Type="int16">
+													<ValueList>
+														<Value>52</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Coins_Pouch_Leather_Drop_Into_Takes_3" ID="{0ED48EB7-0FF1-4574-AA1A-3A10ED35278E}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0288066359041972"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.118827373104812"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="4.76389741265656"/>
+														<Property Name="TrimEnd" Type="Real64" Value="5.17439197429136"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Coins_Pouch_Leather_Drop_Into_Takes_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1006677322"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Coins_Pouch_Leather_Drop_Into_Takes_3" ID="{0ED48EB7-0FF1-4574-AA1A-3A10ED35278E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Coins_Takes_01" ID="{CF23D569-95E8-4A07-91F6-F288EF23D9BD}" ShortID="684674354">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Coins_Pouch_Leather_Drop_Into_Takes_3" ID="{57ACD80F-0754-426C-9D31-EC316D581AF2}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0252058064161726"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0108024884640736"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="1.40072267084157"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.55915916831466"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Coins_Pouch_Leather_Drop_Into_Takes_3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="604396663"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Coins_Pouch_Leather_Drop_Into_Takes_3" ID="{57ACD80F-0754-426C-9D31-EC316D581AF2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="CoinsSound_Main" ID="{5F37567C-3D94-4C8D-9BA1-5B27CD231625}" ShortID="960007317">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{9F310357-4312-4A6D-AC65-1CF1A900DC48}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="5"/>
+																	<Property Name="Min" Type="Real64" Value="-8"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="coin_bag_ring_gemstone_item_01" ID="{1FD3C036-123F-4534-B9BA-453C5B75DB2F}" ShortID="31886323">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_01" ID="{8A39E6ED-35F2-4440-B1B5-44F351CAA676}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_01.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="520917775"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_01" ID="{8A39E6ED-35F2-4440-B1B5-44F351CAA676}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_02" ID="{A633D868-F71B-464C-A747-55C25EA792ED}" ShortID="90416234">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_02" ID="{84A0962D-9E36-4001-AF83-545F6C0FE961}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_02.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="925301505"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_02" ID="{84A0962D-9E36-4001-AF83-545F6C0FE961}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_03" ID="{57CB8107-B2A6-4565-BBC6-801117D77047}" ShortID="807195055">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_03" ID="{9E27FBA6-125B-4A00-B02F-BCDBBE2D32EC}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_03.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="508197118"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_03" ID="{9E27FBA6-125B-4A00-B02F-BCDBBE2D32EC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_04" ID="{0A451B51-CF1F-4801-9319-E799B8D55D02}" ShortID="606689417">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_04" ID="{3607890D-D198-42EF-BD0B-5B49E41E18AA}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_04.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="849310279"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_04" ID="{3607890D-D198-42EF-BD0B-5B49E41E18AA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_05" ID="{BBE72558-747D-457F-BF06-A4FD491A00AA}" ShortID="924606859">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_05" ID="{EDE0ACA2-EC41-4678-8E7F-6CC789F0DAE0}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_05.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="83995504"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_05" ID="{EDE0ACA2-EC41-4678-8E7F-6CC789F0DAE0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_06" ID="{E27488AB-C5DF-4FE9-8887-4496991E8BAC}" ShortID="191735916">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_06" ID="{0511A458-E935-45B2-AE79-71BEAC410CCC}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_06.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1021088609"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_06" ID="{0511A458-E935-45B2-AE79-71BEAC410CCC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_07" ID="{EB4D021E-42CF-40B2-98DE-A85EBEFF691B}" ShortID="275238504">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_07" ID="{7C2BC1F9-C5A3-4BB6-BDCB-F91B7C52D302}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_07.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="578072848"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_07" ID="{7C2BC1F9-C5A3-4BB6-BDCB-F91B7C52D302}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_08" ID="{352B220F-8043-4FB4-91FE-AF000C044FC4}" ShortID="529674006">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_08" ID="{644DDF15-E377-40CB-9AC0-76361F353C83}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_08.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="381380696"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_08" ID="{644DDF15-E377-40CB-9AC0-76361F353C83}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_09" ID="{78F14FBB-1BB2-4C31-8BE8-EF4E2A147371}" ShortID="440683921">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_09" ID="{D5A471EA-D780-4782-B906-2F02DDB861E3}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_09.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="155963178"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_09" ID="{D5A471EA-D780-4782-B906-2F02DDB861E3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_10" ID="{2F8BE806-9266-4009-A9E7-13FF1554864B}" ShortID="398755412">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_10" ID="{AC917604-BEFD-4956-8E9E-919C7AF12C8A}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_10.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="925146450"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_10" ID="{AC917604-BEFD-4956-8E9E-919C7AF12C8A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_11" ID="{FCC2AEF4-ADD7-4682-9A43-9AA08566D9E3}" ShortID="104074388">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_11" ID="{DA7F6E78-4940-49A3-A809-4A23DA897C7C}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_11.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="923671474"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_11" ID="{DA7F6E78-4940-49A3-A809-4A23DA897C7C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_12" ID="{025E922F-1CED-47E8-AE4E-A962BA5664D9}" ShortID="63283122">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_12" ID="{52B3DE66-9A8A-49AD-ADAE-10108282AD6A}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_12.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="685360298"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_12" ID="{52B3DE66-9A8A-49AD-ADAE-10108282AD6A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_13" ID="{122D55A0-0066-4CBC-A775-794EA8D9988D}" ShortID="774020575">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_13" ID="{8844C54A-2AD7-47B3-8CB3-54FD6F5BC21A}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_13.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1020830842"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_13" ID="{8844C54A-2AD7-47B3-8CB3-54FD6F5BC21A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_14" ID="{8178D399-4211-4FEC-A4AD-60EF37F6E17D}" ShortID="119612267">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_14" ID="{6C98104A-316D-4B78-903B-BA5289420E28}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_14.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="312740963"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_14" ID="{6C98104A-316D-4B78-903B-BA5289420E28}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_bag_ring_gemstone_item_15" ID="{FA1A5CD9-1CA4-4738-B918-AE7A4505298A}" ShortID="386606588">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_15" ID="{4629CF6E-8F0B-4621-9B23-ACE0DC4FCC49}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_15.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="846650587"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_15" ID="{4629CF6E-8F0B-4621-9B23-ACE0DC4FCC49}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_ring_gemstone_item_01" ID="{A0CF5D69-4B29-4494-8386-D6FE6B5F902C}" ShortID="359247264">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_ring_gemstone_item_01" ID="{2C15A472-6343-454C-8C6D-DFDE93FCC995}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_ring_gemstone_item_01.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="327001615"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_ring_gemstone_item_01" ID="{2C15A472-6343-454C-8C6D-DFDE93FCC995}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_ring_gemstone_item_02" ID="{CA19B5F0-BEDB-4F0E-A0B0-35B8334C656B}" ShortID="809749449">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_ring_gemstone_item_02" ID="{57E9FCC1-1B7F-4A01-8CFF-B352E976D38B}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_ring_gemstone_item_02.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1038718366"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_ring_gemstone_item_02" ID="{57E9FCC1-1B7F-4A01-8CFF-B352E976D38B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{D3D43A36-A2E5-4E9B-864D-1C43712F887C}">
+													<PropertyList>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="CoinsSound_Path" ID="{90C9140B-872E-4C8F-8C1F-F3D776F3C5AA}">
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="CoinsSound_Path_01" ID="{5DF11FC3-FC21-4E40-87F0-11276B64EFF4}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="3000"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>0</XPos>
+																	<YPos>50</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="CoinsSound_Path_02" ID="{4EFC9485-ADE5-4F08-BC22-F2593CBB5836}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="3000"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>58.22785</XPos>
+																	<YPos>14.33121</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="CoinsSound_Path_03" ID="{42E23D3F-9C70-4691-959A-1F62383F4AE0}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="3000"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-11.39241</XPos>
+																	<YPos>-68.47134</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="CoinsSound_Path_04" ID="{E3B03BC9-CA42-4742-9857-A1BDABA444CB}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="3000"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-74.68354</XPos>
+																	<YPos>2.86624</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="CoinsSound_Path_05" ID="{936BDEDF-8D92-4B83-A0DF-4B3E5C97261C}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="3000"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>63.29114</XPos>
+																	<YPos>-36.6242</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="CoinsSound_Path_06" ID="{6A241C70-C252-46ED-8335-6048F259805D}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="3000"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-43.03797</XPos>
+																	<YPos>88.8535</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="CoinsSound_Path_07" ID="{72E5A538-79B2-4D1A-A8F7-3EFBC2DE938C}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="3000"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>63.29114</XPos>
+																	<YPos>34.71338</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="CoinsSound_Path_08" ID="{DA165261-4561-4948-91FD-C25C365E999B}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="3000"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-21.51899</XPos>
+																	<YPos>-41.71975</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="CoinsSound_Path_09" ID="{3D9E11E1-7A11-4FF1-A04F-87A70DA3A696}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="3000"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>13.29114</XPos>
+																	<YPos>-20.70064</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+														<Path2D Name="CoinsSound_Path_10" ID="{B402705F-A3C9-47E9-A550-35E039725215}">
+															<PropertyList>
+																<Property Name="Duration" Type="Uint32" Value="3000"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-93.67089</XPos>
+																	<YPos>78.02548</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="JustCoin" ID="{C07C32AA-1FF9-488F-9936-6AC863134078}" ShortID="97072621">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="coin_bag_ring_gemstone_item_14" ID="{7061677E-5A62-46B0-B5E9-EDA2D4753DA0}" ShortID="779248922">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="1"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_14" ID="{4FE38705-9AEE-49C8-8352-A537D4C5ADED}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_14.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="312740963"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Position Name="" ID="{9B2E60AD-5583-415C-8836-98B191ABCF38}">
+															<PropertyList>
+																<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+															</PropertyList>
+															<ChildrenList>
+																<Path2D Name="CoinsSound_Path" ID="{A7D88287-03E0-479A-8018-B277CE9504F3}">
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>50</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_01" ID="{6C5FECAB-BA14-446E-9A99-A3DA5B93FB1B}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>50</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_02" ID="{4508C0C5-E1F2-4154-9445-6393C788D123}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>58.22785</XPos>
+																			<YPos>14.33121</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_03" ID="{DE8805A6-0406-41A9-AA27-E3152219969C}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-11.39241</XPos>
+																			<YPos>-68.47134</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_04" ID="{D35815AB-A6C1-4E02-B83F-E40AE9420234}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-74.68354</XPos>
+																			<YPos>2.86624</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_05" ID="{09FC72D1-9D62-48E6-A882-1763663CC3DB}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>63.29114</XPos>
+																			<YPos>-36.6242</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_06" ID="{4288950B-52A5-4B72-A79A-CA4EB3058FFC}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-43.03797</XPos>
+																			<YPos>88.8535</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_07" ID="{E46B3271-4514-4870-B043-0E2BB932B536}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>63.29114</XPos>
+																			<YPos>34.71338</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_08" ID="{6A80E57A-34FF-416E-9C03-6CBCB58A893F}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-21.51899</XPos>
+																			<YPos>-41.71975</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_09" ID="{8390B889-A930-461E-8107-5934200158FE}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>13.29114</XPos>
+																			<YPos>-20.70064</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_10" ID="{1E41B862-B146-4593-88A0-F8806BE3BCE0}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-93.67089</XPos>
+																			<YPos>78.02548</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+															</ChildrenList>
+														</Position>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_14" ID="{4FE38705-9AEE-49C8-8352-A537D4C5ADED}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_ring_gemstone_item_02" ID="{AD498321-D8A0-44E9-A567-ADEE86C5D309}" ShortID="201315897">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="1"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_ring_gemstone_item_02" ID="{B51E43E3-18C3-4CEF-BC2E-24B355668A85}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_ring_gemstone_item_02.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1038718366"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Position Name="" ID="{1580AC53-62C5-4A6B-A967-0A30499436C1}">
+															<PropertyList>
+																<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+															</PropertyList>
+															<ChildrenList>
+																<Path2D Name="CoinsSound_Path" ID="{0EE324A6-E8AA-4766-BB8D-B44E5AE223F4}">
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>50</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_01" ID="{3890B82F-26AE-40AB-90AC-86C5A1715021}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>50</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_02" ID="{64F0C835-C337-4EEA-919C-0D6EAAA3D2A0}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>58.22785</XPos>
+																			<YPos>14.33121</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_03" ID="{E4186B42-68D8-425B-8456-FDFFCA4A66BB}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-11.39241</XPos>
+																			<YPos>-68.47134</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_04" ID="{2D63F897-21AF-4A33-A89D-8215B09D4C03}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-74.68354</XPos>
+																			<YPos>2.86624</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_05" ID="{70B6C88A-8619-4336-B5DB-7C1D4858FE56}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>63.29114</XPos>
+																			<YPos>-36.6242</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_06" ID="{61AFA929-9B96-4E01-AD46-2BA694DABB23}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-43.03797</XPos>
+																			<YPos>88.8535</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_07" ID="{4F754A7B-A58A-4502-AA4E-3A387CA038BF}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>63.29114</XPos>
+																			<YPos>34.71338</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_08" ID="{0794F6CF-EC6D-4AC3-AFB6-CB9CCF28D5D5}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-21.51899</XPos>
+																			<YPos>-41.71975</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_09" ID="{67BBE8C4-6787-4B16-BF16-2EF58CFF1D58}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>13.29114</XPos>
+																			<YPos>-20.70064</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_10" ID="{DB99AC1A-87F5-4989-AB60-0FF08DB88B7B}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-93.67089</XPos>
+																			<YPos>78.02548</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+															</ChildrenList>
+														</Position>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_ring_gemstone_item_02" ID="{B51E43E3-18C3-4CEF-BC2E-24B355668A85}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</ActorMixer>
+								<RandomSequenceContainer Name="PaperSound" ID="{148D4EFB-9889-4A51-8467-962DB814D1C5}" ShortID="33221928">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="1"/>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>37</Value>
+											</ValueList>
+										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C692EA59-6E90-4686-8F50-2EF3A96F4AC1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="300"/>
+															<Property Name="Min" Type="Real64" Value="-300"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{03CFB635-3D9A-44F0-A828-CD2B55204C23}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+															<Property Name="Min" Type="Real64" Value="-8"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Paper_Handling_Turning_02" ID="{FC2296A5-E4A7-4142-9A49-C3FACF7C1DDB}" ShortID="657423668">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Paper_Handling_Turning_02" ID="{C18D475B-C3D6-4859-90D7-9B7D1AE7A09D}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Amb\Paper_Handling_Turning_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="855626187"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Paper_Handling_Turning_02" ID="{C18D475B-C3D6-4859-90D7-9B7D1AE7A09D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Paper_Handling_Turning_03" ID="{450F0674-F88A-4008-B19D-32CDA9BEF723}" ShortID="926009398">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Paper_Handling_Turning_03" ID="{140E4336-49A5-47DA-A7EE-6BEA87A7A59E}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Amb\Paper_Handling_Turning_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="752805694"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Paper_Handling_Turning_03" ID="{140E4336-49A5-47DA-A7EE-6BEA87A7A59E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Paper_Handling_Turning_05" ID="{B09D6A1B-72F3-4F84-A616-C932CCEEF3F1}" ShortID="618799516">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Paper_Handling_Turning_05" ID="{027775E0-93D1-4A68-B2A4-7EC1BE15CDC1}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Amb\Paper_Handling_Turning_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="510603923"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Paper_Handling_Turning_05" ID="{027775E0-93D1-4A68-B2A4-7EC1BE15CDC1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Paper_Handling_Turning_01" ID="{6D6A303E-BADA-469E-BB32-FAF67255818C}" ShortID="560904642">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Paper_Handling_Turning_01" ID="{AD5215C1-7997-4849-B316-D4A012B2CE91}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Amb\Paper_Handling_Turning_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="751975773"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Paper_Handling_Turning_01" ID="{AD5215C1-7997-4849-B316-D4A012B2CE91}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Paper_Handling_Turning_04" ID="{3D1D5C28-D1A5-49B5-998F-9F62BD7DFC2D}" ShortID="373622606">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Paper_Handling_Turning_04" ID="{EA6BB239-5CDE-4C79-B314-27651DCC5954}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Amb\Paper_Handling_Turning_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="58347696"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Paper_Handling_Turning_04" ID="{EA6BB239-5CDE-4C79-B314-27651DCC5954}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{CAB17666-D2AB-45DB-896D-744E4524EBD8}">
+											<PropertyList>
+												<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ChildrenList>
+												<Path2D Name="CoinsSound_Path" ID="{865152C5-27E3-4EAB-B258-A73603A21FFB}">
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>50</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="CoinsSound_Path_01" ID="{3663A968-24A2-4D8A-A081-1397FFE5E50E}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="3000"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>50</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="CoinsSound_Path_02" ID="{780A77E7-1DD8-4A6D-962C-365582E03D68}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="3000"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>58.22785</XPos>
+															<YPos>14.33121</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="CoinsSound_Path_03" ID="{041BF90A-B1EA-42C5-B00B-62C766F68CEA}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="3000"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>-11.39241</XPos>
+															<YPos>-68.47134</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="CoinsSound_Path_04" ID="{330B4888-4567-4052-A78D-414E4FE6E0B1}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="3000"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>-74.68354</XPos>
+															<YPos>2.86624</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="CoinsSound_Path_05" ID="{8C204404-F45B-479B-B6C9-61E62F410160}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="3000"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>63.29114</XPos>
+															<YPos>-36.6242</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="CoinsSound_Path_06" ID="{321BFCCA-8A2A-423D-B088-E005AC9120BC}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="3000"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>-43.03797</XPos>
+															<YPos>88.8535</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="CoinsSound_Path_07" ID="{4C2B7A12-2B28-47EC-B26A-34A9970152B1}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="3000"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>63.29114</XPos>
+															<YPos>34.71338</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="CoinsSound_Path_08" ID="{AD3E4B0F-DE33-4DC5-9C1E-8F10C329374A}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="3000"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>-21.51899</XPos>
+															<YPos>-41.71975</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="CoinsSound_Path_09" ID="{60E8AD5E-3B1E-4635-B2BC-87B3B06372B0}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="3000"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>13.29114</XPos>
+															<YPos>-20.70064</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+												<Path2D Name="CoinsSound_Path_10" ID="{B2313FF3-DA04-4387-AC30-2CE1ADA7C513}">
+													<PropertyList>
+														<Property Name="Duration" Type="Uint32" Value="3000"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>-93.67089</XPos>
+															<YPos>78.02548</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+								</RandomSequenceContainer>
+								<Folder Name="Flora" ID="{2FE3EAAB-F2F0-48B7-B609-1B5F98FD3D2C}" ShortID="979009568">
+									<ChildrenList>
+										<Sound Name="Flora_Absorb_Magic" ID="{4D963CDA-26A8-47CA-990B-7D05AC6F3DFF}" ShortID="962039667">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Magic" ID="{82C41B8E-08BB-4843-A77E-AEA850E7DB5A}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flora_Absorb_Magic" ID="{7C3C95F4-C74D-4139-8370-D85E3A2D217E}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Flora_Absorb_Magic.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="910559408"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flora_Absorb_Magic" ID="{7C3C95F4-C74D-4139-8370-D85E3A2D217E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Flora_Expul_Magic" ID="{CD02CC86-FC90-4EFF-BC59-DD1C59329964}" ShortID="769693445">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Magic" ID="{82C41B8E-08BB-4843-A77E-AEA850E7DB5A}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flora_Expul_Magic" ID="{14A5E449-ECD2-4C13-B671-B4A98029C23C}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Flora_Expul_Magic.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1006909414"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flora_Expul_Magic" ID="{14A5E449-ECD2-4C13-B671-B4A98029C23C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Flora_Absorb_Single_Magic" ID="{B2003D58-D76A-4AD5-BA3E-7D4B18C8A41E}" ShortID="201497469">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Magic" ID="{82C41B8E-08BB-4843-A77E-AEA850E7DB5A}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flora_Absorb_Single_Magic" ID="{6CF362F3-1ED4-482E-AA56-C462BC437596}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Flora_Absorb_Single_Magic.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="841893866"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flora_Absorb_Single_Magic" ID="{6CF362F3-1ED4-482E-AA56-C462BC437596}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</Folder>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="MagicFX" ID="{0237327D-FD83-4CBD-8C45-8A3F8C960396}" ShortID="1019404262">
+							<ChildrenList>
+								<Sound Name="Chimes_Magic_01_Reversed" ID="{333A0E2B-B172-49A6-9D50-92C1688A6690}" ShortID="500413833">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Magic" ID="{82C41B8E-08BB-4843-A77E-AEA850E7DB5A}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Chimes_Magic_01_Reversed" ID="{E740464D-E6B8-42ED-AD46-221997718707}">
+											<Language>SFX</Language>
+											<AudioFile>Prision\Fxs\FX\MagicFX\Chimes_Magic_01_Reversed.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="965803606"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Chimes_Magic_01_Reversed" ID="{E740464D-E6B8-42ED-AD46-221997718707}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Chimes_Short" ID="{9CB348DA-F70A-40B1-91BE-A69EFA5BCD8D}" ShortID="2196906">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Magic" ID="{82C41B8E-08BB-4843-A77E-AEA850E7DB5A}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Chimes_Magic_01" ID="{7313420E-0991-4B89-BCD0-C26E4483592B}" ShortID="167291974">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chimes_Magic_01" ID="{ADC0F836-8128-4483-B0D5-B1AAAADE15DB}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\MagicFX\Chimes_Magic_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="506337043"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chimes_Magic_01" ID="{ADC0F836-8128-4483-B0D5-B1AAAADE15DB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chimes_Magic_02" ID="{7B08DC4F-456F-4F17-BD56-84D34FA867B8}" ShortID="152409500">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chimes_Magic_02" ID="{4B78CFA8-E396-4023-96C2-08E741B7027C}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\MagicFX\Chimes_Magic_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="672064342"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chimes_Magic_02" ID="{4B78CFA8-E396-4023-96C2-08E741B7027C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chimes_Magic_03" ID="{0E790171-49EB-404B-B408-C0BBD19BA6C0}" ShortID="716224770">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chimes_Magic_03" ID="{F27ABA26-B460-4EA7-85C7-0EEFC31D121E}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\MagicFX\Chimes_Magic_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="165360624"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chimes_Magic_03" ID="{F27ABA26-B460-4EA7-85C7-0EEFC31D121E}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chimes_Magic_06" ID="{92D962C7-7759-4891-AE60-D6DFD4FE5715}" ShortID="115872324">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chimes_Magic_06" ID="{FC51E77E-E022-4C38-9107-ECA0016265B2}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\MagicFX\Chimes_Magic_06.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="475720520"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chimes_Magic_06" ID="{FC51E77E-E022-4C38-9107-ECA0016265B2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Chime_SEQ" ID="{7A6A75A3-13AC-4734-83F0-0D9758DD06EE}" ShortID="211373738">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Magic" ID="{82C41B8E-08BB-4843-A77E-AEA850E7DB5A}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Chime_Seq_01" ID="{1F74AF7E-F8B6-439B-BAEF-838A5431747E}" ShortID="716086509">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ChimeKeys" ID="{04F6B0E9-F72F-4636-8E1F-9CE46CC371AA}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.255781558998022"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.306937870797627"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="5.08152697209405"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\MagicFX\ChimeKeys.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="314955145"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ChimeKeys" ID="{04F6B0E9-F72F-4636-8E1F-9CE46CC371AA}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chime_Seq_02" ID="{D097E9AC-65C1-42E8-AE6E-D0EAAC3AAA20}" ShortID="622462585">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ChimeKeys" ID="{D059C461-7438-4979-A090-809578798872}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.238729455064821"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.358094182597231"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="5.37141273895847"/>
+														<Property Name="TrimEnd" Type="Real64" Value="10.6575649582509"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\MagicFX\ChimeKeys.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1321863"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ChimeKeys" ID="{D059C461-7438-4979-A090-809578798872}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chime_Seq_03" ID="{51D3518C-0691-4CDD-AB4C-7B36587CFBE9}" ShortID="1033629231">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ChimeKeys" ID="{2A52D3E6-B0EC-45B2-AFFE-6F33CE828897}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.426302598330038"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.375146286530434"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="10.7769296857833"/>
+														<Property Name="TrimEnd" Type="Real64" Value="16.080134009009"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\MagicFX\ChimeKeys.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="359590099"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ChimeKeys" ID="{2A52D3E6-B0EC-45B2-AFFE-6F33CE828897}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chime_Seq_04" ID="{8DD50F53-0000-4E95-8103-DAC35D247FFF}" ShortID="1061865235">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ChimeKeys" ID="{201B341D-6815-4746-9ACF-A616B4E1B1B5}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.767344676994067"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.375146286530434"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="15.909612969677"/>
+														<Property Name="TrimEnd" Type="Real64" Value="21.5879635794331"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\MagicFX\ChimeKeys.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="723610851"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ChimeKeys" ID="{201B341D-6815-4746-9ACF-A616B4E1B1B5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chime_Seq_05" ID="{4507A682-96EA-4538-AFB3-F21F5F70A334}" ShortID="68153741">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ChimeKeys" ID="{C4C52BD8-1DD9-45D6-B6DA-5D433A75173D}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.460406806196442"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.443354702263239"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="21.1275567732367"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\MagicFX\ChimeKeys.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="507119751"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ChimeKeys" ID="{C4C52BD8-1DD9-45D6-B6DA-5D433A75173D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Chime_Ding" ID="{8A4AFD60-6139-49B8-9F44-1A8DC6762E79}" ShortID="854257246">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Magic" ID="{82C41B8E-08BB-4843-A77E-AEA850E7DB5A}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Chimes_Magic_Ding_01" ID="{C2B34726-D604-4A5F-AD39-76EC0030D3EE}" ShortID="294727685">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chimes_Magic_Ding_01" ID="{1DFE6A94-61CC-4BE0-B58B-B104AECCF6FD}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\MagicFX\Chimes_Magic_Ding_01.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="79295293"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chimes_Magic_Ding_01" ID="{1DFE6A94-61CC-4BE0-B58B-B104AECCF6FD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chimes_Magic_Ding_02" ID="{427CAE5D-3CB5-4E37-8C4C-F6D1ED455583}" ShortID="823739627">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chimes_Magic_Ding_02" ID="{69EBB6DC-74E2-4100-84C2-C431303C3469}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\MagicFX\Chimes_Magic_Ding_02.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="379786999"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chimes_Magic_Ding_02" ID="{69EBB6DC-74E2-4100-84C2-C431303C3469}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chimes_Magic_Ding_03" ID="{689D7AC6-2DE9-434C-BF93-CCB314E0C590}" ShortID="288614692">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chimes_Magic_Ding_03" ID="{3B05F5ED-77C2-4704-98ED-A2440562A012}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\MagicFX\Chimes_Magic_Ding_03.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="968989844"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chimes_Magic_Ding_03" ID="{3B05F5ED-77C2-4704-98ED-A2440562A012}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chimes_Magic_Ding_04" ID="{07408A06-CFBE-47C9-94FB-2D2BAA33E962}" ShortID="730281005">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chimes_Magic_Ding_04" ID="{019CA31D-061B-4D88-A370-384381025477}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\MagicFX\Chimes_Magic_Ding_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="838786924"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chimes_Magic_Ding_04" ID="{019CA31D-061B-4D88-A370-384381025477}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chimes_Magic_Ding_05" ID="{6C838728-3FE8-4215-BECF-55DA5F0076E3}" ShortID="576706875">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chimes_Magic_Ding_05" ID="{4331A14A-2FE2-4094-95EF-EFC411BA4209}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\MagicFX\Chimes_Magic_Ding_05.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="239062007"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chimes_Magic_Ding_05" ID="{4331A14A-2FE2-4094-95EF-EFC411BA4209}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chimes_Magic_04" ID="{B3CD5B9F-6D14-46EE-838C-439CC13B0AE5}" ShortID="464821711">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chimes_Magic_04" ID="{BABD9CC8-A312-4992-AA26-94C21E912A95}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\MagicFX\Chimes_Magic_04.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="745180575"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chimes_Magic_04" ID="{BABD9CC8-A312-4992-AA26-94C21E912A95}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chimes_Magic_08" ID="{932BA5C5-5D63-41CA-B829-5DF0DEF8B2EB}" ShortID="769415841">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Chimes_Magic_08" ID="{FA911D5A-9114-4E4C-9B12-2C7DA360E2AC}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\MagicFX\Chimes_Magic_08.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="81220251"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Chimes_Magic_08" ID="{FA911D5A-9114-4E4C-9B12-2C7DA360E2AC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Chimes_Tatoo_In" ID="{E018AB0C-E133-4ACF-B965-39A1C8020D1D}" ShortID="84455245">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Magic" ID="{82C41B8E-08BB-4843-A77E-AEA850E7DB5A}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Chimes_Magic_Ding_04" ID="{830F1BF3-8515-462E-A2B1-DB22E9CD4FE0}">
+											<Language>SFX</Language>
+											<AudioFile>Prision\Fxs\FX\MagicFX\Chimes_Magic_Ding_04.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="838786924"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Chimes_Magic_Ding_04" ID="{830F1BF3-8515-462E-A2B1-DB22E9CD4FE0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Chimes_Tatoo_Out" ID="{70B7B389-6E26-4867-A77F-FD7B1808D325}" ShortID="357722481">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Magic" ID="{82C41B8E-08BB-4843-A77E-AEA850E7DB5A}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Chimes_Magic_Ding_05" ID="{3AECF142-AD33-4F7B-A791-F56EF3F00D87}">
+											<Language>SFX</Language>
+											<AudioFile>Prision\Fxs\FX\MagicFX\Chimes_Magic_Ding_05.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="239062007"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Chimes_Magic_Ding_05" ID="{3AECF142-AD33-4F7B-A791-F56EF3F00D87}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Onda_Magic" ID="{9EC1C6EB-59E9-4F21-B50A-298C2D17B227}" ShortID="472513392">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Magic" ID="{82C41B8E-08BB-4843-A77E-AEA850E7DB5A}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Onda_Magic" ID="{4340D24F-A721-436D-854D-4217C3AB1165}">
+											<Language>SFX</Language>
+											<AudioFile>Prision\Fxs\FX\MagicFX\Onda_Magic.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="829694162"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Onda_Magic" ID="{4340D24F-A721-436D-854D-4217C3AB1165}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Chime_SEQ_Luciernaga" ID="{ACAED11C-BE82-4CD8-980D-C46A4EB6FCBF}" ShortID="285621882">
+									<PropertyList>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Magic" ID="{82C41B8E-08BB-4843-A77E-AEA850E7DB5A}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Chime_Seq_01" ID="{5B87EC84-8674-4936-ADED-00158D7DF3E2}" ShortID="576670956">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ChimeKeys" ID="{85FF886A-8460-43B6-86CE-D2F3555D8370}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.187573143265216"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.306937870797627"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.01214826411779"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\MagicFX\ChimeKeys.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="516053384"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ChimeKeys" ID="{85FF886A-8460-43B6-86CE-D2F3555D8370}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chime_Seq_02" ID="{ECB25A8F-C64C-478E-AB1C-C197FB2E2010}" ShortID="21277094">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ChimeKeys" ID="{8F4C40D8-09C5-4DAE-8016-5C1608FF832B}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.238729455064821"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.358094182597231"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="5.37141273895847"/>
+														<Property Name="TrimEnd" Type="Real64" Value="10.6575649582509"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\MagicFX\ChimeKeys.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1321863"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ChimeKeys" ID="{8F4C40D8-09C5-4DAE-8016-5C1608FF832B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chime_Seq_03" ID="{3E598BA1-ECA6-42BC-BFBE-548564A18FB1}" ShortID="1067262349">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ChimeKeys" ID="{D4CCED7E-28C4-4DF5-8337-E78299493E03}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.426302598330038"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.375146286530434"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="10.7769296857833"/>
+														<Property Name="TrimEnd" Type="Real64" Value="16.080134009009"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\MagicFX\ChimeKeys.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="359590099"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ChimeKeys" ID="{D4CCED7E-28C4-4DF5-8337-E78299493E03}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chime_Seq_04" ID="{7FAC43BF-BA24-4AFD-932A-A3F584778335}" ShortID="883167949">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ChimeKeys" ID="{C7D27A0D-1373-4C2A-9037-30BF24B9AD02}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.767344676994067"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.375146286530434"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="15.909612969677"/>
+														<Property Name="TrimEnd" Type="Real64" Value="21.5879635794331"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\MagicFX\ChimeKeys.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="723610851"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ChimeKeys" ID="{C7D27A0D-1373-4C2A-9037-30BF24B9AD02}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Chime_Seq_05" ID="{EF0181E2-6DDD-4B98-9A52-4976591654A6}" ShortID="884247036">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="ChimeKeys" ID="{5DF8BB0C-B608-4BE5-BFE2-490FB302B414}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.460406806196442"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.443354702263239"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="21.1275567732367"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\MagicFX\ChimeKeys.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="507119751"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="ChimeKeys" ID="{5DF8BB0C-B608-4BE5-BFE2-490FB302B414}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Light_Machine" ID="{2CCBB156-9B57-4171-9E2A-95635C4D6CE6}" ShortID="817945479">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Magic" ID="{82C41B8E-08BB-4843-A77E-AEA850E7DB5A}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Prision_VocalSun_Atmosphere_A3_A3" ID="{208FE242-69F5-47F9-83C2-B5EB50B7F036}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.386025049439684"/>
+												<Property Name="FadeInShape" Type="int16" Value="6"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.49347396176664"/>
+												<Property Name="FadeOutShape" Type="int16" Value="2"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="4.27791694133158"/>
+												<Property Name="TrimEnd" Type="Real64" Value="7.15095583388266"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Prision\Fxs\FX\Vocal\Prision_VocalSun_Atmosphere_A3_A3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="280486355"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Prision_VocalSun_Atmosphere_A3_A3" ID="{208FE242-69F5-47F9-83C2-B5EB50B7F036}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
