@@ -918,6 +918,253 @@
       ]
      },
      {
+      "Id": "888916461",
+      "Name": "EV_Chime_SEQ",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_Chime_SEQ",
+      "GUID": "{DC2E3A7B-82C9-43D1-A51A-7188FC3C5386}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.740485",
+      "DurationMax": "5.678350",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1321863",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\MagicFX\\ChimeKeys.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_DCF63540.wem"
+       },
+       {
+        "Id": "314955145",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\MagicFX\\ChimeKeys.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_4F447FED.wem"
+       },
+       {
+        "Id": "359590099",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\MagicFX\\ChimeKeys.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_2094AFD0.wem"
+       },
+       {
+        "Id": "507119751",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\MagicFX\\ChimeKeys.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_0EC51F12.wem"
+       },
+       {
+        "Id": "723610851",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\MagicFX\\ChimeKeys.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_B39E03A8.wem"
+       }
+      ]
+     },
+     {
+      "Id": "390985091",
+      "Name": "EV_Chime_SEQ_Luciernaga",
+      "ObjectPath": "\\Events\\Items\\Act\\Luciernaga\\EV_Chime_SEQ_Luciernaga",
+      "GUID": "{88A1BB3F-BE4C-4AE2-A48B-9051B62D4C41}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1321863",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\MagicFX\\ChimeKeys.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_DCF63540.wem"
+       },
+       {
+        "Id": "359590099",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\MagicFX\\ChimeKeys.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_2094AFD0.wem"
+       },
+       {
+        "Id": "507119751",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\MagicFX\\ChimeKeys.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_0EC51F12.wem"
+       },
+       {
+        "Id": "516053384",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\MagicFX\\ChimeKeys.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_6DD79DA3.wem"
+       },
+       {
+        "Id": "723610851",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\MagicFX\\ChimeKeys.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_B39E03A8.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3088590830",
+      "Name": "EV_Chime_SEQ_Luciernaga_Stop",
+      "ObjectPath": "\\Events\\Items\\Act\\Luciernaga\\EV_Chime_SEQ_Luciernaga_Stop",
+      "GUID": "{A4DAEE71-C0C9-4B92-BF8C-CB5B98E0B91A}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "1762858080",
+      "Name": "EV_Coins_Handle",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_Coins_Handle",
+      "GUID": "{D00A7EFB-B286-474D-8A67-2CFAB80EFA4B}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.985561",
+      "DurationMax": "0.985561",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "449471873",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Money,Coins,Handle.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Money,Coins,Handle_94D29206.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2689698316",
+      "Name": "EV_Coins_Takes_01",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_Coins_Takes_01",
+      "GUID": "{91EC9336-4C3D-49C3-95ED-54F508DFCC05}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.158436",
+      "DurationMax": "0.158436",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "604396663",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Coins_Pouch_Leather_Drop_Into_Takes_3.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Coins_Pouch_Leather_Drop_Into_Takes_3_DC07E29C.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3896694505",
+      "Name": "EV_CoinsSound_Tesoro",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_CoinsSound_Tesoro",
+      "GUID": "{4DF88224-1251-4F93-ACB3-ACC348642A6E}",
+      "DurationType": "OneShot",
+      "DurationMin": "38.277855",
+      "DurationMax": "246.277847",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "83995504",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_05.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_05_1C768395.wem"
+       },
+       {
+        "Id": "155963178",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_09.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_09_1C768395.wem"
+       },
+       {
+        "Id": "312740963",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_14.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_14_1C768395.wem"
+       },
+       {
+        "Id": "327001615",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_ring_gemstone_item_01.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_ring_gemstone_item_01_1C768395.wem"
+       },
+       {
+        "Id": "381380696",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_08.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_08_1C768395.wem"
+       },
+       {
+        "Id": "508197118",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_03.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_03_1C768395.wem"
+       },
+       {
+        "Id": "520917775",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_01.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_01_1C768395.wem"
+       },
+       {
+        "Id": "578072848",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_07.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_07_1C768395.wem"
+       },
+       {
+        "Id": "685360298",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_12.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_12_1C768395.wem"
+       },
+       {
+        "Id": "846650587",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_15.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_15_1C768395.wem"
+       },
+       {
+        "Id": "849310279",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_04.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_04_1C768395.wem"
+       },
+       {
+        "Id": "923671474",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_11.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_11_1C768395.wem"
+       },
+       {
+        "Id": "925146450",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_10.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_10_1C768395.wem"
+       },
+       {
+        "Id": "925301505",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_02.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_02_1C768395.wem"
+       },
+       {
+        "Id": "1020830842",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_13.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_13_1C768395.wem"
+       },
+       {
+        "Id": "1021088609",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_06.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_06_1C768395.wem"
+       },
+       {
+        "Id": "1038718366",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_ring_gemstone_item_02.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_ring_gemstone_item_02_1C768395.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2088995036",
+      "Name": "EV_CoinsSound_Tesoro_Stop",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_CoinsSound_Tesoro_Stop",
+      "GUID": "{93F74BFD-CB74-487A-94BC-593F110F80FB}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
       "Id": "553718723",
       "Name": "EV_ConstelacionFaceChimes",
       "ObjectPath": "\\Events\\Items\\Constelacion\\EV_ConstelacionFaceChimes",
@@ -964,7 +1211,7 @@
         "Id": "469995747",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Desintegration_Wood.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Desintegration_Wood_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Desintegration_Wood_1C768395.wem"
        }
       ]
      },
@@ -1820,13 +2067,115 @@
         "Id": "6233169",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Amb\\FireTorch_01.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\FireTorch_01_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\FireTorch_01_1C768395.wem"
        },
        {
         "Id": "62610189",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Amb\\FireTorch_02.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\FireTorch_02_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\FireTorch_02_1C768395.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1801005921",
+      "Name": "EV_Flora_Absorb_Magic",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_Flora_Absorb_Magic",
+      "GUID": "{60EE8283-1B27-4A8E-9602-ECA18FA6FC96}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.620295",
+      "DurationMax": "2.620295",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "910559408",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Flora_Absorb_Magic.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Flora_Absorb_Magic_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1474607160",
+      "Name": "EV_Flora_Absorb_Single_Magic",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_Flora_Absorb_Single_Magic",
+      "GUID": "{D5688EC2-3297-452A-BEA8-8B5C65650540}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.800000",
+      "DurationMax": "1.800000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "841893866",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Flora_Absorb_Single_Magic.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Flora_Absorb_Single_Magic_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3528569852",
+      "Name": "EV_Flora_Expul_Magic",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_Flora_Expul_Magic",
+      "GUID": "{2D79FEC6-0DE3-41F8-9CCF-4042C9CE4F18}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.033356",
+      "DurationMax": "3.033356",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1006909414",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Flora_Expul_Magic.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Flora_Expul_Magic_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "913626446",
+      "Name": "EV_Frog_FreeHaunting_Magic",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_Frog_FreeHaunting_Magic",
+      "GUID": "{7F2E7D1D-8954-4C03-9023-0C4A23D939D0}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.600000",
+      "DurationMax": "3.600000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "743560646",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Frog_FreeHaunting_Magic.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Frog_FreeHaunting_Magic_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2317241800",
+      "Name": "EV_Frog_Haunting",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_Frog_Haunting",
+      "GUID": "{D7DC7D3C-FB62-45AF-9568-AC4CCF0EB115}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.198118",
+      "DurationMax": "1.198118",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "568465931",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Frog_Haunting.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Frog_Haunting_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2580155652",
+      "Name": "EV_Frog_Haunting_Magic",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_Frog_Haunting_Magic",
+      "GUID": "{C5E5DB29-C8A8-470D-9F74-AD8F40F67C0D}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.802721",
+      "DurationMax": "1.802721",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "841937440",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Frog_Haunting_Magic.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Frog_Haunting_Magic_10C4C929.wem"
        }
       ]
      },
@@ -1936,6 +2285,23 @@
       "DurationMax": "0.000000"
      },
      {
+      "Id": "1223770295",
+      "Name": "EV_InsertCoin",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_InsertCoin",
+      "GUID": "{AAA69626-7C0C-4D1E-A40B-679179989757}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.410495",
+      "DurationMax": "0.410495",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1006677322",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Coins_Pouch_Leather_Drop_Into_Takes_3.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Coins_Pouch_Leather_Drop_Into_Takes_3_0FAA516C.wem"
+       }
+      ]
+     },
+     {
       "Id": "3758102453",
       "Name": "EV_It_Tablillas_In",
       "ObjectPath": "\\Events\\Items\\Tablillas\\EV_It_Tablillas_In",
@@ -2014,6 +2380,29 @@
         "Language": "SFX",
         "ShortName": "Items\\Tablillas_Out_02_3seg.wav",
         "Path": "SFX\\Items\\Tablillas_Out_02_3seg_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1338696742",
+      "Name": "EV_JustCoin",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_JustCoin",
+      "GUID": "{59339C29-3E54-4A25-8900-90DD3F881D82}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.327229",
+      "DurationMax": "0.462375",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "312740963",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_14.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_14_1C768395.wem"
+       },
+       {
+        "Id": "1038718366",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_ring_gemstone_item_02.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_ring_gemstone_item_02_1C768395.wem"
        }
       ]
      },
@@ -3192,6 +3581,23 @@
       ]
      },
      {
+      "Id": "3456245671",
+      "Name": "EV_Light_Machine",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_Light_Machine",
+      "GUID": "{C60E865B-3E7B-43D2-BFDE-FA95E76E585B}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.873039",
+      "DurationMax": "2.873039",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "280486355",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Vocal\\Prision_VocalSun_Atmosphere_A3_A3.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Vocal\\Prision_VocalSun_Atmosphere_A3_A3_88327B60.wem"
+       }
+      ]
+     },
+     {
       "Id": "2320026730",
       "Name": "EV_Machine",
       "ObjectPath": "\\Events\\Items\\Actions\\EV_Machine",
@@ -3203,13 +3609,37 @@
         "Id": "33749972",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Amb\\Machine\\Prision_MachineMethodical_Amb_A.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Machine\\Prision_MachineMethodical_Amb_A_1598ED62.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Machine\\Prision_MachineMethodical_Amb_A_00845616.wem"
+       },
+       {
+        "Id": "155446447",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Originals\\EGEngines_johndeeretypeE_fastairpuff_chuff_airpipe_compressed.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Originals\\EGEngines_johndeeretypeE_fastairpuff_chuff_airpipe_compressed_E9DD6E4D.wem"
+       },
+       {
+        "Id": "224429626",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Originals\\gas_leak_04_loop.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Originals\\gas_leak_04_loop_1C768395.wem"
        },
        {
         "Id": "565871465",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Amb\\Machine\\Prision_MachineMethodical_Amb_B.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Machine\\Prision_MachineMethodical_Amb_B_8451769F.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Machine\\Prision_MachineMethodical_Amb_B_A072921B.wem"
+       },
+       {
+        "Id": "808642741",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Originals\\gas_leak_02_loop.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Originals\\gas_leak_02_loop_1C768395.wem"
+       },
+       {
+        "Id": "1016688561",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Originals\\gas_leak_03_loop.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Originals\\gas_leak_03_loop_1C768395.wem"
        }
       ]
      },
@@ -3248,6 +3678,119 @@
       "DurationType": "OneShot",
       "DurationMin": "0.000000",
       "DurationMax": "0.000000"
+     },
+     {
+      "Id": "4113230483",
+      "Name": "EV_Moneda_Main",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_Moneda_Main",
+      "GUID": "{6AE9093F-D949-4781-8D8A-AC7E669BA277}",
+      "DurationType": "OneShot",
+      "DurationMin": "38.277855",
+      "DurationMax": "246.277847",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "83995504",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_05.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_05_1C768395.wem"
+       },
+       {
+        "Id": "155963178",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_09.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_09_1C768395.wem"
+       },
+       {
+        "Id": "312740963",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_14.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_14_1C768395.wem"
+       },
+       {
+        "Id": "327001615",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_ring_gemstone_item_01.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_ring_gemstone_item_01_1C768395.wem"
+       },
+       {
+        "Id": "381380696",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_08.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_08_1C768395.wem"
+       },
+       {
+        "Id": "508197118",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_03.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_03_1C768395.wem"
+       },
+       {
+        "Id": "520917775",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_01.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_01_1C768395.wem"
+       },
+       {
+        "Id": "578072848",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_07.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_07_1C768395.wem"
+       },
+       {
+        "Id": "685360298",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_12.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_12_1C768395.wem"
+       },
+       {
+        "Id": "846650587",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_15.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_15_1C768395.wem"
+       },
+       {
+        "Id": "849310279",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_04.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_04_1C768395.wem"
+       },
+       {
+        "Id": "923671474",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_11.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_11_1C768395.wem"
+       },
+       {
+        "Id": "925146450",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_10.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_10_1C768395.wem"
+       },
+       {
+        "Id": "925301505",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_02.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_02_1C768395.wem"
+       },
+       {
+        "Id": "1020830842",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_13.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_13_1C768395.wem"
+       },
+       {
+        "Id": "1021088609",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_06.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_06_1C768395.wem"
+       },
+       {
+        "Id": "1038718366",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_ring_gemstone_item_02.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_ring_gemstone_item_02_1C768395.wem"
+       }
+      ]
      },
      {
       "Id": "280480313",
@@ -3542,6 +4085,74 @@
         "GUID": "{37ED6456-5FA2-4D7D-9FF9-14B4900A8719}"
        }
       ]
+     },
+     {
+      "Id": "2017502265",
+      "Name": "EV_Onda_Magic",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_Onda_Magic",
+      "GUID": "{38D6AFC5-3D45-45A8-A907-F3EEDCFE2C6E}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.000000",
+      "DurationMax": "3.000000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "829694162",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\MagicFX\\Onda_Magic.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\Onda_Magic_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2534637131",
+      "Name": "EV_PaperSound_Biblioteca",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_PaperSound_Biblioteca",
+      "GUID": "{28358DE7-6C16-4D5C-ACA9-30F8227BE5F2}",
+      "DurationType": "OneShot",
+      "DurationMin": "14.331111",
+      "DurationMax": "68.953545",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "58347696",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Amb\\Paper_Handling_Turning_04.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Paper_Handling_Turning_04_1C768395.wem"
+       },
+       {
+        "Id": "510603923",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Amb\\Paper_Handling_Turning_05.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Paper_Handling_Turning_05_1C768395.wem"
+       },
+       {
+        "Id": "751975773",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Amb\\Paper_Handling_Turning_01.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Paper_Handling_Turning_01_1C768395.wem"
+       },
+       {
+        "Id": "752805694",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Amb\\Paper_Handling_Turning_03.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Paper_Handling_Turning_03_1C768395.wem"
+       },
+       {
+        "Id": "855626187",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Amb\\Paper_Handling_Turning_02.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Paper_Handling_Turning_02_1C768395.wem"
+       }
+      ]
+     },
+     {
+      "Id": "456616902",
+      "Name": "EV_PaperSound_Biblioteca_Stop",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_PaperSound_Biblioteca_Stop",
+      "GUID": "{FB9C15D7-9F18-42C1-A310-8FE89B4C25AA}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      },
      {
       "Id": "3500300860",
@@ -4982,67 +5593,67 @@
         "Id": "76616133",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_05.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_05_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_05_1C768395.wem"
        },
        {
         "Id": "130226814",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_02.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_02_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_02_1C768395.wem"
        },
        {
         "Id": "250680883",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_01.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_01_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_01_1C768395.wem"
        },
        {
         "Id": "311847339",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_09.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_09_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_09_1C768395.wem"
        },
        {
         "Id": "456065524",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_10.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_10_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_10_1C768395.wem"
        },
        {
         "Id": "489339112",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_07.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_07_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_07_1C768395.wem"
        },
        {
         "Id": "578407391",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_04.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_04_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_04_1C768395.wem"
        },
        {
         "Id": "624816812",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_08.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_08_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_08_1C768395.wem"
        },
        {
         "Id": "658578954",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_06.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_06_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_06_1C768395.wem"
        },
        {
         "Id": "898785848",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_03.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_03_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_03_1C768395.wem"
        },
        {
         "Id": "971450321",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_11.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_11_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Wood_Knock_11_1C768395.wem"
        }
       ]
      },
@@ -5059,7 +5670,7 @@
         "Id": "886525957",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Metal_Door_Squeek_2.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Metal_Door_Squeek_2_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Metal_Door_Squeek_2_1C768395.wem"
        }
       ]
      },
@@ -5076,7 +5687,64 @@
         "Id": "129663444",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Prision_Metal_Door_Squeek.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Metal_Door_Squeek_10C4C929.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Prision_Metal_Door_Squeek_1C768395.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1785933473",
+      "Name": "EV_Prision_Lemming_In",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_Prision_Lemming_In",
+      "GUID": "{D2D9D1C5-95D8-4EA0-A09A-0B221FEDB4D1}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.132762",
+      "DurationMax": "1.132762",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "600876517",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Hits\\Prision_Dulci_Pizz_C3_C3.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Hits\\Prision_Dulci_Pizz_C3_C3_A4EABDA7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1229851424",
+      "Name": "EV_Prision_Lemming_Out",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_Prision_Lemming_Out",
+      "GUID": "{CA0D82FB-8BFA-44E2-B4CD-8EC0D7BBF95B}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.145155",
+      "DurationMax": "3.145155",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "329710038",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Hits\\Prision_Dulci_Pizz_C2_C2.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Hits\\Prision_Dulci_Pizz_C2_C2_BC1B4500.wem"
+       }
+      ]
+     },
+     {
+      "Id": "287167119",
+      "Name": "EV_Prision_Reverse_FX",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_Prision_Reverse_FX",
+      "GUID": "{C2056BB7-8EE7-402D-B50A-2B23E9AE1451}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.200000",
+      "DurationMax": "7.200000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "324096305",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Reverse\\Prision_Reverse_Wooble_FX_A.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Reverse\\Prision_Reverse_Wooble_FX_A_10C4C929.wem"
+       },
+       {
+        "Id": "758046661",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Reverse\\Prision_Reverse_Wooble_FX_B.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Reverse\\Prision_Reverse_Wooble_FX_B_10C4C929.wem"
        }
       ]
      },
@@ -5094,254 +5762,6 @@
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Snake_01.wav",
         "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Snake_01_10C4C929.wem"
-       }
-      ]
-     },
-     {
-      "Id": "477939435",
-      "Name": "EV_Solomon_Call",
-      "ObjectPath": "\\Events\\Character\\Djinniya\\Actions\\EV_Solomon_Call",
-      "GUID": "{9FF7179E-F71F-4C32-B9A7-169428D4493D}",
-      "MaxAttenuation": "2000.000000",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "150360648",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_01.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_01_10C4C929.wem"
-       },
-       {
-        "Id": "201342989",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_13.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_13_10C4C929.wem"
-       },
-       {
-        "Id": "415405729",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_02.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_02_10C4C929.wem"
-       },
-       {
-        "Id": "587393575",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_04.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_04_10C4C929.wem"
-       },
-       {
-        "Id": "805896280",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_03.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_03_10C4C929.wem"
-       },
-       {
-        "Id": "971952838",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_05.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_05_10C4C929.wem"
-       }
-      ]
-     },
-     {
-      "Id": "1389308632",
-      "Name": "EV_Solomon_Call_2",
-      "ObjectPath": "\\Events\\Character\\Djinniya\\Actions\\EV_Solomon_Call_2",
-      "GUID": "{CC75737C-430B-475D-B2AC-581A3DF42A1E}",
-      "MaxAttenuation": "2000.000000",
-      "DurationType": "OneShot",
-      "DurationMin": "2.272993",
-      "DurationMax": "2.800000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "456124839",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_12.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_12_10C4C929.wem"
-       },
-       {
-        "Id": "903645078",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_20.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_20_10C4C929.wem"
-       },
-       {
-        "Id": "1046388213",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_22.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_22_10C4C929.wem"
-       }
-      ]
-     },
-     {
-      "Id": "3756643253",
-      "Name": "EV_Solomon_Calling",
-      "ObjectPath": "\\Events\\Character\\Djinniya\\EV_Solomon_Calling",
-      "GUID": "{D957DDF8-EE31-4179-95B4-AC331DDD1C93}",
-      "MaxAttenuation": "2000.000000",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "150360648",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_01.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_01_10C4C929.wem"
-       },
-       {
-        "Id": "201342989",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_13.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_13_10C4C929.wem"
-       },
-       {
-        "Id": "415405729",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_02.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_02_10C4C929.wem"
-       },
-       {
-        "Id": "587393575",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_04.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_04_10C4C929.wem"
-       },
-       {
-        "Id": "805896280",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_03.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_03_10C4C929.wem"
-       },
-       {
-        "Id": "971952838",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_05.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_05_10C4C929.wem"
-       }
-      ]
-     },
-     {
-      "Id": "3523248823",
-      "Name": "EV_Solomon_Fail",
-      "ObjectPath": "\\Events\\Character\\Djinniya\\Actions\\EV_Solomon_Fail",
-      "GUID": "{9C4F96D9-7203-404D-937D-E14EE5A1F358}",
-      "MaxAttenuation": "2000.000000",
-      "DurationType": "OneShot",
-      "DurationMin": "2.200000",
-      "DurationMax": "2.800000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "107727891",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_06.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_06_10C4C929.wem"
-       },
-       {
-        "Id": "251217555",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_08.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_08_10C4C929.wem"
-       }
-      ]
-     },
-     {
-      "Id": "1198997963",
-      "Name": "EV_Solomon_ShortCall",
-      "ObjectPath": "\\Events\\Character\\Djinniya\\Actions\\EV_Solomon_ShortCall",
-      "GUID": "{BA1D601C-D818-47CF-84C3-6AC5DA061B15}",
-      "MaxAttenuation": "2000.000000",
-      "DurationType": "OneShot",
-      "DurationMin": "1.600000",
-      "DurationMax": "2.200000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "34042384",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_21.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_21_10C4C929.wem"
-       },
-       {
-        "Id": "223854456",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_16.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_16_10C4C929.wem"
-       },
-       {
-        "Id": "249752238",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_17.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_17_10C4C929.wem"
-       },
-       {
-        "Id": "456590388",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_24.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_24_10C4C929.wem"
-       },
-       {
-        "Id": "460998863",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_14.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_14_10C4C929.wem"
-       },
-       {
-        "Id": "653903449",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_15.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_15_10C4C929.wem"
-       },
-       {
-        "Id": "767575122",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_10.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_10_10C4C929.wem"
-       },
-       {
-        "Id": "790332754",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_09.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_09_10C4C929.wem"
-       },
-       {
-        "Id": "936528802",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_18.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_18_10C4C929.wem"
-       },
-       {
-        "Id": "999400301",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_11.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_11_10C4C929.wem"
-       }
-      ]
-     },
-     {
-      "Id": "3987540268",
-      "Name": "EV_Solomon_Show",
-      "ObjectPath": "\\Events\\Character\\Djinniya\\Actions\\EV_Solomon_Show",
-      "GUID": "{274EC5EB-EA74-40EF-92FD-0C7BBEEFECDA}",
-      "MaxAttenuation": "2000.000000",
-      "DurationType": "OneShot",
-      "DurationMin": "1.600000",
-      "DurationMax": "1.869093",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "896693223",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_23.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_23_10C4C929.wem"
-       },
-       {
-        "Id": "992182586",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_07.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_07_10C4C929.wem"
-       },
-       {
-        "Id": "1033779090",
-        "Language": "SFX",
-        "ShortName": "Prision\\Fxs\\FX\\Action\\Whistle_19.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Whistle_19_10C4C929.wem"
        }
       ]
      },
@@ -7309,6 +7729,40 @@
       "DurationType": "OneShot",
       "DurationMin": "0.000000",
       "DurationMax": "0.000000"
+     },
+     {
+      "Id": "3765845569",
+      "Name": "Play_Chimes_Tatoo_In",
+      "ObjectPath": "\\Events\\Items\\Actions\\Play_Chimes_Tatoo_In",
+      "GUID": "{4DB8BC5E-5B16-4C82-9828-5C4243D32715}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.271020",
+      "DurationMax": "1.271020",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "838786924",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\MagicFX\\Chimes_Magic_Ding_04.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\Chimes_Magic_Ding_04_1C768395.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2954863680",
+      "Name": "Play_Chimes_Tatoo_Out",
+      "ObjectPath": "\\Events\\Items\\Actions\\Play_Chimes_Tatoo_Out",
+      "GUID": "{E3DF967A-CD74-4F54-B409-4A80B2FA0268}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.409025",
+      "DurationMax": "1.409025",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "239062007",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\MagicFX\\Chimes_Magic_Ding_05.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\Chimes_Magic_Ding_05_1C768395.wem"
+       }
+      ]
      },
      {
       "Id": "1876909362",

@@ -281,6 +281,267 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_Chimes_Tatoo_In" ID="{4DB8BC5E-5B16-4C82-9828-5C4243D32715}">
+							<ChildrenList>
+								<Action Name="" ID="{02EBC170-EB8E-42D5-BFBE-D93DAD8B5B22}" ShortID="27465423">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Chimes_Tatoo_In" ID="{E018AB0C-E133-4ACF-B965-39A1C8020D1D}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Chimes_Tatoo_Out" ID="{E3DF967A-CD74-4F54-B409-4A80B2FA0268}">
+							<ChildrenList>
+								<Action Name="" ID="{0C51C303-066B-45F9-BA43-A0E86FBE910C}" ShortID="736050262">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Chimes_Tatoo_Out" ID="{70B7B389-6E26-4867-A77F-FD7B1808D325}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_InsertCoin" ID="{AAA69626-7C0C-4D1E-A40B-679179989757}">
+							<ChildrenList>
+								<Action Name="" ID="{0395BAAD-2F1D-48F5-BC05-D425008F520D}" ShortID="160106265">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="InsertCoin" ID="{3E561B64-79B2-4186-83EC-F1DA4DE92658}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Prision_Reverse_FX" ID="{C2056BB7-8EE7-402D-B50A-2B23E9AE1451}">
+							<ChildrenList>
+								<Action Name="" ID="{29725EE2-5BA5-40DD-9033-8A6DF0F098CE}" ShortID="875102613">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Prision_Reverse_Wooble_FX" ID="{29A511A9-5AFF-4A61-ADCF-03E86440C90E}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Coins_Handle" ID="{D00A7EFB-B286-474D-8A67-2CFAB80EFA4B}">
+							<ChildrenList>
+								<Action Name="" ID="{42A5841C-4ACE-40D4-8E96-097E6832DE07}" ShortID="757946331">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Money,Coins,Handle" ID="{2F8C0FA5-9B7F-4029-AC48-7862B49C99A0}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Coins_Takes_01" ID="{91EC9336-4C3D-49C3-95ED-54F508DFCC05}">
+							<ChildrenList>
+								<Action Name="" ID="{F004C838-F3E1-490E-8FE7-E74C7FEFC12B}" ShortID="379390348">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Coins_Takes_01" ID="{CF23D569-95E8-4A07-91F6-F288EF23D9BD}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Frog_Haunting" ID="{D7DC7D3C-FB62-45AF-9568-AC4CCF0EB115}">
+							<ChildrenList>
+								<Action Name="" ID="{76AEB12C-FB40-4BE0-A75A-FF32253CE6FA}" ShortID="226043591">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Frog_Haunting" ID="{FF0BFB0C-8803-497D-A98D-949E0C04468F}" WorkUnitID="{54480B38-97BA-4E35-A356-74B0B32E6630}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Frog_FreeHaunting_Magic" ID="{7F2E7D1D-8954-4C03-9023-0C4A23D939D0}">
+							<ChildrenList>
+								<Action Name="" ID="{5D72BE02-7435-4A67-AA29-DB426E2E0ED6}" ShortID="36428457">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Frog_FreeHaunting_Magic" ID="{16F15850-9D65-4B4A-9DF6-67194FEB98A1}" WorkUnitID="{54480B38-97BA-4E35-A356-74B0B32E6630}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Frog_Haunting_Magic" ID="{C5E5DB29-C8A8-470D-9F74-AD8F40F67C0D}">
+							<ChildrenList>
+								<Action Name="" ID="{D6605D87-3355-4290-88CD-F08786EF6F98}" ShortID="1002477415">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Frog_Haunting_Magic" ID="{B478209E-1060-4B76-944E-3D7ED7640ADE}" WorkUnitID="{54480B38-97BA-4E35-A356-74B0B32E6630}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Prision_Lemming_Out" ID="{CA0D82FB-8BFA-44E2-B4CD-8EC0D7BBF95B}">
+							<ChildrenList>
+								<Action Name="" ID="{42CF8D36-8E70-492A-9BE3-69972B892CBA}" ShortID="902106705">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Prision_Lemming_Out" ID="{9DFF0C42-A584-4734-B0E3-1952AE0978EC}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Prision_Lemming_In" ID="{D2D9D1C5-95D8-4EA0-A09A-0B221FEDB4D1}">
+							<ChildrenList>
+								<Action Name="" ID="{C600597B-58E7-4DDD-A6A7-D340D8F13E02}" ShortID="857335975">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Prision_Lemming_In" ID="{F11ED57B-762C-4AB2-93F5-623860EC4686}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Chime_SEQ" ID="{DC2E3A7B-82C9-43D1-A51A-7188FC3C5386}">
+							<ChildrenList>
+								<Action Name="" ID="{DE7028D0-7436-4EF6-8DDA-F5E1BC0510E5}" ShortID="247062322">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Chime_SEQ" ID="{7A6A75A3-13AC-4734-83F0-0D9758DD06EE}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Flora_Expul_Magic" ID="{2D79FEC6-0DE3-41F8-9CCF-4042C9CE4F18}">
+							<ChildrenList>
+								<Action Name="" ID="{0EE0078D-CCAC-4016-8E26-FE83B8203094}" ShortID="1032284272">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Flora_Expul_Magic" ID="{CD02CC86-FC90-4EFF-BC59-DD1C59329964}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Flora_Absorb_Magic" ID="{60EE8283-1B27-4A8E-9602-ECA18FA6FC96}">
+							<ChildrenList>
+								<Action Name="" ID="{F9196389-A8C9-4A38-ADAF-D219B1291C19}" ShortID="265554204">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Flora_Absorb_Magic" ID="{4D963CDA-26A8-47CA-990B-7D05AC6F3DFF}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Onda_Magic" ID="{38D6AFC5-3D45-45A8-A907-F3EEDCFE2C6E}">
+							<ChildrenList>
+								<Action Name="" ID="{17D23567-239D-48A1-B35E-755AE959E0D7}" ShortID="337825618">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Onda_Magic" ID="{9EC1C6EB-59E9-4F21-B50A-298C2D17B227}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Light_Machine" ID="{C60E865B-3E7B-43D2-BFDE-FA95E76E585B}">
+							<ChildrenList>
+								<Action Name="" ID="{4FAC033E-EF50-4504-A69C-2A4DF2BAF6E9}" ShortID="385397774">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Light_Machine" ID="{2CCBB156-9B57-4171-9E2A-95635C4D6CE6}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Moneda_Main" ID="{6AE9093F-D949-4781-8D8A-AC7E669BA277}">
+							<ChildrenList>
+								<Action Name="" ID="{DD4A4154-9E11-46CE-A4B7-E49B866712AB}" ShortID="664992074">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CoinsSound_Main" ID="{5F37567C-3D94-4C8D-9BA1-5B27CD231625}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_CoinsSound_Tesoro" ID="{4DF88224-1251-4F93-ACB3-ACC348642A6E}">
+							<ChildrenList>
+								<Action Name="" ID="{963636B1-4281-4A1E-A8BC-4526C4FE36E6}" ShortID="1068567915">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CoinsSound_Tesoro" ID="{D2C74A58-2736-4C1C-B39F-24B789DF4BA8}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_CoinsSound_Tesoro_Stop" ID="{93F74BFD-CB74-487A-94BC-593F110F80FB}">
+							<ChildrenList>
+								<Action Name="" ID="{BB8BCEFA-328B-47B0-B460-8D1D7D777073}" ShortID="174639929">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CoinsSound_Tesoro" ID="{D2C74A58-2736-4C1C-B39F-24B789DF4BA8}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_PaperSound_Biblioteca" ID="{28358DE7-6C16-4D5C-ACA9-30F8227BE5F2}">
+							<ChildrenList>
+								<Action Name="" ID="{0C524DF4-72E8-4C43-80E1-D690AB356126}" ShortID="302208410">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PaperSound" ID="{148D4EFB-9889-4A51-8467-962DB814D1C5}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_PaperSound_Biblioteca_Stop" ID="{FB9C15D7-9F18-42C1-A310-8FE89B4C25AA}">
+							<ChildrenList>
+								<Action Name="" ID="{656F6EA4-C603-421E-BA68-9EFB9524FA78}" ShortID="581857600">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PaperSound" ID="{148D4EFB-9889-4A51-8467-962DB814D1C5}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_Flora_Absorb_Single_Magic" ID="{D5688EC2-3297-452A-BEA8-8B5C65650540}">
+							<ChildrenList>
+								<Action Name="" ID="{66A72529-CD2B-411A-8CB8-340866A6D939}" ShortID="522144851">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Flora_Absorb_Single_Magic" ID="{B2003D58-D76A-4AD5-BA3E-7D4B18C8A41E}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_JustCoin" ID="{59339C29-3E54-4A25-8900-90DD3F881D82}">
+							<ChildrenList>
+								<Action Name="" ID="{4A27E15E-4B19-4231-94C6-C09DD9EFC170}" ShortID="752531297">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="JustCoin" ID="{C07C32AA-1FF9-488F-9936-6AC863134078}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Act" ID="{0A299FE8-1659-4071-AE3E-07F09BF218C4}" ShortID="1004723916">
@@ -316,6 +577,32 @@
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Prision_Metal_Door_Squeek" ID="{EB5EB5E6-B27C-494E-BC31-186A0553C1BE}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="EV_Chime_SEQ_Luciernaga" ID="{88A1BB3F-BE4C-4AE2-A48B-9051B62D4C41}">
+									<ChildrenList>
+										<Action Name="" ID="{537ECF5E-9DBC-40D5-82C2-A0F8DAEC579B}" ShortID="431951890">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Chime_SEQ_Luciernaga" ID="{ACAED11C-BE82-4CD8-980D-C46A4EB6FCBF}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="EV_Chime_SEQ_Luciernaga_Stop" ID="{A4DAEE71-C0C9-4B92-BF8C-CB5B98E0B91A}">
+									<ChildrenList>
+										<Action Name="" ID="{9DF16FA0-B76C-4796-B8F8-A4A4AB2841AD}" ShortID="650392203">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+												<Property Name="FadeTime" Type="Real64" Value="1.5"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Chime_SEQ_Luciernaga" ID="{ACAED11C-BE82-4CD8-980D-C46A4EB6FCBF}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
