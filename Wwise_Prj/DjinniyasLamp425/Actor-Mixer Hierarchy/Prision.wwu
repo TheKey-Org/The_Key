@@ -18,6 +18,7 @@
 												<Property Name="3DSpatialization" Type="int16" Value="2"/>
 												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5"/>
 												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
@@ -91,6 +92,111 @@
 														<ActiveSource Name="Prision_MachineMethodical_Amb_B" ID="{77FA7B1B-E1EC-4528-A077-6F0A7F60B654}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
+												<Sound Name="Engines_fastairpuff_chuff_airpipe_compressed" ID="{7D6B4196-1539-4312-8D70-76E3AAF0E65C}" ShortID="163437135">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Machine" ID="{ED09D089-B6FF-4EC7-A97D-360B5B7CA132}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="EGEngines_johndeeretypeE_fastairpuff_chuff_airpipe_compressed" ID="{25983399-06ED-405D-95EA-8B26D8EDBDB5}">
+															<PropertyList>
+																<Property Name="LoopBegin" Type="Real64" Value="0"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimEnd" Type="Real64" Value="8.64325906394199"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Originals\EGEngines_johndeeretypeE_fastairpuff_chuff_airpipe_compressed.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="155446447"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="EGEngines_johndeeretypeE_fastairpuff_chuff_airpipe_compressed" ID="{25983399-06ED-405D-95EA-8B26D8EDBDB5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<RandomSequenceContainer Name="Gas_Leak" ID="{837217D3-A6F8-46E8-A365-158ED8B01709}" ShortID="745262117">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="gas_leak_02_loop" ID="{BED0AF8C-9231-4DD0-9AE1-597DB42FD9FE}" ShortID="609239286">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="gas_leak_02_loop" ID="{03AE0F1E-251A-462F-897F-49F4385D200C}">
+																	<Language>SFX</Language>
+																	<AudioFile>Prision\Fxs\FX\Originals\gas_leak_02_loop.WAV</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="808642741"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="gas_leak_02_loop" ID="{03AE0F1E-251A-462F-897F-49F4385D200C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="gas_leak_03_loop" ID="{6279D6A5-60C7-4F61-954F-8940F2F627C0}" ShortID="910005933">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="gas_leak_03_loop" ID="{E7851698-B125-4EE7-AE91-229C7322136D}">
+																	<Language>SFX</Language>
+																	<AudioFile>Prision\Fxs\FX\Originals\gas_leak_03_loop.WAV</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="1016688561"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="gas_leak_03_loop" ID="{E7851698-B125-4EE7-AE91-229C7322136D}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="gas_leak_04_loop" ID="{3633EE5F-92C5-4649-BC2D-805260161E5A}" ShortID="290038311">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="gas_leak_04_loop" ID="{DF5EB5F9-10C5-4ED3-A781-5BFDB321000C}">
+																	<Language>SFX</Language>
+																	<AudioFile>Prision\Fxs\FX\Originals\gas_leak_04_loop.WAV</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="224429626"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="gas_leak_04_loop" ID="{DF5EB5F9-10C5-4ED3-A781-5BFDB321000C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
 											</ChildrenList>
 										</RandomSequenceContainer>
 									</ChildrenList>
@@ -1986,7 +2092,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+											<ObjectRef Name="Machine" ID="{ED09D089-B6FF-4EC7-A97D-360B5B7CA132}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -2308,7 +2414,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+											<ObjectRef Name="Machine" ID="{ED09D089-B6FF-4EC7-A97D-360B5B7CA132}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
@@ -9241,6 +9347,370 @@
 												</Position>
 											</PositioningInfo>
 										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="JustCoin" ID="{C07C32AA-1FF9-488F-9936-6AC863134078}" ShortID="97072621">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="coin_bag_ring_gemstone_item_14" ID="{7061677E-5A62-46B0-B5E9-EDA2D4753DA0}" ShortID="779248922">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="1"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_bag_ring_gemstone_item_14" ID="{4FE38705-9AEE-49C8-8352-A537D4C5ADED}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_bag_ring_gemstone_item_14.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="312740963"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Position Name="" ID="{9B2E60AD-5583-415C-8836-98B191ABCF38}">
+															<PropertyList>
+																<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+															</PropertyList>
+															<ChildrenList>
+																<Path2D Name="CoinsSound_Path" ID="{A7D88287-03E0-479A-8018-B277CE9504F3}">
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>50</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_01" ID="{6C5FECAB-BA14-446E-9A99-A3DA5B93FB1B}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>50</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_02" ID="{4508C0C5-E1F2-4154-9445-6393C788D123}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>58.22785</XPos>
+																			<YPos>14.33121</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_03" ID="{DE8805A6-0406-41A9-AA27-E3152219969C}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-11.39241</XPos>
+																			<YPos>-68.47134</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_04" ID="{D35815AB-A6C1-4E02-B83F-E40AE9420234}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-74.68354</XPos>
+																			<YPos>2.86624</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_05" ID="{09FC72D1-9D62-48E6-A882-1763663CC3DB}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>63.29114</XPos>
+																			<YPos>-36.6242</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_06" ID="{4288950B-52A5-4B72-A79A-CA4EB3058FFC}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-43.03797</XPos>
+																			<YPos>88.8535</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_07" ID="{E46B3271-4514-4870-B043-0E2BB932B536}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>63.29114</XPos>
+																			<YPos>34.71338</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_08" ID="{6A80E57A-34FF-416E-9C03-6CBCB58A893F}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-21.51899</XPos>
+																			<YPos>-41.71975</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_09" ID="{8390B889-A930-461E-8107-5934200158FE}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>13.29114</XPos>
+																			<YPos>-20.70064</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_10" ID="{1E41B862-B146-4593-88A0-F8806BE3BCE0}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-93.67089</XPos>
+																			<YPos>78.02548</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+															</ChildrenList>
+														</Position>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_bag_ring_gemstone_item_14" ID="{4FE38705-9AEE-49C8-8352-A537D4C5ADED}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="coin_ring_gemstone_item_02" ID="{AD498321-D8A0-44E9-A567-ADEE86C5D309}" ShortID="201315897">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="1"/>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality Medium" ID="{01D20CF3-9A4C-4EEE-AE3E-2942B47543E9}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Items" ID="{9A6E94BA-CF6D-45DF-A866-8C002CBB4106}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="coin_ring_gemstone_item_02" ID="{B51E43E3-18C3-4CEF-BC2E-24B355668A85}">
+															<Language>SFX</Language>
+															<AudioFile>Prision\Fxs\FX\Action\coin_ring_gemstone_item_02.WAV</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1038718366"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Position Name="" ID="{1580AC53-62C5-4A6B-A967-0A30499436C1}">
+															<PropertyList>
+																<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+															</PropertyList>
+															<ChildrenList>
+																<Path2D Name="CoinsSound_Path" ID="{0EE324A6-E8AA-4766-BB8D-B44E5AE223F4}">
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>50</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_01" ID="{3890B82F-26AE-40AB-90AC-86C5A1715021}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>50</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_02" ID="{64F0C835-C337-4EEA-919C-0D6EAAA3D2A0}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>58.22785</XPos>
+																			<YPos>14.33121</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_03" ID="{E4186B42-68D8-425B-8456-FDFFCA4A66BB}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-11.39241</XPos>
+																			<YPos>-68.47134</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_04" ID="{2D63F897-21AF-4A33-A89D-8215B09D4C03}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-74.68354</XPos>
+																			<YPos>2.86624</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_05" ID="{70B6C88A-8619-4336-B5DB-7C1D4858FE56}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>63.29114</XPos>
+																			<YPos>-36.6242</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_06" ID="{61AFA929-9B96-4E01-AD46-2BA694DABB23}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-43.03797</XPos>
+																			<YPos>88.8535</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_07" ID="{4F754A7B-A58A-4502-AA4E-3A387CA038BF}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>63.29114</XPos>
+																			<YPos>34.71338</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_08" ID="{0794F6CF-EC6D-4AC3-AFB6-CB9CCF28D5D5}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-21.51899</XPos>
+																			<YPos>-41.71975</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_09" ID="{67BBE8C4-6787-4B16-BF16-2EF58CFF1D58}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>13.29114</XPos>
+																			<YPos>-20.70064</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="CoinsSound_Path_10" ID="{DB99AC1A-87F5-4989-AB60-0FF08DB88B7B}">
+																	<PropertyList>
+																		<Property Name="Duration" Type="Uint32" Value="3000"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-93.67089</XPos>
+																			<YPos>78.02548</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+															</ChildrenList>
+														</Position>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="coin_ring_gemstone_item_02" ID="{B51E43E3-18C3-4CEF-BC2E-24B355668A85}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</ActorMixer>
 								<RandomSequenceContainer Name="PaperSound" ID="{148D4EFB-9889-4A51-8467-962DB814D1C5}" ShortID="33221928">
@@ -9603,6 +10073,28 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="Flora_Expul_Magic" ID="{14A5E449-ECD2-4C13-B671-B4A98029C23C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Flora_Absorb_Single_Magic" ID="{B2003D58-D76A-4AD5-BA3E-7D4B18C8A41E}" ShortID="201497469">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{85D63D52-E359-4E7D-8202-FAC9E5603BAF}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Magic" ID="{82C41B8E-08BB-4843-A77E-AEA850E7DB5A}" WorkUnitID="{5B286F3F-51B0-4E5B-B9F5-398A91613BB0}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flora_Absorb_Single_Magic" ID="{6CF362F3-1ED4-482E-AA56-C462BC437596}">
+													<Language>SFX</Language>
+													<AudioFile>Prision\Fxs\FX\Action\Flora_Absorb_Single_Magic.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="841893866"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flora_Absorb_Single_Magic" ID="{6CF362F3-1ED4-482E-AA56-C462BC437596}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

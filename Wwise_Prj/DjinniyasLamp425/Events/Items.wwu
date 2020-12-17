@@ -520,6 +520,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="EV_Flora_Absorb_Single_Magic" ID="{D5688EC2-3297-452A-BEA8-8B5C65650540}">
+							<ChildrenList>
+								<Action Name="" ID="{66A72529-CD2B-411A-8CB8-340866A6D939}" ShortID="522144851">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Flora_Absorb_Single_Magic" ID="{B2003D58-D76A-4AD5-BA3E-7D4B18C8A41E}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EV_JustCoin" ID="{59339C29-3E54-4A25-8900-90DD3F881D82}">
+							<ChildrenList>
+								<Action Name="" ID="{4A27E15E-4B19-4231-94C6-C09DD9EFC170}" ShortID="752531297">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="JustCoin" ID="{C07C32AA-1FF9-488F-9936-6AC863134078}" WorkUnitID="{CE6E8A2A-BCEE-49F4-8BBC-4F8F3620E5F8}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Act" ID="{0A299FE8-1659-4071-AE3E-07F09BF218C4}" ShortID="1004723916">

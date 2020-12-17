@@ -930,31 +930,31 @@
         "Id": "1321863",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\MagicFX\\ChimeKeys.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_190F9D35.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_DCF63540.wem"
        },
        {
         "Id": "314955145",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\MagicFX\\ChimeKeys.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_195F9CFB.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_4F447FED.wem"
        },
        {
         "Id": "359590099",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\MagicFX\\ChimeKeys.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_90193940.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_2094AFD0.wem"
        },
        {
         "Id": "507119751",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\MagicFX\\ChimeKeys.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_C8F5CB90.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_0EC51F12.wem"
        },
        {
         "Id": "723610851",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\MagicFX\\ChimeKeys.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_619B08DC.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_B39E03A8.wem"
        }
       ]
      },
@@ -969,31 +969,31 @@
         "Id": "1321863",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\MagicFX\\ChimeKeys.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_190F9D35.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_DCF63540.wem"
        },
        {
         "Id": "359590099",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\MagicFX\\ChimeKeys.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_90193940.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_2094AFD0.wem"
        },
        {
         "Id": "507119751",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\MagicFX\\ChimeKeys.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_C8F5CB90.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_0EC51F12.wem"
        },
        {
         "Id": "516053384",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\MagicFX\\ChimeKeys.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_A2F40CAC.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_6DD79DA3.wem"
        },
        {
         "Id": "723610851",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\MagicFX\\ChimeKeys.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_619B08DC.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\MagicFX\\ChimeKeys_B39E03A8.wem"
        }
       ]
      },
@@ -1020,7 +1020,7 @@
         "Id": "449471873",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Money,Coins,Handle.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Money,Coins,Handle_E50BED62.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Money,Coins,Handle_94D29206.wem"
        }
       ]
      },
@@ -1037,7 +1037,7 @@
         "Id": "604396663",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Coins_Pouch_Leather_Drop_Into_Takes_3.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Coins_Pouch_Leather_Drop_Into_Takes_3_1720B3A2.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Coins_Pouch_Leather_Drop_Into_Takes_3_DC07E29C.wem"
        }
       ]
      },
@@ -2095,6 +2095,23 @@
       ]
      },
      {
+      "Id": "1474607160",
+      "Name": "EV_Flora_Absorb_Single_Magic",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_Flora_Absorb_Single_Magic",
+      "GUID": "{D5688EC2-3297-452A-BEA8-8B5C65650540}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.800000",
+      "DurationMax": "1.800000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "841893866",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\Flora_Absorb_Single_Magic.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Flora_Absorb_Single_Magic_10C4C929.wem"
+       }
+      ]
+     },
+     {
       "Id": "3528569852",
       "Name": "EV_Flora_Expul_Magic",
       "ObjectPath": "\\Events\\Items\\Actions\\EV_Flora_Expul_Magic",
@@ -2280,7 +2297,7 @@
         "Id": "1006677322",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Action\\Coins_Pouch_Leather_Drop_Into_Takes_3.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Coins_Pouch_Leather_Drop_Into_Takes_3_11D63CF1.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\Coins_Pouch_Leather_Drop_Into_Takes_3_0FAA516C.wem"
        }
       ]
      },
@@ -2363,6 +2380,29 @@
         "Language": "SFX",
         "ShortName": "Items\\Tablillas_Out_02_3seg.wav",
         "Path": "SFX\\Items\\Tablillas_Out_02_3seg_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1338696742",
+      "Name": "EV_JustCoin",
+      "ObjectPath": "\\Events\\Items\\Actions\\EV_JustCoin",
+      "GUID": "{59339C29-3E54-4A25-8900-90DD3F881D82}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.327229",
+      "DurationMax": "0.462375",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "312740963",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_14.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_bag_ring_gemstone_item_14_1C768395.wem"
+       },
+       {
+        "Id": "1038718366",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Action\\coin_ring_gemstone_item_02.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Action\\coin_ring_gemstone_item_02_1C768395.wem"
        }
       ]
      },
@@ -3553,7 +3593,7 @@
         "Id": "280486355",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Vocal\\Prision_VocalSun_Atmosphere_A3_A3.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Vocal\\Prision_VocalSun_Atmosphere_A3_A3_2352CC2B.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Vocal\\Prision_VocalSun_Atmosphere_A3_A3_88327B60.wem"
        }
       ]
      },
@@ -3572,10 +3612,34 @@
         "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Machine\\Prision_MachineMethodical_Amb_A_00845616.wem"
        },
        {
+        "Id": "155446447",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Originals\\EGEngines_johndeeretypeE_fastairpuff_chuff_airpipe_compressed.wav",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Originals\\EGEngines_johndeeretypeE_fastairpuff_chuff_airpipe_compressed_E9DD6E4D.wem"
+       },
+       {
+        "Id": "224429626",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Originals\\gas_leak_04_loop.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Originals\\gas_leak_04_loop_1C768395.wem"
+       },
+       {
         "Id": "565871465",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Amb\\Machine\\Prision_MachineMethodical_Amb_B.wav",
         "Path": "SFX\\Prision\\Fxs\\FX\\Amb\\Machine\\Prision_MachineMethodical_Amb_B_A072921B.wem"
+       },
+       {
+        "Id": "808642741",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Originals\\gas_leak_02_loop.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Originals\\gas_leak_02_loop_1C768395.wem"
+       },
+       {
+        "Id": "1016688561",
+        "Language": "SFX",
+        "ShortName": "Prision\\Fxs\\FX\\Originals\\gas_leak_03_loop.WAV",
+        "Path": "SFX\\Prision\\Fxs\\FX\\Originals\\gas_leak_03_loop_1C768395.wem"
        }
       ]
      },
@@ -5640,7 +5704,7 @@
         "Id": "600876517",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Hits\\Prision_Dulci_Pizz_C3_C3.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Hits\\Prision_Dulci_Pizz_C3_C3_8F69492C.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Hits\\Prision_Dulci_Pizz_C3_C3_A4EABDA7.wem"
        }
       ]
      },
@@ -5657,7 +5721,7 @@
         "Id": "329710038",
         "Language": "SFX",
         "ShortName": "Prision\\Fxs\\FX\\Hits\\Prision_Dulci_Pizz_C2_C2.wav",
-        "Path": "SFX\\Prision\\Fxs\\FX\\Hits\\Prision_Dulci_Pizz_C2_C2_BAF6586A.wem"
+        "Path": "SFX\\Prision\\Fxs\\FX\\Hits\\Prision_Dulci_Pizz_C2_C2_BC1B4500.wem"
        }
       ]
      },
