@@ -92,6 +92,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 	4017077586	Prisioner			\Default Work Unit\Master Audio Bus\Character\Prisioner	
 	4033398032	Whistling			\Default Work Unit\Master Audio Bus\Character\Djinnya\Whistling	
+	4036634340	Machine			\Default Work Unit\Master Audio Bus\SFX\Machine	
 	4160437992	Spells			\Default Work Unit\Master Audio Bus\SFX\Magic\Spells	
 	4235322293	Camel			\Default Work Unit\Master Audio Bus\SFX\Animals\Camel	
 
